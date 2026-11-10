@@ -1,0 +1,38 @@
+# Local environments and caches
+.venv/
+venv/
+.venv*/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.env
+
+# Original images, raw metadata, temporary archives, historical local outputs
+DPD_Small_dataset/
+# Dataset-derived development labels remain local until sharing permissions confirmed
+splits_v2/
+DPD_Small*.csv
+# Share only the curated output directories. Original run folders stay local.
+/outputs/*
+!/outputs/development/
+!/outputs/final_training/
+!/outputs/official/
+archive/
+*.zip
+*.7z
+
+# Heavy checkpoints / model weights; keep locally or share via Git LFS / approved storage
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Do not publicly share official per-image predictions / labels without permission
+*_predictions.csv
+*_errors.csv
+*_confusion.csv

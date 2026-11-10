@@ -1,0 +1,87 @@
+{
+  "experiment": "exp07_tta",
+  "parent": "exp04",
+  "stage": "development_postprocessing_only",
+  "tta": {
+    "views": [
+      "original",
+      "horizontal_flip"
+    ],
+    "logit_average": "equal_weight_0.5_each",
+    "composition_scoring": "sum_of_crop_and_disease_log_softmax"
+  },
+  "candidate_mode": "all_pairs",
+  "candidate_count": 9625,
+  "train_seen_pair_count": 313,
+  "comparison_methods": {
+    "exp04_original": {
+      "gamma": 0.0,
+      "seen_top1": 0.6647481918334961,
+      "seen_top5": 0.8402877449989319,
+      "unseen_top1": 0.02250000089406967,
+      "unseen_top5": 0.10000000149011612,
+      "harmonic_mean": 0.04352673479205189,
+      "seen_predicted_train_pair_rate": 0.9165467619895935,
+      "unseen_predicted_train_pair_rate": 0.8700000047683716,
+      "seen_crop_top1": 0.8604316711425781,
+      "unseen_crop_top1": 0.6025000214576721,
+      "seen_disease_top1": 0.7064748406410217,
+      "unseen_disease_top1": 0.19499999284744263
+    },
+    "exp07_tta_only": {
+      "gamma": 0.0,
+      "seen_top1": 0.6647481918334961,
+      "seen_top5": 0.8417266011238098,
+      "unseen_top1": 0.02250000089406967,
+      "unseen_top5": 0.0925000011920929,
+      "harmonic_mean": 0.04352673479205189,
+      "seen_predicted_train_pair_rate": 0.9179856181144714,
+      "unseen_predicted_train_pair_rate": 0.875,
+      "seen_crop_top1": 0.8589928150177002,
+      "unseen_crop_top1": 0.6100000143051147,
+      "seen_disease_top1": 0.7093524932861328,
+      "unseen_disease_top1": 0.1899999976158142
+    },
+    "exp06_calibration_gamma4": {
+      "gamma": 4.0,
+      "seen_top1": 0.4618704915046692,
+      "seen_top5": 0.6906474828720093,
+      "unseen_top1": 0.06499999761581421,
+      "unseen_top5": 0.13500000536441803,
+      "harmonic_mean": 0.11396189942896261,
+      "seen_predicted_train_pair_rate": 0.5568345189094543,
+      "unseen_predicted_train_pair_rate": 0.3174999952316284,
+      "seen_crop_top1": 0.8604316711425781,
+      "unseen_crop_top1": 0.6025000214576721,
+      "seen_disease_top1": 0.7064748406410217,
+      "unseen_disease_top1": 0.19499999284744263
+    },
+    "exp07_tta_plus_gamma4": {
+      "gamma": 4.0,
+      "seen_top1": 0.46043166518211365,
+      "seen_top5": 0.6992805600166321,
+      "unseen_top1": 0.057500001043081284,
+      "unseen_top5": 0.13500000536441803,
+      "harmonic_mean": 0.10223287338730908,
+      "seen_predicted_train_pair_rate": 0.5582733750343323,
+      "unseen_predicted_train_pair_rate": 0.30250000953674316,
+      "seen_crop_top1": 0.8589928150177002,
+      "unseen_crop_top1": 0.6100000143051147,
+      "seen_disease_top1": 0.7093524932861328,
+      "unseen_disease_top1": 0.1899999976158142
+    }
+  },
+  "gamma4_origin": "Fixed Exp06 development-selected gamma, not re-tuned by Exp07",
+  "primary_comparison": "exp04_original vs exp07_tta_only (both gamma=0)",
+  "split_sha256": {
+    "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+    "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+    "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67",
+    "heldout_compositions.csv": "437f57924eef3e5788ed0993caddd969e08f9f86add64791d944425f4bddfe7f",
+    "split_manifest.json": "c120d065677e37db6d00880104684c0cd70ccd1c0774ec4aac2eb4b4b0889df8"
+  },
+  "checkpoint_sha256": "772b8859af19aebc8aa5ae08f592aae518fcd734d901cb5f078daaff6004ca5c",
+  "training_performed": false,
+  "official_test_accessed": false,
+  "selection_caveat": "Development estimates only; gamma=4 was chosen on the same development data in Exp06."
+}

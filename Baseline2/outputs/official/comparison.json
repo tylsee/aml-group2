@@ -1,0 +1,24 @@
+{
+  "model": "b2_final_exp04",
+  "checkpoint_sha256": "cc51e4075f23a058d0f98a29bc06ef56c6dd9215e9b29d36dadc6c1e4893c37b",
+  "mode": "both",
+  "official_test_completed": true,
+  "settings_selected_before_test": true,
+  "baseline_gamma": 0.0,
+  "optional_calibration_gamma": 4.0,
+  "optional_calibration_seen_pairs": 323,
+  "calibration_note": "Separate post-processing extension; do not select it based on official test results",
+  "preprocess": "Resize(256,bicubic), CenterCrop(224), ImageNet normalize; no TTA",
+  "metrics": {
+    "baseline": {
+      "seen_top1": 0.556,
+      "unseen_top1": 0.018646408839779006,
+      "harmonic_mean": 0.03608272201978637
+    },
+    "calibrated": {
+      "seen_top1": 0.387,
+      "unseen_top1": 0.04765193370165746,
+      "harmonic_mean": 0.084855475899939
+    }
+  }
+}

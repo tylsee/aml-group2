@@ -1,0 +1,53 @@
+{
+  "experiment": "exp06_calibration",
+  "parent": "exp04",
+  "stage": "development_postprocessing_only",
+  "candidate_mode": "all_pairs",
+  "candidate_count": 9625,
+  "train_seen_pair_count": 313,
+  "gamma_grid": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "baseline_gamma0": {
+    "gamma": 0.0,
+    "seen_top1": 0.6647481918334961,
+    "seen_top5": 0.8402877449989319,
+    "unseen_top1": 0.02250000089406967,
+    "unseen_top5": 0.10000000149011612,
+    "harmonic_mean": 0.04352673479205189,
+    "seen_predicted_train_pair_rate": 0.9165467619895935,
+    "unseen_predicted_train_pair_rate": 0.8700000047683716
+  },
+  "selected_on_development": {
+    "gamma": 4.0,
+    "seen_top1": 0.4618704915046692,
+    "seen_top5": 0.6906474828720093,
+    "unseen_top1": 0.06499999761581421,
+    "unseen_top5": 0.13500000536441803,
+    "harmonic_mean": 0.11396189942896261,
+    "seen_predicted_train_pair_rate": 0.5568345189094543,
+    "unseen_predicted_train_pair_rate": 0.3174999952316284
+  },
+  "split_sha256": {
+    "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+    "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+    "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67",
+    "heldout_compositions.csv": "437f57924eef3e5788ed0993caddd969e08f9f86add64791d944425f4bddfe7f",
+    "split_manifest.json": "c120d065677e37db6d00880104684c0cd70ccd1c0774ec4aac2eb4b4b0889df8"
+  },
+  "checkpoint_sha256": "772b8859af19aebc8aa5ae08f592aae518fcd734d901cb5f078daaff6004ca5c",
+  "training_performed": false,
+  "official_test_accessed": false,
+  "selection_caveat": "Best gamma tuned on same development validation; not an unbiased final-test estimate."
+}
