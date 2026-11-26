@@ -1,0 +1,11 @@
+[disease_b1] epoch 1/25 train=0.5490 seen=0.6590 unseen=0.1450 h=0.2377 best_h=0.2377@1 54s eta 21m33s
+[disease_b1] epoch 2/25 train=0.7752 seen=0.7194 unseen=0.1775 h=0.2847 best_h=0.2847@2 50s eta 19m57s
+[disease_b1] epoch 3/25 train=0.8475 seen=0.7353 unseen=0.2200 h=0.3387 best_h=0.3387@3 48s eta 18m38s
+[disease_b1] epoch 4/25 train=0.8879 seen=0.7482 unseen=0.2050 h=0.3218 best_h=0.3387@3 50s eta 17m41s
+[disease_b1] epoch 5/25 train=0.9099 seen=0.7511 unseen=0.2500 h=0.3751 best_h=0.3751@5 51s eta 16m53s
+[disease_b1] epoch 6/25 train=0.9245 seen=0.7583 unseen=0.2075 h=0.3258 best_h=0.3751@5 49s eta 15m57s
+[disease_b1] epoch 7/25 train=0.9471 seen=0.7554 unseen=0.2225 h=0.3437 best_h=0.3751@5 51s eta 15m08s
+[disease_b1] epoch 8/25 train=0.9534 seen=0.7568 unseen=0.1775 h=0.2876 best_h=0.3751@5 49s eta 14m15s
+[disease_b1] epoch 9/25 train=0.9554 seen=0.7525 unseen=0.2200 h=0.3405 best_h=0.3751@5 47s eta 13m18s
+[disease_b1] epoch 10/25 train=0.9680 seen=0.7496 unseen=0.2250 h=0.3461 best_h=0.3751@5 48s eta 12m26s
+[disease_b1] early stop at epoch 10 (best epoch 5, patience 5)

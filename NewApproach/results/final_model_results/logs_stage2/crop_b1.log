@@ -1,0 +1,10 @@
+[crop_b1] stage2 epoch 1/10 train=0.9745 best=0.9745@1 68s eta 10m15s
+[crop_b1] stage2 epoch 2/10 train=0.9786 best=0.9786@2 68s eta 9m04s
+[crop_b1] stage2 epoch 3/10 train=0.9848 best=0.9848@3 63s eta 7m44s
+[crop_b1] stage2 epoch 4/10 train=0.9881 best=0.9881@4 66s eta 6m37s
+[crop_b1] stage2 epoch 5/10 train=0.9886 best=0.9886@5 67s eta 5m32s
+[crop_b1] stage2 epoch 6/10 train=0.9889 best=0.9889@6 68s eta 4m26s
+[crop_b1] stage2 epoch 7/10 train=0.9898 best=0.9898@7 67s eta 3m20s
+[crop_b1] stage2 epoch 8/10 train=0.9901 best=0.9901@8 65s eta 2m13s
+[crop_b1] stage2 epoch 9/10 train=0.9919 best=0.9919@9 69s eta 1m06s
+[crop_b1] stage2 epoch 10/10 train=0.9920 best=0.9920@10 67s eta 0m00s

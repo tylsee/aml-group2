@@ -1,0 +1,11 @@
+# P1 E1: crop and disease cross-entropy on concept-specific projections, team default backbone LR 1e-5.
+# E3 is this file or p1_lr1e-4.yaml with seed=43, whichever has the higher peak 3-epoch average H.
+name: p1_lr1e-5
+pretrained: true
+train_csv: train_fit
+batch_size: 32
+views: 1
+epochs: 20       # 215 applied updates per epoch, 4,300 in total; the first 215 are warm-up
+alpha: 0.0
+beta: 0.0
+tau: 0.07

@@ -1,0 +1,10 @@
+[disease_small_reg] stage2 epoch 1/10 train=0.8918 best=0.8918@1 92s eta 13m45s
+[disease_small_reg] stage2 epoch 2/10 train=0.9002 best=0.9002@2 91s eta 12m10s
+[disease_small_reg] stage2 epoch 3/10 train=0.9034 best=0.9034@3 91s eta 10m39s
+[disease_small_reg] stage2 epoch 4/10 train=0.9048 best=0.9048@4 91s eta 9m07s
+[disease_small_reg] stage2 epoch 5/10 train=0.9109 best=0.9109@5 91s eta 7m36s
+[disease_small_reg] stage2 epoch 6/10 train=0.9124 best=0.9124@6 92s eta 6m05s
+[disease_small_reg] stage2 epoch 7/10 train=0.9160 best=0.9160@7 91s eta 4m33s
+[disease_small_reg] stage2 epoch 8/10 train=0.9164 best=0.9164@8 90s eta 3m02s
+[disease_small_reg] stage2 epoch 9/10 train=0.9149 best=0.9164@8 90s eta 1m31s
+[disease_small_reg] stage2 epoch 10/10 train=0.9226 best=0.9226@10 91s eta 0m00s

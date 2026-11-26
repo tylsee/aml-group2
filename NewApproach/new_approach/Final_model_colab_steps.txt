@@ -1,0 +1,65 @@
+CDC-CP P1, P2, P3 ON COLAB (New_approach.ipynb) - STEPS (2026-11-25)
+
+WHAT THIS IS
+   One fresh run that trains 5 models from scratch (seed 42) and reports three phases:
+     P1 = crop ConvNeXt-Tiny + disease ConvNeXt-Tiny
+     P2 = crop ConvNeXt-Tiny + disease CLIP ViT-B/16
+     P3 = crop (ConvNeXt-Tiny + CLIP) averaged, disease (CLIP + ConvNeXt-Small) averaged
+   Each phase gets raw results first, then calibrated results (gamma chosen on dev only).
+   Each phase is tested once. Report what it gives; do not rerun to get a better test number.
+
+A. PUT THESE IN GOOGLE DRIVE, folder: My Drive/DPD-Small/
+   Already there, leave them where they are:
+     DPD_Small_dataset/          (all 11,448 images)
+     DPD_Small_train.csv
+     DPD_Small_test_seen.csv
+     DPD_Small_test_unseen.csv
+   Add (from D:\dev\uni\AML\new_approach\), replacing any older copy:
+     cdc-cp_code_final_model.zip
+   Check the zip before you upload it. In PowerShell:
+     Get-FileHash -Algorithm SHA256 D:\dev\uni\AML\new_approach\cdc-cp_code_final_model.zip
+   Expected Hash line (capital letters):
+     EA8841A5F8134E15FC6F6820E12F5E0DF9E89F180EFC13C14DC573EB3EE1F424
+   Leave about 1.5 GB free on Drive (the 5 final models are saved there).
+
+B. OPEN THE NOTEBOOK
+   1. Go to colab.research.google.com > File > Upload notebook.
+   2. Pick D:\dev\uni\AML\new_approach\New_approach.ipynb
+      (an older copy you opened before is out of date: upload this one again).
+
+C. CHOOSE THE GPU
+   1. Runtime > Change runtime type.
+   2. Hardware accelerator: A100 GPU (L4 also works, but slower). Save.
+
+D. RUN
+   1. Runtime > Run all.
+   2. When Colab asks for Google Drive access, allow it.
+   3. Keep the tab open. Do not close the laptop lid.
+
+E. CHECK IN THE FIRST 15 MINUTES (cell outputs)
+   - Setup cell prints: code version 0777e2f70c39 OK
+     (any other value stops the notebook in minute 1)
+   - Data cell prints: 11448 images | dev split: train ..., seen ..., unseen ...
+   - Checks cell prints "P1: crop crop_b1 | disease disease_b1" (and P2, P3), "ImageNet weights ready",
+     "half precision OK", and "CLIP zero-shot crop ..." and "CLIP zero-shot disease ..."
+     (must be above 2x chance; the cell checks it).
+   - Stage 1 prints progress for each model. Send me the first epoch time of the first two models
+     (disease_small_reg and disease_clip; the other three start later).
+
+F. WHEN IT ENDS
+   - The last cell prints: "Finished. Results are in My Drive/DPD-Small/final_model_results. You can close this tab."
+   - The notebook itself now holds all tables (raw first, calibrated second). Download it:
+     File > Download > Download .ipynb, and send it to me or share it with the team.
+
+IF SOMETHING FAILS
+   - Before the "6. Official test" section: Runtime > Restart session, then Runtime > Run all.
+     The earlier try is kept on Drive as final_model_results_earlier_<date>_<time>. Nothing is deleted.
+   - In or after the "6. Official test" section: do NOT run again. Send me the error.
+   - "half precision gives NaN": tell me (do not change settings yourself).
+   - "no GPU": Runtime > Change runtime type > A100 or L4 GPU, then Run all.
+
+TIME (guesses, not measured for this notebook)
+   A100: about 85-100 min. L4: about 100-130 min.
+   From an earlier L4 run of the same models, stage 1 per model: crop ConvNeXt-Tiny 16 min, crop CLIP 17 min, disease CLIP 29 min,
+   disease ConvNeXt-Small 34 min; the new disease ConvNeXt-Tiny is not measured (guess 16-27 min on an L4).
+   Compute units: not estimated.

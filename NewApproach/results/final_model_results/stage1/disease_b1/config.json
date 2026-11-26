@@ -1,0 +1,50 @@
+{
+  "arm": "disease_b1",
+  "aug": "b1",
+  "b1": {
+    "backbone_lr": 1e-05,
+    "batch_size": 16,
+    "dropout": {
+      "crop": 0.3,
+      "disease": 0.2
+    },
+    "head_lr": 0.001,
+    "max_epochs": 30,
+    "seed": 42,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_epochs": 10,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.001,
+    "weight_decay": 0.001
+  },
+  "backbone": "convnext_tiny",
+  "device": "cuda",
+  "epochs": 25,
+  "expect_classes": [
+    55,
+    175
+  ],
+  "expect_sizes": [
+    6905,
+    695,
+    400
+  ],
+  "image_dir": "/content/data/DPD_Small_dataset",
+  "max_train_batches": null,
+  "patience": 5,
+  "pretrained": true,
+  "prompts": null,
+  "recipe": "b1",
+  "recipe_values": {
+    "label_smoothing": 0.0,
+    "stage2_weight_decay": 0.001,
+    "stochastic_depth": {
+      "convnext_small": null,
+      "convnext_tiny": null
+    },
+    "weight_decay": 0.001
+  },
+  "splits_dir": "/tmp/cdc-cp/data/splits_v2",
+  "task": "disease",
+  "torch": "2.14.1+cu130"
+}

@@ -1,0 +1,2340 @@
+{
+ "version": 1,
+ "sources": {
+  "seen": "9f1b729ab08f120c9e8d3a5681aa1ccbdf1d9210f9aaa6143959363dcb106a7d",
+  "unseen": "757e3c1fdcc894004a69c21dbc00d6b818f563aa671db9ab8d315c4790c2490b"
+ },
+ "pairs": [
+  {
+   "comp_id": 0,
+   "crop_id": 0,
+   "disease_id": 0,
+   "name": "apple_alternaria_blotch",
+   "is_seen": true
+  },
+  {
+   "comp_id": 1,
+   "crop_id": 0,
+   "disease_id": 1,
+   "name": "apple_alternaria_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 2,
+   "crop_id": 0,
+   "disease_id": 2,
+   "name": "apple_aphis_spp",
+   "is_seen": true
+  },
+  {
+   "comp_id": 3,
+   "crop_id": 0,
+   "disease_id": 3,
+   "name": "apple_black_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 4,
+   "crop_id": 0,
+   "disease_id": 4,
+   "name": "apple_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 5,
+   "crop_id": 0,
+   "disease_id": 5,
+   "name": "apple_cedar_apple_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 6,
+   "crop_id": 0,
+   "disease_id": 6,
+   "name": "apple_eriosoma_lanigerum",
+   "is_seen": true
+  },
+  {
+   "comp_id": 7,
+   "crop_id": 0,
+   "disease_id": 7,
+   "name": "apple_frog_eye_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 8,
+   "crop_id": 0,
+   "disease_id": 8,
+   "name": "apple_grey_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 9,
+   "crop_id": 0,
+   "disease_id": 9,
+   "name": "apple_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 10,
+   "crop_id": 0,
+   "disease_id": 10,
+   "name": "apple_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 11,
+   "crop_id": 0,
+   "disease_id": 11,
+   "name": "apple_marssonina_blotch",
+   "is_seen": true
+  },
+  {
+   "comp_id": 12,
+   "crop_id": 0,
+   "disease_id": 12,
+   "name": "apple_monillia_laxa",
+   "is_seen": true
+  },
+  {
+   "comp_id": 13,
+   "crop_id": 0,
+   "disease_id": 13,
+   "name": "apple_mosaic_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 14,
+   "crop_id": 0,
+   "disease_id": 14,
+   "name": "apple_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 15,
+   "crop_id": 0,
+   "disease_id": 15,
+   "name": "apple_scab",
+   "is_seen": true
+  },
+  {
+   "comp_id": 16,
+   "crop_id": 0,
+   "disease_id": 16,
+   "name": "apple_venturia_inaequalis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 17,
+   "crop_id": 1,
+   "disease_id": 17,
+   "name": "apricot_coryneum_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 18,
+   "crop_id": 1,
+   "disease_id": 12,
+   "name": "apricot_monillia_laxa",
+   "is_seen": true
+  },
+  {
+   "comp_id": 19,
+   "crop_id": 2,
+   "disease_id": 18,
+   "name": "banana_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 20,
+   "crop_id": 2,
+   "disease_id": 19,
+   "name": "banana_black_leaf_streak",
+   "is_seen": true
+  },
+  {
+   "comp_id": 21,
+   "crop_id": 2,
+   "disease_id": 20,
+   "name": "banana_bunchy_top",
+   "is_seen": true
+  },
+  {
+   "comp_id": 22,
+   "crop_id": 2,
+   "disease_id": 21,
+   "name": "banana_cigar_end_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 23,
+   "crop_id": 2,
+   "disease_id": 22,
+   "name": "banana_cordana_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 24,
+   "crop_id": 2,
+   "disease_id": 9,
+   "name": "banana_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 25,
+   "crop_id": 2,
+   "disease_id": 23,
+   "name": "banana_panama_disease",
+   "is_seen": true
+  },
+  {
+   "comp_id": 26,
+   "crop_id": 2,
+   "disease_id": 24,
+   "name": "banana_pestalotiopsis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 27,
+   "crop_id": 2,
+   "disease_id": 25,
+   "name": "banana_segatoka",
+   "is_seen": true
+  },
+  {
+   "comp_id": 28,
+   "crop_id": 2,
+   "disease_id": 26,
+   "name": "banana_sigatoka",
+   "is_seen": true
+  },
+  {
+   "comp_id": 29,
+   "crop_id": 2,
+   "disease_id": 27,
+   "name": "banana_xamthomonas",
+   "is_seen": true
+  },
+  {
+   "comp_id": 30,
+   "crop_id": 3,
+   "disease_id": 28,
+   "name": "basil_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 31,
+   "crop_id": 3,
+   "disease_id": 29,
+   "name": "basil_fusarium_wilt",
+   "is_seen": true
+  },
+  {
+   "comp_id": 32,
+   "crop_id": 3,
+   "disease_id": 9,
+   "name": "basil_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 33,
+   "crop_id": 4,
+   "disease_id": 30,
+   "name": "bean_angular_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 34,
+   "crop_id": 4,
+   "disease_id": 31,
+   "name": "bean_bean_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 35,
+   "crop_id": 4,
+   "disease_id": 32,
+   "name": "bean_halo_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 36,
+   "crop_id": 4,
+   "disease_id": 9,
+   "name": "bean_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 37,
+   "crop_id": 4,
+   "disease_id": 13,
+   "name": "bean_mosaic_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 38,
+   "crop_id": 4,
+   "disease_id": 10,
+   "name": "bean_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 39,
+   "crop_id": 5,
+   "disease_id": 33,
+   "name": "pepper_bell_bacterial_spot",
+   "is_seen": false
+  },
+  {
+   "comp_id": 40,
+   "crop_id": 5,
+   "disease_id": 34,
+   "name": "pepper_bell_blossom_end_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 41,
+   "crop_id": 5,
+   "disease_id": 35,
+   "name": "pepper_bell_frogeye_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 42,
+   "crop_id": 5,
+   "disease_id": 9,
+   "name": "pepper_bell_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 43,
+   "crop_id": 5,
+   "disease_id": 14,
+   "name": "pepper_bell_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 44,
+   "crop_id": 6,
+   "disease_id": 18,
+   "name": "blackgram_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 45,
+   "crop_id": 6,
+   "disease_id": 36,
+   "name": "blackgram_crinckle",
+   "is_seen": true
+  },
+  {
+   "comp_id": 46,
+   "crop_id": 6,
+   "disease_id": 9,
+   "name": "blackgram_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 47,
+   "crop_id": 6,
+   "disease_id": 14,
+   "name": "blackgram_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 48,
+   "crop_id": 6,
+   "disease_id": 37,
+   "name": "blackgram_yellow_mosaic",
+   "is_seen": true
+  },
+  {
+   "comp_id": 49,
+   "crop_id": 7,
+   "disease_id": 18,
+   "name": "blueberry_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 50,
+   "crop_id": 7,
+   "disease_id": 38,
+   "name": "blueberry_botrytis_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 51,
+   "crop_id": 7,
+   "disease_id": 9,
+   "name": "blueberry_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 52,
+   "crop_id": 7,
+   "disease_id": 39,
+   "name": "blueberry_mummy_berry",
+   "is_seen": true
+  },
+  {
+   "comp_id": 53,
+   "crop_id": 7,
+   "disease_id": 10,
+   "name": "blueberry_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 54,
+   "crop_id": 7,
+   "disease_id": 40,
+   "name": "blueberry_scorch",
+   "is_seen": true
+  },
+  {
+   "comp_id": 55,
+   "crop_id": 8,
+   "disease_id": 3,
+   "name": "brassica_black_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 56,
+   "crop_id": 9,
+   "disease_id": 1,
+   "name": "broccoli_alternaria_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 57,
+   "crop_id": 9,
+   "disease_id": 28,
+   "name": "broccoli_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 58,
+   "crop_id": 9,
+   "disease_id": 41,
+   "name": "broccoli_ring_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 59,
+   "crop_id": 10,
+   "disease_id": 1,
+   "name": "cabbage_alternaria_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 60,
+   "crop_id": 10,
+   "disease_id": 3,
+   "name": "cabbage_black_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 61,
+   "crop_id": 10,
+   "disease_id": 28,
+   "name": "cabbage_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 62,
+   "crop_id": 11,
+   "disease_id": 42,
+   "name": "carrot_alternaria_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 63,
+   "crop_id": 11,
+   "disease_id": 43,
+   "name": "carrot_cavity_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 64,
+   "crop_id": 11,
+   "disease_id": 44,
+   "name": "carrot_cercospora_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 65,
+   "crop_id": 12,
+   "disease_id": 45,
+   "name": "cashew_red_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 66,
+   "crop_id": 13,
+   "disease_id": 46,
+   "name": "cassava_bacterial_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 67,
+   "crop_id": 13,
+   "disease_id": 47,
+   "name": "cassava_brown_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 68,
+   "crop_id": 13,
+   "disease_id": 4,
+   "name": "cassava_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 69,
+   "crop_id": 13,
+   "disease_id": 48,
+   "name": "cassava_brown_streak_disease",
+   "is_seen": true
+  },
+  {
+   "comp_id": 70,
+   "crop_id": 13,
+   "disease_id": 49,
+   "name": "cassava_green_mite",
+   "is_seen": true
+  },
+  {
+   "comp_id": 71,
+   "crop_id": 13,
+   "disease_id": 50,
+   "name": "cassava_green_mottle",
+   "is_seen": true
+  },
+  {
+   "comp_id": 72,
+   "crop_id": 13,
+   "disease_id": 9,
+   "name": "cassava_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 73,
+   "crop_id": 13,
+   "disease_id": 51,
+   "name": "cassava_mosaic",
+   "is_seen": true
+  },
+  {
+   "comp_id": 74,
+   "crop_id": 13,
+   "disease_id": 52,
+   "name": "cassava_red_mite",
+   "is_seen": true
+  },
+  {
+   "comp_id": 75,
+   "crop_id": 13,
+   "disease_id": 53,
+   "name": "cassava_root_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 76,
+   "crop_id": 14,
+   "disease_id": 1,
+   "name": "cauliflower_alternaria_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 77,
+   "crop_id": 14,
+   "disease_id": 54,
+   "name": "cauliflower_bacterial_soft_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 78,
+   "crop_id": 14,
+   "disease_id": 33,
+   "name": "cauliflower_bacterial_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 79,
+   "crop_id": 14,
+   "disease_id": 3,
+   "name": "cauliflower_black_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 80,
+   "crop_id": 14,
+   "disease_id": 28,
+   "name": "cauliflower_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 81,
+   "crop_id": 14,
+   "disease_id": 9,
+   "name": "cauliflower_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 82,
+   "crop_id": 15,
+   "disease_id": 18,
+   "name": "celery_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 83,
+   "crop_id": 15,
+   "disease_id": 55,
+   "name": "celery_early_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 84,
+   "crop_id": 16,
+   "disease_id": 2,
+   "name": "cherry_aphis_spp",
+   "is_seen": false
+  },
+  {
+   "comp_id": 85,
+   "crop_id": 16,
+   "disease_id": 9,
+   "name": "cherry_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 86,
+   "crop_id": 16,
+   "disease_id": 56,
+   "name": "cherry_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 87,
+   "crop_id": 16,
+   "disease_id": 14,
+   "name": "cherry_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 88,
+   "crop_id": 17,
+   "disease_id": 9,
+   "name": "chilli_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 89,
+   "crop_id": 17,
+   "disease_id": 57,
+   "name": "chilli_curl",
+   "is_seen": true
+  },
+  {
+   "comp_id": 90,
+   "crop_id": 17,
+   "disease_id": 56,
+   "name": "chilli_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 91,
+   "crop_id": 17,
+   "disease_id": 58,
+   "name": "chilli_yellowing",
+   "is_seen": true
+  },
+  {
+   "comp_id": 92,
+   "crop_id": 18,
+   "disease_id": 59,
+   "name": "citrus_black_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 93,
+   "crop_id": 18,
+   "disease_id": 60,
+   "name": "citrus_canker",
+   "is_seen": true
+  },
+  {
+   "comp_id": 94,
+   "crop_id": 18,
+   "disease_id": 61,
+   "name": "citrus_greening",
+   "is_seen": true
+  },
+  {
+   "comp_id": 95,
+   "crop_id": 18,
+   "disease_id": 9,
+   "name": "citrus_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 96,
+   "crop_id": 18,
+   "disease_id": 62,
+   "name": "citrus_melanose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 97,
+   "crop_id": 19,
+   "disease_id": 63,
+   "name": "coffee_berry_blotch",
+   "is_seen": true
+  },
+  {
+   "comp_id": 98,
+   "crop_id": 19,
+   "disease_id": 3,
+   "name": "coffee_black_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 99,
+   "crop_id": 19,
+   "disease_id": 64,
+   "name": "coffee_brown_eye_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 100,
+   "crop_id": 19,
+   "disease_id": 65,
+   "name": "coffee_cercospora",
+   "is_seen": true
+  },
+  {
+   "comp_id": 101,
+   "crop_id": 19,
+   "disease_id": 9,
+   "name": "coffee_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 102,
+   "crop_id": 19,
+   "disease_id": 66,
+   "name": "coffee_miner",
+   "is_seen": true
+  },
+  {
+   "comp_id": 103,
+   "crop_id": 19,
+   "disease_id": 10,
+   "name": "coffee_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 104,
+   "crop_id": 19,
+   "disease_id": 67,
+   "name": "coffee_phoma",
+   "is_seen": true
+  },
+  {
+   "comp_id": 105,
+   "crop_id": 19,
+   "disease_id": 68,
+   "name": "coffee_spider_mites",
+   "is_seen": true
+  },
+  {
+   "comp_id": 106,
+   "crop_id": 20,
+   "disease_id": 9,
+   "name": "coriander_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 107,
+   "crop_id": 21,
+   "disease_id": 4,
+   "name": "corn_brown_spot",
+   "is_seen": false
+  },
+  {
+   "comp_id": 108,
+   "crop_id": 21,
+   "disease_id": 69,
+   "name": "corn_chlorotic_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 109,
+   "crop_id": 21,
+   "disease_id": 70,
+   "name": "corn_gray_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 110,
+   "crop_id": 21,
+   "disease_id": 9,
+   "name": "corn_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 111,
+   "crop_id": 21,
+   "disease_id": 71,
+   "name": "corn_insects_damages",
+   "is_seen": true
+  },
+  {
+   "comp_id": 112,
+   "crop_id": 21,
+   "disease_id": 72,
+   "name": "corn_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 113,
+   "crop_id": 21,
+   "disease_id": 10,
+   "name": "corn_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 114,
+   "crop_id": 21,
+   "disease_id": 56,
+   "name": "corn_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 115,
+   "crop_id": 21,
+   "disease_id": 73,
+   "name": "corn_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 116,
+   "crop_id": 21,
+   "disease_id": 74,
+   "name": "corn_northern_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 117,
+   "crop_id": 21,
+   "disease_id": 75,
+   "name": "corn_purple_discoloration",
+   "is_seen": true
+  },
+  {
+   "comp_id": 118,
+   "crop_id": 21,
+   "disease_id": 76,
+   "name": "corn_smut",
+   "is_seen": true
+  },
+  {
+   "comp_id": 119,
+   "crop_id": 21,
+   "disease_id": 77,
+   "name": "corn_streak",
+   "is_seen": true
+  },
+  {
+   "comp_id": 120,
+   "crop_id": 21,
+   "disease_id": 78,
+   "name": "corn_stripe",
+   "is_seen": true
+  },
+  {
+   "comp_id": 121,
+   "crop_id": 21,
+   "disease_id": 79,
+   "name": "corn_violet_decoloration",
+   "is_seen": true
+  },
+  {
+   "comp_id": 122,
+   "crop_id": 21,
+   "disease_id": 80,
+   "name": "corn_yellow_spots",
+   "is_seen": true
+  },
+  {
+   "comp_id": 123,
+   "crop_id": 21,
+   "disease_id": 58,
+   "name": "corn_yellowing",
+   "is_seen": true
+  },
+  {
+   "comp_id": 124,
+   "crop_id": 22,
+   "disease_id": 46,
+   "name": "cotton_bacterial_blight",
+   "is_seen": false
+  },
+  {
+   "comp_id": 125,
+   "crop_id": 22,
+   "disease_id": 81,
+   "name": "cotton_curl_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 126,
+   "crop_id": 22,
+   "disease_id": 29,
+   "name": "cotton_fusarium_wilt",
+   "is_seen": true
+  },
+  {
+   "comp_id": 127,
+   "crop_id": 22,
+   "disease_id": 9,
+   "name": "cotton_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 128,
+   "crop_id": 22,
+   "disease_id": 14,
+   "name": "cotton_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 129,
+   "crop_id": 22,
+   "disease_id": 82,
+   "name": "cotton_target_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 130,
+   "crop_id": 23,
+   "disease_id": 30,
+   "name": "cucumber_angular_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 131,
+   "crop_id": 23,
+   "disease_id": 18,
+   "name": "cucumber_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 132,
+   "crop_id": 23,
+   "disease_id": 83,
+   "name": "cucumber_bacterial_wilt",
+   "is_seen": true
+  },
+  {
+   "comp_id": 133,
+   "crop_id": 23,
+   "disease_id": 28,
+   "name": "cucumber_downy_mildew",
+   "is_seen": false
+  },
+  {
+   "comp_id": 134,
+   "crop_id": 23,
+   "disease_id": 84,
+   "name": "cucumber_gummy_stem_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 135,
+   "crop_id": 23,
+   "disease_id": 9,
+   "name": "cucumber_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 136,
+   "crop_id": 23,
+   "disease_id": 14,
+   "name": "cucumber_powdery_mildew",
+   "is_seen": false
+  },
+  {
+   "comp_id": 137,
+   "crop_id": 24,
+   "disease_id": 44,
+   "name": "eggplant_cercospora_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 138,
+   "crop_id": 24,
+   "disease_id": 85,
+   "name": "eggplant_phomopsis_fruit_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 139,
+   "crop_id": 24,
+   "disease_id": 86,
+   "name": "eggplant_phytophthora",
+   "is_seen": true
+  },
+  {
+   "comp_id": 140,
+   "crop_id": 25,
+   "disease_id": 72,
+   "name": "garlic_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 141,
+   "crop_id": 25,
+   "disease_id": 10,
+   "name": "garlic_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 142,
+   "crop_id": 26,
+   "disease_id": 56,
+   "name": "ginger_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 143,
+   "crop_id": 26,
+   "disease_id": 87,
+   "name": "ginger_sheath_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 144,
+   "crop_id": 27,
+   "disease_id": 3,
+   "name": "grape_black_rot",
+   "is_seen": false
+  },
+  {
+   "comp_id": 145,
+   "crop_id": 27,
+   "disease_id": 28,
+   "name": "grape_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 146,
+   "crop_id": 27,
+   "disease_id": 88,
+   "name": "grape_esca",
+   "is_seen": true
+  },
+  {
+   "comp_id": 147,
+   "crop_id": 27,
+   "disease_id": 9,
+   "name": "grape_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 148,
+   "crop_id": 27,
+   "disease_id": 72,
+   "name": "grape_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 149,
+   "crop_id": 27,
+   "disease_id": 56,
+   "name": "grape_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 150,
+   "crop_id": 27,
+   "disease_id": 89,
+   "name": "grape_leafroll_disease",
+   "is_seen": true
+  },
+  {
+   "comp_id": 151,
+   "crop_id": 28,
+   "disease_id": 60,
+   "name": "guava_canker",
+   "is_seen": true
+  },
+  {
+   "comp_id": 152,
+   "crop_id": 28,
+   "disease_id": 90,
+   "name": "guava_dot_leaf",
+   "is_seen": true
+  },
+  {
+   "comp_id": 153,
+   "crop_id": 28,
+   "disease_id": 9,
+   "name": "guava_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 154,
+   "crop_id": 28,
+   "disease_id": 91,
+   "name": "guava_mummification_leaf",
+   "is_seen": true
+  },
+  {
+   "comp_id": 155,
+   "crop_id": 28,
+   "disease_id": 86,
+   "name": "guava_phytophthora",
+   "is_seen": true
+  },
+  {
+   "comp_id": 156,
+   "crop_id": 28,
+   "disease_id": 45,
+   "name": "guava_red_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 157,
+   "crop_id": 28,
+   "disease_id": 10,
+   "name": "guava_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 158,
+   "crop_id": 28,
+   "disease_id": 15,
+   "name": "guava_scab",
+   "is_seen": true
+  },
+  {
+   "comp_id": 159,
+   "crop_id": 28,
+   "disease_id": 92,
+   "name": "guava_stylar_end_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 160,
+   "crop_id": 29,
+   "disease_id": 28,
+   "name": "lettuce_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 161,
+   "crop_id": 29,
+   "disease_id": 13,
+   "name": "lettuce_mosaic_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 162,
+   "crop_id": 21,
+   "disease_id": 44,
+   "name": "corn_cercospora_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 163,
+   "crop_id": 21,
+   "disease_id": 93,
+   "name": "corn_common_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 164,
+   "crop_id": 21,
+   "disease_id": 94,
+   "name": "corn_lethal_necrosis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 165,
+   "crop_id": 21,
+   "disease_id": 95,
+   "name": "corn_streak_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 166,
+   "crop_id": 30,
+   "disease_id": 18,
+   "name": "mango_anthracnose",
+   "is_seen": false
+  },
+  {
+   "comp_id": 167,
+   "crop_id": 30,
+   "disease_id": 96,
+   "name": "mango_apoderus_javanicus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 168,
+   "crop_id": 30,
+   "disease_id": 97,
+   "name": "mango_aulacaspis_tubercularis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 169,
+   "crop_id": 30,
+   "disease_id": 98,
+   "name": "mango_bacterial_canker",
+   "is_seen": true
+  },
+  {
+   "comp_id": 170,
+   "crop_id": 30,
+   "disease_id": 99,
+   "name": "mango_ceroplastes_rubens",
+   "is_seen": true
+  },
+  {
+   "comp_id": 171,
+   "crop_id": 30,
+   "disease_id": 100,
+   "name": "mango_cisaberoptus_kenyae",
+   "is_seen": true
+  },
+  {
+   "comp_id": 172,
+   "crop_id": 30,
+   "disease_id": 101,
+   "name": "mango_cutting_weevil",
+   "is_seen": true
+  },
+  {
+   "comp_id": 173,
+   "crop_id": 30,
+   "disease_id": 102,
+   "name": "mango_dappula_tertia",
+   "is_seen": true
+  },
+  {
+   "comp_id": 174,
+   "crop_id": 30,
+   "disease_id": 103,
+   "name": "mango_dialeuropora_decempuncta",
+   "is_seen": true
+  },
+  {
+   "comp_id": 175,
+   "crop_id": 30,
+   "disease_id": 104,
+   "name": "mango_die_back",
+   "is_seen": true
+  },
+  {
+   "comp_id": 176,
+   "crop_id": 30,
+   "disease_id": 105,
+   "name": "mango_erosomyia_sp",
+   "is_seen": true
+  },
+  {
+   "comp_id": 177,
+   "crop_id": 30,
+   "disease_id": 106,
+   "name": "mango_gall_midge",
+   "is_seen": true
+  },
+  {
+   "comp_id": 178,
+   "crop_id": 30,
+   "disease_id": 9,
+   "name": "mango_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 179,
+   "crop_id": 30,
+   "disease_id": 107,
+   "name": "mango_icerya_seychellarum",
+   "is_seen": true
+  },
+  {
+   "comp_id": 180,
+   "crop_id": 30,
+   "disease_id": 108,
+   "name": "mango_ischnaspis_longirostris",
+   "is_seen": true
+  },
+  {
+   "comp_id": 181,
+   "crop_id": 30,
+   "disease_id": 109,
+   "name": "mango_mictis_longicornis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 182,
+   "crop_id": 30,
+   "disease_id": 110,
+   "name": "mango_neomelicharia_sparsa",
+   "is_seen": true
+  },
+  {
+   "comp_id": 183,
+   "crop_id": 30,
+   "disease_id": 111,
+   "name": "mango_orthaga_euadrusalis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 184,
+   "crop_id": 30,
+   "disease_id": 14,
+   "name": "mango_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 185,
+   "crop_id": 30,
+   "disease_id": 112,
+   "name": "mango_procontarinia_matteiana",
+   "is_seen": true
+  },
+  {
+   "comp_id": 186,
+   "crop_id": 30,
+   "disease_id": 113,
+   "name": "mango_procontarinia_rubus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 187,
+   "crop_id": 30,
+   "disease_id": 114,
+   "name": "mango_sooty_mould",
+   "is_seen": true
+  },
+  {
+   "comp_id": 188,
+   "crop_id": 30,
+   "disease_id": 115,
+   "name": "mango_valanga_nigricornis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 189,
+   "crop_id": 31,
+   "disease_id": 116,
+   "name": "maple_tar_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 190,
+   "crop_id": 32,
+   "disease_id": 117,
+   "name": "olive_aculus_olearius",
+   "is_seen": true
+  },
+  {
+   "comp_id": 191,
+   "crop_id": 32,
+   "disease_id": 9,
+   "name": "olive_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 192,
+   "crop_id": 32,
+   "disease_id": 118,
+   "name": "olive_peacock_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 193,
+   "crop_id": 33,
+   "disease_id": 46,
+   "name": "paddy_bacterial_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 194,
+   "crop_id": 33,
+   "disease_id": 119,
+   "name": "paddy_bacterial_leaf_streak",
+   "is_seen": true
+  },
+  {
+   "comp_id": 195,
+   "crop_id": 33,
+   "disease_id": 120,
+   "name": "paddy_bacterial_panicle_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 196,
+   "crop_id": 33,
+   "disease_id": 121,
+   "name": "paddy_black_stem_borer",
+   "is_seen": true
+  },
+  {
+   "comp_id": 197,
+   "crop_id": 33,
+   "disease_id": 122,
+   "name": "paddy_blast",
+   "is_seen": true
+  },
+  {
+   "comp_id": 198,
+   "crop_id": 33,
+   "disease_id": 4,
+   "name": "paddy_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 199,
+   "crop_id": 33,
+   "disease_id": 28,
+   "name": "paddy_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 200,
+   "crop_id": 33,
+   "disease_id": 9,
+   "name": "paddy_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 201,
+   "crop_id": 33,
+   "disease_id": 123,
+   "name": "paddy_hispa",
+   "is_seen": true
+  },
+  {
+   "comp_id": 202,
+   "crop_id": 33,
+   "disease_id": 124,
+   "name": "paddy_leaf_roller",
+   "is_seen": true
+  },
+  {
+   "comp_id": 203,
+   "crop_id": 33,
+   "disease_id": 125,
+   "name": "paddy_leafblast",
+   "is_seen": true
+  },
+  {
+   "comp_id": 204,
+   "crop_id": 33,
+   "disease_id": 126,
+   "name": "paddy_tungro",
+   "is_seen": true
+  },
+  {
+   "comp_id": 205,
+   "crop_id": 33,
+   "disease_id": 127,
+   "name": "paddy_white_stem_borer",
+   "is_seen": true
+  },
+  {
+   "comp_id": 206,
+   "crop_id": 33,
+   "disease_id": 128,
+   "name": "paddy_yellow_stem_borer",
+   "is_seen": true
+  },
+  {
+   "comp_id": 207,
+   "crop_id": 34,
+   "disease_id": 4,
+   "name": "palm_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 208,
+   "crop_id": 34,
+   "disease_id": 9,
+   "name": "palm_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 209,
+   "crop_id": 34,
+   "disease_id": 129,
+   "name": "palm_white_scale",
+   "is_seen": true
+  },
+  {
+   "comp_id": 210,
+   "crop_id": 35,
+   "disease_id": 18,
+   "name": "papaya_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 211,
+   "crop_id": 35,
+   "disease_id": 33,
+   "name": "papaya_bacterial_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 212,
+   "crop_id": 35,
+   "disease_id": 57,
+   "name": "papaya_curl",
+   "is_seen": true
+  },
+  {
+   "comp_id": 213,
+   "crop_id": 35,
+   "disease_id": 9,
+   "name": "papaya_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 214,
+   "crop_id": 35,
+   "disease_id": 41,
+   "name": "papaya_ring_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 215,
+   "crop_id": 36,
+   "disease_id": 18,
+   "name": "peach_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 216,
+   "crop_id": 36,
+   "disease_id": 33,
+   "name": "peach_bacterial_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 217,
+   "crop_id": 36,
+   "disease_id": 130,
+   "name": "peach_brown_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 218,
+   "crop_id": 36,
+   "disease_id": 9,
+   "name": "peach_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 219,
+   "crop_id": 36,
+   "disease_id": 57,
+   "name": "peach_curl",
+   "is_seen": true
+  },
+  {
+   "comp_id": 220,
+   "crop_id": 36,
+   "disease_id": 12,
+   "name": "peach_monillia_laxa",
+   "is_seen": true
+  },
+  {
+   "comp_id": 221,
+   "crop_id": 36,
+   "disease_id": 131,
+   "name": "peach_parthenolecanium_corni",
+   "is_seen": true
+  },
+  {
+   "comp_id": 222,
+   "crop_id": 36,
+   "disease_id": 10,
+   "name": "peach_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 223,
+   "crop_id": 36,
+   "disease_id": 15,
+   "name": "peach_scab",
+   "is_seen": true
+  },
+  {
+   "comp_id": 224,
+   "crop_id": 37,
+   "disease_id": 132,
+   "name": "peanut_early_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 225,
+   "crop_id": 37,
+   "disease_id": 9,
+   "name": "peanut_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 226,
+   "crop_id": 37,
+   "disease_id": 133,
+   "name": "peanut_late_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 227,
+   "crop_id": 37,
+   "disease_id": 134,
+   "name": "peanut_nutrition_deficiency",
+   "is_seen": true
+  },
+  {
+   "comp_id": 228,
+   "crop_id": 37,
+   "disease_id": 10,
+   "name": "peanut_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 229,
+   "crop_id": 38,
+   "disease_id": 57,
+   "name": "pear_curl",
+   "is_seen": true
+  },
+  {
+   "comp_id": 230,
+   "crop_id": 38,
+   "disease_id": 135,
+   "name": "pear_erwinia_amylovora",
+   "is_seen": true
+  },
+  {
+   "comp_id": 231,
+   "crop_id": 38,
+   "disease_id": 9,
+   "name": "pear_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 232,
+   "crop_id": 38,
+   "disease_id": 136,
+   "name": "pear_slug",
+   "is_seen": true
+  },
+  {
+   "comp_id": 233,
+   "crop_id": 38,
+   "disease_id": 56,
+   "name": "pear_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 234,
+   "crop_id": 39,
+   "disease_id": 2,
+   "name": "plum_aphis_spp",
+   "is_seen": true
+  },
+  {
+   "comp_id": 235,
+   "crop_id": 39,
+   "disease_id": 33,
+   "name": "plum_bacterial_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 236,
+   "crop_id": 39,
+   "disease_id": 130,
+   "name": "plum_brown_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 237,
+   "crop_id": 39,
+   "disease_id": 137,
+   "name": "plum_pocket_disease",
+   "is_seen": true
+  },
+  {
+   "comp_id": 238,
+   "crop_id": 39,
+   "disease_id": 138,
+   "name": "plum_pox_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 239,
+   "crop_id": 39,
+   "disease_id": 10,
+   "name": "plum_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 240,
+   "crop_id": 40,
+   "disease_id": 55,
+   "name": "potato_early_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 241,
+   "crop_id": 40,
+   "disease_id": 9,
+   "name": "potato_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 242,
+   "crop_id": 40,
+   "disease_id": 139,
+   "name": "potato_late_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 243,
+   "crop_id": 41,
+   "disease_id": 14,
+   "name": "pumpkin_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 244,
+   "crop_id": 42,
+   "disease_id": 140,
+   "name": "raspberry_fire_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 245,
+   "crop_id": 42,
+   "disease_id": 141,
+   "name": "raspberry_gray_mold",
+   "is_seen": true
+  },
+  {
+   "comp_id": 246,
+   "crop_id": 42,
+   "disease_id": 9,
+   "name": "raspberry_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 247,
+   "crop_id": 42,
+   "disease_id": 56,
+   "name": "raspberry_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 248,
+   "crop_id": 42,
+   "disease_id": 142,
+   "name": "raspberry_yellow_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 249,
+   "crop_id": 33,
+   "disease_id": 72,
+   "name": "paddy_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 250,
+   "crop_id": 33,
+   "disease_id": 76,
+   "name": "paddy_smut",
+   "is_seen": true
+  },
+  {
+   "comp_id": 251,
+   "crop_id": 33,
+   "disease_id": 87,
+   "name": "paddy_sheath_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 252,
+   "crop_id": 43,
+   "disease_id": 59,
+   "name": "rose_black_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 253,
+   "crop_id": 43,
+   "disease_id": 28,
+   "name": "rose_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 254,
+   "crop_id": 43,
+   "disease_id": 9,
+   "name": "rose_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 255,
+   "crop_id": 44,
+   "disease_id": 46,
+   "name": "soybean_bacterial_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 256,
+   "crop_id": 44,
+   "disease_id": 4,
+   "name": "soybean_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 257,
+   "crop_id": 44,
+   "disease_id": 143,
+   "name": "soybean_caterpillar",
+   "is_seen": true
+  },
+  {
+   "comp_id": 258,
+   "crop_id": 44,
+   "disease_id": 144,
+   "name": "soybean_diabrotica_speciosa",
+   "is_seen": true
+  },
+  {
+   "comp_id": 259,
+   "crop_id": 44,
+   "disease_id": 28,
+   "name": "soybean_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 260,
+   "crop_id": 44,
+   "disease_id": 7,
+   "name": "soybean_frog_eye_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 261,
+   "crop_id": 44,
+   "disease_id": 9,
+   "name": "soybean_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 262,
+   "crop_id": 44,
+   "disease_id": 51,
+   "name": "soybean_mosaic",
+   "is_seen": true
+  },
+  {
+   "comp_id": 263,
+   "crop_id": 44,
+   "disease_id": 10,
+   "name": "soybean_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 264,
+   "crop_id": 45,
+   "disease_id": 14,
+   "name": "squash_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 265,
+   "crop_id": 46,
+   "disease_id": 18,
+   "name": "strawberry_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 266,
+   "crop_id": 46,
+   "disease_id": 9,
+   "name": "strawberry_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 267,
+   "crop_id": 46,
+   "disease_id": 40,
+   "name": "strawberry_scorch",
+   "is_seen": true
+  },
+  {
+   "comp_id": 268,
+   "crop_id": 47,
+   "disease_id": 145,
+   "name": "sugarcane_banded_chlorosis",
+   "is_seen": true
+  },
+  {
+   "comp_id": 269,
+   "crop_id": 47,
+   "disease_id": 146,
+   "name": "sugarcane_brown_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 270,
+   "crop_id": 47,
+   "disease_id": 4,
+   "name": "sugarcane_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 271,
+   "crop_id": 47,
+   "disease_id": 147,
+   "name": "sugarcane_grassy_shoot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 272,
+   "crop_id": 47,
+   "disease_id": 9,
+   "name": "sugarcane_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 273,
+   "crop_id": 47,
+   "disease_id": 51,
+   "name": "sugarcane_mosaic",
+   "is_seen": true
+  },
+  {
+   "comp_id": 274,
+   "crop_id": 47,
+   "disease_id": 148,
+   "name": "sugarcane_pokkah_boeng",
+   "is_seen": true
+  },
+  {
+   "comp_id": 275,
+   "crop_id": 47,
+   "disease_id": 149,
+   "name": "sugarcane_red_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 276,
+   "crop_id": 47,
+   "disease_id": 10,
+   "name": "sugarcane_rust",
+   "is_seen": false
+  },
+  {
+   "comp_id": 277,
+   "crop_id": 47,
+   "disease_id": 150,
+   "name": "sugarcane_sett_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 278,
+   "crop_id": 47,
+   "disease_id": 76,
+   "name": "sugarcane_smut",
+   "is_seen": true
+  },
+  {
+   "comp_id": 279,
+   "crop_id": 47,
+   "disease_id": 151,
+   "name": "sugarcane_viral",
+   "is_seen": true
+  },
+  {
+   "comp_id": 280,
+   "crop_id": 47,
+   "disease_id": 58,
+   "name": "sugarcane_yellowing",
+   "is_seen": true
+  },
+  {
+   "comp_id": 281,
+   "crop_id": 48,
+   "disease_id": 28,
+   "name": "sunflower_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 282,
+   "crop_id": 48,
+   "disease_id": 141,
+   "name": "sunflower_gray_mold",
+   "is_seen": true
+  },
+  {
+   "comp_id": 283,
+   "crop_id": 48,
+   "disease_id": 9,
+   "name": "sunflower_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 284,
+   "crop_id": 48,
+   "disease_id": 152,
+   "name": "sunflower_leaf_scars",
+   "is_seen": true
+  },
+  {
+   "comp_id": 285,
+   "crop_id": 49,
+   "disease_id": 153,
+   "name": "tea_algal_leaf",
+   "is_seen": true
+  },
+  {
+   "comp_id": 286,
+   "crop_id": 49,
+   "disease_id": 18,
+   "name": "tea_anthracnose",
+   "is_seen": true
+  },
+  {
+   "comp_id": 287,
+   "crop_id": 49,
+   "disease_id": 154,
+   "name": "tea_bird_eye_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 288,
+   "crop_id": 49,
+   "disease_id": 155,
+   "name": "tea_brown_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 289,
+   "crop_id": 49,
+   "disease_id": 156,
+   "name": "tea_gray_light",
+   "is_seen": true
+  },
+  {
+   "comp_id": 290,
+   "crop_id": 49,
+   "disease_id": 9,
+   "name": "tea_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 291,
+   "crop_id": 49,
+   "disease_id": 72,
+   "name": "tea_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 292,
+   "crop_id": 49,
+   "disease_id": 157,
+   "name": "tea_red_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 293,
+   "crop_id": 49,
+   "disease_id": 158,
+   "name": "tea_red_scab",
+   "is_seen": true
+  },
+  {
+   "comp_id": 294,
+   "crop_id": 49,
+   "disease_id": 159,
+   "name": "tea_white_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 295,
+   "crop_id": 50,
+   "disease_id": 160,
+   "name": "tobacco_blue_mold",
+   "is_seen": true
+  },
+  {
+   "comp_id": 296,
+   "crop_id": 50,
+   "disease_id": 4,
+   "name": "tobacco_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 297,
+   "crop_id": 50,
+   "disease_id": 35,
+   "name": "tobacco_frogeye_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 298,
+   "crop_id": 50,
+   "disease_id": 13,
+   "name": "tobacco_mosaic_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 299,
+   "crop_id": 51,
+   "disease_id": 161,
+   "name": "tomato_bacterial_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 300,
+   "crop_id": 51,
+   "disease_id": 33,
+   "name": "tomato_bacterial_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 301,
+   "crop_id": 51,
+   "disease_id": 162,
+   "name": "tomato_blight_leaf",
+   "is_seen": true
+  },
+  {
+   "comp_id": 302,
+   "crop_id": 51,
+   "disease_id": 4,
+   "name": "tomato_brown_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 303,
+   "crop_id": 51,
+   "disease_id": 55,
+   "name": "tomato_early_blight",
+   "is_seen": false
+  },
+  {
+   "comp_id": 304,
+   "crop_id": 51,
+   "disease_id": 9,
+   "name": "tomato_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 305,
+   "crop_id": 51,
+   "disease_id": 139,
+   "name": "tomato_late_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 306,
+   "crop_id": 51,
+   "disease_id": 72,
+   "name": "tomato_leaf_blight",
+   "is_seen": true
+  },
+  {
+   "comp_id": 307,
+   "crop_id": 51,
+   "disease_id": 57,
+   "name": "tomato_curl",
+   "is_seen": true
+  },
+  {
+   "comp_id": 308,
+   "crop_id": 51,
+   "disease_id": 163,
+   "name": "tomato_leaf_mold",
+   "is_seen": true
+  },
+  {
+   "comp_id": 309,
+   "crop_id": 51,
+   "disease_id": 13,
+   "name": "tomato_mosaic_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 310,
+   "crop_id": 51,
+   "disease_id": 164,
+   "name": "tomato_leaf_yellow_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 311,
+   "crop_id": 51,
+   "disease_id": 14,
+   "name": "tomato_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 312,
+   "crop_id": 51,
+   "disease_id": 165,
+   "name": "tomato_septoria_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 313,
+   "crop_id": 51,
+   "disease_id": 68,
+   "name": "tomato_spider_mites",
+   "is_seen": true
+  },
+  {
+   "comp_id": 314,
+   "crop_id": 51,
+   "disease_id": 82,
+   "name": "tomato_target_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 315,
+   "crop_id": 51,
+   "disease_id": 166,
+   "name": "tomato_verticulium_wilt",
+   "is_seen": true
+  },
+  {
+   "comp_id": 316,
+   "crop_id": 51,
+   "disease_id": 167,
+   "name": "tomato_yellow_leaf_curl_virus",
+   "is_seen": true
+  },
+  {
+   "comp_id": 317,
+   "crop_id": 52,
+   "disease_id": 168,
+   "name": "walnut_gnomonia_leptostyla",
+   "is_seen": true
+  },
+  {
+   "comp_id": 318,
+   "crop_id": 53,
+   "disease_id": 119,
+   "name": "wheat_bacterial_leaf_streak",
+   "is_seen": true
+  },
+  {
+   "comp_id": 319,
+   "crop_id": 53,
+   "disease_id": 169,
+   "name": "wheat_head_scab",
+   "is_seen": true
+  },
+  {
+   "comp_id": 320,
+   "crop_id": 53,
+   "disease_id": 9,
+   "name": "wheat_healthy",
+   "is_seen": true
+  },
+  {
+   "comp_id": 321,
+   "crop_id": 53,
+   "disease_id": 10,
+   "name": "wheat_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 322,
+   "crop_id": 53,
+   "disease_id": 170,
+   "name": "wheat_loose_smut",
+   "is_seen": true
+  },
+  {
+   "comp_id": 323,
+   "crop_id": 53,
+   "disease_id": 14,
+   "name": "wheat_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 324,
+   "crop_id": 53,
+   "disease_id": 53,
+   "name": "wheat_root_rot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 325,
+   "crop_id": 53,
+   "disease_id": 171,
+   "name": "wheat_septoria",
+   "is_seen": true
+  },
+  {
+   "comp_id": 326,
+   "crop_id": 53,
+   "disease_id": 172,
+   "name": "wheat_septoria_blotch",
+   "is_seen": true
+  },
+  {
+   "comp_id": 327,
+   "crop_id": 53,
+   "disease_id": 165,
+   "name": "wheat_septoria_leaf_spot",
+   "is_seen": true
+  },
+  {
+   "comp_id": 328,
+   "crop_id": 53,
+   "disease_id": 173,
+   "name": "wheat_stripe_rust",
+   "is_seen": true
+  },
+  {
+   "comp_id": 329,
+   "crop_id": 54,
+   "disease_id": 83,
+   "name": "zucchini_bacterial_wilt",
+   "is_seen": true
+  },
+  {
+   "comp_id": 330,
+   "crop_id": 54,
+   "disease_id": 28,
+   "name": "zucchini_downy_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 331,
+   "crop_id": 54,
+   "disease_id": 14,
+   "name": "zucchini_powdery_mildew",
+   "is_seen": true
+  },
+  {
+   "comp_id": 332,
+   "crop_id": 54,
+   "disease_id": 174,
+   "name": "zucchini_yellow_mosaic_virus",
+   "is_seen": true
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{
+  "best_epoch": 10,
+  "best_train_acc": 0.992,
+  "seconds": 669.5812768936157,
+  "source_epoch": 10
+}

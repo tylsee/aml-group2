@@ -1,0 +1,16 @@
+# P1 round 3, variant: best P1 with a ConvNeXt-Tiny backbone (768-d features, 28M parameters) in place of EfficientNet-B0.
+# Tests whether the weak unseen result is specific to EfficientNet-B0 (Dr. Lee's backbone question). Same recipe otherwise.
+# ConvNeXt has LayerNorm, not BatchNorm, so the BatchNorm recompute before evaluation does nothing here.
+name: p1c_convnext
+pretrained: true
+train_csv: train_fit
+batch_size: 32
+views: 1
+epochs: 20
+alpha: 0.0
+beta: 0.0
+tau: 0.07
+optim:
+  lr_backbone: 1.0e-4
+model:
+  backbone: convnext_tiny

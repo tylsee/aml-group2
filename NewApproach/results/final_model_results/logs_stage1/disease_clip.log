@@ -1,0 +1,82 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 18721.60it/s]
+[transformers] [1mCLIPTextModelWithProjection LOAD REPORT[0m from: openai/clip-vit-base-patch16
+Key                                                            | Status     |  | 
+---------------------------------------------------------------+------------+--+-
+vision_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+vision_model.pre_layrnorm.bias                                 | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+visual_projection.weight                                       | UNEXPECTED |  | 
+vision_model.post_layernorm.bias                               | UNEXPECTED |  | 
+vision_model.pre_layrnorm.weight                               | UNEXPECTED |  | 
+logit_scale                                                    | UNEXPECTED |  | 
+vision_model.embeddings.class_embedding                        | UNEXPECTED |  | 
+vision_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+vision_model.post_layernorm.weight                             | UNEXPECTED |  | 
+vision_model.embeddings.patch_embedding.weight                 | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 12921.33it/s]
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 8994.96it/s]
+[transformers] [1mCLIPVisionModelWithProjection LOAD REPORT[0m from: openai/clip-vit-base-patch16
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+text_projection.weight                                       | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[disease_clip] epoch 1/25 train=0.5573 seen=0.6432 unseen=0.2700 h=0.3803 best_h=0.3803@1 94s eta 37m39s
+[disease_clip] epoch 2/25 train=0.7660 seen=0.6460 unseen=0.2775 h=0.3882 best_h=0.3882@2 97s eta 36m43s
+[disease_clip] epoch 3/25 train=0.8494 seen=0.7295 unseen=0.2950 h=0.4201 best_h=0.4201@3 97s eta 35m15s
+[disease_clip] epoch 4/25 train=0.8953 seen=0.7036 unseen=0.2875 h=0.4082 best_h=0.4201@3 98s eta 33m51s
+[disease_clip] epoch 5/25 train=0.9303 seen=0.7496 unseen=0.2850 h=0.4130 best_h=0.4201@3 97s eta 32m15s
+[disease_clip] epoch 6/25 train=0.9419 seen=0.7381 unseen=0.2325 h=0.3536 best_h=0.4201@3 97s eta 30m39s
+[disease_clip] epoch 7/25 train=0.9576 seen=0.7640 unseen=0.2925 h=0.4230 best_h=0.4230@7 97s eta 29m01s
+[disease_clip] epoch 8/25 train=0.9726 seen=0.7712 unseen=0.2925 h=0.4241 best_h=0.4241@8 97s eta 27m26s
+[disease_clip] epoch 9/25 train=0.9725 seen=0.7583 unseen=0.2725 h=0.4009 best_h=0.4241@8 96s eta 25m48s
+[disease_clip] epoch 10/25 train=0.9755 seen=0.7655 unseen=0.3175 h=0.4488 best_h=0.4488@10 97s eta 24m11s
+[disease_clip] epoch 11/25 train=0.9806 seen=0.7698 unseen=0.3025 h=0.4343 best_h=0.4488@10 96s eta 22m34s
+[disease_clip] epoch 12/25 train=0.9848 seen=0.7727 unseen=0.2950 h=0.4270 best_h=0.4488@10 98s eta 20m59s
+[disease_clip] epoch 13/25 train=0.9910 seen=0.7741 unseen=0.3275 h=0.4603 best_h=0.4603@13 96s eta 19m22s
+[disease_clip] epoch 14/25 train=0.9938 seen=0.7914 unseen=0.2800 h=0.4136 best_h=0.4603@13 98s eta 17m46s
+[disease_clip] epoch 15/25 train=0.9974 seen=0.7813 unseen=0.3050 h=0.4387 best_h=0.4603@13 96s eta 16m08s
+[disease_clip] epoch 16/25 train=0.9917 seen=0.7683 unseen=0.2875 h=0.4184 best_h=0.4603@13 96s eta 14m31s
+[disease_clip] epoch 17/25 train=0.9915 seen=0.7799 unseen=0.3000 h=0.4333 best_h=0.4603@13 97s eta 12m54s
+[disease_clip] epoch 18/25 train=0.9968 seen=0.7827 unseen=0.3125 h=0.4467 best_h=0.4603@13 96s eta 11m17s
+[disease_clip] early stop at epoch 18 (best epoch 13, patience 5)
