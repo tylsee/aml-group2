@@ -14,18 +14,19 @@ A. PUT THESE IN GOOGLE DRIVE, folder: My Drive/DPD-Small/
      DPD_Small_train.csv
      DPD_Small_test_seen.csv
      DPD_Small_test_unseen.csv
-   Add (from D:\dev\uni\AML\new_approach\), replacing any older copy:
+   Add, replacing any older copy:
      cdc-cp_code_final_model.zip
-   Check the zip before you upload it. In PowerShell:
-     Get-FileHash -Algorithm SHA256 D:\dev\uni\AML\new_approach\cdc-cp_code_final_model.zip
-   Expected Hash line (capital letters):
-     EA8841A5F8134E15FC6F6820E12F5E0DF9E89F180EFC13C14DC573EB3EE1F424
+   Make the zip from this repo (folder NewApproach\cdc-cp). In PowerShell:
+     cd NewApproach\cdc-cp
+     python scripts\pack_for_colab.py ..\cdc-cp_code_final_model.zip
+   Expected output: "wrote ...cdc-cp_code_final_model.zip (29 files, 0.2 MB)"
+   If you change any file in cdc-cp, rebuild the notebook so its code check matches:
+     python scripts\make_final_model_notebook.py --zip ..\cdc-cp_code_final_model.zip --out ..\new_approach\New_approach.ipynb
    Leave about 1.5 GB free on Drive (the 5 final models are saved there).
 
 B. OPEN THE NOTEBOOK
    1. Go to colab.research.google.com > File > Upload notebook.
-   2. Pick D:\dev\uni\AML\new_approach\New_approach.ipynb
-      (an older copy you opened before is out of date: upload this one again).
+   2. Pick NewApproach\new_approach\New_approach.ipynb from this repo.
 
 C. CHOOSE THE GPU
    1. Runtime > Change runtime type.
@@ -37,7 +38,7 @@ D. RUN
    3. Keep the tab open. Do not close the laptop lid.
 
 E. CHECK IN THE FIRST 15 MINUTES (cell outputs)
-   - Setup cell prints: code version 0777e2f70c39 OK
+   - Setup cell prints: code version 65e8a7359d9a OK
      (any other value stops the notebook in minute 1)
    - Data cell prints: 11448 images | dev split: train ..., seen ..., unseen ...
    - Checks cell prints "P1: crop crop_b1 | disease disease_b1" (and P2, P3), "ImageNet weights ready",

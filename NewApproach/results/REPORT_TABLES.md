@@ -150,7 +150,7 @@ Open-world best seen equals closed-world best seen, and is higher than the raw s
 
 ## Figures
 
-- Framework: ../architecture.png
+- Framework: ../new_approach/architecture.png
 
 - Training curves: final_model_results/results/stage1_curves.png
 

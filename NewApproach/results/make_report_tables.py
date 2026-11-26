@@ -6,7 +6,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 RES = HERE / "final_model_results"
-FINAL_MODEL_PY = HERE.parent.parent / "cdc-cp" / "cdccp" / "final_model.py"
+FINAL_MODEL_PY = HERE.parent / "cdc-cp" / "cdccp" / "final_model.py"
 OUT = HERE / "REPORT_TABLES.md"
 MODELS = ("crop_b1", "crop_clip", "disease_b1", "disease_clip", "disease_small_reg")
 PHASES = ("P1", "P2", "P3")
@@ -225,7 +225,7 @@ def main():
             "(313 seen + 10 hidden pairs), not from the stage-2 models used on test.",
         ] if paper else []),
         "## Figures",
-        "- Framework: ../architecture.png",
+        "- Framework: ../new_approach/architecture.png",
         "- Training curves: final_model_results/results/stage1_curves.png",
         "- Confusion matrix of seen test pairs: final_model_results/results/confusion_seen_333_P3.png. It is P3, raw, on the "
         "333-pair list, so its pair Top-1 (72.15%) is higher than the 9,625-pair value in Table 3 (70.55%): fewer wrong "
