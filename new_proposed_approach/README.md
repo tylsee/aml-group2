@@ -1,6 +1,6 @@
 # Proposed approaches
 
-- [Emily — CDC-CP experiments and final/evaluation index](emily_cdc_cp/).
-- [Norman — ConvNeXt/CLIP](norman_convnext_clip/) (documentation placeholders only; no Norman files were present in the original tracked tree).
+- [Emily — CDC-CP research](emily_cdc_cp/) — original experiments and locked/evaluation indexes.
+- [Norman — ConvNeXt/CLIP](norman_convnext_clip/) — imported source notebook, Python package, executed P1/P2/P3 notebook, results and reporting artifacts from the `new-approach` branch.
 
-The full Emily research dataset was relocated intact. This is a repository organization change, not a new training run or a new evaluation.
+Both researchers' original experiment artifacts are preserved without modifying training code or experimental outputs.

@@ -1,0 +1,1104 @@
+{
+  "arm": "disease_clip",
+  "aug": "b1",
+  "b1": {
+    "backbone_lr": 1e-05,
+    "batch_size": 16,
+    "dropout": {
+      "crop": 0.3,
+      "disease": 0.2
+    },
+    "head_lr": 0.001,
+    "max_epochs": 30,
+    "seed": 42,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_epochs": 10,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.001,
+    "weight_decay": 0.001
+  },
+  "backbone": "clip_vit_b16",
+  "device": "cuda",
+  "epochs": 25,
+  "expect_classes": [
+    55,
+    175
+  ],
+  "expect_sizes": [
+    6905,
+    695,
+    400
+  ],
+  "image_dir": "/content/data/DPD_Small_dataset",
+  "max_train_batches": null,
+  "patience": 5,
+  "pretrained": true,
+  "prompts": [
+    [
+      "a photo of a plant leaf with alternaria blotch.",
+      "a close-up photo of a leaf showing alternaria blotch.",
+      "a leaf infected with alternaria blotch.",
+      "a photo of alternaria blotch, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with alternaria leaf spot.",
+      "a close-up photo of a leaf showing alternaria leaf spot.",
+      "a leaf infected with alternaria leaf spot.",
+      "a photo of alternaria leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with aphis spp.",
+      "a close-up photo of a leaf showing aphis spp.",
+      "a leaf infected with aphis spp.",
+      "a photo of aphis spp, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with black rot.",
+      "a close-up photo of a leaf showing black rot.",
+      "a leaf infected with black rot.",
+      "a photo of black rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown spot.",
+      "a close-up photo of a leaf showing brown spot.",
+      "a leaf infected with brown spot.",
+      "a photo of brown spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cedar apple rust.",
+      "a close-up photo of a leaf showing cedar apple rust.",
+      "a leaf infected with cedar apple rust.",
+      "a photo of cedar apple rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with eriosoma lanigerum.",
+      "a close-up photo of a leaf showing eriosoma lanigerum.",
+      "a leaf infected with eriosoma lanigerum.",
+      "a photo of eriosoma lanigerum, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with frog eye leaf spot.",
+      "a close-up photo of a leaf showing frog eye leaf spot.",
+      "a leaf infected with frog eye leaf spot.",
+      "a photo of frog eye leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with grey spot.",
+      "a close-up photo of a leaf showing grey spot.",
+      "a leaf infected with grey spot.",
+      "a photo of grey spot, a plant disease."
+    ],
+    [
+      "a photo of a healthy plant leaf.",
+      "a close-up photo of a healthy leaf.",
+      "a healthy green leaf with no disease.",
+      "a photo of a healthy plant."
+    ],
+    [
+      "a photo of a plant leaf with rust.",
+      "a close-up photo of a leaf showing rust.",
+      "a leaf infected with rust.",
+      "a photo of rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with marssonina blotch.",
+      "a close-up photo of a leaf showing marssonina blotch.",
+      "a leaf infected with marssonina blotch.",
+      "a photo of marssonina blotch, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with monillia laxa.",
+      "a close-up photo of a leaf showing monillia laxa.",
+      "a leaf infected with monillia laxa.",
+      "a photo of monillia laxa, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with mosaic virus.",
+      "a close-up photo of a leaf showing mosaic virus.",
+      "a leaf infected with mosaic virus.",
+      "a photo of mosaic virus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with powdery mildew.",
+      "a close-up photo of a leaf showing powdery mildew.",
+      "a leaf infected with powdery mildew.",
+      "a photo of powdery mildew, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with scab.",
+      "a close-up photo of a leaf showing scab.",
+      "a leaf infected with scab.",
+      "a photo of scab, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with venturia inaequalis.",
+      "a close-up photo of a leaf showing venturia inaequalis.",
+      "a leaf infected with venturia inaequalis.",
+      "a photo of venturia inaequalis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with coryneum blight.",
+      "a close-up photo of a leaf showing coryneum blight.",
+      "a leaf infected with coryneum blight.",
+      "a photo of coryneum blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with anthracnose.",
+      "a close-up photo of a leaf showing anthracnose.",
+      "a leaf infected with anthracnose.",
+      "a photo of anthracnose, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with black leaf streak.",
+      "a close-up photo of a leaf showing black leaf streak.",
+      "a leaf infected with black leaf streak.",
+      "a photo of black leaf streak, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bunchy top.",
+      "a close-up photo of a leaf showing bunchy top.",
+      "a leaf infected with bunchy top.",
+      "a photo of bunchy top, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cigar end rot.",
+      "a close-up photo of a leaf showing cigar end rot.",
+      "a leaf infected with cigar end rot.",
+      "a photo of cigar end rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cordana leaf spot.",
+      "a close-up photo of a leaf showing cordana leaf spot.",
+      "a leaf infected with cordana leaf spot.",
+      "a photo of cordana leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with panama disease.",
+      "a close-up photo of a leaf showing panama disease.",
+      "a leaf infected with panama disease.",
+      "a photo of panama disease, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with pestalotiopsis.",
+      "a close-up photo of a leaf showing pestalotiopsis.",
+      "a leaf infected with pestalotiopsis.",
+      "a photo of pestalotiopsis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with segatoka.",
+      "a close-up photo of a leaf showing segatoka.",
+      "a leaf infected with segatoka.",
+      "a photo of segatoka, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with sigatoka.",
+      "a close-up photo of a leaf showing sigatoka.",
+      "a leaf infected with sigatoka.",
+      "a photo of sigatoka, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with xamthomonas.",
+      "a close-up photo of a leaf showing xamthomonas.",
+      "a leaf infected with xamthomonas.",
+      "a photo of xamthomonas, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with downy mildew.",
+      "a close-up photo of a leaf showing downy mildew.",
+      "a leaf infected with downy mildew.",
+      "a photo of downy mildew, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with fusarium wilt.",
+      "a close-up photo of a leaf showing fusarium wilt.",
+      "a leaf infected with fusarium wilt.",
+      "a photo of fusarium wilt, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with angular leaf spot.",
+      "a close-up photo of a leaf showing angular leaf spot.",
+      "a leaf infected with angular leaf spot.",
+      "a photo of angular leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bean rust.",
+      "a close-up photo of a leaf showing bean rust.",
+      "a leaf infected with bean rust.",
+      "a photo of bean rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with halo blight.",
+      "a close-up photo of a leaf showing halo blight.",
+      "a leaf infected with halo blight.",
+      "a photo of halo blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial spot.",
+      "a close-up photo of a leaf showing bacterial spot.",
+      "a leaf infected with bacterial spot.",
+      "a photo of bacterial spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with blossom end rot.",
+      "a close-up photo of a leaf showing blossom end rot.",
+      "a leaf infected with blossom end rot.",
+      "a photo of blossom end rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with frogeye leaf spot.",
+      "a close-up photo of a leaf showing frogeye leaf spot.",
+      "a leaf infected with frogeye leaf spot.",
+      "a photo of frogeye leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with crinckle.",
+      "a close-up photo of a leaf showing crinckle.",
+      "a leaf infected with crinckle.",
+      "a photo of crinckle, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellow mosaic.",
+      "a close-up photo of a leaf showing yellow mosaic.",
+      "a leaf infected with yellow mosaic.",
+      "a photo of yellow mosaic, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with botrytis blight.",
+      "a close-up photo of a leaf showing botrytis blight.",
+      "a leaf infected with botrytis blight.",
+      "a photo of botrytis blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with mummy berry.",
+      "a close-up photo of a leaf showing mummy berry.",
+      "a leaf infected with mummy berry.",
+      "a photo of mummy berry, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with scorch.",
+      "a close-up photo of a leaf showing scorch.",
+      "a leaf infected with scorch.",
+      "a photo of scorch, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with ring spot.",
+      "a close-up photo of a leaf showing ring spot.",
+      "a leaf infected with ring spot.",
+      "a photo of ring spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with alternaria leaf blight.",
+      "a close-up photo of a leaf showing alternaria leaf blight.",
+      "a leaf infected with alternaria leaf blight.",
+      "a photo of alternaria leaf blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cavity spot.",
+      "a close-up photo of a leaf showing cavity spot.",
+      "a leaf infected with cavity spot.",
+      "a photo of cavity spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cercospora leaf blight.",
+      "a close-up photo of a leaf showing cercospora leaf blight.",
+      "a leaf infected with cercospora leaf blight.",
+      "a photo of cercospora leaf blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with red rust.",
+      "a close-up photo of a leaf showing red rust.",
+      "a leaf infected with red rust.",
+      "a photo of red rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial blight.",
+      "a close-up photo of a leaf showing bacterial blight.",
+      "a leaf infected with bacterial blight.",
+      "a photo of bacterial blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown leaf spot.",
+      "a close-up photo of a leaf showing brown leaf spot.",
+      "a leaf infected with brown leaf spot.",
+      "a photo of brown leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown streak disease.",
+      "a close-up photo of a leaf showing brown streak disease.",
+      "a leaf infected with brown streak disease.",
+      "a photo of brown streak disease, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with green mite.",
+      "a close-up photo of a leaf showing green mite.",
+      "a leaf infected with green mite.",
+      "a photo of green mite, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with green mottle.",
+      "a close-up photo of a leaf showing green mottle.",
+      "a leaf infected with green mottle.",
+      "a photo of green mottle, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with mosaic.",
+      "a close-up photo of a leaf showing mosaic.",
+      "a leaf infected with mosaic.",
+      "a photo of mosaic, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with red mite.",
+      "a close-up photo of a leaf showing red mite.",
+      "a leaf infected with red mite.",
+      "a photo of red mite, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with root rot.",
+      "a close-up photo of a leaf showing root rot.",
+      "a leaf infected with root rot.",
+      "a photo of root rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial soft rot.",
+      "a close-up photo of a leaf showing bacterial soft rot.",
+      "a leaf infected with bacterial soft rot.",
+      "a photo of bacterial soft rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with early blight.",
+      "a close-up photo of a leaf showing early blight.",
+      "a leaf infected with early blight.",
+      "a photo of early blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with spot.",
+      "a close-up photo of a leaf showing spot.",
+      "a leaf infected with spot.",
+      "a photo of spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with curl.",
+      "a close-up photo of a leaf showing curl.",
+      "a leaf infected with curl.",
+      "a photo of curl, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellowing.",
+      "a close-up photo of a leaf showing yellowing.",
+      "a leaf infected with yellowing.",
+      "a photo of yellowing, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with black spot.",
+      "a close-up photo of a leaf showing black spot.",
+      "a leaf infected with black spot.",
+      "a photo of black spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with canker.",
+      "a close-up photo of a leaf showing canker.",
+      "a leaf infected with canker.",
+      "a photo of canker, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with greening.",
+      "a close-up photo of a leaf showing greening.",
+      "a leaf infected with greening.",
+      "a photo of greening, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with melanose.",
+      "a close-up photo of a leaf showing melanose.",
+      "a leaf infected with melanose.",
+      "a photo of melanose, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with berry blotch.",
+      "a close-up photo of a leaf showing berry blotch.",
+      "a leaf infected with berry blotch.",
+      "a photo of berry blotch, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown eye spot.",
+      "a close-up photo of a leaf showing brown eye spot.",
+      "a leaf infected with brown eye spot.",
+      "a photo of brown eye spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cercospora.",
+      "a close-up photo of a leaf showing cercospora.",
+      "a leaf infected with cercospora.",
+      "a photo of cercospora, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with miner.",
+      "a close-up photo of a leaf showing miner.",
+      "a leaf infected with miner.",
+      "a photo of miner, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with phoma.",
+      "a close-up photo of a leaf showing phoma.",
+      "a leaf infected with phoma.",
+      "a photo of phoma, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with spider mites.",
+      "a close-up photo of a leaf showing spider mites.",
+      "a leaf infected with spider mites.",
+      "a photo of spider mites, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with chlorotic leaf spot.",
+      "a close-up photo of a leaf showing chlorotic leaf spot.",
+      "a leaf infected with chlorotic leaf spot.",
+      "a photo of chlorotic leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with gray leaf spot.",
+      "a close-up photo of a leaf showing gray leaf spot.",
+      "a leaf infected with gray leaf spot.",
+      "a photo of gray leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with insects damages.",
+      "a close-up photo of a leaf showing insects damages.",
+      "a leaf infected with insects damages.",
+      "a photo of insects damages, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leaf blight.",
+      "a close-up photo of a leaf showing leaf blight.",
+      "a leaf infected with leaf blight.",
+      "a photo of leaf blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with mildew.",
+      "a close-up photo of a leaf showing mildew.",
+      "a leaf infected with mildew.",
+      "a photo of mildew, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with northern leaf blight.",
+      "a close-up photo of a leaf showing northern leaf blight.",
+      "a leaf infected with northern leaf blight.",
+      "a photo of northern leaf blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with purple discoloration.",
+      "a close-up photo of a leaf showing purple discoloration.",
+      "a leaf infected with purple discoloration.",
+      "a photo of purple discoloration, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with smut.",
+      "a close-up photo of a leaf showing smut.",
+      "a leaf infected with smut.",
+      "a photo of smut, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with streak.",
+      "a close-up photo of a leaf showing streak.",
+      "a leaf infected with streak.",
+      "a photo of streak, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with stripe.",
+      "a close-up photo of a leaf showing stripe.",
+      "a leaf infected with stripe.",
+      "a photo of stripe, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with violet decoloration.",
+      "a close-up photo of a leaf showing violet decoloration.",
+      "a leaf infected with violet decoloration.",
+      "a photo of violet decoloration, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellow spots.",
+      "a close-up photo of a leaf showing yellow spots.",
+      "a leaf infected with yellow spots.",
+      "a photo of yellow spots, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with curl virus.",
+      "a close-up photo of a leaf showing curl virus.",
+      "a leaf infected with curl virus.",
+      "a photo of curl virus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with target spot.",
+      "a close-up photo of a leaf showing target spot.",
+      "a leaf infected with target spot.",
+      "a photo of target spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial wilt.",
+      "a close-up photo of a leaf showing bacterial wilt.",
+      "a leaf infected with bacterial wilt.",
+      "a photo of bacterial wilt, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with gummy stem blight.",
+      "a close-up photo of a leaf showing gummy stem blight.",
+      "a leaf infected with gummy stem blight.",
+      "a photo of gummy stem blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with phomopsis fruit rot.",
+      "a close-up photo of a leaf showing phomopsis fruit rot.",
+      "a leaf infected with phomopsis fruit rot.",
+      "a photo of phomopsis fruit rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with phytophthora.",
+      "a close-up photo of a leaf showing phytophthora.",
+      "a leaf infected with phytophthora.",
+      "a photo of phytophthora, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with sheath blight.",
+      "a close-up photo of a leaf showing sheath blight.",
+      "a leaf infected with sheath blight.",
+      "a photo of sheath blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with esca.",
+      "a close-up photo of a leaf showing esca.",
+      "a leaf infected with esca.",
+      "a photo of esca, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leafroll disease.",
+      "a close-up photo of a leaf showing leafroll disease.",
+      "a leaf infected with leafroll disease.",
+      "a photo of leafroll disease, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with dot leaf.",
+      "a close-up photo of a leaf showing dot leaf.",
+      "a leaf infected with dot leaf.",
+      "a photo of dot leaf, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with mummification leaf.",
+      "a close-up photo of a leaf showing mummification leaf.",
+      "a leaf infected with mummification leaf.",
+      "a photo of mummification leaf, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with stylar end rot.",
+      "a close-up photo of a leaf showing stylar end rot.",
+      "a leaf infected with stylar end rot.",
+      "a photo of stylar end rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with common rust.",
+      "a close-up photo of a leaf showing common rust.",
+      "a leaf infected with common rust.",
+      "a photo of common rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with lethal necrosis.",
+      "a close-up photo of a leaf showing lethal necrosis.",
+      "a leaf infected with lethal necrosis.",
+      "a photo of lethal necrosis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with streak virus.",
+      "a close-up photo of a leaf showing streak virus.",
+      "a leaf infected with streak virus.",
+      "a photo of streak virus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with apoderus javanicus.",
+      "a close-up photo of a leaf showing apoderus javanicus.",
+      "a leaf infected with apoderus javanicus.",
+      "a photo of apoderus javanicus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with aulacaspis tubercularis.",
+      "a close-up photo of a leaf showing aulacaspis tubercularis.",
+      "a leaf infected with aulacaspis tubercularis.",
+      "a photo of aulacaspis tubercularis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial canker.",
+      "a close-up photo of a leaf showing bacterial canker.",
+      "a leaf infected with bacterial canker.",
+      "a photo of bacterial canker, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with ceroplastes rubens.",
+      "a close-up photo of a leaf showing ceroplastes rubens.",
+      "a leaf infected with ceroplastes rubens.",
+      "a photo of ceroplastes rubens, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cisaberoptus kenyae.",
+      "a close-up photo of a leaf showing cisaberoptus kenyae.",
+      "a leaf infected with cisaberoptus kenyae.",
+      "a photo of cisaberoptus kenyae, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with cutting weevil.",
+      "a close-up photo of a leaf showing cutting weevil.",
+      "a leaf infected with cutting weevil.",
+      "a photo of cutting weevil, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with dappula tertia.",
+      "a close-up photo of a leaf showing dappula tertia.",
+      "a leaf infected with dappula tertia.",
+      "a photo of dappula tertia, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with dialeuropora decempuncta.",
+      "a close-up photo of a leaf showing dialeuropora decempuncta.",
+      "a leaf infected with dialeuropora decempuncta.",
+      "a photo of dialeuropora decempuncta, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with die back.",
+      "a close-up photo of a leaf showing die back.",
+      "a leaf infected with die back.",
+      "a photo of die back, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with erosomyia sp.",
+      "a close-up photo of a leaf showing erosomyia sp.",
+      "a leaf infected with erosomyia sp.",
+      "a photo of erosomyia sp, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with gall midge.",
+      "a close-up photo of a leaf showing gall midge.",
+      "a leaf infected with gall midge.",
+      "a photo of gall midge, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with icerya seychellarum.",
+      "a close-up photo of a leaf showing icerya seychellarum.",
+      "a leaf infected with icerya seychellarum.",
+      "a photo of icerya seychellarum, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with ischnaspis longirostris.",
+      "a close-up photo of a leaf showing ischnaspis longirostris.",
+      "a leaf infected with ischnaspis longirostris.",
+      "a photo of ischnaspis longirostris, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with mictis longicornis.",
+      "a close-up photo of a leaf showing mictis longicornis.",
+      "a leaf infected with mictis longicornis.",
+      "a photo of mictis longicornis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with neomelicharia sparsa.",
+      "a close-up photo of a leaf showing neomelicharia sparsa.",
+      "a leaf infected with neomelicharia sparsa.",
+      "a photo of neomelicharia sparsa, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with orthaga euadrusalis.",
+      "a close-up photo of a leaf showing orthaga euadrusalis.",
+      "a leaf infected with orthaga euadrusalis.",
+      "a photo of orthaga euadrusalis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with procontarinia matteiana.",
+      "a close-up photo of a leaf showing procontarinia matteiana.",
+      "a leaf infected with procontarinia matteiana.",
+      "a photo of procontarinia matteiana, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with procontarinia rubus.",
+      "a close-up photo of a leaf showing procontarinia rubus.",
+      "a leaf infected with procontarinia rubus.",
+      "a photo of procontarinia rubus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with sooty mould.",
+      "a close-up photo of a leaf showing sooty mould.",
+      "a leaf infected with sooty mould.",
+      "a photo of sooty mould, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with valanga nigricornis.",
+      "a close-up photo of a leaf showing valanga nigricornis.",
+      "a leaf infected with valanga nigricornis.",
+      "a photo of valanga nigricornis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with tar spot.",
+      "a close-up photo of a leaf showing tar spot.",
+      "a leaf infected with tar spot.",
+      "a photo of tar spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with aculus olearius.",
+      "a close-up photo of a leaf showing aculus olearius.",
+      "a leaf infected with aculus olearius.",
+      "a photo of aculus olearius, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with peacock spot.",
+      "a close-up photo of a leaf showing peacock spot.",
+      "a leaf infected with peacock spot.",
+      "a photo of peacock spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial leaf streak.",
+      "a close-up photo of a leaf showing bacterial leaf streak.",
+      "a leaf infected with bacterial leaf streak.",
+      "a photo of bacterial leaf streak, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial panicle blight.",
+      "a close-up photo of a leaf showing bacterial panicle blight.",
+      "a leaf infected with bacterial panicle blight.",
+      "a photo of bacterial panicle blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with black stem borer.",
+      "a close-up photo of a leaf showing black stem borer.",
+      "a leaf infected with black stem borer.",
+      "a photo of black stem borer, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with blast.",
+      "a close-up photo of a leaf showing blast.",
+      "a leaf infected with blast.",
+      "a photo of blast, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with hispa.",
+      "a close-up photo of a leaf showing hispa.",
+      "a leaf infected with hispa.",
+      "a photo of hispa, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leaf roller.",
+      "a close-up photo of a leaf showing leaf roller.",
+      "a leaf infected with leaf roller.",
+      "a photo of leaf roller, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leafblast.",
+      "a close-up photo of a leaf showing leafblast.",
+      "a leaf infected with leafblast.",
+      "a photo of leafblast, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with tungro.",
+      "a close-up photo of a leaf showing tungro.",
+      "a leaf infected with tungro.",
+      "a photo of tungro, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with white stem borer.",
+      "a close-up photo of a leaf showing white stem borer.",
+      "a leaf infected with white stem borer.",
+      "a photo of white stem borer, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellow stem borer.",
+      "a close-up photo of a leaf showing yellow stem borer.",
+      "a leaf infected with yellow stem borer.",
+      "a photo of yellow stem borer, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with white scale.",
+      "a close-up photo of a leaf showing white scale.",
+      "a leaf infected with white scale.",
+      "a photo of white scale, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown rot.",
+      "a close-up photo of a leaf showing brown rot.",
+      "a leaf infected with brown rot.",
+      "a photo of brown rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with parthenolecanium corni.",
+      "a close-up photo of a leaf showing parthenolecanium corni.",
+      "a leaf infected with parthenolecanium corni.",
+      "a photo of parthenolecanium corni, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with early leaf spot.",
+      "a close-up photo of a leaf showing early leaf spot.",
+      "a leaf infected with early leaf spot.",
+      "a photo of early leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with late leaf spot.",
+      "a close-up photo of a leaf showing late leaf spot.",
+      "a leaf infected with late leaf spot.",
+      "a photo of late leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with nutrition deficiency.",
+      "a close-up photo of a leaf showing nutrition deficiency.",
+      "a leaf infected with nutrition deficiency.",
+      "a photo of nutrition deficiency, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with erwinia amylovora.",
+      "a close-up photo of a leaf showing erwinia amylovora.",
+      "a leaf infected with erwinia amylovora.",
+      "a photo of erwinia amylovora, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with slug.",
+      "a close-up photo of a leaf showing slug.",
+      "a leaf infected with slug.",
+      "a photo of slug, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with pocket disease.",
+      "a close-up photo of a leaf showing pocket disease.",
+      "a leaf infected with pocket disease.",
+      "a photo of pocket disease, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with pox virus.",
+      "a close-up photo of a leaf showing pox virus.",
+      "a leaf infected with pox virus.",
+      "a photo of pox virus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with late blight.",
+      "a close-up photo of a leaf showing late blight.",
+      "a leaf infected with late blight.",
+      "a photo of late blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with fire blight.",
+      "a close-up photo of a leaf showing fire blight.",
+      "a leaf infected with fire blight.",
+      "a photo of fire blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with gray mold.",
+      "a close-up photo of a leaf showing gray mold.",
+      "a leaf infected with gray mold.",
+      "a photo of gray mold, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellow rust.",
+      "a close-up photo of a leaf showing yellow rust.",
+      "a leaf infected with yellow rust.",
+      "a photo of yellow rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with caterpillar.",
+      "a close-up photo of a leaf showing caterpillar.",
+      "a leaf infected with caterpillar.",
+      "a photo of caterpillar, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with diabrotica speciosa.",
+      "a close-up photo of a leaf showing diabrotica speciosa.",
+      "a leaf infected with diabrotica speciosa.",
+      "a photo of diabrotica speciosa, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with banded chlorosis.",
+      "a close-up photo of a leaf showing banded chlorosis.",
+      "a leaf infected with banded chlorosis.",
+      "a photo of banded chlorosis, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown rust.",
+      "a close-up photo of a leaf showing brown rust.",
+      "a leaf infected with brown rust.",
+      "a photo of brown rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with grassy shoot.",
+      "a close-up photo of a leaf showing grassy shoot.",
+      "a leaf infected with grassy shoot.",
+      "a photo of grassy shoot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with pokkah boeng.",
+      "a close-up photo of a leaf showing pokkah boeng.",
+      "a leaf infected with pokkah boeng.",
+      "a photo of pokkah boeng, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with red rot.",
+      "a close-up photo of a leaf showing red rot.",
+      "a leaf infected with red rot.",
+      "a photo of red rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with sett rot.",
+      "a close-up photo of a leaf showing sett rot.",
+      "a leaf infected with sett rot.",
+      "a photo of sett rot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with viral.",
+      "a close-up photo of a leaf showing viral.",
+      "a leaf infected with viral.",
+      "a photo of viral, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leaf scars.",
+      "a close-up photo of a leaf showing leaf scars.",
+      "a leaf infected with leaf scars.",
+      "a photo of leaf scars, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with algal leaf.",
+      "a close-up photo of a leaf showing algal leaf.",
+      "a leaf infected with algal leaf.",
+      "a photo of algal leaf, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bird eye spot.",
+      "a close-up photo of a leaf showing bird eye spot.",
+      "a leaf infected with bird eye spot.",
+      "a photo of bird eye spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with brown blight.",
+      "a close-up photo of a leaf showing brown blight.",
+      "a leaf infected with brown blight.",
+      "a photo of brown blight, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with gray light.",
+      "a close-up photo of a leaf showing gray light.",
+      "a leaf infected with gray light.",
+      "a photo of gray light, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with red leaf spot.",
+      "a close-up photo of a leaf showing red leaf spot.",
+      "a leaf infected with red leaf spot.",
+      "a photo of red leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with red scab.",
+      "a close-up photo of a leaf showing red scab.",
+      "a leaf infected with red scab.",
+      "a photo of red scab, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with white spot.",
+      "a close-up photo of a leaf showing white spot.",
+      "a leaf infected with white spot.",
+      "a photo of white spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with blue mold.",
+      "a close-up photo of a leaf showing blue mold.",
+      "a leaf infected with blue mold.",
+      "a photo of blue mold, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with bacterial leaf spot.",
+      "a close-up photo of a leaf showing bacterial leaf spot.",
+      "a leaf infected with bacterial leaf spot.",
+      "a photo of bacterial leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with blight leaf.",
+      "a close-up photo of a leaf showing blight leaf.",
+      "a leaf infected with blight leaf.",
+      "a photo of blight leaf, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leaf mold.",
+      "a close-up photo of a leaf showing leaf mold.",
+      "a leaf infected with leaf mold.",
+      "a photo of leaf mold, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with leaf yellow virus.",
+      "a close-up photo of a leaf showing leaf yellow virus.",
+      "a leaf infected with leaf yellow virus.",
+      "a photo of leaf yellow virus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with septoria leaf spot.",
+      "a close-up photo of a leaf showing septoria leaf spot.",
+      "a leaf infected with septoria leaf spot.",
+      "a photo of septoria leaf spot, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with verticulium wilt.",
+      "a close-up photo of a leaf showing verticulium wilt.",
+      "a leaf infected with verticulium wilt.",
+      "a photo of verticulium wilt, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellow leaf curl virus.",
+      "a close-up photo of a leaf showing yellow leaf curl virus.",
+      "a leaf infected with yellow leaf curl virus.",
+      "a photo of yellow leaf curl virus, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with gnomonia leptostyla.",
+      "a close-up photo of a leaf showing gnomonia leptostyla.",
+      "a leaf infected with gnomonia leptostyla.",
+      "a photo of gnomonia leptostyla, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with head scab.",
+      "a close-up photo of a leaf showing head scab.",
+      "a leaf infected with head scab.",
+      "a photo of head scab, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with loose smut.",
+      "a close-up photo of a leaf showing loose smut.",
+      "a leaf infected with loose smut.",
+      "a photo of loose smut, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with septoria.",
+      "a close-up photo of a leaf showing septoria.",
+      "a leaf infected with septoria.",
+      "a photo of septoria, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with septoria blotch.",
+      "a close-up photo of a leaf showing septoria blotch.",
+      "a leaf infected with septoria blotch.",
+      "a photo of septoria blotch, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with stripe rust.",
+      "a close-up photo of a leaf showing stripe rust.",
+      "a leaf infected with stripe rust.",
+      "a photo of stripe rust, a plant disease."
+    ],
+    [
+      "a photo of a plant leaf with yellow mosaic virus.",
+      "a close-up photo of a leaf showing yellow mosaic virus.",
+      "a leaf infected with yellow mosaic virus.",
+      "a photo of yellow mosaic virus, a plant disease."
+    ]
+  ],
+  "recipe": "clip",
+  "recipe_values": {
+    "backbone_lr": 1e-05,
+    "head_lr": 0.001,
+    "label_smoothing": 0.0,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.1,
+    "stochastic_depth": {
+      "clip_vit_b16": null
+    },
+    "weight_decay": 0.1
+  },
+  "splits_dir": "/tmp/cdc-cp/data/splits_v2",
+  "task": "disease",
+  "torch": "2.14.1+cu130"
+}

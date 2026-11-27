@@ -11,7 +11,7 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 | [Baseline 1: independent CNNs](baseline_1_independent_cnn/) | Amanda | [experiments](baseline_1_independent_cnn/experiments/) · [final/evaluation index](baseline_1_independent_cnn/final/) |
 | [Baseline 2: shared multi-task CNNs](baseline_2_shared_multitask/) | Jia Han | [experiments](baseline_2_shared_multitask/experiments/) · [final/evaluation index](baseline_2_shared_multitask/final/) |
 | [Proposed CDC-CP](new_proposed_approach/emily_cdc_cp/) | Emily | [historical experiments](new_proposed_approach/emily_cdc_cp/experiments/) · [locked/evaluation records](new_proposed_approach/emily_cdc_cp/final/) |
-| [Proposed ConvNeXt/CLIP](new_proposed_approach/norman_convnext_clip/) | Norman | **Awaiting upload** — not present in original GitHub tree |
+| [Proposed ConvNeXt/CLIP](new_proposed_approach/norman_convnext_clip/) | Norman | [source and initial notebook](new_proposed_approach/norman_convnext_clip/experiments/) · [completed notebook, results and report tables](new_proposed_approach/norman_convnext_clip/final/) |
 | [Data](data/) | Shared | [split manifest](data/split_manifest.json) |
 | [Comparisons](comparisons/) | Shared | Cross-approach navigation and reporting policy |
 | [Report](report/) | Shared | Submission destination (not yet populated) |
@@ -20,8 +20,8 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 ## Where to look
 
 - Every approach has an `experiments/` folder with complete tracked original experiment subtrees.
-- The `final/` folders contain **navigation README files** pointing to saved final-selection metadata, officially evaluated artifacts, or clearly identified placeholders. They do **not** fabricate or replace trained model checkpoints.
-- See [REORGANIZATION_MANIFEST.md](REORGANIZATION_MANIFEST.md) for the exact old → new path-prefix mapping and original Git commit.
+- The `final/` folders contain final-selection navigation and available evaluation artifacts. Norman's `final/` folder includes the executed notebook, complete tracked result records and reporting tables imported from `new-approach`. These do **not** fabricate or replace omitted trained model checkpoints.
+- See [REORGANIZATION_MANIFEST.md](REORGANIZATION_MANIFEST.md) for the original folder reorganization, and [NORMAN_IMPORT_MANIFEST.md](NORMAN_IMPORT_MANIFEST.md) for exact source-branch import mapping and verification.
 - The tracked dataset metadata is under [data](data/). The raw DPD-Small images and large model checkpoints were not present in this repository and are **not** silently recreated.
 
 ## Scientific and reproducibility cautions
@@ -35,4 +35,4 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 
 The reorganization was built using Git tree SHA references for the pre-existing experiment directories. Every original tracked experiment file is retained without changing its contents; only directory paths, added navigation documents, and this expanded README differ.
 
-The original `main` commit remains part of Git history, and the changes are proposed via a review branch rather than applied directly to `main`.
+The original repository commits and the `new-approach` source branch remain accessible for provenance. Experimental artifacts were not edited during the Norman import.
