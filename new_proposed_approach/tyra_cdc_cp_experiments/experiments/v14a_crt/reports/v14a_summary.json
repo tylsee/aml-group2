@@ -1,0 +1,28 @@
+{
+  "experiment": "V14-A cRT based on V12b",
+  "evaluation": "development validation only",
+  "n_train": 6905,
+  "n_seen_val": 695,
+  "n_unseen_val": 400,
+  "baseline_seen_composition_top1": 50.93525052070618,
+  "baseline_unseen_composition_top1": 7.500000298023224,
+  "baseline_hm": 13.074792654530453,
+  "crt_seen_composition_top1": 45.611509680747986,
+  "crt_unseen_composition_top1": 5.000000074505806,
+  "crt_hm": 9.012082544263103,
+  "change_hm_points": -4.06271011026735,
+  "paired_unseen": {
+    "both_correct": 19,
+    "baseline_only": 11,
+    "crt_only": 1,
+    "both_wrong": 369
+  },
+  "source_hashes": {
+    "crop": "0c8c3eecc1c30e01744051a91285d5d971ac04ca8bdecda40c860aa5e657d866",
+    "disease": "9fa008f90094114b14d5618a7cffa8988f83af94845c07b331f4e473fdb447aa",
+    "pair": "3ac2370977cef820c900cba8602ee5b8d216ed04c9019411b53de30028f77e38",
+    "split_manifest": "7036e44419d780af7723d6c06f995e8691ea1b1a2502e2a7255eea0953ee953a",
+    "train_filenames": "44185445038f52632fae9ac757c613587230b60fff83614cfd67b2edc247b890"
+  },
+  "run_id": "fb8f99c139a20f230c641038b2be3390f09fced6e7e5a17e0e6f66a8098e5508"
+}

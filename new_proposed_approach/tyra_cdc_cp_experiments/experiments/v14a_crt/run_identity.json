@@ -1,0 +1,26 @@
+{
+  "source_hashes": {
+    "crop": "0c8c3eecc1c30e01744051a91285d5d971ac04ca8bdecda40c860aa5e657d866",
+    "disease": "9fa008f90094114b14d5618a7cffa8988f83af94845c07b331f4e473fdb447aa",
+    "pair": "3ac2370977cef820c900cba8602ee5b8d216ed04c9019411b53de30028f77e38",
+    "split_manifest": "7036e44419d780af7723d6c06f995e8691ea1b1a2502e2a7255eea0953ee953a",
+    "train_filenames": "44185445038f52632fae9ac757c613587230b60fff83614cfd67b2edc247b890"
+  },
+  "crt_epochs": 5,
+  "crt_batch": 128,
+  "crt_draws": 6905,
+  "crt_lr": 0.001,
+  "crt_wd": 0.0001,
+  "reinitialise": true,
+  "seed": 42,
+  "pair_epochs": 9,
+  "pair_batch": 96,
+  "pair_lr": 0.0003,
+  "pair_wd": 0.01,
+  "gamma": 3.0,
+  "multi_wt": 2.0,
+  "multi_k": 4,
+  "pair_train_wt": 0.5,
+  "pair_eval_wt": 0.25,
+  "select_dev": false
+}

@@ -1,0 +1,2 @@
+trial,seen_composition_top1,unseen_composition_top1,harmonic_top1,seen_disease_top1,unseen_disease_top1,seen_composition_top5,unseen_composition_top5
+pk_balanced_supcon,0.5151079297065735,0.07000000029802322,0.12325095382894911,0.6503596901893616,0.19249999523162842,0.7453237175941467,0.13500000536441803

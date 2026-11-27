@@ -5,6 +5,7 @@ This directory indexes final cross-approach comparisons. No performance numbers 
 - [Baseline 1 final/evaluation index](../baseline_1_independent_cnn/final/)
 - [Baseline 2 final/evaluation index](../baseline_2_shared_multitask/final/)
 - [Emily CDC-CP final/evaluation index](../new_proposed_approach/emily_cdc_cp/final/)
+- [Tyra CDC-CP — curated V12b run, development ablations and post-hoc evaluation](../new_proposed_approach/tyra_cdc_cp_experiments/) 
 - [Norman ConvNeXt/CLIP final results and report tables](../new_proposed_approach/norman_convnext_clip/final/)
 
 For Norman, [the original saved report tables](../new_proposed_approach/norman_convnext_clip/final/reporting/REPORT_TABLES.md) and [official-test CSV](../new_proposed_approach/norman_convnext_clip/final/final_model_results/results/official_test_results.csv) are now included.

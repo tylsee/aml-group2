@@ -1,0 +1,30 @@
+{
+  "locked_bundle_path": "/content/drive/MyDrive/DPD-Small/results_CDC_CP_V12b_FROZEN_FULL8000_v1/v12b_frozen_cnn_full8000_locked_bundle.pt",
+  "run_hash": "a074e8555720400a3eb6866429e7579b9f56b24ce7fe557347c6b852d8604360",
+  "evaluation_results": {
+    "official_posthoc": {
+      "interpretation": "POST-HOC EXPLORATORY official test; not an independent model-selection test",
+      "seen": {
+        "n": 2000,
+        "crop_top1": 0.8234999775886536,
+        "crop_top5": 0.9229999780654907,
+        "disease_top1": 0.48350000381469727,
+        "disease_top5": 0.7960000038146973,
+        "composition_top1": 0.40549999475479126,
+        "composition_top5": 0.6499999761581421
+      },
+      "unseen": {
+        "n": 1448,
+        "crop_top1": 0.6153314709663391,
+        "crop_top5": 0.780386745929718,
+        "disease_top1": 0.07182320207357407,
+        "disease_top5": 0.21823205053806305,
+        "composition_top1": 0.05179557949304581,
+        "composition_top5": 0.1595303863286972
+      },
+      "composition_top1_hm": 0.09185790720716029,
+      "composition_top5_hm": 0.25618494899093586
+    }
+  },
+  "warning": "Former validation data were included in 8000-image refit. Official results are post-hoc exploratory."
+}

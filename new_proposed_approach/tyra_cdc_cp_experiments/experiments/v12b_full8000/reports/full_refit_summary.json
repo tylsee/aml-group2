@@ -1,0 +1,15 @@
+{
+  "model": "V12b-Full frozen CNN",
+  "result": "Training/refit complete; NO official test performed",
+  "cnn_weights_unchanged": true,
+  "full_train_images": 8000,
+  "seen_training_pairs": 323,
+  "candidate_pairs": 9625,
+  "selected_pair_head_epochs": 9,
+  "batch_size": 96,
+  "early_stop_selection_only_from_internal_training_holdout": true,
+  "bundle_path": "/content/drive/MyDrive/DPD-Small/results_CDC_CP_V12b_FROZEN_FULL8000_v1/v12b_frozen_cnn_full8000_locked_bundle.pt",
+  "bundle_sha256": "44e888d7c687edb362a7ab6c54e076a1f51f23d305c6b92096e22382db59dcf4",
+  "original_V12b_retrospective_test_HM_percent": 9.86,
+  "new_official_test_HM_percent": null
+}

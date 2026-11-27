@@ -1,0 +1,12 @@
+{
+  "seen": {
+    "top1": 0.5079136490821838,
+    "top5": 0.768345296382904
+  },
+  "unseen": {
+    "top1": 0.07500000298023224,
+    "top5": 0.14749999344348907
+  },
+  "hm": 0.13070040497451077,
+  "purpose": "V12b source checkpoint replay only; NOT final-model selection"
+}

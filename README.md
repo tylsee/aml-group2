@@ -12,6 +12,7 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 | [Baseline 2: shared multi-task CNNs](baseline_2_shared_multitask/) | Jia Han | [experiments](baseline_2_shared_multitask/experiments/) · [final/evaluation index](baseline_2_shared_multitask/final/) |
 | [Proposed CDC-CP](new_proposed_approach/emily_cdc_cp/) | Emily | [historical experiments](new_proposed_approach/emily_cdc_cp/experiments/) · [locked/evaluation records](new_proposed_approach/emily_cdc_cp/final/) |
 | [Proposed ConvNeXt/CLIP](new_proposed_approach/norman_convnext_clip/) | Norman | [source and initial notebook](new_proposed_approach/norman_convnext_clip/experiments/) · [completed notebook, results and report tables](new_proposed_approach/norman_convnext_clip/final/) |
+| [Proposed CDC-CP experiments (V12b-focused)](new_proposed_approach/tyra_cdc_cp_experiments/) | Tyra | [run/evaluation evidence](new_proposed_approach/tyra_cdc_cp_experiments/experiments/) · [Drive checkpoints](new_proposed_approach/tyra_cdc_cp_experiments/checkpoints/) |
 | [Data](data/) | Shared | [split manifest](data/split_manifest.json) |
 | [Comparisons](comparisons/) | Shared | Cross-approach navigation and reporting policy |
 | [Report](report/) | Shared | Submission destination (not yet populated) |
@@ -19,10 +20,10 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 
 ## Where to look
 
-- Every approach has an `experiments/` folder with complete tracked original experiment subtrees.
+- Each approach has an `experiments/` folder. Tyra's V12b folder is a curated selection of original Drive artifacts; other approaches retain their imported experiment subtrees.
 - The `final/` folders contain final-selection navigation and available evaluation artifacts. Norman's `final/` folder includes the executed notebook, complete tracked result records and reporting tables imported from `new-approach`. These do **not** fabricate or replace omitted trained model checkpoints.
 - See [REORGANIZATION_MANIFEST.md](REORGANIZATION_MANIFEST.md) for the original folder reorganization, and [NORMAN_IMPORT_MANIFEST.md](NORMAN_IMPORT_MANIFEST.md) for exact source-branch import mapping and verification.
-- The tracked dataset metadata is under [data](data/). The raw DPD-Small images and large model checkpoints were not present in this repository and are **not** silently recreated.
+- The tracked dataset metadata is under [data](data/). Raw DPD-Small images and large model checkpoints are not committed; Tyra's experiment links to the actual checkpoint location on Google Drive.
 
 ## Scientific and reproducibility cautions
 

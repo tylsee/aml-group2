@@ -1,0 +1,11 @@
+composition_id,composition_name,images,baseline_correct,balanced_correct,net_change
+12,apple_monillia_laxa,9,1,1,0
+33,bean_angular_leaf_spot,18,0,0,0
+51,blueberry_healthy,46,0,0,0
+66,cassava_bacterial_blight,117,1,0,-1
+87,cherry_powdery_mildew,42,0,0,0
+135,cucumber_healthy,5,0,0,0
+184,mango_powdery_mildew,18,1,0,-1
+242,potato_late_blight,70,27,29,2
+313,tomato_spider_mites,70,0,0,0
+318,wheat_bacterial_leaf_streak,5,0,0,0

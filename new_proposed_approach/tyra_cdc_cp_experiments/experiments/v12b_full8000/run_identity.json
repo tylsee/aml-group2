@@ -1,0 +1,33 @@
+{
+  "run_hash": "a074e8555720400a3eb6866429e7579b9f56b24ce7fe557347c6b852d8604360",
+  "purpose": "v12b_frozen_encoders_full8000_pair_only",
+  "full_train_sha": "9f1b729ab08f120c9e8d3a5681aa1ccbdf1d9210f9aaa6143959363dcb106a7d",
+  "source_crop_sha": "0c8c3eecc1c30e01744051a91285d5d971ac04ca8bdecda40c860aa5e657d866",
+  "source_disease_sha": "9fa008f90094114b14d5618a7cffa8988f83af94845c07b331f4e473fdb447aa",
+  "source_pair_sha": "3ac2370977cef820c900cba8602ee5b8d216ed04c9019411b53de30028f77e38",
+  "seed": 42,
+  "nc": 55,
+  "nd": 175,
+  "dim": 128,
+  "pair_hyperparameters": {
+    "hidden": 256,
+    "dropout": 0.3,
+    "lr": 0.0003,
+    "wd": 0.01,
+    "smoothing": 0.02,
+    "train_weight": 0.5,
+    "eval_weight": 0.25,
+    "tmax": 12,
+    "max_epochs": 9,
+    "multi_k": 4,
+    "multi_weight": 2.0,
+    "gamma": 3.0
+  },
+  "monitor": {
+    "frac": 0.1,
+    "min_comp_images": 5,
+    "min_epochs": 3,
+    "patience": 3,
+    "min_improvement": 0.002
+  }
+}
