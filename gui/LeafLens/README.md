@@ -17,7 +17,7 @@ LeafLens is a local Streamlit application that accepts a plant image and predict
 
 ## 2. Obtain the application
 
-The recommended route is Git clone. If Git is unavailable, sign in to the [repository](https://github.com/tylsee/aml-group2), select **Code → Download ZIP**, extract it, and open the extracted gui/LeafLens directory. The source contains the training CSV, but neither model binaries nor training photographs. Model weights are already hosted as GitHub Release assets.
+The recommended route is Git clone. If Git is unavailable, sign in to the [repository](https://github.com/tylsee/aml-group2), select **Code → Download ZIP**, extract it, and open the extracted gui/LeafLens directory. The source contains the training CSV, but neither model binaries nor training photographs. Model weights are already hosted as GitHub Release assets. If cloning the private repository prompts for credentials, first install GitHub CLI and run `gh auth login` followed by `gh auth setup-git`, using the account granted repository access.
 
 ### macOS — Terminal
 
@@ -41,9 +41,7 @@ Set-Location aml-group2/gui/LeafLens
 py -3.12 --version
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r requirements-model.txt else {
-    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-}
+.\.venv\Scripts\python.exe -m pip install -r requirements-model.txt
 ~~~
 
 Using the virtual environment's Python executable directly avoids changing PowerShell execution policies. If desired, activate the environment with .\.venv\Scripts\Activate.ps1. In Windows Command Prompt, use .venv\Scripts\activate.bat. If the py launcher is unavailable, install Python 3.12 or use its full executable path. No system-wide package installation is necessary.
