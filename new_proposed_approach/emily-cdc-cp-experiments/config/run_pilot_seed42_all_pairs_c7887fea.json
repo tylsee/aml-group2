@@ -1,0 +1,29 @@
+{
+  "run_mode": "pilot",
+  "seed": 42,
+  "gpu": "Tesla T4",
+  "torch": "2.14.1+cu130",
+  "torchvision": "0.29.1+cu130",
+  "archive": "/content/drive/MyDrive/DPD_Small.7z",
+  "train_csv": "/content/dpd_small_extracted/DPD_Small_train.csv",
+  "num_train_images": 8000,
+  "run_train_images": 640,
+  "run_seen_val_images": 256,
+  "run_unseen_val_images": 256,
+  "epochs": 2,
+  "split_sha256": "b85f70105828199d3649429f196356bc6f1025b49ff666b19bed1729fd5f52e5",
+  "mapping_sha256": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+  "pair_catalogue_sha256": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+  "candidate_policy": "all_pairs",
+  "candidate_count": 9625,
+  "gpu_batch_originals": 16,
+  "views_per_original": 2,
+  "p2_alpha": 0.1,
+  "p2_beta": 0.1,
+  "p2_tau": 0.07,
+  "development_checkpoints": {
+    "P1": "/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p1_pilot_seed42_all_pairs_c7887fea_best.pt",
+    "P2": "/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p2_pilot_seed42_all_pairs_c7887fea_best.pt"
+  },
+  "final_checkpoints": {}
+}

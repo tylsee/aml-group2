@@ -1,0 +1,4 @@
+model,evaluation_type,best_epoch,train_resolution,eval_resolution,seen_crop,seen_disease,unseen_crop,unseen_disease,seen_pair,unseen_pair,harmonic,checkpoint
+Original deeper P2 — 224 train / 224 eval,primary,8,224,224,84.31654676258992,64.46043165467626,66.25,19.5,60.57553956834533,4.0,7.504456327985739,/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt
+New deeper P2 — 320 train / 320 eval,primary,8,320,320,87.76978417266187,68.05755395683454,69.5,21.0,64.74820143884892,6.0,10.982306284319707,/content/drive/MyDrive/CDC_CP_Experiments/resolution_320_v1/p2_deeper_320_best.pt
+Original deeper P2 — 224 train / 320 eval (diagnostic),diagnostic,8,224,320,83.45323741007195,64.1726618705036,68.0,23.5,59.13669064748201,6.25,11.30518498143309,/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt

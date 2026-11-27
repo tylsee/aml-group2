@@ -1,0 +1,41 @@
+{
+  "test_status": "complete",
+  "model": "B2 CN01 Stage 2 fixed Epoch 10",
+  "checkpoint_sha256": "d09c20ed59cfc102b2c539c147f7f842ee4b250c9f781daab67fc322bc41afe8",
+  "candidate_mode": "all_pairs",
+  "candidate_count": 9625,
+  "gamma": 0.0,
+  "accuracy_units": "fractions in raw_metrics, percentages in table",
+  "seen": {
+    "crop_top1": 0.893,
+    "crop_top5": 0.9605,
+    "disease_top1": 0.664,
+    "disease_top5": 0.8885,
+    "composition_top1": 0.641,
+    "composition_top5": 0.836,
+    "total_loss": 2.0881945680975913,
+    "crop_loss": 0.5030218793153762,
+    "disease_loss": 1.5851726816892624,
+    "n_images": 2000
+  },
+  "unseen": {
+    "crop_top1": 0.6878453038674033,
+    "crop_top5": 0.8432320441988951,
+    "disease_top1": 0.10082872928176796,
+    "disease_top5": 0.2796961325966851,
+    "composition_top1": 0.0462707182320442,
+    "composition_top5": 0.16022099447513813,
+    "total_loss": 8.87008505499824,
+    "crop_loss": 1.6099955382762035,
+    "disease_loss": 7.260089526683586,
+    "n_images": 1448
+  },
+  "hm": {
+    "crop_top1": 0.7771106443507041,
+    "crop_top5": 0.8980539887372866,
+    "disease_top1": 0.17507259777222361,
+    "disease_top5": 0.4254594016841379,
+    "composition_top1": 0.08631105501784622,
+    "composition_top5": 0.26890569888418114
+  }
+}

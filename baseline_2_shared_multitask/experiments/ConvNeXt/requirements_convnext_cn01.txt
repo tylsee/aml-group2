@@ -1,0 +1,10 @@
+# Optional install list for CN01 when your EXISTING AML environment lacks a package.
+# Do not replace your working CUDA PyTorch build with CPU wheels.
+# The executed Exp09 environment reported torch 2.11.0+cu128, torchvision 0.26.0+cu128.
+# Reuse that existing matching torch/torchvision pair rather than upgrading needlessly.
+numpy>=1.26,<3
+pandas>=2.2,<3
+Pillow>=10.4,<14
+matplotlib>=3.8,<4
+ipykernel>=6.29,<8
+jupyterlab>=4.2,<5

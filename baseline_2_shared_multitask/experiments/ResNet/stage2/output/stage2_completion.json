@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "run_id": "stage2_exp15_full_10e_seed42",
+  "output_checkpoint": "final_full_data.pt",
+  "output_sha256": "0b4970a1fe7978a010a39e72ccaffd9826f99c09e37a3a28d2342b344194628f",
+  "epochs": 10,
+  "test_metrics": null,
+  "disclaimer": "Final Stage 2 checkpoint; Official Test not run here."
+}

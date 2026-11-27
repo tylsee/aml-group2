@@ -1,0 +1,3 @@
+model,query_count,gallery_unique_crops,gallery_unique_diseases,crop_space_crop_NN_top1_pct,disease_space_disease_NN_top1_pct,crop_space_disease_NN_top1_pct,disease_space_crop_NN_top1_pct
+P1,120,55,175,58.333333333333336,13.333333333333334,6.666666666666667,46.666666666666664
+P2,120,55,175,60.83333333333333,13.333333333333334,7.5,40.833333333333336

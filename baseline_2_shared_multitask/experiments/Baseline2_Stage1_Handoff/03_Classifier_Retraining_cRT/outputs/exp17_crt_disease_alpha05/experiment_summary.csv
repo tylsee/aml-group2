@@ -1,0 +1,2 @@
+experiment_id,changed_parameter,best_epoch,seen_composition_top1,unseen_composition_top1,composition_harmonic_mean,seen_unseen_gap,source_checkpoint,source_checkpoint_sha256
+exp17_crt_disease_alpha05,cRT extension from Exp09: frozen backbone/crop; reset disease head + tempered disease sampling alpha=0.5,20,0.7251798561151079,0.05,0.09354988399071926,0.6751798561151079,c:\AML\ML_Project\Baseline2\outputs\b2_resnet50_exp09_b1matched_seed42\best_development.pt,99acc55df680cb2932030b0a391ce3becb4ccff251f96ee6d08fd09a33c2ba49

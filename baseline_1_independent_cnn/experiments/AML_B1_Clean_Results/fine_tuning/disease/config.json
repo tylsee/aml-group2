@@ -1,0 +1,9 @@
+{
+  "source_run": "D1_reference",
+  "backbone_lr": 1e-06,
+  "head_lr": 0.0001,
+  "batch_size": 32,
+  "epochs": 5,
+  "weight_decay": 0.0001,
+  "dropout": 0.2
+}

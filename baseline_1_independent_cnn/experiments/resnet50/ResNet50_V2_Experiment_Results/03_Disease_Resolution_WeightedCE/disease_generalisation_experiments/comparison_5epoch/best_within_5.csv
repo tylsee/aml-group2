@@ -1,0 +1,3 @@
+Experiment,Epoch,Disease Seen (%),Disease Unseen (%),Disease HM (%),Composition Seen (%),Composition Unseen (%),Composition HM (%)
+Disease Resolution 320,4,70.07194244604317,22.25,33.775301474742356,68.34532374100719,3.75,7.109891480603717
+Disease Weighted CE,5,69.49640287769783,18.75,29.532253133598292,67.05035971223022,4.0,7.549615228837586

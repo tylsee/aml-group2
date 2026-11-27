@@ -1,0 +1,20 @@
+{
+  "run_id": "exp12_class_calibration",
+  "splits": {
+    "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+    "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+    "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67",
+    "heldout_compositions.csv": "437f57924eef3e5788ed0993caddd969e08f9f86add64791d944425f4bddfe7f",
+    "split_manifest.json": "c120d065677e37db6d00880104684c0cd70ccd1c0774ec4aac2eb4b4b0889df8"
+  },
+  "source_raw_logits": "c:\\AML\\ML_Project\\Baseline2\\outputs\\exp11_calibration",
+  "priors": "crop+disease frequencies from train_fit only",
+  "smoothing_pseudocount": 1.0,
+  "calibration_tune_fraction": 0.6,
+  "hash_seed": 2026,
+  "grid_size_per_checkpoint": 70,
+  "candidate_pairs": 9625,
+  "training_executed": false,
+  "official_test_accessed": false,
+  "stage2_executed": false
+}

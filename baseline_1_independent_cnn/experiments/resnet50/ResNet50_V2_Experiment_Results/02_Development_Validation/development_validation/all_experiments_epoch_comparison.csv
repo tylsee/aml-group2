@@ -1,0 +1,10 @@
+Experiment,Epoch,Seen Composition (%),Unseen Composition (%),Composition HM (%),Status
+Lower Learning Rate,5,64.89208633093526,1.7500000000000002,3.4080911127304137,Available
+Lower Learning Rate,15,,,,Not trained / No saved report
+Lower Learning Rate,30,,,,Not trained / No saved report
+Higher Weight Decay,5,68.48920863309353,2.0,3.886507450500102,Available
+Higher Weight Decay,15,72.37410071942446,6.25,11.50634793549125,Available
+Higher Weight Decay,30,72.80575539568346,6.5,11.934503560575136,Available
+Higher Dropout,5,67.4820143884892,2.5,4.821382677974814,Available
+Higher Dropout,15,72.94964028776978,5.25,9.795073483750775,Available
+Higher Dropout,30,,,,Not trained / No saved report

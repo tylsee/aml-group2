@@ -1,0 +1,23 @@
+true_pair,cassava / mosaic,corn / streak_virus,apple / healthy,tomato / yellow_leaf_curl_virus,corn / healthy,tomato / septoria_leaf_spot,apple / rust,citrus / greening,paddy / healthy,tomato / healthy,corn / lethal_necrosis,cassava / brown_streak_disease,soybean / healthy,tomato / late_blight,tomato / mosaic_virus,cassava / healthy,tomato / bacterial_spot,tomato / leaf_mold,potato / early_blight,cassava / bacterial_blight,apple / frog_eye_leaf_spot,soybean / caterpillar,OTHER PREDICTIONS
+cassava / mosaic,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,1,0,0,5
+corn / streak_virus,0,51,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1
+apple / healthy,0,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+tomato / yellow_leaf_curl_virus,0,0,0,38,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,3
+corn / healthy,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+tomato / septoria_leaf_spot,1,0,0,0,0,22,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,14
+apple / rust,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+citrus / greening,0,0,0,0,0,0,0,34,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+paddy / healthy,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,30
+tomato / healthy,0,0,0,0,0,3,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,3
+corn / lethal_necrosis,0,0,0,0,3,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0
+cassava / brown_streak_disease,1,0,0,0,0,0,0,0,0,0,0,18,0,0,0,5,0,0,0,3,0,0,2
+soybean / healthy,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0,6,8
+tomato / late_blight,0,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,0,1,0,0,0,0,11
+tomato / mosaic_virus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,4
+cassava / healthy,3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,18,0,0,0,1,0,0,3
+tomato / bacterial_spot,1,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,8,2,0,0,0,0,5
+tomato / leaf_mold,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,3,14,0,0,0,0,5
+potato / early_blight,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,7
+cassava / bacterial_blight,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,6,0,0,0,6,0,0,8
+apple / frog_eye_leaf_spot,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0
+soybean / caterpillar,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,7,15

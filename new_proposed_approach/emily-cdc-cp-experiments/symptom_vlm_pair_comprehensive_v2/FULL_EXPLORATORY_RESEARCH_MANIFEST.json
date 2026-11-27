@@ -1,0 +1,396 @@
+{
+  "status": "POST_OFFICIAL_EXPLORATORY_DEVELOPMENT_COMPLETE",
+  "created_utc": "2026-11-22T15:54:40.941280+00:00",
+  "notebook": "CDC_CP_SymptomVLM_PairAware_Comprehensive_Research_v2",
+  "recipe_sha256": "7331073e51775c674d8855570bb1cc4f5304ac637b5bbe07310c961f531e6092",
+  "split_archive_sha256": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+  "mapping_sha256": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+  "candidate_sha256": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+  "splits": {
+    "train_fit": 6905,
+    "val_seen": 695,
+    "val_unseen": 400,
+    "official_test_used": false
+  },
+  "candidate_pairs": 9625,
+  "disease_coverage": {
+    "training_images": 6905,
+    "crop_classes": 55,
+    "disease_classes": 175,
+    "observed_train_pairs": 313,
+    "theoretical_pairs": 9625,
+    "diseases_one_host": 137,
+    "diseases_multiple_hosts": 38,
+    "diseases_fewer_than_5_images": 62,
+    "diseases_fewer_than_10_images": 92
+  },
+  "architecture": "Frozen OpenCLIP ViT-B/32 + separate crop/disease adapters; optional interaction adapter with ALL-candidate pair CE",
+  "zero_shot_controls": [
+    {
+      "arm": "zeroshot_label_factor",
+      "seed": -1,
+      "seen_pair_top1": 0.5755395683453237,
+      "unseen_pair_top1": 0.0,
+      "harmonic": 0.0,
+      "seen_pair_top5": 1.2949640287769784,
+      "unseen_pair_top5": 0.0,
+      "seen_crop_top1": 22.73381294964029,
+      "unseen_crop_top1": 8.5,
+      "seen_disease_top1": 1.5827338129496402,
+      "unseen_disease_top1": 1.25,
+      "unseen_diseased_only_pair_top1": 0.0,
+      "unseen_diseased_only_n": 349,
+      "unseen_macro_pair_top1": 0.0,
+      "unseen_predictions_are_seen_pair_pct": 1.7500000000000002
+    },
+    {
+      "arm": "zeroshot_label_direct_pair",
+      "seed": -1,
+      "seen_pair_top1": 0.14388489208633093,
+      "unseen_pair_top1": 0.0,
+      "harmonic": 0.0,
+      "seen_pair_top5": 1.7266187050359711,
+      "unseen_pair_top5": 0.0,
+      "seen_crop_top1": 22.73381294964029,
+      "unseen_crop_top1": 8.5,
+      "seen_disease_top1": 1.5827338129496402,
+      "unseen_disease_top1": 1.25,
+      "unseen_diseased_only_pair_top1": 0.0,
+      "unseen_diseased_only_n": 349,
+      "unseen_macro_pair_top1": 0.0,
+      "unseen_predictions_are_seen_pair_pct": 2.25
+    },
+    {
+      "arm": "zeroshot_symptom_factor",
+      "seed": -1,
+      "seen_pair_top1": 0.7194244604316548,
+      "unseen_pair_top1": 0.0,
+      "harmonic": 0.0,
+      "seen_pair_top5": 1.4388489208633095,
+      "unseen_pair_top5": 0.0,
+      "seen_crop_top1": 22.73381294964029,
+      "unseen_crop_top1": 8.5,
+      "seen_disease_top1": 2.014388489208633,
+      "unseen_disease_top1": 0.5,
+      "unseen_diseased_only_pair_top1": 0.0,
+      "unseen_diseased_only_n": 349,
+      "unseen_macro_pair_top1": 0.0,
+      "unseen_predictions_are_seen_pair_pct": 2.25
+    },
+    {
+      "arm": "zeroshot_symptom_direct_pair",
+      "seed": -1,
+      "seen_pair_top1": 0.28776978417266186,
+      "unseen_pair_top1": 0.0,
+      "harmonic": 0.0,
+      "seen_pair_top5": 1.5827338129496402,
+      "unseen_pair_top5": 0.0,
+      "seen_crop_top1": 22.73381294964029,
+      "unseen_crop_top1": 8.5,
+      "seen_disease_top1": 2.014388489208633,
+      "unseen_disease_top1": 0.5,
+      "unseen_diseased_only_pair_top1": 0.0,
+      "unseen_diseased_only_n": 349,
+      "unseen_macro_pair_top1": 0.0,
+      "unseen_predictions_are_seen_pair_pct": 1.5
+    }
+  ],
+  "adapter_arms": {
+    "label_factor": {
+      "mode": "label",
+      "balanced": false,
+      "supcon": false,
+      "pair": false
+    },
+    "symptom_factor": {
+      "mode": "symptom",
+      "balanced": false,
+      "supcon": false,
+      "pair": false
+    },
+    "symptom_balanced": {
+      "mode": "symptom",
+      "balanced": true,
+      "supcon": false,
+      "pair": false
+    },
+    "symptom_supcon": {
+      "mode": "symptom",
+      "balanced": true,
+      "supcon": true,
+      "pair": false
+    },
+    "label_pair": {
+      "mode": "label",
+      "balanced": true,
+      "supcon": false,
+      "pair": true
+    },
+    "symptom_pair": {
+      "mode": "symptom",
+      "balanced": true,
+      "supcon": false,
+      "pair": true
+    },
+    "symptom_pair_supcon": {
+      "mode": "symptom",
+      "balanced": true,
+      "supcon": true,
+      "pair": true
+    }
+  },
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "epochs": 18,
+  "seed_mean_std_results": [
+    {
+      "arm": "label_factor",
+      "seen_mean": 57.937649880095925,
+      "seen_sd": 1.3055786655938773,
+      "unseen_mean": 0.16666666666666666,
+      "unseen_sd": 0.14433756729740646,
+      "hm_mean": 0.3318981072037513,
+      "hm_sd": 0.28743219631273026,
+      "unseen_disease_mean": 12.583333333333334,
+      "unseen_diseased_mean": 0.09551098376313276,
+      "seen_pred_bias_mean": 77.91666666666667
+    },
+    {
+      "arm": "label_pair",
+      "seen_mean": 14.916067146282975,
+      "seen_sd": 0.43957560623077546,
+      "unseen_mean": 0.08333333333333333,
+      "unseen_sd": 0.14433756729740646,
+      "hm_mean": 0.1639018180371564,
+      "hm_sd": 0.2838862762932639,
+      "unseen_disease_mean": 0.4166666666666667,
+      "unseen_diseased_mean": 0.09551098376313276,
+      "seen_pred_bias_mean": 36.416666666666664
+    },
+    {
+      "arm": "symptom_balanced",
+      "seen_mean": 8.585131894484412,
+      "seen_sd": 0.5815038682485438,
+      "unseen_mean": 0.16666666666666666,
+      "unseen_sd": 0.2886751345948129,
+      "hm_mean": 0.31616648141286896,
+      "hm_sd": 0.5476164094573701,
+      "unseen_disease_mean": 0.16666666666666666,
+      "unseen_diseased_mean": 0.19102196752626552,
+      "seen_pred_bias_mean": 37.5
+    },
+    {
+      "arm": "symptom_factor",
+      "seen_mean": 56.54676258992806,
+      "seen_sd": 0.875217630258737,
+      "unseen_mean": 0.08333333333333333,
+      "unseen_sd": 0.14433756729740646,
+      "hm_mean": 0.165938590150539,
+      "hm_sd": 0.287414069077082,
+      "unseen_disease_mean": 13.833333333333334,
+      "unseen_diseased_mean": 0.0,
+      "seen_pred_bias_mean": 76.08333333333333
+    },
+    {
+      "arm": "symptom_pair",
+      "seen_mean": 14.196642685851318,
+      "seen_sd": 0.1661439623567276,
+      "unseen_mean": 0.0,
+      "unseen_sd": 0.0,
+      "hm_mean": 0.0,
+      "hm_sd": 0.0,
+      "unseen_disease_mean": 0.16666666666666666,
+      "unseen_diseased_mean": 0.0,
+      "seen_pred_bias_mean": 38.833333333333336
+    },
+    {
+      "arm": "symptom_pair_supcon",
+      "seen_mean": 11.079136690647482,
+      "seen_sd": 0.7194244604316553,
+      "unseen_mean": 0.0,
+      "unseen_sd": 0.0,
+      "hm_mean": 0.0,
+      "hm_sd": 0.0,
+      "unseen_disease_mean": 0.0,
+      "unseen_diseased_mean": 0.0,
+      "seen_pred_bias_mean": 34.416666666666664
+    },
+    {
+      "arm": "symptom_supcon",
+      "seen_mean": 6.906474820143885,
+      "seen_sd": 0.28776978417266186,
+      "unseen_mean": 0.0,
+      "unseen_sd": 0.0,
+      "hm_mean": 0.0,
+      "hm_sd": 0.0,
+      "unseen_disease_mean": 0.0,
+      "unseen_diseased_mean": 0.0,
+      "seen_pred_bias_mean": 31.666666666666668
+    }
+  ],
+  "visual_finetuning_result": {
+    "arm": "symptom_pair_supcon_visual_last2",
+    "seed": 42,
+    "strategy": "low_LR_last_two_visual_blocks_plus_adapter",
+    "seen_pair_top1": 53.23741007194245,
+    "unseen_pair_top1": 0.25,
+    "harmonic": 0.4976630014459128,
+    "seen_pair_top5": 75.68345323741006,
+    "unseen_pair_top5": 14.000000000000002,
+    "seen_crop_top1": 88.34532374100719,
+    "unseen_crop_top1": 63.74999999999999,
+    "seen_disease_top1": 50.21582733812949,
+    "unseen_disease_top1": 15.0,
+    "unseen_diseased_only_pair_top1": 0.28653295128939826,
+    "unseen_diseased_only_n": 349,
+    "unseen_macro_pair_top1": 1.111111111111111,
+    "unseen_predictions_are_seen_pair_pct": 71.5
+  },
+  "checkpoints": [
+    {
+      "arm": "label_factor",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/label_factor/seed_42/final_epoch.pt",
+      "sha256": "879de880418c5f74df4639dd38564f0f52fbdba670a77d544281b9533ba6e767"
+    },
+    {
+      "arm": "label_factor",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/label_factor/seed_123/final_epoch.pt",
+      "sha256": "5f2411ad292892c2e090477753e022e5a0076fc50d9529e05f4434499807139e"
+    },
+    {
+      "arm": "label_factor",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/label_factor/seed_2026/final_epoch.pt",
+      "sha256": "803b690f42ff5e060bd8cdc198bb41bb89d56e08fc96eac9beca705c0462c263"
+    },
+    {
+      "arm": "symptom_factor",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_factor/seed_42/final_epoch.pt",
+      "sha256": "ee6595563d49d45514c2a84ba7f5a5c1816472a89fda5e929c3ee0d095c2bcc3"
+    },
+    {
+      "arm": "symptom_factor",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_factor/seed_123/final_epoch.pt",
+      "sha256": "820e0a283eccc125216e32021113b44a0b15520bf717ebe213a6aff8831ee4f5"
+    },
+    {
+      "arm": "symptom_factor",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_factor/seed_2026/final_epoch.pt",
+      "sha256": "7e594ca2d7ab29a401e88135b4d5b4c3e445cedaf159ed2a2f72a2884bd5af43"
+    },
+    {
+      "arm": "symptom_balanced",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_balanced/seed_42/final_epoch.pt",
+      "sha256": "9f0775ad63cea1741f89f5367a2b135c262807061e93ddaf1cb0b67737d61af3"
+    },
+    {
+      "arm": "symptom_balanced",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_balanced/seed_123/final_epoch.pt",
+      "sha256": "29bee789021c44e4b8b0f9bbba7fcb352f4e987d00e5ba47008e064498b171c0"
+    },
+    {
+      "arm": "symptom_balanced",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_balanced/seed_2026/final_epoch.pt",
+      "sha256": "7ff74268dfa13694355986d965dc234ace9602a2cf281008bd687c362dfd46dd"
+    },
+    {
+      "arm": "symptom_supcon",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_supcon/seed_42/final_epoch.pt",
+      "sha256": "89fab32d60d83be7f9e5309686daff66be02914ce04fa29c4060b9eec74346e7"
+    },
+    {
+      "arm": "symptom_supcon",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_supcon/seed_123/final_epoch.pt",
+      "sha256": "537a52401dc349d26d70d231a715ad08694b8c48bcfc4dd476b38ca1d210eda5"
+    },
+    {
+      "arm": "symptom_supcon",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_supcon/seed_2026/final_epoch.pt",
+      "sha256": "cef78b14bcb86ccbf61c30c70c88cb0cc2fda6bc4044d81172761f40e9bbd7d2"
+    },
+    {
+      "arm": "label_pair",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/label_pair/seed_42/final_epoch.pt",
+      "sha256": "4ea62e69f8d9faf026b5531a70dfbf85c721eaf57dbb1da66b7b4134021500e9"
+    },
+    {
+      "arm": "label_pair",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/label_pair/seed_123/final_epoch.pt",
+      "sha256": "8184bc4322f69c69a02c83a99b2822467943185ce4f196ce62498a694bc47f2c"
+    },
+    {
+      "arm": "label_pair",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/label_pair/seed_2026/final_epoch.pt",
+      "sha256": "28eb231487034afb4374e685af43e2f47262198fb7dec802f4cc119334024201"
+    },
+    {
+      "arm": "symptom_pair",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_pair/seed_42/final_epoch.pt",
+      "sha256": "f3f508cad5adadbc64add0f556a996aebdfc27441968ef8fbae535bfb424969c"
+    },
+    {
+      "arm": "symptom_pair",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_pair/seed_123/final_epoch.pt",
+      "sha256": "f2d1e44cb93a52803c151544c19197b4d38512c47ec13496dbee42c969d5bde2"
+    },
+    {
+      "arm": "symptom_pair",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_pair/seed_2026/final_epoch.pt",
+      "sha256": "3b3c2f864a383baefb12d3eeb590b73e1e61ea7d820530c71c797c8b5775f46d"
+    },
+    {
+      "arm": "symptom_pair_supcon",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_pair_supcon/seed_42/final_epoch.pt",
+      "sha256": "befc205b460c9739a0efed37a654153ee8e24c7b3f44043bff323bb6694dce9f"
+    },
+    {
+      "arm": "symptom_pair_supcon",
+      "seed": 123,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_pair_supcon/seed_123/final_epoch.pt",
+      "sha256": "b2ed185fc370fed1cd01f4a174decc85196ff60f5c4673b6d5631ac2257495ae"
+    },
+    {
+      "arm": "symptom_pair_supcon",
+      "seed": 2026,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/adapter_runs/symptom_pair_supcon/seed_2026/final_epoch.pt",
+      "sha256": "f2b2a537755a68c01c0da4f41e37ba45c7f41e58e21e6a405d28329e6420e424"
+    },
+    {
+      "arm": "symptom_pair_supcon_visual_last2",
+      "seed": 42,
+      "file": "/content/drive/MyDrive/CDC_CP_Experiments/symptom_vlm_pair_comprehensive_v2/partial_vit_finetuning_seed42/fixed_epoch03_final.pt",
+      "sha256": "c9af843eadc5bc3fca13d37ca186febc828844ab5eb216a20cd33fec086faaa3"
+    }
+  ],
+  "important_caveats": [
+    "This experiment was designed after original official test scores had already been examined; it is development-only exploratory research, not independent proof of test-set improvement.",
+    "Symptom prompts are heuristic from known class names, not expert-verified plant pathology semantics.",
+    "Balanced batching samples with replacement; training exposure differs from uniform sampling.",
+    "The pair loss is cross-entropy over all 9,625 possible pairs, even the withheld combinations. This can increase seen-pair bias; bias-sweep is descriptive only.",
+    "Cross-host SupCon requires multi-crop diseases and cannot enforce invariance for single-crop diseases.",
+    "Feature cache frozen-CLIP arms cannot change spatial visual features; optional partial fine-tuning explores this separately.",
+    "No official test calibration, checkpoint selection or retesting is included.",
+    "Zero-shot pretrained OpenCLIP may have encountered related public images in its pretraining corpus."
+  ]
+}

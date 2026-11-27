@@ -1,0 +1,10 @@
+Actual class,51 | tomato,27 | grape,5 | pepper_bell,22 | cotton,30 | mango,47 | sugarcane,16 | cherry,23 | cucumber,21 | corn,OTHER PREDICTIONS
+51 | tomato,396,1,1,1,0,0,1,1,0,71
+27 | grape,14,152,0,10,0,0,0,2,1,92
+5 | pepper_bell,18,0,115,0,0,0,4,0,7,76
+22 | cotton,13,0,0,70,0,0,0,2,1,39
+30 | mango,0,0,0,0,90,0,0,0,0,5
+47 | sugarcane,0,0,0,0,0,81,0,0,6,2
+16 | cherry,10,0,0,0,0,0,0,0,3,59
+23 | cucumber,8,2,0,7,2,0,0,17,2,31
+21 | corn,0,0,0,0,0,0,0,0,34,1

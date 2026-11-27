@@ -1,0 +1,4 @@
+Experiment,Crop CNN,Disease Epoch,Selection,Disease Seen (%),Disease Unseen (%),Disease HM (%),Comp Seen (%),Comp Unseen (%),Composition HM (%)
+Original Higher WD,Fixed Higher WD Best,21,Best individual Disease HM,75.8273381294964,25.5,38.165359082679544,72.80575539568346,6.5,11.934503560575136
+Disease Weighted Cross-Entropy,Fixed Higher WD Best,5,Best individual Disease HM,69.49640287769783,18.75,29.532253133598292,67.05035971223022,4.0,7.549615228837586
+Disease Resolution 320,Fixed Higher WD Best,4,Best individual Disease HM,70.07194244604317,22.25,33.775301474742356,68.34532374100719,3.75,7.109891480603717

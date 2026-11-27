@@ -1,0 +1,13 @@
+filename,crop_id,disease_id,composition_id,crop_name,disease_name,composition_name,Predicted Crop ID,Predicted Crop Name,Predicted Disease ID,Predicted Disease Name,Crop Correct,Disease Correct,Composition Correct,Misclassification Category,Crop Confidence (%),Disease Confidence (%),Top-5 Predicted Compositions
+CDDM_blueberry_healthy_43988.jpg,7,9,51,blueberry,healthy,blueberry_healthy,40,potato,9,healthy,False,True,False,crop_wrong_only,73.7466,99.97697,"[[40, 9], [0, 9], [18, 9], [5, 9], [44, 9]]"
+CDDM_blueberry_healthy_44151.jpg,7,9,51,blueberry,healthy,blueberry_healthy,36,peach,9,healthy,False,True,False,crop_wrong_only,38.69153,99.804565,"[[36, 9], [0, 9], [5, 9], [44, 9], [32, 9]]"
+CDDM_blueberry_healthy_44029.jpg,7,9,51,blueberry,healthy,blueberry_healthy,40,potato,9,healthy,False,True,False,crop_wrong_only,40.727787,99.97288,"[[40, 9], [44, 9], [0, 9], [51, 9], [4, 9]]"
+CDDM_blueberry_healthy_43823.jpg,7,9,51,blueberry,healthy,blueberry_healthy,44,soybean,9,healthy,False,True,False,crop_wrong_only,66.65413,99.96383,"[[44, 9], [40, 9], [0, 9], [5, 9], [51, 9]]"
+CDDM_blueberry_healthy_43563.jpg,7,9,51,blueberry,healthy,blueberry_healthy,44,soybean,9,healthy,False,True,False,crop_wrong_only,50.445946,97.534134,"[[44, 9], [40, 9], [16, 9], [0, 9], [13, 9]]"
+CDDM_blueberry_healthy_43621.jpg,7,9,51,blueberry,healthy,blueberry_healthy,0,apple,9,healthy,False,True,False,crop_wrong_only,71.095245,99.67172,"[[0, 9], [40, 9], [44, 9], [32, 9], [18, 9]]"
+CDDM_blueberry_healthy_43387.jpg,7,9,51,blueberry,healthy,blueberry_healthy,40,potato,9,healthy,False,True,False,crop_wrong_only,76.213326,99.36136,"[[40, 9], [0, 9], [4, 9], [44, 9], [46, 9]]"
+CDDM_blueberry_healthy_43179.jpg,7,9,51,blueberry,healthy,blueberry_healthy,13,cassava,9,healthy,False,True,False,crop_wrong_only,39.343147,81.79181,"[[13, 9], [32, 9], [40, 9], [44, 9], [13, 117]]"
+CDDM_blueberry_healthy_43611.jpg,7,9,51,blueberry,healthy,blueberry_healthy,40,potato,9,healthy,False,True,False,crop_wrong_only,66.3918,98.8811,"[[40, 9], [44, 9], [13, 9], [0, 9], [16, 9]]"
+CDDM_blueberry_healthy_43616.jpg,7,9,51,blueberry,healthy,blueberry_healthy,18,citrus,9,healthy,False,True,False,crop_wrong_only,44.090538,81.570114,"[[18, 9], [40, 9], [36, 9], [18, 61], [5, 9]]"
+CDDM_blueberry_healthy_43872.jpg,7,9,51,blueberry,healthy,blueberry_healthy,13,cassava,9,healthy,False,True,False,crop_wrong_only,89.71164,99.997345,"[[13, 9], [44, 9], [32, 9], [40, 9], [0, 9]]"
+CDDM_blueberry_healthy_43472.jpg,7,9,51,blueberry,healthy,blueberry_healthy,40,potato,9,healthy,False,True,False,crop_wrong_only,70.77144,99.80552,"[[40, 9], [44, 9], [0, 9], [4, 9], [13, 9]]"

@@ -1,0 +1,19 @@
+{
+  "experiment": "higher_decay_dropout",
+  "label": "Higher Weight Decay + Higher Dropout",
+  "phase": "combined_regularization15",
+  "screen_or_target_epoch": 15,
+  "evaluation": "DEVELOPMENT VALIDATION \u2014 NOT OFFICIAL TEST",
+  "candidate_pairs": 9625,
+  "seen": {
+    "composition_top1": 0.7237410071942446,
+    "crop_top1": 0.8920863309352518,
+    "disease_top1": 0.753956834532374
+  },
+  "unseen": {
+    "composition_top1": 0.05,
+    "crop_top1": 0.7025,
+    "disease_top1": 0.2325
+  },
+  "composition_hm": 0.09353788935378893
+}

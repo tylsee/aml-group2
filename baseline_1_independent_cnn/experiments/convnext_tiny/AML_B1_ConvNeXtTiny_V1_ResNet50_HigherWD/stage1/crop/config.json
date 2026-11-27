@@ -1,0 +1,17 @@
+{
+  "backbone": "convnext_tiny",
+  "weights": "IMAGENET1K_V1",
+  "library": "torchvision",
+  "strategy": "full",
+  "task": "crop",
+  "backbone_lr": 1e-05,
+  "head_lr": 0.001,
+  "weight_decay": 0.001,
+  "dropout": 0.3,
+  "batch_size": 16,
+  "max_epochs": 30,
+  "seed": 42,
+  "scheduler": "CosineAnnealingLR(T_max=30)",
+  "evaluation_split": "DEVELOPMENT_VALIDATION_ONLY",
+  "source_recipe": "ResNet50_V2_Full_Tuning/higher_decay"
+}

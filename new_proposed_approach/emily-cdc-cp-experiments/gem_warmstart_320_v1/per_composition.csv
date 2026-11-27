@@ -1,0 +1,41 @@
+model,crop_name,disease_name,images,disease_correct,pair_correct,disease_pct,pair_pct
+"Original Deeper P2 (224 train, 320 eval)",apple,monillia_laxa,9,1,0,11.11111111111111,0.0
+"Original Deeper P2 (224 train, 320 eval)",bean,angular_leaf_spot,18,0,0,0.0,0.0
+"Original Deeper P2 (224 train, 320 eval)",blueberry,healthy,46,41,0,89.1304347826087,0.0
+"Original Deeper P2 (224 train, 320 eval)",cassava,bacterial_blight,117,2,1,1.7094017094017093,0.8547008547008547
+"Original Deeper P2 (224 train, 320 eval)",cherry,powdery_mildew,42,17,0,40.476190476190474,0.0
+"Original Deeper P2 (224 train, 320 eval)",cucumber,healthy,5,1,0,20.0,0.0
+"Original Deeper P2 (224 train, 320 eval)",mango,powdery_mildew,18,0,0,0.0,0.0
+"Original Deeper P2 (224 train, 320 eval)",potato,late_blight,70,32,24,45.714285714285715,34.285714285714285
+"Original Deeper P2 (224 train, 320 eval)",tomato,spider_mites,70,0,0,0.0,0.0
+"Original Deeper P2 (224 train, 320 eval)",wheat,bacterial_leaf_streak,5,0,0,0.0,0.0
+Trained 320px P2 (320 eval),apple,monillia_laxa,9,1,0,11.11111111111111,0.0
+Trained 320px P2 (320 eval),bean,angular_leaf_spot,18,0,0,0.0,0.0
+Trained 320px P2 (320 eval),blueberry,healthy,46,45,0,97.82608695652173,0.0
+Trained 320px P2 (320 eval),cassava,bacterial_blight,117,0,0,0.0,0.0
+Trained 320px P2 (320 eval),cherry,powdery_mildew,42,9,0,21.428571428571427,0.0
+Trained 320px P2 (320 eval),cucumber,healthy,5,1,0,20.0,0.0
+Trained 320px P2 (320 eval),mango,powdery_mildew,18,0,0,0.0,0.0
+Trained 320px P2 (320 eval),potato,late_blight,70,28,24,40.0,34.285714285714285
+Trained 320px P2 (320 eval),tomato,spider_mites,70,0,0,0.0,0.0
+Trained 320px P2 (320 eval),wheat,bacterial_leaf_streak,5,0,0,0.0,0.0
+Warm-start control — GAP,apple,monillia_laxa,9,1,0,11.11111111111111,0.0
+Warm-start control — GAP,bean,angular_leaf_spot,18,0,0,0.0,0.0
+Warm-start control — GAP,blueberry,healthy,46,45,0,97.82608695652173,0.0
+Warm-start control — GAP,cassava,bacterial_blight,117,0,0,0.0,0.0
+Warm-start control — GAP,cherry,powdery_mildew,42,8,0,19.047619047619047,0.0
+Warm-start control — GAP,cucumber,healthy,5,3,1,60.0,20.0
+Warm-start control — GAP,mango,powdery_mildew,18,0,0,0.0,0.0
+Warm-start control — GAP,potato,late_blight,70,20,9,28.571428571428573,12.857142857142858
+Warm-start control — GAP,tomato,spider_mites,70,0,0,0.0,0.0
+Warm-start control — GAP,wheat,bacterial_leaf_streak,5,0,0,0.0,0.0
+Warm-start — disease GeM,apple,monillia_laxa,9,1,0,11.11111111111111,0.0
+Warm-start — disease GeM,bean,angular_leaf_spot,18,0,0,0.0,0.0
+Warm-start — disease GeM,blueberry,healthy,46,45,0,97.82608695652173,0.0
+Warm-start — disease GeM,cassava,bacterial_blight,117,0,0,0.0,0.0
+Warm-start — disease GeM,cherry,powdery_mildew,42,6,0,14.285714285714286,0.0
+Warm-start — disease GeM,cucumber,healthy,5,3,1,60.0,20.0
+Warm-start — disease GeM,mango,powdery_mildew,18,0,0,0.0,0.0
+Warm-start — disease GeM,potato,late_blight,70,22,10,31.428571428571427,14.285714285714286
+Warm-start — disease GeM,tomato,spider_mites,70,0,0,0.0,0.0
+Warm-start — disease GeM,wheat,bacterial_leaf_streak,5,0,0,0.0,0.0

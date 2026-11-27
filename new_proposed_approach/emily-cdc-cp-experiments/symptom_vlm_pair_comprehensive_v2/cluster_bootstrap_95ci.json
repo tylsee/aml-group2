@@ -1,0 +1,121 @@
+[
+  {
+    "arm": "label_factor",
+    "seed": 42,
+    "seen_95ci": [
+      48.53275372411051,
+      62.50039707750953
+    ],
+    "unseen_95ci": [
+      0.0,
+      1.1451478459243658
+    ],
+    "hm_95ci": [
+      0.0,
+      2.243960929904313
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  },
+  {
+    "arm": "symptom_factor",
+    "seed": 42,
+    "seen_95ci": [
+      48.94845422028288,
+      63.1513743061593
+    ],
+    "unseen_95ci": [
+      0.0,
+      1.1451478459243658
+    ],
+    "hm_95ci": [
+      0.0,
+      2.245283789359951
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  },
+  {
+    "arm": "symptom_balanced",
+    "seed": 42,
+    "seen_95ci": [
+      5.962578769344825,
+      11.545159826708039
+    ],
+    "unseen_95ci": [
+      0.0,
+      0.0
+    ],
+    "hm_95ci": [
+      0.0,
+      0.0
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  },
+  {
+    "arm": "symptom_supcon",
+    "seed": 42,
+    "seen_95ci": [
+      4.992703150240144,
+      10.162263216697983
+    ],
+    "unseen_95ci": [
+      0.0,
+      0.0
+    ],
+    "hm_95ci": [
+      0.0,
+      0.0
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  },
+  {
+    "arm": "label_pair",
+    "seed": 42,
+    "seen_95ci": [
+      11.127323679831486,
+      20.312752016129032
+    ],
+    "unseen_95ci": [
+      0.0,
+      0.0
+    ],
+    "hm_95ci": [
+      0.0,
+      0.0
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  },
+  {
+    "arm": "symptom_pair",
+    "seed": 42,
+    "seen_95ci": [
+      10.442381739930015,
+      18.93015587274232
+    ],
+    "unseen_95ci": [
+      0.0,
+      0.0
+    ],
+    "hm_95ci": [
+      0.0,
+      0.0
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  },
+  {
+    "arm": "symptom_pair_supcon",
+    "seed": 42,
+    "seen_95ci": [
+      7.591509077648407,
+      15.03392863509948
+    ],
+    "unseen_95ci": [
+      0.0,
+      0.0
+    ],
+    "hm_95ci": [
+      0.0,
+      0.0
+    ],
+    "units": "resampled compositions, not i.i.d. individual images"
+  }
+]

@@ -1,0 +1,3 @@
+Experiment,ID,Seen Dev Top-1 (%),Unseen Dev Top-1 (%),Development Composition HM (%)
+Higher Weight Decay,higher_decay,72.37410071942446,6.25,11.50634793549125
+Higher Dropout,higher_dropout,72.94964028776978,5.25,9.795073483750775

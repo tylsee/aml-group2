@@ -1,0 +1,11 @@
+crop_name,disease_name,composition_name,images,correct,accuracy_pct
+cassava,bacterial_blight,cassava_bacterial_blight,117,0,0.0
+potato,late_blight,potato_late_blight,70,7,10.0
+tomato,spider_mites,tomato_spider_mites,70,0,0.0
+blueberry,healthy,blueberry_healthy,46,0,0.0
+cherry,powdery_mildew,cherry_powdery_mildew,42,0,0.0
+bean,angular_leaf_spot,bean_angular_leaf_spot,18,0,0.0
+mango,powdery_mildew,mango_powdery_mildew,18,0,0.0
+apple,monillia_laxa,apple_monillia_laxa,9,0,0.0
+cucumber,healthy,cucumber_healthy,5,0,0.0
+wheat,bacterial_leaf_streak,wheat_bacterial_leaf_streak,5,0,0.0

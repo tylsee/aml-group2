@@ -1,0 +1,11 @@
+Actual Class,123: hispa,44: cercospora_leaf_blight,47: brown_leaf_spot,15: scab,68: spider_mites,1: alternaria_leaf_spot,50: green_mottle,30: angular_leaf_spot,128: yellow_stem_borer,170: loose_smut,OTHER
+123: hispa,0,0,0,0,0,0,0,0,0,0,12
+44: cercospora_leaf_blight,0,0,0,0,0,0,0,0,0,0,5
+47: brown_leaf_spot,0,0,0,0,0,0,0,0,0,0,5
+15: scab,0,0,0,1,0,0,0,0,0,0,13
+68: spider_mites,0,0,0,0,1,0,0,0,0,0,13
+1: alternaria_leaf_spot,0,0,0,0,0,1,0,0,0,0,11
+50: green_mottle,0,0,0,0,0,0,2,0,0,0,18
+30: angular_leaf_spot,0,0,0,0,0,0,0,1,0,0,8
+128: yellow_stem_borer,0,0,0,0,0,0,0,0,1,0,7
+170: loose_smut,0,0,0,0,0,0,0,0,0,1,4

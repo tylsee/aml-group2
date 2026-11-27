@@ -1,0 +1,9 @@
+disease_id,n_validation,n_correct,top1_accuracy,disease_name,train_images,n_wrong,most_common_wrong_prediction,mistake_count
+46,117,0,0.0,bacterial_blight,27,117,brown_spot,37
+68,70,0,0.0,spider_mites,5,70,target_spot,40
+30,18,0,0.0,angular_leaf_spot,7,18,bean_rust,16
+119,5,0,0.0,bacterial_leaf_streak,12,5,rust,2
+12,9,1,0.1111111111111111,monillia_laxa,8,8,eriosoma_lanigerum,3
+139,70,17,0.24285714285714285,late_blight,103,53,early_blight,32
+14,60,25,0.4166666666666667,powdery_mildew,150,35,sooty_mould,13
+9,51,47,0.9215686274509803,healthy,1417,4,mosaic,2

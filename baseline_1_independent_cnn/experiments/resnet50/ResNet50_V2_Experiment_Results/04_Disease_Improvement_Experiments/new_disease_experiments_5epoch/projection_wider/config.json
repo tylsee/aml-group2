@@ -1,0 +1,31 @@
+{
+  "arm": "projection_wider",
+  "spec": {
+    "head": "wider",
+    "supcon": false,
+    "balanced": false,
+    "smoothing": 0.0
+  },
+  "epochs": 5,
+  "base_config": {
+    "backbone": "resnet50",
+    "weights": "IMAGENET1K_V2",
+    "strategy": "full",
+    "task": "disease",
+    "backbone_lr": 1e-05,
+    "head_lr": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.2,
+    "batch_size": 16,
+    "max_epochs": 30,
+    "seed": 42,
+    "scheduler": "CosineAnnealingLR(T_max=30)",
+    "evaluation_split": "DEVELOPMENT_VALIDATION_ONLY"
+  },
+  "train_rows": 6905,
+  "seen_rows": 695,
+  "unseen_rows": 400,
+  "fixed_crop_predictions": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/experiments/higher_decay/crop/best_validation.npz",
+  "seed": 42,
+  "scheduler_T_max": 30
+}

@@ -1,0 +1,18 @@
+{
+  "seen": {
+    "crop_top1": 0.879,
+    "crop_top5": 0.955,
+    "disease_top1": 0.6425,
+    "disease_top5": 0.8755,
+    "composition_top1": 0.609,
+    "composition_top5": 0.8245
+  },
+  "unseen": {
+    "crop_top1": 0.6726519337016574,
+    "crop_top5": 0.830110497237569,
+    "disease_top1": 0.06975138121546962,
+    "disease_top5": 0.2451657458563536,
+    "composition_top1": 0.03038674033149171,
+    "composition_top5": 0.1484806629834254
+  }
+}

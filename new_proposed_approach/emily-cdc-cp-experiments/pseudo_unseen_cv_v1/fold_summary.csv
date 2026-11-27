@@ -1,0 +1,4 @@
+fold,training_images,pseudo_unseen_images,seen_validation_images,pair_count,healthy_pairs
+1,6691,214,675,10,2
+2,6549,356,663,10,2
+3,6586,319,666,10,2

@@ -1,0 +1,5 @@
+Experiment,Best Epoch,Last Epoch,Max Epochs,Seen Val Top-1 (%),Unseen Val Top-1 (%),Validation H (%),Backbone LR,Head LR,Batch Size,Dropout,Weight Decay,Patience,Early Stopping,Stop Reason
+C1_reference_P15,19,30,30,87.76978417266187,68.5,76.94680385792878,1e-05,0.001,32,0.2,0.0001,15,True,Maximum Epochs
+C3_head_lr_P15,29,30,30,88.05755395683454,68.0,76.7398119122257,1e-05,0.0005,32,0.2,0.0001,15,True,Maximum Epochs
+C1_reference_P5,13,18,30,87.4820143884892,68.25,76.67848522295495,1e-05,0.001,32,0.2,0.0001,5,True,Early Stopping / Incomplete
+C2_lower_lr_P15,30,30,30,87.05035971223022,66.75,75.56044110252242,5e-06,0.0005,32,0.2,0.0001,15,True,Maximum Epochs

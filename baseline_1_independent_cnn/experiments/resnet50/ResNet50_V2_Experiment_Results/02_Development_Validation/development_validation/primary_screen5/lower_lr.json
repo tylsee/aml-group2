@@ -1,0 +1,19 @@
+{
+  "experiment": "lower_lr",
+  "label": "Lower Learning Rate",
+  "phase": "primary_screen5",
+  "screen_or_target_epoch": 5,
+  "evaluation": "DEVELOPMENT VALIDATION \u2014 NOT OFFICIAL TEST",
+  "candidate_pairs": 9625,
+  "seen": {
+    "composition_top1": 0.6489208633093525,
+    "crop_top1": 0.8589928057553957,
+    "disease_top1": 0.6820143884892086
+  },
+  "unseen": {
+    "composition_top1": 0.0175,
+    "crop_top1": 0.65,
+    "disease_top1": 0.1875
+  },
+  "composition_hm": 0.03408091112730414
+}

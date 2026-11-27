@@ -1,0 +1,11 @@
+Actual Class,"sugarcane / rust [47,10]","pepper_bell / bacterial_spot [5,33]","cucumber / downy_mildew [23,28]","corn / brown_spot [21,4]","cucumber / powdery_mildew [23,14]","tomato / early_blight [51,55]","grape / black_rot [27,3]","cotton / bacterial_blight [22,46]","mango / anthracnose [30,18]","cherry / aphis_spp [16,2]",OTHER
+"sugarcane / rust [47,10]",19,0,0,2,0,0,0,0,0,0,68
+"pepper_bell / bacterial_spot [5,33]",0,19,0,0,0,0,0,0,2,0,199
+"cucumber / downy_mildew [23,28]",0,0,1,0,0,0,0,0,0,0,31
+"corn / brown_spot [21,4]",0,0,0,1,0,0,0,0,0,0,34
+"cucumber / powdery_mildew [23,14]",0,0,0,0,1,0,0,0,0,0,36
+"tomato / early_blight [51,55]",0,0,3,0,0,3,0,0,0,0,466
+"grape / black_rot [27,3]",0,0,0,0,0,0,0,0,0,0,271
+"cotton / bacterial_blight [22,46]",0,0,0,0,0,0,0,0,0,0,125
+"mango / anthracnose [30,18]",0,0,0,0,0,0,0,0,0,0,95
+"cherry / aphis_spp [16,2]",0,0,0,0,0,0,0,0,0,0,72

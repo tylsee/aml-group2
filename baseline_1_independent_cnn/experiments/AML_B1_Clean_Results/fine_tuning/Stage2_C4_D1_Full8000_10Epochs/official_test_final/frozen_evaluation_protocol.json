@@ -1,0 +1,13 @@
+{
+  "stage": "FINAL_OFFICIAL_TEST",
+  "selection_policy": "highest_training_top1_accuracy_per_task_from_10_epochs_earliest_tie_frozen_before_official_test",
+  "crop_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/crop/best_training_accuracy.pt",
+  "disease_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/disease/best_training_accuracy.pt",
+  "crop_checkpoint_sha256": "4579f54f2c55da9b71f115d82e3e1c5b1299a46e3e1dc21a328c51ccde4e9d4e",
+  "disease_checkpoint_sha256": "5c70663c20f34b9f426c55cd63aff2d2266a2492f7a2ef3677d6d65b7f5e7769",
+  "candidate_count": 9625,
+  "test_seen_count": 2000,
+  "test_unseen_count": 1448,
+  "transform": "Resize256-CenterCrop224-ImageNetNormalize",
+  "warning": "Official test results must not be used for hyperparameter / epoch / checkpoint selection"
+}

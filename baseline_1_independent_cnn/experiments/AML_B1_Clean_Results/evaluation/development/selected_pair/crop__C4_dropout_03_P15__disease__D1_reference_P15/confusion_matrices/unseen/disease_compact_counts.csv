@@ -1,0 +1,10 @@
+True \ Predicted,bacterial_blight,spider_mites,late_blight,powdery_mildew,healthy,angular_leaf_spot,monillia_laxa,bacterial_leaf_streak,OTHER
+bacterial_blight,0,0,1,0,26,0,1,0,89
+spider_mites,0,0,3,0,23,0,0,0,44
+late_blight,0,0,25,0,16,0,0,0,29
+powdery_mildew,0,0,0,5,24,0,0,0,31
+healthy,0,0,0,0,47,0,0,0,4
+angular_leaf_spot,0,0,0,0,1,0,0,0,17
+monillia_laxa,0,0,0,0,1,0,1,0,7
+bacterial_leaf_streak,0,0,0,0,0,0,0,0,5
+OTHER,0,0,0,0,0,0,0,0,0

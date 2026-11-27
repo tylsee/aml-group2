@@ -1,0 +1,3 @@
+split,n,crop_top1,disease_top1,composition_top1,disease_only_wrong_count,crop_only_wrong_count,both_wrong_count,predicted_pair_seen_in_training_rate
+val_seen,695,0.8892086330935252,0.758273381294964,0.7294964028776978,111,20,57,0.935251798561151
+val_unseen,400,0.705,0.22,0.04,266,72,46,0.8525

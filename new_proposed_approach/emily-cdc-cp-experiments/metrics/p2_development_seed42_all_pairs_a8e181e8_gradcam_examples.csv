@@ -1,0 +1,7 @@
+filename,true_composition,crop_correct,disease_correct,true_disease,pred_disease
+CDDM_potato_late_blight_63912.jpg,potato_late_blight,True,True,late_blight,late_blight
+CDC_cassava_bacterial_blight_117.jpg,cassava_bacterial_blight,True,False,bacterial_blight,brown_streak_disease
+CDDM_tomato_spider_mites_115519.jpg,tomato_spider_mites,True,False,spider_mites,target_spot
+CDDM_blueberry_healthy_42986.jpg,blueberry_healthy,False,True,healthy,healthy
+CDDM_cherry_powdery_mildew_45337.jpg,cherry_powdery_mildew,False,False,powdery_mildew,bacterial_spot
+MLBD_mango_powdery_mildew_3000.jpg,mango_powdery_mildew,True,False,powdery_mildew,healthy

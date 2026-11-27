@@ -1,0 +1,11 @@
+Actual Class,24: eggplant,9: broccoli,39: plum,3: basil,23: cucumber,14: cauliflower,7: blueberry,5: pepper_bell,28: guava,42: raspberry,OTHER
+24: eggplant,0,0,1,0,0,0,0,0,0,0,4
+9: broccoli,0,1,0,0,1,0,0,0,1,0,2
+39: plum,0,0,3,0,0,0,1,0,0,1,5
+3: basil,0,0,0,5,0,0,0,0,0,1,5
+23: cucumber,0,0,0,0,6,0,0,0,0,0,6
+14: cauliflower,0,0,0,0,2,3,0,0,0,0,1
+7: blueberry,0,0,2,0,0,0,9,0,0,0,6
+5: pepper_bell,0,0,0,0,0,0,0,6,0,0,4
+28: guava,0,0,0,0,0,0,0,0,8,0,5
+42: raspberry,0,0,0,0,0,0,0,0,0,7,4

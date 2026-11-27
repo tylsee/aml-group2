@@ -1,0 +1,35 @@
+{
+  "backbone_lr": 1e-05,
+  "batch_originals": 16,
+  "checkpoint_select": "fixed_epochs_only_no_pseudo_unseen_selection",
+  "crop_supcon_weight": 0.1,
+  "disease_ce_weight_mode": "sqrt_inverse_capped",
+  "disease_supcon_weight": 0.1,
+  "epochs": 12,
+  "eval_resize": 366,
+  "eval_resolution": 320,
+  "fixed_epochs": [
+    8,
+    12
+  ],
+  "fold": 2,
+  "gem_initial_alpha": 0.25,
+  "gem_initial_p": 3.0,
+  "hashes": {
+    "fold_seen": "4e90aba3499f9ac50608d0ea74699d9e184c2e184579857fe78c1b334bf192d4",
+    "fold_source": "c7506c6b394b824ca06c4b6078cb24c72053981fab6cd424e1f759d8f9f5f3dc",
+    "fold_train": "218300d6fe1d3dff9d7e943f779214bb68dc6a55cfadb2465f1ae5d59b7321de",
+    "fold_unseen": "2756b3b2745b6f7b5959fd46399c27ad4c5b2f8f9c88aa6c071ce1794bb1e8ad",
+    "map": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+    "original_split": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+    "pair": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98"
+  },
+  "head_lr": 0.001,
+  "protocol": "AC_gap_vs_gem_v1",
+  "schedule_tmax": 20,
+  "seed": 42,
+  "temperature": 0.07,
+  "train_resolution": 224,
+  "two_views": 2,
+  "weight_decay": 0.0001
+}

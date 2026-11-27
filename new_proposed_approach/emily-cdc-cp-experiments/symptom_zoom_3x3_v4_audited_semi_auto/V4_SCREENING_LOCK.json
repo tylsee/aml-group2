@@ -1,0 +1,57 @@
+{
+  "hash": "20a5983687d8f8e48ffa6833bf586893df7b1aa7d267e91d71bfb5a77506760a",
+  "config": {
+    "version": "v4_matching_pilot_bulk_detector",
+    "v3_source_hash": "54cc5f08dd66391c99ce65cb7b15c2abd2317e39e094f6f29f72812d125ff61a",
+    "folds": [
+      1
+    ],
+    "thresholds": {
+      "spots_rust": 0.28,
+      "mildew": 0.31,
+      "discoloration": 0.34,
+      "deformation": 0.38,
+      "pests": 0.38,
+      "non_foliar": 0.38
+    },
+    "max_side": {
+      "spots_rust": 0.78,
+      "mildew": 0.88,
+      "discoloration": 0.88,
+      "deformation": 0.93,
+      "pests": 0.9,
+      "non_foliar": 0.93
+    },
+    "min_color": {
+      "spots_rust": 0.28,
+      "mildew": 0.25,
+      "discoloration": 0.28,
+      "deformation": 0.23,
+      "pests": 0.23,
+      "non_foliar": 0.15
+    },
+    "blur_min": 18.0,
+    "suspect_min": {
+      "spots_rust": 0.012,
+      "mildew": 0.0,
+      "discoloration": 0.0,
+      "deformation": 0.0,
+      "pests": 0.0,
+      "non_foliar": 0.0
+    },
+    "allowed_families": [
+      "spots_rust",
+      "mildew",
+      "discoloration",
+      "deformation",
+      "pests",
+      "non_foliar"
+    ],
+    "audit_accept_per_family": 8,
+    "audit_reject_per_family": 2,
+    "min_precision": 0.85,
+    "seed": 20261123,
+    "all_use_sam2": false,
+    "official_test_used": false
+  }
+}

@@ -1,0 +1,3 @@
+Task,Stage 1 Source Epoch,Stage 2 Selected Epoch,Training Accuracy (%),Training Loss,Checkpoint
+Crop,29,9,99.275,0.028554535284638406,/content/drive/MyDrive/AML_B1_ConvNeXtTiny_V1_ResNet50_HigherWD/stage2_full8000/crop/best_train_acc.pt
+Disease,16,10,96.42500000000001,0.13258222915232182,/content/drive/MyDrive/AML_B1_ConvNeXtTiny_V1_ResNet50_HigherWD/stage2_full8000/disease/best_train_acc.pt

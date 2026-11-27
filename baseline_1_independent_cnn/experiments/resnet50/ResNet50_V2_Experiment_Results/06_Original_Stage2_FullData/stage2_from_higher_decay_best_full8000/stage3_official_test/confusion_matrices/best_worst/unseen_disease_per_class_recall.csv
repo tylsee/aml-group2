@@ -1,0 +1,11 @@
+class_key,support,TP,FN,recall,class_name
+55,472,4,468,0.00847457627118644,55: early_blight
+3,271,0,271,0.0,3: black_rot
+33,220,36,184,0.16363636363636364,33: bacterial_spot
+46,125,3,122,0.024,46: bacterial_blight
+18,95,0,95,0.0,18: anthracnose
+10,89,24,65,0.2696629213483146,10: rust
+2,72,0,72,0.0,2: aphis_spp
+14,37,28,9,0.7567567567567568,14: powdery_mildew
+4,35,1,34,0.02857142857142857,4: brown_spot
+28,32,5,27,0.15625,28: downy_mildew

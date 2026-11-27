@@ -1,0 +1,73 @@
+{
+  "experiment": "ConvNeXt-Tiny Stage 2 Official Epoch 1-3 Combinatorial Diagnostic",
+  "evaluation_type": "POST_HOC_OFFICIAL_TEST_DIAGNOSTIC_NOT_FOR_SELECTION",
+  "original_locked_reference": {
+    "crop_epoch": 9,
+    "disease_epoch": 10,
+    "rule": "highest Stage 2 training accuracy"
+  },
+  "diagnostic_crop_epochs": [
+    1,
+    2,
+    3
+  ],
+  "diagnostic_disease_epochs": [
+    1,
+    2,
+    3
+  ],
+  "tested_pairs": [
+    {
+      "crop_epoch": 1,
+      "disease_epoch": 1
+    },
+    {
+      "crop_epoch": 1,
+      "disease_epoch": 2
+    },
+    {
+      "crop_epoch": 1,
+      "disease_epoch": 3
+    },
+    {
+      "crop_epoch": 2,
+      "disease_epoch": 1
+    },
+    {
+      "crop_epoch": 2,
+      "disease_epoch": 2
+    },
+    {
+      "crop_epoch": 2,
+      "disease_epoch": 3
+    },
+    {
+      "crop_epoch": 3,
+      "disease_epoch": 1
+    },
+    {
+      "crop_epoch": 3,
+      "disease_epoch": 2
+    },
+    {
+      "crop_epoch": 3,
+      "disease_epoch": 3
+    },
+    {
+      "crop_epoch": 9,
+      "disease_epoch": 10
+    }
+  ],
+  "test_counts": {
+    "seen": 2000,
+    "unseen": 1448
+  },
+  "preprocessing": "RGB Resize(256) CenterCrop(224) ImageNet mean/std",
+  "amp": true,
+  "candidate_pairs": 9625,
+  "model_library": "torchvision",
+  "architecture": "convnext_tiny",
+  "checkpoint_root": "/content/drive/MyDrive/AML_B1_ConvNeXtTiny_V1_ResNet50_HigherWD/stage2_full8000",
+  "output": "/content/drive/MyDrive/AML_B1_ConvNeXtTiny_V1_ResNet50_HigherWD/stage3_official_epoch1to3_combo_DIAGNOSTIC",
+  "warning": "Results must not be used to revise the chosen final model."
+}

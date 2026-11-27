@@ -1,0 +1,7 @@
+,Correct,51: tomato,21: corn,0: apple,30: mango,40: potato,Other wrong
+wheat (n=5),5,0,0,0,0,0,0
+tomato (n=70),69,0,0,0,0,0,1
+mango (n=18),17,0,0,0,0,1,0
+cassava (n=117),105,0,5,3,2,0,2
+bean (n=18),15,0,0,0,0,0,3
+potato (n=70),58,9,1,0,0,0,2

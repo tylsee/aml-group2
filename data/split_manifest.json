@@ -1,0 +1,57 @@
+{
+  "method": "composition-disjoint pseudo-OOD validation + image-stratified seen validation",
+  "input_csv": "/content/drive/MyDrive/DPD-Small/DPD_Small_train.csv",
+  "input_sha256": "9f1b729ab08f120c9e8d3a5681aa1ccbdf1d9210f9aaa6143959363dcb106a7d",
+  "seed": 42,
+  "split_counts": {
+    "original_training": 8000,
+    "train_fit": 6905,
+    "val_seen": 695,
+    "val_unseen": 400
+  },
+  "split_fractions": {
+    "train_fit": 0.863125,
+    "val_seen": 0.086875,
+    "val_unseen": 0.05
+  },
+  "pseudo_unseen_composition_ids": [
+    12,
+    33,
+    51,
+    66,
+    87,
+    135,
+    184,
+    242,
+    313,
+    318
+  ],
+  "pseudo_unseen_composition_count": 10,
+  "parameters": {
+    "n_ood_compositions": 10,
+    "target_ood_fraction": 0.05,
+    "max_ood_fraction": 0.08,
+    "seen_fraction_of_remaining": 0.08,
+    "min_train_per_class": 5,
+    "min_ood_images_per_composition": 5,
+    "search_attempts": 2000
+  },
+  "output_csv_columns": [
+    "filename",
+    "crop_id",
+    "disease_id",
+    "composition_id",
+    "crop_name",
+    "disease_name",
+    "composition_name"
+  ],
+  "label_ids_unchanged": true,
+  "official_test_csv_used": false,
+  "notes": [
+    "All models B1, B2, P1, P2 and P3 must load these exact CSVs.",
+    "For development, build P3 prototypes from train_fit.csv only.",
+    "After tuning, use the original full training CSV to train/fine-tune final models.",
+    "Rebuild P3 prototypes from the full training CSV using the final checkpoint.",
+    "Never select hyperparameters using either official seen or unseen test CSV."
+  ]
+}

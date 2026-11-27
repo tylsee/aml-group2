@@ -1,0 +1,4 @@
+seed,crop_correct_disease_wrong,crop_wrong_disease_correct,both_factor_correct,both_factor_wrong,unpenalized_seen_margin_positive_pct
+42,343,7,15,126,64.76578411405295
+123,364,8,10,109,61.710794297352344
+2026,358,6,12,115,61.710794297352344

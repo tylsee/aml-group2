@@ -1,0 +1,19 @@
+{
+  "backbone": "resnet50",
+  "weights": "IMAGENET1K_V2",
+  "strategy": "full",
+  "task": "disease",
+  "backbone_lr": 1e-05,
+  "head_lr": 0.001,
+  "weight_decay": 0.001,
+  "dropout": 0.2,
+  "batch_size": 16,
+  "max_epochs": 30,
+  "seed": 42,
+  "scheduler": "CosineAnnealingLR(T_max=30)",
+  "evaluation_split": "DEVELOPMENT_VALIDATION_ONLY",
+  "experiment": "disease_weighted_ce",
+  "image_size": 224,
+  "weighted_ce": true,
+  "loader_seed_strategy": "seed_plus_epoch"
+}

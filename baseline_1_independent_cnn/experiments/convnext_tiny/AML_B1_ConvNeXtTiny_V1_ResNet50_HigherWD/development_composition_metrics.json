@@ -1,0 +1,19 @@
+{
+  "experiment": "resnet50_higher_decay_transfer",
+  "backbone": "ConvNeXt-Tiny",
+  "weights": "IMAGENET1K_V1",
+  "selection": "individual_dev_hm",
+  "candidate_pairs": 9625,
+  "stage": "STAGE1_DEVELOPMENT_ONLY",
+  "seen": {
+    "composition_top1": 0.7064748201438849,
+    "crop_top1": 0.8935251798561151,
+    "disease_top1": 0.7410071942446043
+  },
+  "unseen": {
+    "composition_top1": 0.0525,
+    "crop_top1": 0.73,
+    "disease_top1": 0.195
+  },
+  "composition_hm": 0.09773691319699519
+}

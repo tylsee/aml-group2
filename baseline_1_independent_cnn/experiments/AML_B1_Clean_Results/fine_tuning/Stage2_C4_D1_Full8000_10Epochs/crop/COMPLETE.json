@@ -1,0 +1,9 @@
+{
+  "task": "crop",
+  "source_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/experiments/crop/C4_dropout_03_P15/best.pt",
+  "final_epoch": 10,
+  "training_image_count": 8000,
+  "final_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/crop/epoch_10.pt",
+  "selection_policy": "Highest training Top-1 accuracy over 10 epochs; earliest tie; no validation/test selection",
+  "signature": "ae6a71a2b1c99c3b254308986107a2b0fd317dfcb1115a04fa8a3afb6c743b57"
+}

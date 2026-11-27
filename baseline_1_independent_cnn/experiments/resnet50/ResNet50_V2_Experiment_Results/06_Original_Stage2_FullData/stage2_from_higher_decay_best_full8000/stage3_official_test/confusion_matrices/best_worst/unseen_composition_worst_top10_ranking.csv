@@ -1,0 +1,11 @@
+class_key,support,TP,FN,recall,class_name
+27|3,271,0,271,0.0,"grape / black_rot [27,3]"
+22|46,125,0,125,0.0,"cotton / bacterial_blight [22,46]"
+30|18,95,0,95,0.0,"mango / anthracnose [30,18]"
+16|2,72,0,72,0.0,"cherry / aphis_spp [16,2]"
+51|55,472,3,469,0.006355932203389831,"tomato / early_blight [51,55]"
+23|14,37,1,36,0.02702702702702703,"cucumber / powdery_mildew [23,14]"
+21|4,35,1,34,0.02857142857142857,"corn / brown_spot [21,4]"
+23|28,32,1,31,0.03125,"cucumber / downy_mildew [23,28]"
+5|33,220,19,201,0.08636363636363636,"pepper_bell / bacterial_spot [5,33]"
+47|10,89,19,70,0.21348314606741572,"sugarcane / rust [47,10]"

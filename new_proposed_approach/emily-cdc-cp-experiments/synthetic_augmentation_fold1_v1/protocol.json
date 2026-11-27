@@ -1,0 +1,125 @@
+{
+  "arms": [
+    "real_replay",
+    "synthetic"
+  ],
+  "batch_originals": 16,
+  "end_epoch": 12,
+  "evaluation_resolution": 320,
+  "fixed_evaluation_epochs": [
+    12
+  ],
+  "fold": 1,
+  "fold_pseudo_hash": "00c144f8ccb3376ed9ee96825d654272a790bb8ff96e03084ed7de31becaa8b0",
+  "fold_seen_hash": "a10c7fe4a67c06c64e0655d67bfccd59a7246430d2809039392ce78f962708d4",
+  "fold_train_hash": "8066814cc75df3b7c8c2d9296e2b09fed55d2a71173155e34dac10b6c2d7f3c3",
+  "map_hash": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+  "method": "P2_deeper_GAP_continue_from_same_fold1_GAP8_checkpoint",
+  "name": "synthetic_augmentation_fold1_v1",
+  "no_unseen_model_selection": true,
+  "optimizer": "original_GAP8_AdamW_state",
+  "original_split_hash": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+  "pair_hash": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+  "real_train_signature": "8e6ad6e716a1ba6bd57642028ae3f5c3adcdd21fce165517847f5d1f176277d5",
+  "scheduler": "original_GAP8_CosineAnnealingLR",
+  "seed": 42,
+  "start_checkpoint_file_sha256": "9fe2b02f831846052b22829d6922a0458a930c517921ddc342292cba1028ab01",
+  "start_epoch": 8,
+  "synthetic_image_sha256": [
+    [
+      "carrot_cercospora_leaf_blight",
+      "carrot_cercospora_01.png",
+      "3c7ad6577a786efab5e20f2b605fbf29def7a7a0c80b9c642a140bf70e739646"
+    ],
+    [
+      "carrot_cercospora_leaf_blight",
+      "carrot_cercospora_02.png",
+      "6b1ca1e2bdc26c180726303886b2a8a6b29e1ee658bba3e4955479e75bc47ed2"
+    ],
+    [
+      "carrot_cercospora_leaf_blight",
+      "carrot_cercospora_03.png",
+      "3f1ed19e5f49674c4442d51e6fdafd21607e563436e356ff4d3870d912e016bd"
+    ],
+    [
+      "carrot_cercospora_leaf_blight",
+      "carrot_cercospora_04.png",
+      "4606dffc4a9b24e83aea8ceb6aab128cd576ccb81b07c5c4154a7e8379e7cd90"
+    ],
+    [
+      "carrot_cercospora_leaf_blight",
+      "carrot_cercospora_05.png",
+      "637e03d0612d7cdcea74a80584eab349c818ccf27ef39775f06fbaab877c6df3"
+    ],
+    [
+      "cabbage_black_rot",
+      "cabbage_black_rot_01.png",
+      "21ebb5e17b26fcedc851738fd42eb0db9979da31e79ebc245388f4080ae6fd95"
+    ],
+    [
+      "cabbage_black_rot",
+      "cabbage_black_rot_02.png",
+      "538e9d5f203a0ebadeb175f58e508ec5071e2ec1be0f9a409872548ed69fb0d0"
+    ],
+    [
+      "cabbage_black_rot",
+      "cabbage_black_rot_03.png",
+      "e719235b9fde4328ba005c2273a6a4317070797f46c5ed220b54fa15e4d42ef9"
+    ],
+    [
+      "cabbage_black_rot",
+      "cabbage_black_rot_04.png",
+      "1b5b6a29c6da200436f97335b93f9b99951dcf1ef9b51a6c7baddfed282abce3"
+    ],
+    [
+      "cabbage_black_rot",
+      "cabbage_black_rot_05.png",
+      "f6dada8e54a418fef842f5e9c7ee0f070973243fe7c16beb622e995fbba595e9"
+    ],
+    [
+      "basil_downy_mildew",
+      "basil_downy_mildew_01.png",
+      "e2cb31a38e834d96de64ed4686a9ce7bbaed4698f5f4a8bb444ca89ab329ba92"
+    ],
+    [
+      "basil_downy_mildew",
+      "basil_downy_mildew_02.png",
+      "864371c328ecba7319aa8e76f3cd91e930ad8a631c83c8ec9f339d994db899c5"
+    ],
+    [
+      "basil_downy_mildew",
+      "basil_downy_mildew_03.png",
+      "3abb3302e086850f622effd06678c6ed01c11ff1dff03cf1569a1b0b23e7f2b7"
+    ],
+    [
+      "basil_downy_mildew",
+      "basil_downy_mildew_04.png",
+      "7bc690cb3bfe59bbc9cfd67565beb67909c4c6b24a11e6f942da62865b8af492"
+    ],
+    [
+      "basil_downy_mildew",
+      "basil_downy_mildew_05.png",
+      "14d0555ccc3409121fc0e0ef32ed568e277e3e3296013d965f5ded6efd458d53"
+    ]
+  ],
+  "synthetic_labels": [
+    [
+      "carrot_cercospora_leaf_blight",
+      11,
+      44
+    ],
+    [
+      "cabbage_black_rot",
+      10,
+      3
+    ],
+    [
+      "basil_downy_mildew",
+      3,
+      28
+    ]
+  ],
+  "training_resolution": 224,
+  "two_views": true,
+  "unchanged_disease_weights": true
+}

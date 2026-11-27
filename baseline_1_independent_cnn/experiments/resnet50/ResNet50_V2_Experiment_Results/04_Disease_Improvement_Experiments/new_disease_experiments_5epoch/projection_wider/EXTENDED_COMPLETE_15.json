@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "arm": "projection_wider",
+  "total_epochs": 15,
+  "selection_metric": "highest_development_disease_hm",
+  "best_epoch": 15,
+  "best_disease_hm": 0.3418028060734192,
+  "corresponding_composition_hm": 0.1019018729837739
+}

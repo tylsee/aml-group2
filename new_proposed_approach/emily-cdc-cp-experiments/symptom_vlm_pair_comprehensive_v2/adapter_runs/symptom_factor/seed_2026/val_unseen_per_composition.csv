@@ -1,0 +1,11 @@
+crop_id,disease_id,crop_name,disease_name,images,crop_top1,disease_top1,composition_top1,composition_top5
+0,12,apple,monillia_laxa,9,100.0,0.0,0.0,33.33333333333333
+4,30,bean,angular_leaf_spot,18,77.77777777777779,0.0,0.0,0.0
+7,9,blueberry,healthy,46,0.0,91.30434782608695,0.0,6.521739130434782
+13,46,cassava,bacterial_blight,117,94.01709401709401,0.0,0.0,0.0
+16,14,cherry,powdery_mildew,42,0.0,35.714285714285715,0.0,0.0
+23,9,cucumber,healthy,5,40.0,20.0,0.0,20.0
+30,14,mango,powdery_mildew,18,100.0,0.0,0.0,16.666666666666664
+40,139,potato,late_blight,70,70.0,1.4285714285714286,0.0,70.0
+51,68,tomato,spider_mites,70,100.0,0.0,0.0,1.4285714285714286
+53,119,wheat,bacterial_leaf_streak,5,100.0,0.0,0.0,0.0

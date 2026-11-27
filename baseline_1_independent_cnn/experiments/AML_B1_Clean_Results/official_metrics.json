@@ -1,0 +1,21 @@
+{
+  "candidate_compositions": 9625,
+  "seen": {
+    "crop_top1": 0.845,
+    "crop_top5": 0.9365,
+    "disease_top1": 0.6005,
+    "disease_top5": 0.834,
+    "composition_top1": 0.562,
+    "composition_top5": 0.771
+  },
+  "unseen": {
+    "crop_top1": 0.6588397790055248,
+    "crop_top5": 0.8100828729281768,
+    "disease_top1": 0.0649171270718232,
+    "disease_top5": 0.26450276243093923,
+    "composition_top1": 0.026243093922651933,
+    "composition_top5": 0.14433701657458564
+  },
+  "composition_top1_harmonic_mean": 0.05014463896611316,
+  "composition_seen_unseen_gap": 0.5357569060773482
+}

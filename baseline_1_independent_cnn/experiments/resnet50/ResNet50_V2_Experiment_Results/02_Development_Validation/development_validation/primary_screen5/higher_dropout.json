@@ -1,0 +1,19 @@
+{
+  "experiment": "higher_dropout",
+  "label": "Higher Dropout",
+  "phase": "primary_screen5",
+  "screen_or_target_epoch": 5,
+  "evaluation": "DEVELOPMENT VALIDATION \u2014 NOT OFFICIAL TEST",
+  "candidate_pairs": 9625,
+  "seen": {
+    "composition_top1": 0.6748201438848921,
+    "crop_top1": 0.8589928057553957,
+    "disease_top1": 0.7136690647482015
+  },
+  "unseen": {
+    "composition_top1": 0.025,
+    "crop_top1": 0.6725,
+    "disease_top1": 0.2075
+  },
+  "composition_hm": 0.048213826779748135
+}

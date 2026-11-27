@@ -1,0 +1,15 @@
+path,code_cells,execution_counts_present,output_items,error_items,status
+01_Core_Baseline_ResNet50/baseline2_exp09_audit.ipynb,5,4,39,0,Saved executed outputs present
+01_Core_Baseline_ResNet50/baseline2_exp09_audit_fixed.ipynb,5,0,0,0,NO SAVED OUTPUTS; unexecuted template
+01_Core_Baseline_ResNet50/baseline2_resnet50_exp09_B1matched.ipynb,11,9,9,0,Saved executed outputs present
+02_Single_Stage_Optimisation/baseline2_exp10_runall.ipynb,11,5,5,1,PARTIAL execution; saved CUDA out-of-memory error
+02_Single_Stage_Optimisation/baseline2_exp10_runall_cpu_smoke.ipynb,11,11,24,0,"Completed Exp10 training outputs present despite cpu_smoke filename; CUDA run, best epoch 13"
+02_Single_Stage_Optimisation/baseline2_exp11_calibration_runall.ipynb,8,8,14,0,Saved executed outputs present
+02_Single_Stage_Optimisation/baseline2_exp12_experiment_hub.ipynb,7,7,11,0,Saved executed outputs present
+02_Single_Stage_Optimisation/baseline2_exp13_14_imbalance_training.ipynb,12,12,25,0,Saved executed outputs present
+02_Single_Stage_Optimisation/baseline2_exp15_16_task_loss_training.ipynb,11,11,24,0,Saved executed outputs present
+02_Single_Stage_Optimisation/Exp15_disease_weight15_EXECUTED.ipynb,11,11,24,0,Saved executed outputs present
+03_Classifier_Retraining_cRT/baseline2_exp17_crt.ipynb,11,11,24,0,Saved executed outputs present
+03_Classifier_Retraining_cRT/baseline2_exp18_crt_multiseed.ipynb,11,11,25,0,Completed Seed 2026 outputs; Seed 123 separately recovered from ZIP
+03_Classifier_Retraining_cRT/baseline2_exp18_multiseed.ipynb,11,0,0,0,NO SAVED OUTPUTS; unexecuted template
+03_Classifier_Retraining_cRT/Exp18_crt_seed123_EXECUTED.ipynb,11,11,26,0,Saved executed outputs present

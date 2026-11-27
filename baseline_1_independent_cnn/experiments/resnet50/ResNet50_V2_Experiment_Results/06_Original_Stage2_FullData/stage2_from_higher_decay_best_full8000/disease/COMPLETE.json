@@ -1,0 +1,8 @@
+{
+  "task": "disease",
+  "completed_epochs": 10,
+  "best_training_epoch": 10,
+  "best_training_accuracy": 0.92725,
+  "selected_checkpoint": "best_train_acc.pt",
+  "final_checkpoint": "final_epoch10.pt"
+}

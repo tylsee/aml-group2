@@ -1,0 +1,43 @@
+{
+  "architecture": "Deeper_P2_EfficientNet_B0_GAP",
+  "augmented_views": 2,
+  "backbone_lr": 1e-05,
+  "baseline": "AC GAP P2 fold1 fixed checkpoint epochs 8 and 12",
+  "candidate_policy": "all_pairs",
+  "checkpoint_selection": "FIXED ONLY; never choose on pseudo-unseen",
+  "cosine_T_max": 20,
+  "disease_ce_weights": "fold1_sqrt_inverse_capped",
+  "eval_resize": 366,
+  "eval_resolution": 320,
+  "fixed_epochs": [
+    8,
+    12
+  ],
+  "fold": 1,
+  "hashes": {
+    "fold_seen": "a10c7fe4a67c06c64e0655d67bfccd59a7246430d2809039392ce78f962708d4",
+    "fold_train": "8066814cc75df3b7c8c2d9296e2b09fed55d2a71173155e34dac10b6c2d7f3c3",
+    "fold_unseen": "00c144f8ccb3376ed9ee96825d654272a790bb8ff96e03084ed7de31becaa8b0",
+    "map": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+    "original_split": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+    "pair": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+    "source": "c7506c6b394b824ca06c4b6078cb24c72053981fab6cd424e1f759d8f9f5f3dc"
+  },
+  "head_lr": 0.001,
+  "max_epochs": 12,
+  "p2_crop_supcon_weight": 0.1,
+  "p2_disease_supcon_weight": 0.1,
+  "probe_batch": 512,
+  "probe_epochs": 60,
+  "probe_lr": 0.01,
+  "probe_train_resolution": 224,
+  "protocol": "AG_supcon_only_ablation_fold1_v1",
+  "seed": 42,
+  "supcon_only_classifier": "train_only_frozen_feature_linear_probe",
+  "supcon_only_crop_weight": 1.0,
+  "supcon_only_disease_weight": 1.0,
+  "temperature": 0.07,
+  "train_originals_batch": 16,
+  "train_resolution": 224,
+  "weight_decay": 0.0001
+}

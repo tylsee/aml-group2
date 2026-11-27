@@ -1,0 +1,18 @@
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Large datasets and caches
+*.zip
+*.npy
+*.npz
+**/checkpoints/
+data/images/
+
+# Temporary files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

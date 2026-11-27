@@ -1,0 +1,10 @@
+Experiment,Comparison,Seen Change (pp),Unseen Change (pp),HM Change (pp)
+Lower Learning Rate,5 → 15,,,
+Lower Learning Rate,15 → 30,,,
+Lower Learning Rate,5 → 30,,,
+Higher Weight Decay,5 → 15,3.884892086330936,4.25,7.6198404849911485
+Higher Weight Decay,15 → 30,0.4316546762590008,0.25,0.4281556250838854
+Higher Weight Decay,5 → 30,4.316546762589937,4.5,8.047996110075033
+Higher Dropout,5 → 15,5.467625899280577,2.75,4.973690805775961
+Higher Dropout,15 → 30,,,
+Higher Dropout,5 → 30,,,

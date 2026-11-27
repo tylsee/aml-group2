@@ -1,0 +1,14 @@
+{
+  "task": "disease",
+  "max_epochs": 10,
+  "selected_epoch": 8,
+  "selected_training_accuracy_percent": 88.9625,
+  "selection_rule": "maximum recorded epoch-level training Top-1 accuracy, earliest exact tie",
+  "plateau_window": 3,
+  "plateau_range_threshold_percentage_points": 0.1,
+  "last_window_accuracy_range_percentage_points": 0.7625,
+  "plateau_indicator": false,
+  "epoch_source_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/disease/epoch_08.pt",
+  "selected_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/disease/best_training_accuracy.pt",
+  "warning": "Training accuracy is not an independent estimate of test generalisation."
+}

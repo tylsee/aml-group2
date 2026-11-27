@@ -1,0 +1,179 @@
+{
+  "status": "PRE-LOCK ARCHITECTURE AUDIT; NOT OFFICIAL",
+  "created_utc": "2026-11-22T08:33:44.457396+00:00",
+  "project": "/content/drive/MyDrive/CDC_CP_Experiments",
+  "claims": {
+    "shared_cnn_backbone": "EfficientNet-B0 for preferred P2 branch",
+    "two_concept_projection_heads": true,
+    "crop_and_disease_CE": true,
+    "crop_and_disease_SupCon": true,
+    "128d_concept_embeddings": true,
+    "P2_inference": "factor log-softmax crop + disease, all 9625 pairs",
+    "P3_inference": "train-only separate crop/disease prototype means, additive cosine scores",
+    "P3_pair_interaction": false,
+    "formal_independence_of_crop_and_disease_representations_proved": false,
+    "joint_pair_head_is_separate_extension": true
+  },
+  "checkpoint_provenance": {
+    "path": "/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt",
+    "bytes": 73748237,
+    "sha256": "6a14af4ffc2881b9e8987c8a2e3cedeb846f3d85b648e179e9e3ba5e70bca5a3",
+    "selection_warning": "chosen via exploratory HM on original unseen development set"
+  },
+  "checks": {
+    "project_exists": true,
+    "saved_model_module_present": true,
+    "deeper_p2_checkpoint_present": true,
+    "original_development_splits_claim": [
+      6905,
+      695,
+      400
+    ],
+    "official_test_read": false,
+    "training_started": false,
+    "candidate_policy_verified_in_runtime": true,
+    "original_split_counts_verified_in_runtime": true,
+    "source_separate_crop_projection": true,
+    "source_separate_disease_projection": true,
+    "source_two_logits": true,
+    "saved_source_sha256": "c71875bf780524fd0253e661387df013d429f3d82a1b241ee2817512415818bf",
+    "historical_P3_inference": "separate prototype-bank cosine scores added; no interaction term",
+    "original_checkpoint_selection": "original development HM and pseudo-unseen performance; exploratory"
+  },
+  "input_result_inventory": [
+    {
+      "protocol": "original_695_400_P1P2P3",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/metrics/p1_p2_p3_development_development_seed42_all_pairs_a8e181e8.csv",
+      "rows": 3,
+      "columns": "model, best_epoch_for_H, crop_seen_top1, disease_seen_top1, crop_unseen_top1, disease_unseen_top1, composition_seen_top1, composition_unseen_top1, harmonic_top1, checkpoint",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "projection_deeper_original_695_400",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_history.csv",
+      "rows": 12,
+      "columns": "epoch, total_loss, crop_ce, disease_ce, crop_supcon, disease_supcon, crop_train_top1, disease_train_top1, seen_n, seen_ce_loss",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "fold1_backbone",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/pseudo_unseen_cv_v1/backbone_comparison_resnet50_fold1_v1/backbone_comparison_fixed_epochs.csv",
+      "rows": 4,
+      "columns": "fold, backbone, epoch, seen_pair, pseudo_crop, pseudo_disease, pseudo_pair, pseudo_disease_macro, pseudo_pair_macro, pseudo_disease_only",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "fold1_resnet_v2",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/pseudo_unseen_cv_v1/resnet50_v2_weight_decay_fold1_v1/comparison_fixed_epochs.csv",
+      "rows": 8,
+      "columns": "method, fold, epoch, seen_pair, pseudo_crop, pseudo_disease, pseudo_pair, pseudo_disease_macro, pseudo_pair_macro, pseudo_disease_only",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "fold1_diseaseCRT",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/pseudo_unseen_cv_v1/resnet50_p2_exp15_exp18_transfer_fold1_v1/fixed_epochs_comparison.csv",
+      "rows": 6,
+      "columns": "model, epoch, seen_pair, pseudo_crop, pseudo_disease, pseudo_pair, diseased_only_pair, macro_pair, harmonic, seen_images",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/EfficientNetB0_Deeper_P2_224px_seen_predictions.csv",
+      "rows": 695,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/EfficientNetB0_Deeper_P2_224px_unseen_per_composition.csv",
+      "rows": 10,
+      "columns": "crop_id, disease_id, disease_name, images, disease_pct, pair_pct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/EfficientNetB0_Deeper_P2_224px_unseen_predictions.csv",
+      "rows": 400,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/EfficientNetB0_Deeper_P2_320px_seen_predictions.csv",
+      "rows": 695,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/EfficientNetB0_Deeper_P2_320px_unseen_per_composition.csv",
+      "rows": 10,
+      "columns": "crop_id, disease_id, disease_name, images, disease_pct, pair_pct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/EfficientNetB0_Deeper_P2_320px_unseen_predictions.csv",
+      "rows": 400,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/ResNet50_Exp18_seed123_224px_seen_predictions.csv",
+      "rows": 695,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/ResNet50_Exp18_seed123_224px_unseen_per_composition.csv",
+      "rows": 10,
+      "columns": "crop_id, disease_id, disease_name, images, disease_pct, pair_pct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/ResNet50_Exp18_seed123_224px_unseen_predictions.csv",
+      "rows": 400,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/ResNet50_Exp18_seed123_320px_seen_predictions.csv",
+      "rows": 695,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/ResNet50_Exp18_seed123_320px_unseen_per_composition.csv",
+      "rows": 10,
+      "columns": "crop_id, disease_id, disease_name, images, disease_pct, pair_pct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/ResNet50_Exp18_seed123_320px_unseen_predictions.csv",
+      "rows": 400,
+      "columns": "model, resolution, split, filename, crop_id, disease_id, disease_name, pred_crop_id, pred_disease_id, crop_correct",
+      "status": "READ ONLY"
+    },
+    {
+      "protocol": "exp18_matched_resolution",
+      "path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/matched_resolution_summary.csv",
+      "rows": 4,
+      "columns": "model, resolution, crop_pct_seen, crop_pct_unseen, disease_pct_seen, disease_pct_unseen, diseased_only_pair_pct_seen, diseased_only_pair_pct_unseen, pair_pct_seen, pair_pct_unseen",
+      "status": "READ ONLY"
+    }
+  ],
+  "warnings": [
+    "Historical P1/P2/Q1 best checkpoints selected by original development unseen-HM. Treat as exploratory.",
+    "Fold1 metrics and original-development metrics are not directly comparable.",
+    "Do not claim P2 is improved specifically by prototypes: P2 does not use P3 prototype inference.",
+    "Groupmate ConvNeXt Stage2 notebook has no saved completed run outputs in uploaded P_final.ipynb.",
+    "Second groupmate pair-head development best selected on unseen-validation HM and has branch-specific resolutions.",
+    "No official test data inspected or used here."
+  ]
+}

@@ -1,0 +1,7 @@
+mode,family,prompts,unique_raw_strings,last_token_nonpadding_count,longest_char_count
+label,crop,55,55,0,41
+label,disease,175,175,0,66
+label,pair,9625,9625,0,72
+symptom,crop,55,55,0,41
+symptom,disease,175,175,0,142
+symptom,pair,9625,9625,0,148

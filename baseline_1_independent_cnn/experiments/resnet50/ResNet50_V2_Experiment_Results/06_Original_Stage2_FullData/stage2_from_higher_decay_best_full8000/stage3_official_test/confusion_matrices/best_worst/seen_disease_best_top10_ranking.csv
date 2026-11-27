@@ -1,0 +1,11 @@
+class_key,support,TP,FN,recall,class_name
+118,11,11,0,1.0,118: peacock_spot
+150,6,6,0,1.0,150: sett_rot
+61,35,34,1,0.9714285714285714,61: greening
+95,55,53,2,0.9636363636363636,95: streak_virus
+8,16,15,1,0.9375,8: grey_spot
+94,31,29,2,0.9354838709677419,94: lethal_necrosis
+136,13,12,1,0.9230769230769231,136: slug
+167,44,40,4,0.9090909090909091,167: yellow_leaf_curl_virus
+7,24,21,3,0.875,7: frog_eye_leaf_spot
+88,16,14,2,0.875,88: esca

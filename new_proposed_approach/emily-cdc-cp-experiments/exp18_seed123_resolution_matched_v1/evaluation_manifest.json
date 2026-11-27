@@ -1,0 +1,14 @@
+{
+  "protocol": "no-training; matched 224px and 320px bilinear resize + center crop",
+  "baseline": "Exp18 cRT seed123 Stage1 checkpoint selected on development HM; baseline weight file from shared handoff",
+  "proposed": "EfficientNet-B0 Deeper P2 best checkpoint, previously selected using development metrics",
+  "candidate_pairs": 9625,
+  "seen_rows": 695,
+  "unseen_rows": 400,
+  "official_test_used": false,
+  "baseline_checkpoint_path": "/content/drive/MyDrive/CDC_CP_Experiments/exp18_seed123_resolution_matched_v1/baseline_reference/best_development.pt",
+  "p2_checkpoint_path": "/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt",
+  "baseline_checkpoint_sha256": "89a06a6ff7cf03a168858f8b8de345c35e1d26f0c71fc4f24b9c91b8bf5f38af",
+  "p2_checkpoint_sha256": "6a14af4ffc2881b9e8987c8a2e3cedeb846f3d85b648e179e9e3ba5e70bca5a3",
+  "warning": "Development sets used for prior model/checkpoint/resolution selection. This is not independent or official-test evidence."
+}

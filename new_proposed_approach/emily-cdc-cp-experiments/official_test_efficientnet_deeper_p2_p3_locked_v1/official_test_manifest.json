@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-22T09:07:02.530389+00:00",
+  "status": "OFFICIAL_TEST_EVALUATED_ONCE__NO_TUNING",
+  "stage2_protocol_sha256": "b1fb11490fdb44b3b73d050837c2401c3cc14fc5e5deaa631301acd37ac0f7db",
+  "p2_final_checkpoint_sha256": "667b0b0afb0ee5e2dcf63082bbfe53333eddaadd7189ccdc3e279567c52238b7",
+  "p3_fulltrain_prototype_sha256": "8b9239d0f0863da9e3707ee20348591729f8f7033219189ebd76ee8369ac7ffc",
+  "mapping_sha256": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+  "candidate_catalogue_sha256": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+  "candidate_count": 9625,
+  "split_zip_sha256": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+  "inference_resolution": 320,
+  "preprocessing": "BILINEAR Resize(366) + CenterCrop(320) + ImageNet normalization",
+  "p2_scoring": "log_softmax(crop) + log_softmax(disease), all 9625 candidate pairs",
+  "p3_scoring": "0.5 cosine(crop_embedding, crop_mean) + 0.5 cosine(disease_embedding, disease_mean)",
+  "test_csv_hashes": {
+    "seen_csv_sha256": "45d31d48d2260f56cc28871b44434b5243100dc90dc95652c28c377b35b45e83",
+    "unseen_csv_sha256": "757e3c1fdcc894004a69c21dbc00d6b818f563aa671db9ab8d315c4790c2490b"
+  },
+  "seen_images": 2000,
+  "unseen_images": 1448,
+  "official_test_checkpoint_tuning": false,
+  "test_runs_note": "First official evaluation. If rerun for code fixes, document any corrections transparently.",
+  "P1_limitation": "No P1 final checkpoint in this locked AP Stage2; not included here."
+}

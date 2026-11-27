@@ -1,0 +1,10 @@
+{
+  "backbone_lr": 1e-05,
+  "head_lr": 0.001,
+  "batch_size": 32,
+  "epochs": 30,
+  "patience": 15,
+  "early_stopping": true,
+  "weight_decay": 0.0005,
+  "dropout": 0.3
+}

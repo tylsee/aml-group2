@@ -1,0 +1,5 @@
+model,seen_pair_pct,unseen_pair_pct,harmonic_pct,unseen_crop_pct,unseen_disease_pct,unseen_diseased_only_pct,unseen_pair_macro_pct,unseen_nonzero_compositions
+P2 original (epoch 5),57.99,1.75,3.4,64.5,16.5,6.02,1.0,1
+P2-continued,63.74,1.75,3.41,63.0,17.5,6.59,1.97,2
+P2-L,63.74,1.75,3.41,62.75,17.25,6.3,1.97,2
+P3-L prototypes,55.54,0.5,0.99,63.5,15.25,4.3,0.29,1

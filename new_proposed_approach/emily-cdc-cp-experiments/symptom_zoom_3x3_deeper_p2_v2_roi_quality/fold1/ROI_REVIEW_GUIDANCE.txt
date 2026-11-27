@@ -1,0 +1,5 @@
+Candidate alternatives: roi_top5_candidates_v2.csv.
+For review choose filename,candidate_rank in MANUAL_CANDIDATE_CHOICE_OPTIONAL.csv.
+Or specify normalized filename,x0,y0,x1,y1 in MANUAL_LESION_ROIS_OPTIONAL.csv.
+To reject an unsuitable automatic crop, list filename in MANUAL_REJECT_ROIS_OPTIONAL.csv.
+Only choose regions visibly containing disease symptoms. Otherwise keep full-image fallback.

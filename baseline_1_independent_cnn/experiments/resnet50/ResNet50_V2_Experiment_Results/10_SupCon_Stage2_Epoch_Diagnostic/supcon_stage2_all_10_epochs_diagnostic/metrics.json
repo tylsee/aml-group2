@@ -1,0 +1,182 @@
+{
+  "1": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6275,
+      "disease_top5": 0.845,
+      "composition_top1": 0.597,
+      "composition_top5": 0.793
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05870165745856354,
+      "disease_top5": 0.16505524861878454,
+      "composition_top1": 0.020718232044198894,
+      "composition_top5": 0.08770718232044199
+    }
+  },
+  "2": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6235,
+      "disease_top5": 0.846,
+      "composition_top1": 0.592,
+      "composition_top5": 0.797
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05939226519337017,
+      "disease_top5": 0.1712707182320442,
+      "composition_top1": 0.021408839779005526,
+      "composition_top5": 0.08494475138121547
+    }
+  },
+  "3": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6295,
+      "disease_top5": 0.8465,
+      "composition_top1": 0.598,
+      "composition_top5": 0.7955
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.060082872928176795,
+      "disease_top5": 0.17334254143646408,
+      "composition_top1": 0.022099447513812154,
+      "composition_top5": 0.0925414364640884
+    }
+  },
+  "4": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6335,
+      "disease_top5": 0.8535,
+      "composition_top1": 0.6015,
+      "composition_top5": 0.8
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05870165745856354,
+      "disease_top5": 0.16574585635359115,
+      "composition_top1": 0.022099447513812154,
+      "composition_top5": 0.08632596685082873
+    }
+  },
+  "5": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.633,
+      "disease_top5": 0.85,
+      "composition_top1": 0.599,
+      "composition_top5": 0.8005
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.062154696132596686,
+      "disease_top5": 0.1781767955801105,
+      "composition_top1": 0.022790055248618785,
+      "composition_top5": 0.09392265193370165
+    }
+  },
+  "6": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.639,
+      "disease_top5": 0.853,
+      "composition_top1": 0.6045,
+      "composition_top5": 0.803
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05593922651933702,
+      "disease_top5": 0.16781767955801105,
+      "composition_top1": 0.020718232044198894,
+      "composition_top5": 0.09116022099447514
+    }
+  },
+  "7": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.633,
+      "disease_top5": 0.856,
+      "composition_top1": 0.6,
+      "composition_top5": 0.804
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05662983425414365,
+      "disease_top5": 0.17196132596685082,
+      "composition_top1": 0.019337016574585635,
+      "composition_top5": 0.0925414364640884
+    }
+  },
+  "8": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6395,
+      "disease_top5": 0.849,
+      "composition_top1": 0.607,
+      "composition_top5": 0.799
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05386740331491713,
+      "disease_top5": 0.16160220994475138,
+      "composition_top1": 0.017265193370165747,
+      "composition_top5": 0.08287292817679558
+    }
+  },
+  "9": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.635,
+      "disease_top5": 0.8505,
+      "composition_top1": 0.6025,
+      "composition_top5": 0.8
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.05939226519337017,
+      "disease_top5": 0.17265193370165746,
+      "composition_top1": 0.022099447513812154,
+      "composition_top5": 0.09461325966850828
+    }
+  },
+  "10": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6355,
+      "disease_top5": 0.8545,
+      "composition_top1": 0.6035,
+      "composition_top5": 0.803
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.060082872928176795,
+      "disease_top5": 0.16574585635359115,
+      "composition_top1": 0.021408839779005526,
+      "composition_top5": 0.08425414364640885
+    }
+  }
+}

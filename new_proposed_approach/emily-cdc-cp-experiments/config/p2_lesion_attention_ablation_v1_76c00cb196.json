@@ -1,0 +1,19 @@
+{
+  "source": "p2_development_seed42_all_pairs_a8e181e8_best.pt",
+  "source_epoch": 5,
+  "split": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+  "mapping": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+  "pair": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+  "seed": 42,
+  "objective": "P2 crop CE + weighted disease CE + crop/disease SupCon",
+  "alpha": 0.1,
+  "beta": 0.1,
+  "temperature": 0.07,
+  "ce_weight_mode": "sqrt_inverse_capped",
+  "originals_per_batch": 16,
+  "backbone_lr": 5e-06,
+  "head_lr": 0.0002,
+  "attention_lr": 0.0002,
+  "lr_horizon": 10,
+  "model_tag": "p2_lesion_attention_ablation_v1"
+}

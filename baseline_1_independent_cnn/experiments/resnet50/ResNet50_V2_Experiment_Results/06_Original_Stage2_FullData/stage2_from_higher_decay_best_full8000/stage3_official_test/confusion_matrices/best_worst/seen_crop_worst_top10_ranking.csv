@@ -1,0 +1,11 @@
+class_key,support,TP,FN,recall,class_name
+24,5,0,5,0.0,24: eggplant
+9,5,1,4,0.2,9: broccoli
+39,10,3,7,0.3,39: plum
+3,11,5,6,0.45454545454545453,3: basil
+23,12,6,6,0.5,23: cucumber
+14,6,3,3,0.5,14: cauliflower
+7,17,9,8,0.5294117647058824,7: blueberry
+5,10,6,4,0.6,5: pepper_bell
+28,13,8,5,0.6153846153846154,28: guava
+42,11,7,4,0.6363636363636364,42: raspberry

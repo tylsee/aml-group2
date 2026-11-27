@@ -1,0 +1,7 @@
+,Correct,9: healthy,82: target_spot,4: brown_spot,55: early_blight,48: brown_streak_disease,Other wrong
+healthy (n=51),47,0,0,0,0,0,4
+powdery_mildew (n=60),23,8,0,0,1,0,28
+late_blight (n=70),17,9,3,3,33,0,5
+monillia_laxa (n=9),1,0,0,0,0,0,8
+bacterial_blight (n=117),0,17,0,37,0,16,47
+spider_mites (n=70),0,18,39,0,0,0,13

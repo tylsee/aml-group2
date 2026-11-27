@@ -1,0 +1,15 @@
+{
+  "phase_target_epochs": 5,
+  "stage": "STAGE1_DEVELOPMENT_ONLY",
+  "composition_seen": 0.7323741007194244,
+  "composition_unseen": 0.07,
+  "composition_hm": 0.1277862458531337,
+  "crop_selected_epoch": 5,
+  "crop_best_seen": 0.8935251798561151,
+  "crop_best_unseen": 0.73,
+  "crop_best_hm": 0.803527274338636,
+  "disease_selected_epoch": 4,
+  "disease_best_seen": 0.7410071942446043,
+  "disease_best_unseen": 0.195,
+  "disease_best_hm": 0.3087506244955997
+}

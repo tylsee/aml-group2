@@ -1,0 +1,11 @@
+Actual Class,3: black_rot,18: anthracnose,2: aphis_spp,55: early_blight,46: bacterial_blight,4: brown_spot,28: downy_mildew,33: bacterial_spot,10: rust,14: powdery_mildew,OTHER
+3: black_rot,0,21,0,0,2,0,2,9,2,3,232
+18: anthracnose,0,0,0,0,0,34,0,12,0,1,48
+2: aphis_spp,0,0,0,0,0,0,0,1,1,1,69
+55: early_blight,1,14,1,4,7,3,10,86,11,9,326
+46: bacterial_blight,0,6,0,1,3,0,1,7,4,2,101
+4: brown_spot,0,0,0,0,0,1,0,0,0,0,34
+28: downy_mildew,0,1,0,0,1,0,5,0,0,0,25
+33: bacterial_spot,17,7,0,1,8,0,1,36,9,3,138
+10: rust,0,0,0,0,3,5,0,0,24,0,57
+14: powdery_mildew,0,0,0,0,0,1,0,0,1,28,7

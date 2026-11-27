@@ -1,0 +1,3 @@
+model,best_epoch_for_H,crop_seen_top1,disease_seen_top1,crop_unseen_top1,disease_unseen_top1,composition_seen_top1,composition_unseen_top1,harmonic_top1,checkpoint
+P1,2,26.95,13.67,67.97,17.97,3.12,16.02,5.23,/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p1_pilot_seed42_all_pairs_c7887fea_best.pt
+P2,2,27.73,12.11,68.75,22.27,3.12,19.92,5.4,/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p2_pilot_seed42_all_pairs_c7887fea_best.pt

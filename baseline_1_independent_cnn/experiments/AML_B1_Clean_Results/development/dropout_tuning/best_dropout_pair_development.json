@@ -1,0 +1,12 @@
+{
+  "stage": "Stage 1 development validation only",
+  "selection_metric": "Highest combined composition validation H among E3 dropout candidate checkpoints",
+  "crop_run": "C4_dropout_03_P15",
+  "disease_run": "D1_reference_P15",
+  "candidate_classes": 9625,
+  "seen_validation_images": 695,
+  "unseen_validation_images": 400,
+  "seen_composition_top1": 0.6820143884892086,
+  "unseen_composition_top1": 0.0575,
+  "composition_H": 0.10605832137558675
+}

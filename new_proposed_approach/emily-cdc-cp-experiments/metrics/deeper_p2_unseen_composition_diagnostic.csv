@@ -1,0 +1,11 @@
+crop_name,disease_name,images,crop_correct,disease_correct,composition_correct,crop_correct_pct,disease_correct_pct,composition_correct_pct
+apple,monillia_laxa,9,4,1,0,44.44,11.11,0.0
+bean,angular_leaf_spot,18,16,0,0,88.89,0.0,0.0
+blueberry,healthy,46,0,43,0,0.0,93.48,0.0
+cassava,bacterial_blight,117,95,0,0,81.2,0.0,0.0
+cherry,powdery_mildew,42,0,13,0,0.0,30.95,0.0
+cucumber,healthy,5,2,1,0,40.0,20.0,0.0
+mango,powdery_mildew,18,16,0,0,88.89,0.0,0.0
+potato,late_blight,70,61,20,16,87.14,28.57,22.86
+tomato,spider_mites,70,67,0,0,95.71,0.0,0.0
+wheat,bacterial_leaf_streak,5,4,0,0,80.0,0.0,0.0

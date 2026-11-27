@@ -1,0 +1,29 @@
+{
+  "model": "B2 ConvNeXt CN01",
+  "final_checkpoint": "C:\\AML\\ML_Project\\Baseline2\\outputs\\convnext_cn01_stage2\\final_epoch10.pt",
+  "final_checkpoint_sha256": "d09c20ed59cfc102b2c539c147f7f842ee4b250c9f781daab67fc322bc41afe8",
+  "parent_checkpoint_sha256": "08fe9e263d7c6c1e21d75a5d36d4f5b3d30e04f63d799abc666b9d8662effce5",
+  "final_training_epoch": 10,
+  "full_training_images": 8000,
+  "source_stage1_epoch": 15,
+  "candidate_mode": "all_pairs",
+  "candidate_count": 9625,
+  "candidate_order": "crop_id ascending outer; disease_id ascending inner",
+  "scoring": "crop_log_softmax + disease_log_softmax",
+  "gamma": 0.0,
+  "temperature": 1.0,
+  "test_time_augmentation": false,
+  "resize": 256,
+  "resize_interpolation": "BILINEAR",
+  "center_crop": 224,
+  "normalization": "ImageNet mean/std",
+  "official_expected_seen": 2000,
+  "official_expected_unseen": 1448,
+  "metrics": [
+    "crop/disease/composition top1",
+    "crop/disease/composition top5",
+    "seen-unseen HM",
+    "confusion matrices"
+  ],
+  "official_test_used_for_model_selection": false
+}

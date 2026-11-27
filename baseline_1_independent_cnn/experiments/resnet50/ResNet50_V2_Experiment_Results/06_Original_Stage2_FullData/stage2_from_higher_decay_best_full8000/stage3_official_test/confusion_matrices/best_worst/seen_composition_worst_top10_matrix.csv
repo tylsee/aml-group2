@@ -1,0 +1,11 @@
+Actual Class,"tomato / spider_mites [51,68]","paddy / hispa [33,123]","apple / alternaria_leaf_spot [0,1]","paddy / bacterial_blight [33,46]","bean / angular_leaf_spot [4,30]","cassava / brown_leaf_spot [13,47]","peanut / healthy [37,9]","paddy / healthy [33,9]","cassava / green_mottle [13,50]","apple / scab [0,15]",OTHER
+"tomato / spider_mites [51,68]",0,0,0,0,0,0,0,0,0,0,13
+"paddy / hispa [33,123]",0,0,0,0,0,0,0,0,0,0,12
+"apple / alternaria_leaf_spot [0,1]",0,0,0,0,0,0,0,0,0,0,8
+"paddy / bacterial_blight [33,46]",0,0,0,0,0,0,0,0,0,0,7
+"bean / angular_leaf_spot [4,30]",0,0,0,0,0,0,0,0,0,0,5
+"cassava / brown_leaf_spot [13,47]",0,0,0,0,0,0,0,0,0,0,5
+"peanut / healthy [37,9]",0,0,0,0,0,0,0,0,0,0,5
+"paddy / healthy [33,9]",0,6,0,0,0,0,0,3,0,0,23
+"cassava / green_mottle [13,50]",0,0,0,0,0,0,0,0,2,0,18
+"apple / scab [0,15]",0,0,0,0,0,0,0,0,0,1,8

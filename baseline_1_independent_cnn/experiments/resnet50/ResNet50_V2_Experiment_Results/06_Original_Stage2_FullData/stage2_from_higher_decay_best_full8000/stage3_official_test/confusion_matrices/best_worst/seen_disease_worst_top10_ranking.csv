@@ -1,0 +1,11 @@
+class_key,support,TP,FN,recall,class_name
+123,12,0,12,0.0,123: hispa
+44,5,0,5,0.0,44: cercospora_leaf_blight
+47,5,0,5,0.0,47: brown_leaf_spot
+15,14,1,13,0.07142857142857142,15: scab
+68,14,1,13,0.07142857142857142,68: spider_mites
+1,12,1,11,0.08333333333333333,1: alternaria_leaf_spot
+50,20,2,18,0.1,50: green_mottle
+30,9,1,8,0.1111111111111111,30: angular_leaf_spot
+128,8,1,7,0.125,128: yellow_stem_borer
+170,5,1,4,0.2,170: loose_smut

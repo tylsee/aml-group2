@@ -1,0 +1,18 @@
+{
+  "report_type": "STAGE 1 DEVELOPMENT VALIDATION ONLY \u2014 NOT OFFICIAL TEST",
+  "crop_experiment": "C4_dropout_03_P15",
+  "disease_experiment": "D1_reference_P15",
+  "selection_rule": "highest development Composition H",
+  "seen_validation_images": 695,
+  "unseen_validation_images": 400,
+  "crop_classes": 55,
+  "disease_classes": 175,
+  "candidate_compositions": 9625,
+  "included_experiments": {
+    "crop": 7,
+    "disease": 7
+  },
+  "prediction_order_assumption": "Saved NPZ rows must match split CSV row order",
+  "detailed_folder": "/content/drive/MyDrive/AML_B1_Clean_Results/evaluation/development/selected_pair/crop__C4_dropout_03_P15__disease__D1_reference_P15",
+  "timestamp": "2026-11-08T15:31:19"
+}

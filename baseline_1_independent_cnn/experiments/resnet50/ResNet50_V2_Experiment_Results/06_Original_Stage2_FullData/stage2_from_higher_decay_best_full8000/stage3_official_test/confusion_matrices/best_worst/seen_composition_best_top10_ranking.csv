@@ -1,0 +1,11 @@
+class_key,support,TP,FN,recall,class_name
+0|4,18,18,0,1.0,"apple / brown_spot [0,4]"
+41|14,16,16,0,1.0,"pumpkin / powdery_mildew [41,14]"
+32|118,11,11,0,1.0,"olive / peacock_spot [32,118]"
+40|9,8,8,0,1.0,"potato / healthy [40,9]"
+51|4,8,8,0,1.0,"tomato / brown_spot [51,4]"
+5|9,6,6,0,1.0,"pepper_bell / healthy [5,9]"
+47|150,6,6,0,1.0,"sugarcane / sett_rot [47,150]"
+36|9,5,5,0,1.0,"peach / healthy [36,9]"
+42|9,5,5,0,1.0,"raspberry / healthy [42,9]"
+47|51,5,5,0,1.0,"sugarcane / mosaic [47,51]"

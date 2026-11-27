@@ -1,0 +1,9 @@
+Split,Category,Images,Percent (%)
+Seen Validation,both_correct,474,68.20143884892086
+Seen Validation,crop_wrong_only,25,3.597122302158273
+Seen Validation,disease_wrong_only,131,18.848920863309353
+Seen Validation,both_wrong,65,9.352517985611511
+Unseen Validation,both_correct,23,5.75
+Unseen Validation,crop_wrong_only,55,13.75
+Unseen Validation,disease_wrong_only,251,62.75
+Unseen Validation,both_wrong,71,17.75

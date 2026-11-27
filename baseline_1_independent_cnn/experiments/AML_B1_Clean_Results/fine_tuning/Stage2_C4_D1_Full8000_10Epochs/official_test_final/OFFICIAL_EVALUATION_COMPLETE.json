@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "selection_policy": "highest_training_top1_accuracy_per_task_from_10_epochs_earliest_tie_frozen_before_official_test",
+  "checkpoint_crop": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/crop/best_training_accuracy.pt",
+  "checkpoint_disease": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/disease/best_training_accuracy.pt",
+  "seen_samples": 2000,
+  "unseen_samples": 1448,
+  "candidate_compositions": 9625
+}

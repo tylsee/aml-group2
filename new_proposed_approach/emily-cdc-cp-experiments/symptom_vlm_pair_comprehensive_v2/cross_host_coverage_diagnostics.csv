@@ -1,0 +1,13 @@
+arm,seed,training_host_group,unseen_images,unseen_disease_top1,unseen_pair_top1
+label_factor,42,1 host,163,1.2269938650306749,0.0
+label_factor,42,2–3 hosts,126,0.0,0.0
+label_factor,42,4+ hosts,111,41.44144144144144,0.9009009009009009
+symptom_factor,42,1 host,163,0.6134969325153374,0.0
+symptom_factor,42,2–3 hosts,126,0.0,0.0
+symptom_factor,42,4+ hosts,111,44.14414414414414,0.9009009009009009
+symptom_supcon,42,1 host,163,0.0,0.0
+symptom_supcon,42,2–3 hosts,126,0.0,0.0
+symptom_supcon,42,4+ hosts,111,0.0,0.0
+symptom_pair_supcon,42,1 host,163,0.0,0.0
+symptom_pair_supcon,42,2–3 hosts,126,0.0,0.0
+symptom_pair_supcon,42,4+ hosts,111,0.0,0.0

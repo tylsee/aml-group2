@@ -1,0 +1,10 @@
+arm,combination,exact_pair_n,exact_pair_correct,crop_val_n,crop_correct_pct,disease_val_n,disease_correct_pct
+GAP original (no extra),carrot_cercospora_leaf_blight,0,0,2,50.0,2,0.0
+GAP original (no extra),cabbage_black_rot,1,0,2,0.0,4,50.0
+GAP original (no extra),basil_downy_mildew,1,0,3,0.0,10,20.0
+real_replay,carrot_cercospora_leaf_blight,0,0,2,50.0,2,0.0
+real_replay,cabbage_black_rot,1,0,2,0.0,4,75.0
+real_replay,basil_downy_mildew,1,0,3,0.0,10,20.0
+synthetic,carrot_cercospora_leaf_blight,0,0,2,50.0,2,0.0
+synthetic,cabbage_black_rot,1,0,2,0.0,4,75.0
+synthetic,basil_downy_mildew,1,0,3,33.33333333333333,10,30.0

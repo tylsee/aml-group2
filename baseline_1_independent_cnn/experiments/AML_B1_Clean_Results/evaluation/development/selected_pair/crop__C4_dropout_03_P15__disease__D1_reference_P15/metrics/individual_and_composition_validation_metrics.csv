@@ -1,0 +1,13 @@
+Split,Metric,Accuracy (%)
+Seen Validation,Crop Top1,87.05035971223022
+Seen Validation,Crop Top5,95.25179856115108
+Seen Validation,Disease Top1,71.79856115107913
+Seen Validation,Disease Top5,88.48920863309353
+Seen Validation,Composition Top1,68.20143884892086
+Seen Validation,Composition Top5,84.46043165467626
+Unseen Validation,Crop Top1,68.5
+Unseen Validation,Crop Top5,76.75
+Unseen Validation,Disease Top1,19.5
+Unseen Validation,Disease Top5,32.75
+Unseen Validation,Composition Top1,5.75
+Unseen Validation,Composition Top5,12.25

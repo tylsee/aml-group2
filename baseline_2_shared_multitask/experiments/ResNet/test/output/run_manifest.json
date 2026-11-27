@@ -1,0 +1,94 @@
+{
+  "run_id": "official_resnet50_exp15_stage2_10e_once",
+  "status": "completed",
+  "evaluated_at_utc": "2026-11-22T18:49:02.705830+00:00",
+  "checkpoint": "C:\\AML\\ML_Project\\Baseline2\\outputs\\stage2_exp15_full_10e_seed42\\final_full_data.pt",
+  "checkpoint_sha256": "0b4970a1fe7978a010a39e72ccaffd9826f99c09e37a3a28d2342b344194628f",
+  "stage1_parent_best_epoch": 12,
+  "stage2_additional_final_epoch": 10,
+  "full_training_n": 8000,
+  "official_seen_n": 2000,
+  "official_unseen_n": 1448,
+  "official_csvs": {
+    "seen": "C:\\AML\\ML_Project\\Baseline2\\DPD_Small_test_seen.csv",
+    "unseen": "C:\\AML\\ML_Project\\Baseline2\\DPD_Small_test_unseen.csv"
+  },
+  "official_csv_sha256": {
+    "seen": "45d31d48d2260f56cc28871b44434b5243100dc90dc95652c28c377b35b45e83",
+    "unseen": "757e3c1fdcc894004a69c21dbc00d6b818f563aa671db9ab8d315c4790c2490b"
+  },
+  "split_sha256": {
+    "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+    "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+    "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67",
+    "heldout_compositions.csv": "437f57924eef3e5788ed0993caddd969e08f9f86add64791d944425f4bddfe7f",
+    "split_manifest.json": "c120d065677e37db6d00880104684c0cd70ccd1c0774ec4aac2eb4b4b0889df8"
+  },
+  "dataset_overlap_checks": {
+    "file_names": true,
+    "seen_train_pairs": true,
+    "unseen_train_pairs_disjoint": true,
+    "canonical_class_ids": true,
+    "content_hashes": false
+  },
+  "model": {
+    "backbone": "resnet50",
+    "weights_origin": "IMAGENET1K_V2",
+    "architecture": "one shared backbone + crop head + disease head",
+    "crop_classes": 55,
+    "disease_classes": 175,
+    "candidate_pairs": 9625,
+    "task_loss_weights": {
+      "crop": 1.0,
+      "disease": 1.5
+    }
+  },
+  "inference": {
+    "transform": "BICUBIC Resize(256), CenterCrop(224), ToTensor, ImageNet Normalize",
+    "batch_size": 16,
+    "num_workers": 0,
+    "autocast": true,
+    "candidate_scores": "log_softmax(crop)+log_softmax(disease)",
+    "calibration": "none"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "pytorch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "raw_metrics": {
+    "seen": {
+      "crop_top1": 0.8755,
+      "crop_top5": 0.959,
+      "disease_top1": 0.6365,
+      "disease_top5": 0.8725,
+      "composition_top1": 0.608,
+      "composition_top5": 0.8145,
+      "total_loss": 2.291454794883728,
+      "crop_loss": 0.5732683736085892,
+      "disease_loss": 1.718186407804489,
+      "n_images": 2000,
+      "wall_seconds": 62.153469100012444,
+      "images_per_second": 32.17841303084399
+    },
+    "unseen": {
+      "crop_top1": 0.6422651933701657,
+      "crop_top5": 0.8087016574585635,
+      "disease_top1": 0.06767955801104972,
+      "disease_top5": 0.26243093922651933,
+      "composition_top1": 0.022099447513812154,
+      "composition_top5": 0.12430939226519337,
+      "total_loss": 9.194677476724866,
+      "crop_loss": 1.9189725916688614,
+      "disease_loss": 7.275704869249249,
+      "n_images": 1448,
+      "wall_seconds": 23.201380300044548,
+      "images_per_second": 62.410079972579034
+    }
+  },
+  "total_wall_seconds": 86.96388120000483,
+  "provenance_notice": "ONE-TIME independent Official Test; not used for model/epoch/seed selection"
+}

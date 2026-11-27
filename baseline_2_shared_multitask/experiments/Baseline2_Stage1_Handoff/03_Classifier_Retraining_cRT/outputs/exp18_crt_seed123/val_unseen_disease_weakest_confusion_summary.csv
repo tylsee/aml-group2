@@ -1,0 +1,7 @@
+,Correct,82: target_spot,9: healthy,55: early_blight,4: brown_spot,48: brown_streak_disease,Other wrong
+spider_mites (n=70),0,45,13,0,0,0,12
+angular_leaf_spot (n=18),0,0,0,0,1,0,17
+bacterial_leaf_streak (n=5),0,0,0,0,0,0,5
+bacterial_blight (n=117),1,0,19,0,30,26,41
+monillia_laxa (n=9),1,0,3,0,0,0,5
+late_blight (n=70),22,1,8,33,0,0,6

@@ -1,0 +1,117 @@
+{
+  "config": {
+    "experiment_id": "b2_final_exp04",
+    "changed_parameter": "Tempered disease-balanced sampling (alpha=0.25) versus Exp01",
+    "backbone": "efficientnet_b0",
+    "pretrained_weights": "IMAGENET1K_V1",
+    "crop_classes": 55,
+    "disease_classes": 175,
+    "image_size": 224,
+    "batch_size": 32,
+    "max_epochs": 30,
+    "patience": 5,
+    "min_delta": 1e-06,
+    "backbone_lr": 1e-06,
+    "head_lr": 0.0001,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "scheduler": "constant low LR",
+    "crop_loss_weight": 1.0,
+    "disease_loss_weight": 1.0,
+    "seed": 42,
+    "num_workers": 4,
+    "prefetch_factor": 2,
+    "amp": true,
+    "cudnn_benchmark": false,
+    "crop_scale": [
+      0.85,
+      1.0
+    ],
+    "flip_probability": 0.5,
+    "rotation_degrees": 10,
+    "brightness": 0.1,
+    "contrast": 0.1,
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "candidate_mode": "all_pairs",
+    "candidate_catalog": null,
+    "sampler_mode": "disease_tempered",
+    "sampler_alpha": 0.25,
+    "requested_num_workers": 4,
+    "stage2_mode": "final_full_data",
+    "additional_epochs": 3,
+    "parent_checkpoint": "C:\\AML\\ML_Project\\Baseline2\\outputs\\exp04\\best_development.pt",
+    "fine_tune_mode": "full",
+    "trainability": {
+      "mode": "full",
+      "frozen_features": [],
+      "trainable_features": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "parent_checkpoint_sha256": "772b8859af19aebc8aa5ae08f592aae518fcd734d901cb5f078daaff6004ca5c",
+  "original_training_count": 8000,
+  "former_validation_is_independent": false,
+  "development_split": {
+    "counts": {
+      "train_fit": 6905,
+      "val_seen": 695,
+      "val_unseen": 400
+    },
+    "coverage": {
+      "train_fit": {
+        "crop_id": 55,
+        "disease_id": 175,
+        "composition_id": 313
+      },
+      "val_seen": {
+        "crop_id": 55,
+        "disease_id": 155,
+        "composition_id": 273
+      },
+      "val_unseen": {
+        "crop_id": 10,
+        "disease_id": 8,
+        "composition_id": 10
+      }
+    },
+    "sha256": {
+      "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+      "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+      "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67",
+      "heldout_compositions.csv": "437f57924eef3e5788ed0993caddd969e08f9f86add64791d944425f4bddfe7f",
+      "split_manifest.json": "c120d065677e37db6d00880104684c0cd70ccd1c0774ec4aac2eb4b4b0889df8"
+    },
+    "image_paths_checked": false
+  },
+  "candidate_policy_status": "locked to parent checkpoint pairs",
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "cuda_runtime": "12.8"
+  }
+}

@@ -1,0 +1,13 @@
+Split,Category,Count,Percentage (%)
+Seen,crop_wrong,242,12.1
+Seen,disease_wrong,715,35.75
+Seen,crop_wrong_only,67,3.35
+Seen,disease_wrong_only,540,27.0
+Seen,both_wrong,175,8.75
+Seen,both_correct,1218,60.9
+Unseen,crop_wrong,474,32.73480662983425
+Unseen,disease_wrong,1347,93.02486187845304
+Unseen,crop_wrong_only,57,3.93646408839779
+Unseen,disease_wrong_only,930,64.22651933701657
+Unseen,both_wrong,417,28.798342541436465
+Unseen,both_correct,44,3.0386740331491713

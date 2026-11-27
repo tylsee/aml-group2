@@ -1,0 +1,4 @@
+model,best_epoch_for_H,crop_seen_top1,disease_seen_top1,crop_unseen_top1,disease_unseen_top1,composition_seen_top1,composition_unseen_top1,harmonic_top1,checkpoint
+P1,9.0,86.33,66.04,65.5,17.75,62.01,2.0,3.88,/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p1_development_seed42_all_pairs_a8e181e8_best.pt
+P2,12.0,87.48,69.21,65.0,17.25,66.04,2.5,4.82,/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p2_development_seed42_all_pairs_a8e181e8_best.pt
+P3,,87.19,63.02,64.0,15.0,60.0,0.75,1.48,/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p3_development_seed42_all_pairs_a8e181e8_train_fit_prototypes.npz

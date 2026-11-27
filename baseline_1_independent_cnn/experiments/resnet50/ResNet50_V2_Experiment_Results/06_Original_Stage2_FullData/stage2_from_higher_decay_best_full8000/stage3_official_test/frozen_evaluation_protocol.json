@@ -1,0 +1,23 @@
+{
+  "dataset": "DPD-Small",
+  "stage": "Official Test",
+  "crop": {
+    "path": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/stage2_from_higher_decay_best_full8000/crop/best_train_acc.pt",
+    "epoch": 10,
+    "training_accuracy": 0.979125,
+    "sha256": "3317a6a00ea0942825103501a97c9cb3e3e98956b82fc8036e4ea21864b3636f"
+  },
+  "disease": {
+    "path": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/stage2_from_higher_decay_best_full8000/disease/best_train_acc.pt",
+    "epoch": 10,
+    "training_accuracy": 0.92725,
+    "sha256": "3d7ac0098b90321ed86e4bb10b306211648228063f00511a18659d95de4db12c"
+  },
+  "selection_rule": "highest_stage2_training_accuracy_earliest_tie",
+  "seen_images": 2000,
+  "unseen_images": 1448,
+  "candidate_compositions": 9625,
+  "preprocessing": "Resize256_CenterCrop224_ImageNetNormalize",
+  "composition_score": "crop_log_probability_plus_disease_log_probability",
+  "checkpoint_selection_uses_official_test": false
+}

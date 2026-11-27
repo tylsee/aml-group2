@@ -1,0 +1,3 @@
+Split,N,Predicted seen-pair rate (%),Both correct,Crop only correct,Disease only correct,Neither correct,Joint Top-1 pair correct
+seen,2000,91.4,1216,535,57,192,1216
+unseen,1448,67.541,32,898,66,452,32

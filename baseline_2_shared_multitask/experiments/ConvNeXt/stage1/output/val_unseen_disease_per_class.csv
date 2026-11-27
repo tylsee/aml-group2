@@ -1,0 +1,9 @@
+class_id,support,correct,accuracy,label_name
+9,51,45,0.8823529411764706,healthy
+12,9,2,0.2222222222222222,monillia_laxa
+14,60,15,0.25,powdery_mildew
+30,18,0,0.0,angular_leaf_spot
+46,117,1,0.008547008547008548,bacterial_blight
+68,70,0,0.0,spider_mites
+119,5,0,0.0,bacterial_leaf_streak
+139,70,24,0.34285714285714286,late_blight

@@ -1,0 +1,24 @@
+{
+  "status": "STAGE2_TRAINED__OFFICIAL_TEST_NOT_RUN",
+  "protocol_sha256": "b1fb11490fdb44b3b73d050837c2401c3cc14fc5e5deaa631301acd37ac0f7db",
+  "lock_path": "/content/drive/MyDrive/CDC_CP_Experiments/stage2_efficientnet_deeper_p2_locked_v1/locked_stage2_spec.json",
+  "model": "EfficientNet-B0 Deeper P2",
+  "stage2_epochs": 3,
+  "final_checkpoint": "/content/drive/MyDrive/CDC_CP_Experiments/stage2_efficientnet_deeper_p2_locked_v1/stage2_final_epoch03.pt",
+  "final_checkpoint_sha256": "667b0b0afb0ee5e2dcf63082bbfe53333eddaadd7189ccdc3e279567c52238b7",
+  "p3_prototype_bank": "/content/drive/MyDrive/CDC_CP_Experiments/stage2_efficientnet_deeper_p2_locked_v1/p3_fulltrain_320px_prototypes.npz",
+  "p3_prototype_sha256": "8b9239d0f0863da9e3707ee20348591729f8f7033219189ebd76ee8369ac7ffc",
+  "prototype_bank_training_only": true,
+  "train_images": 8000,
+  "final_input_resolution": 320,
+  "all_pair_candidates": 9625,
+  "official_test_seen_expected": 2000,
+  "official_test_unseen_expected": 1448,
+  "official_test_evaluation_performed": false,
+  "expected_comparison": "P2 classifier vs separate P3 factorised prototypes; groupmates evaluated independently on same held-out official labels",
+  "warnings": [
+    "Historical parent selected by exploratory development unseen HM",
+    "P3 does not learn explicit crop-disease pair compatibility",
+    "Do not re-select Stage2 checkpoint using test results"
+  ]
+}

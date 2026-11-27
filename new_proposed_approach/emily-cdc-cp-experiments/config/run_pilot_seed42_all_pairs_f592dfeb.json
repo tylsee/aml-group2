@@ -1,0 +1,31 @@
+{
+  "run_mode": "pilot",
+  "seed": 42,
+  "gpu": "CPU",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "archive": "/content/drive/MyDrive/DPD_Small.7z",
+  "train_csv": "/content/dpd_small_extracted/DPD_Small_train.csv",
+  "group_splits_dir": "/content/drive/MyDrive/CDC_CP_Experiments/splits/group_v2_521b61c7e6ac",
+  "split_zip_source": "/content/drive/MyDrive/splits_v2-20261103T101512Z-1-001.zip",
+  "num_train_images": 8000,
+  "run_train_images": 640,
+  "run_seen_val_images": 695,
+  "run_unseen_val_images": 400,
+  "epochs": 2,
+  "split_sha256": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+  "mapping_sha256": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+  "pair_catalogue_sha256": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+  "candidate_policy": "all_pairs",
+  "candidate_count": 9625,
+  "gpu_batch_originals": 16,
+  "views_per_original": 2,
+  "p2_alpha": 0.1,
+  "p2_beta": 0.1,
+  "p2_tau": 0.07,
+  "development_checkpoints": {
+    "P1": "/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p1_pilot_seed42_all_pairs_f592dfeb_best.pt",
+    "P2": "/content/drive/MyDrive/CDC_CP_Experiments/checkpoints/p2_pilot_seed42_all_pairs_f592dfeb_best.pt"
+  },
+  "final_checkpoints": {}
+}

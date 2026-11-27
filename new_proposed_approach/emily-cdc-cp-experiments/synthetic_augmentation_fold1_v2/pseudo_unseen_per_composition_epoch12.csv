@@ -1,0 +1,31 @@
+crop_name,disease_name,images,disease_correct,pair_correct,disease_pct,pair_pct,arm
+bean,healthy,9,2,0,22.22222222222222,0.0,GAP original (no extra)
+cauliflower,black_rot,6,0,0,0.0,0.0,GAP original (no extra)
+grape,leaf_blight,37,0,0,0.0,0.0,GAP original (no extra)
+papaya,bacterial_spot,13,0,0,0.0,0.0,GAP original (no extra)
+peach,curl,11,0,0,0.0,0.0,GAP original (no extra)
+potato,healthy,42,25,11,59.523809523809526,26.19047619047619,GAP original (no extra)
+sugarcane,brown_spot,21,0,0,0.0,0.0,GAP original (no extra)
+sunflower,downy_mildew,6,3,1,50.0,16.666666666666668,GAP original (no extra)
+tomato,target_spot,63,0,0,0.0,0.0,GAP original (no extra)
+zucchini,powdery_mildew,6,4,0,66.66666666666667,0.0,GAP original (no extra)
+bean,healthy,9,1,1,11.11111111111111,11.11111111111111,real_replay
+cauliflower,black_rot,6,0,0,0.0,0.0,real_replay
+grape,leaf_blight,37,0,0,0.0,0.0,real_replay
+papaya,bacterial_spot,13,0,0,0.0,0.0,real_replay
+peach,curl,11,0,0,0.0,0.0,real_replay
+potato,healthy,42,23,12,54.76190476190476,28.571428571428573,real_replay
+sugarcane,brown_spot,21,0,0,0.0,0.0,real_replay
+sunflower,downy_mildew,6,2,0,33.333333333333336,0.0,real_replay
+tomato,target_spot,63,0,0,0.0,0.0,real_replay
+zucchini,powdery_mildew,6,3,0,50.0,0.0,real_replay
+bean,healthy,9,1,1,11.11111111111111,11.11111111111111,synthetic
+cauliflower,black_rot,6,0,0,0.0,0.0,synthetic
+grape,leaf_blight,37,0,0,0.0,0.0,synthetic
+papaya,bacterial_spot,13,0,0,0.0,0.0,synthetic
+peach,curl,11,1,0,9.090909090909092,0.0,synthetic
+potato,healthy,42,25,12,59.523809523809526,28.571428571428573,synthetic
+sugarcane,brown_spot,21,0,0,0.0,0.0,synthetic
+sunflower,downy_mildew,6,1,0,16.666666666666668,0.0,synthetic
+tomato,target_spot,63,0,0,0.0,0.0,synthetic
+zucchini,powdery_mildew,6,3,0,50.0,0.0,synthetic

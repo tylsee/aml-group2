@@ -1,0 +1,5 @@
+input,outcome,n_compositions,spearman_rho,p_value_exploratory
+train_host_crops_for_disease,disease_accuracy_pct,24,0.644282593776065,0.0006790234331089687
+train_host_crops_for_disease,pair_accuracy_pct,24,0.49705370117579045,0.01347151211864717
+train_images_for_disease,disease_accuracy_pct,24,0.33444394188549526,0.11018573211108254
+train_images_for_disease,pair_accuracy_pct,24,0.18514457301647896,0.3864227532717506

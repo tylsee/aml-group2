@@ -1,0 +1,14 @@
+{
+  "feature_checkpoint": "each_fold_GAP_epoch08",
+  "fit": "fold_train_only",
+  "folds": [
+    1,
+    2,
+    3
+  ],
+  "input_resolution": 320,
+  "no_original_unseen_or_official_tests": true,
+  "probe": "RidgeClassifier",
+  "ridge_alpha": 10.0,
+  "version": "disentanglement_host_diagnostics_v1"
+}

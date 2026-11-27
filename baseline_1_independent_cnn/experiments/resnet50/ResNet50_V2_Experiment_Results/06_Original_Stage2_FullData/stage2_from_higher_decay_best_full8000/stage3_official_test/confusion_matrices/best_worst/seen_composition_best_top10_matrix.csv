@@ -1,0 +1,11 @@
+Actual Class,"apple / brown_spot [0,4]","pumpkin / powdery_mildew [41,14]","olive / peacock_spot [32,118]","potato / healthy [40,9]","tomato / brown_spot [51,4]","pepper_bell / healthy [5,9]","sugarcane / sett_rot [47,150]","peach / healthy [36,9]","raspberry / healthy [42,9]","sugarcane / mosaic [47,51]",OTHER
+"apple / brown_spot [0,4]",18,0,0,0,0,0,0,0,0,0,0
+"pumpkin / powdery_mildew [41,14]",0,16,0,0,0,0,0,0,0,0,0
+"olive / peacock_spot [32,118]",0,0,11,0,0,0,0,0,0,0,0
+"potato / healthy [40,9]",0,0,0,8,0,0,0,0,0,0,0
+"tomato / brown_spot [51,4]",0,0,0,0,8,0,0,0,0,0,0
+"pepper_bell / healthy [5,9]",0,0,0,0,0,6,0,0,0,0,0
+"sugarcane / sett_rot [47,150]",0,0,0,0,0,0,6,0,0,0,0
+"peach / healthy [36,9]",0,0,0,0,0,0,0,5,0,0,0
+"raspberry / healthy [42,9]",0,0,0,0,0,0,0,0,5,0,0
+"sugarcane / mosaic [47,51]",0,0,0,0,0,0,0,0,0,5,0

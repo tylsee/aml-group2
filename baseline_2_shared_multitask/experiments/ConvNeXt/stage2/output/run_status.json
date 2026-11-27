@@ -1,0 +1,5 @@
+{
+  "status": "complete",
+  "last_epoch": 10,
+  "final_checkpoint": "C:\\AML\\ML_Project\\Baseline2\\outputs\\convnext_cn01_stage2\\final_epoch10.pt"
+}

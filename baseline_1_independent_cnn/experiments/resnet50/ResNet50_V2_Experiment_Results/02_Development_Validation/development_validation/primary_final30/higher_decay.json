@@ -1,0 +1,19 @@
+{
+  "experiment": "higher_decay",
+  "label": "Higher Weight Decay",
+  "phase": "primary_final30",
+  "screen_or_target_epoch": 30,
+  "evaluation": "DEVELOPMENT VALIDATION \u2014 NOT OFFICIAL TEST",
+  "candidate_pairs": 9625,
+  "seen": {
+    "composition_top1": 0.7280575539568346,
+    "crop_top1": 0.8906474820143885,
+    "disease_top1": 0.758273381294964
+  },
+  "unseen": {
+    "composition_top1": 0.065,
+    "crop_top1": 0.7275,
+    "disease_top1": 0.255
+  },
+  "composition_hm": 0.11934503560575135
+}

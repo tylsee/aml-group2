@@ -1,0 +1,4 @@
+Experiment,Crop Epochs,Disease Epochs,Backbone LR,Head LR,Weight Decay,Crop Dropout,Disease Dropout,Seen Development Top-1 (%),Unseen Development Top-1 (%),Development Composition HM (%)
+Higher Weight Decay,30,30,1e-05,0.001,0.001,0.3,0.2,72.80575539568346,6.5,11.934503560575136
+Higher Dropout,15,15,1e-05,0.001,0.0001,0.4,0.3,72.94964028776978,5.25,9.795073483750775
+Lower Learning Rate,5,5,5e-06,0.0005,0.0001,0.3,0.2,64.89208633093526,1.7500000000000002,3.4080911127304137

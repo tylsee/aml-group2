@@ -1,0 +1,11 @@
+{
+  "training_images": 6905,
+  "crop_classes": 55,
+  "disease_classes": 175,
+  "observed_train_pairs": 313,
+  "theoretical_pairs": 9625,
+  "diseases_one_host": 137,
+  "diseases_multiple_hosts": 38,
+  "diseases_fewer_than_5_images": 62,
+  "diseases_fewer_than_10_images": 92
+}

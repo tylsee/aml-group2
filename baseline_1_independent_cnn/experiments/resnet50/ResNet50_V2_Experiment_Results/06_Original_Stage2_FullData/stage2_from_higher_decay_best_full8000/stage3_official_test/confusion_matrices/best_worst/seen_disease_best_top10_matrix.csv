@@ -1,0 +1,11 @@
+Actual Class,118: peacock_spot,150: sett_rot,61: greening,95: streak_virus,8: grey_spot,94: lethal_necrosis,136: slug,167: yellow_leaf_curl_virus,7: frog_eye_leaf_spot,88: esca,OTHER
+118: peacock_spot,11,0,0,0,0,0,0,0,0,0,0
+150: sett_rot,0,6,0,0,0,0,0,0,0,0,0
+61: greening,0,0,34,0,0,0,0,0,0,0,1
+95: streak_virus,0,0,0,53,0,1,0,0,0,0,1
+8: grey_spot,0,0,0,0,15,0,0,0,0,0,1
+94: lethal_necrosis,0,0,0,0,0,29,0,0,0,0,2
+136: slug,0,0,0,0,0,0,12,0,0,0,1
+167: yellow_leaf_curl_virus,0,0,0,0,0,0,0,40,0,0,4
+7: frog_eye_leaf_spot,0,0,0,0,0,0,0,0,21,0,3
+88: esca,0,0,0,0,0,0,0,0,0,14,2

@@ -1,0 +1,43 @@
+{
+  "version": "pseudo_unseen_cv_v1",
+  "seed": 20261120,
+  "source_train_images": 6905,
+  "source_sha256": "c7506c6b394b824ca06c4b6078cb24c72053981fab6cd424e1f759d8f9f5f3dc",
+  "folds": 3,
+  "pairs_per_fold": 10,
+  "healthy_pairs_per_fold": 2,
+  "candidate_rules": {
+    "minimum_pair_images": 5,
+    "maximum_pair_images": 100,
+    "minimum_other_crop_images": 8,
+    "minimum_other_disease_images": 8,
+    "minimum_training_host_crops_for_heldout_disease": 2
+  },
+  "notes": "Only dev_train used for pseudo-unseen pair selection; no original unseen_val, official test, or model metrics.",
+  "fold_summary": [
+    {
+      "fold": 1,
+      "training_images": 6691,
+      "pseudo_unseen_images": 214,
+      "seen_validation_images": 675,
+      "pair_count": 10,
+      "healthy_pairs": 2
+    },
+    {
+      "fold": 2,
+      "training_images": 6549,
+      "pseudo_unseen_images": 356,
+      "seen_validation_images": 663,
+      "pair_count": 10,
+      "healthy_pairs": 2
+    },
+    {
+      "fold": 3,
+      "training_images": 6586,
+      "pseudo_unseen_images": 319,
+      "seen_validation_images": 666,
+      "pair_count": 10,
+      "healthy_pairs": 2
+    }
+  ]
+}

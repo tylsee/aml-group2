@@ -1,0 +1,56 @@
+{
+  "3": {
+    "seen": {
+      "crop_top1": 0.876,
+      "crop_top5": 0.954,
+      "disease_top1": 0.6435,
+      "disease_top5": 0.874,
+      "composition_top1": 0.6115,
+      "composition_top5": 0.816
+    },
+    "unseen": {
+      "crop_top1": 0.6678176795580111,
+      "crop_top5": 0.8308011049723757,
+      "disease_top1": 0.06837016574585636,
+      "disease_top5": 0.2520718232044199,
+      "composition_top1": 0.029005524861878452,
+      "composition_top5": 0.1477900552486188
+    }
+  },
+  "5": {
+    "seen": {
+      "crop_top1": 0.877,
+      "crop_top5": 0.956,
+      "disease_top1": 0.6465,
+      "disease_top5": 0.875,
+      "composition_top1": 0.611,
+      "composition_top5": 0.8245
+    },
+    "unseen": {
+      "crop_top1": 0.6664364640883977,
+      "crop_top5": 0.8328729281767956,
+      "disease_top1": 0.0738950276243094,
+      "disease_top5": 0.255524861878453,
+      "composition_top1": 0.031767955801104975,
+      "composition_top5": 0.14986187845303867
+    }
+  },
+  "10": {
+    "seen": {
+      "crop_top1": 0.879,
+      "crop_top5": 0.955,
+      "disease_top1": 0.6425,
+      "disease_top5": 0.8755,
+      "composition_top1": 0.609,
+      "composition_top5": 0.8245
+    },
+    "unseen": {
+      "crop_top1": 0.6726519337016574,
+      "crop_top5": 0.830110497237569,
+      "disease_top1": 0.06975138121546962,
+      "disease_top5": 0.2451657458563536,
+      "composition_top1": 0.03038674033149171,
+      "composition_top5": 0.1484806629834254
+    }
+  }
+}

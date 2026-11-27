@@ -1,0 +1,12 @@
+{
+  "seen": {
+    "training_seen_pair_predictions": 1839,
+    "n_images": 2000,
+    "prediction_fraction": 0.9195
+  },
+  "unseen": {
+    "training_seen_pair_predictions": 982,
+    "n_images": 1448,
+    "prediction_fraction": 0.6781767955801105
+  }
+}

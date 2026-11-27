@@ -1,0 +1,4 @@
+run,source,backbone,physical_batch,accumulation_steps,disease_weight,seen_composition_top1,unseen_composition_top1,composition_hm
+ResNet-50 Exp09,historical executed notebook,ResNet-50 ImageNet V2,16,1,1.0,0.7294964028776978,0.04,0.07584143605086013
+ResNet-50 Exp15,historical executed notebook,ResNet-50 ImageNet V2,16,1,1.5,0.7251798561151079,0.0425,0.08029426235269312
+ConvNeXt CN01,new development evaluation,ConvNeXt-Tiny ImageNet V1,8,2,1.0,0.758273381294964,0.04,0.07599134823359768

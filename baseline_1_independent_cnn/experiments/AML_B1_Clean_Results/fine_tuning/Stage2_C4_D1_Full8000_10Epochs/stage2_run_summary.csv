@@ -1,0 +1,3 @@
+Task,Source Stage 1,Status,Epochs Finished,Training Loss (Last Epoch),"Training Accuracy (Last Epoch, %)",Best Observed Training Accuracy (%),Best Observed Epoch
+CROP,C4_dropout_03_P15,COMPLETE,10,0.178,95.24,95.49,8
+DISEASE,D1_reference_P15,COMPLETE,10,0.4174,88.2,88.96,8

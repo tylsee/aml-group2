@@ -1,0 +1,4 @@
+model,seen_crop,seen_disease,unseen_crop,unseen_disease,seen_pair,unseen_pair,harmonic,checkpoint
+Original deeper P2 (epoch 8),84.31654676258992,64.46043165467626,66.25,19.5,60.57553956834533,4.0,7.504456327985739,/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt
+control (epoch 1),80.14388489208633,59.71223021582734,60.0,17.5,54.67625899280576,1.75,3.3914512478883116,/content/drive/MyDrive/CDC_CP_Experiments/patch_attention_mil_v1/control_best.pt
+patch_attention (epoch 3),78.70503597122303,63.45323741007194,51.5,19.0,56.2589928057554,1.5,2.922090054181977,/content/drive/MyDrive/CDC_CP_Experiments/patch_attention_mil_v1/patch_attention_best.pt

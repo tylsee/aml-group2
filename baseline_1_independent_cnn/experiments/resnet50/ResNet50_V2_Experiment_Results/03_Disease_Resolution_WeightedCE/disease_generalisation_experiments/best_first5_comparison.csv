@@ -1,0 +1,4 @@
+Experiment,Crop Model,Disease Best Epoch,Disease Seen (%),Disease Unseen (%),Disease HM (%),Comp Seen (%),Comp Unseen (%),Composition HM (%)
+Disease Resolution 320,Fixed Stage 1 Best,5,70.07194244604317,19.5,30.509618087627,68.05755395683454,5.0,9.31560807483997
+Disease Weighted Cross-Entropy,Fixed Stage 1 Best,5,69.49640287769783,18.75,29.532253133598292,67.05035971223022,4.0,7.549615228837581
+Original Higher Weight Decay,Best within Epoch 1-5,5,72.66187050359713,20.75,32.281417871652195,68.48920863309353,2.0,3.886507450500102

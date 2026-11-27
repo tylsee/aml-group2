@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "model": "ResNet50_V2_Higher_Weight_Decay",
+  "source_stage": "Stage2_Full_Data_Fine_Tuning",
+  "crop_checkpoint": {
+    "path": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/stage2_from_higher_decay_best_full8000/crop/best_train_acc.pt",
+    "epoch": 10,
+    "training_accuracy": 0.979125,
+    "sha256": "3317a6a00ea0942825103501a97c9cb3e3e98956b82fc8036e4ea21864b3636f"
+  },
+  "disease_checkpoint": {
+    "path": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/stage2_from_higher_decay_best_full8000/disease/best_train_acc.pt",
+    "epoch": 10,
+    "training_accuracy": 0.92725,
+    "sha256": "3d7ac0098b90321ed86e4bb10b306211648228063f00511a18659d95de4db12c"
+  },
+  "official_seen_composition_top1": 0.609,
+  "official_unseen_composition_top1": 0.03038674033149171,
+  "official_composition_hm": 0.057885231877921696,
+  "evaluation_files_verified": 20
+}

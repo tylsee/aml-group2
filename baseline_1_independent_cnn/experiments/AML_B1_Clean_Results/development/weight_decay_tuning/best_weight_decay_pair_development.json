@@ -1,0 +1,16 @@
+{
+  "stage": "Stage 1 development validation only",
+  "selection_metric": "Highest combined composition validation H among E4 weight decay candidate checkpoints",
+  "crop_run": "C4_dropout_03_P15",
+  "disease_run": "D1_reference_P15",
+  "crop_weight_decay": 0.0001,
+  "disease_weight_decay": 0.0001,
+  "crop_dropout": 0.3,
+  "disease_dropout": 0.2,
+  "candidate_classes": 9625,
+  "seen_validation_images": 695,
+  "unseen_validation_images": 400,
+  "seen_composition_top1": 0.6820143884892086,
+  "unseen_composition_top1": 0.0575,
+  "composition_H": 0.10605832137558675
+}

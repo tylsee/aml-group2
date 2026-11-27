@@ -1,0 +1,192 @@
+{
+  "crop01_disease01": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8835,
+      "crop_top5": 0.9605,
+      "disease_top1": 0.6505,
+      "disease_top5": 0.8635,
+      "composition_top1": 0.616,
+      "composition_top5": 0.818
+    },
+    "unseen": {
+      "crop_top1": 0.7320441988950276,
+      "crop_top5": 0.8453038674033149,
+      "disease_top1": 0.106353591160221,
+      "disease_top5": 0.27209944751381215,
+      "composition_top1": 0.060082872928176795,
+      "composition_top5": 0.18232044198895028
+    }
+  },
+  "crop01_disease02": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8835,
+      "crop_top5": 0.9605,
+      "disease_top1": 0.651,
+      "disease_top5": 0.8755,
+      "composition_top1": 0.6155,
+      "composition_top5": 0.8285
+    },
+    "unseen": {
+      "crop_top1": 0.7320441988950276,
+      "crop_top5": 0.8453038674033149,
+      "disease_top1": 0.10842541436464088,
+      "disease_top5": 0.27071823204419887,
+      "composition_top1": 0.060082872928176795,
+      "composition_top5": 0.18439226519337015
+    }
+  },
+  "crop01_disease03": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8835,
+      "crop_top5": 0.9605,
+      "disease_top1": 0.6535,
+      "disease_top5": 0.8775,
+      "composition_top1": 0.6185,
+      "composition_top5": 0.83
+    },
+    "unseen": {
+      "crop_top1": 0.7320441988950276,
+      "crop_top5": 0.8453038674033149,
+      "disease_top1": 0.10566298342541436,
+      "disease_top5": 0.268646408839779,
+      "composition_top1": 0.06146408839779006,
+      "composition_top5": 0.18370165745856354
+    }
+  },
+  "crop02_disease01": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8865,
+      "crop_top5": 0.9625,
+      "disease_top1": 0.6505,
+      "disease_top5": 0.8635,
+      "composition_top1": 0.6175,
+      "composition_top5": 0.8205
+    },
+    "unseen": {
+      "crop_top1": 0.7279005524861878,
+      "crop_top5": 0.8446132596685083,
+      "disease_top1": 0.106353591160221,
+      "disease_top5": 0.27209944751381215,
+      "composition_top1": 0.060082872928176795,
+      "composition_top5": 0.18093922651933703
+    }
+  },
+  "crop02_disease02": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8865,
+      "crop_top5": 0.9625,
+      "disease_top1": 0.651,
+      "disease_top5": 0.8755,
+      "composition_top1": 0.618,
+      "composition_top5": 0.832
+    },
+    "unseen": {
+      "crop_top1": 0.7279005524861878,
+      "crop_top5": 0.8446132596685083,
+      "disease_top1": 0.10842541436464088,
+      "disease_top5": 0.27071823204419887,
+      "composition_top1": 0.05939226519337017,
+      "composition_top5": 0.18439226519337015
+    }
+  },
+  "crop02_disease03": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8865,
+      "crop_top5": 0.9625,
+      "disease_top1": 0.6535,
+      "disease_top5": 0.8775,
+      "composition_top1": 0.621,
+      "composition_top5": 0.8335
+    },
+    "unseen": {
+      "crop_top1": 0.7279005524861878,
+      "crop_top5": 0.8446132596685083,
+      "disease_top1": 0.10566298342541436,
+      "disease_top5": 0.268646408839779,
+      "composition_top1": 0.06077348066298342,
+      "composition_top5": 0.18232044198895028
+    }
+  },
+  "crop03_disease01": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8905,
+      "crop_top5": 0.963,
+      "disease_top1": 0.6505,
+      "disease_top5": 0.8635,
+      "composition_top1": 0.622,
+      "composition_top5": 0.82
+    },
+    "unseen": {
+      "crop_top1": 0.7306629834254144,
+      "crop_top5": 0.8453038674033149,
+      "disease_top1": 0.106353591160221,
+      "disease_top5": 0.27209944751381215,
+      "composition_top1": 0.062154696132596686,
+      "composition_top5": 0.18093922651933703
+    }
+  },
+  "crop03_disease02": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8905,
+      "crop_top5": 0.963,
+      "disease_top1": 0.651,
+      "disease_top5": 0.8755,
+      "composition_top1": 0.622,
+      "composition_top5": 0.831
+    },
+    "unseen": {
+      "crop_top1": 0.7306629834254144,
+      "crop_top5": 0.8453038674033149,
+      "disease_top1": 0.10842541436464088,
+      "disease_top5": 0.27071823204419887,
+      "composition_top1": 0.06146408839779006,
+      "composition_top5": 0.18370165745856354
+    }
+  },
+  "crop03_disease03": {
+    "group": "POST_HOC_DIAGNOSTIC",
+    "seen": {
+      "crop_top1": 0.8905,
+      "crop_top5": 0.963,
+      "disease_top1": 0.6535,
+      "disease_top5": 0.8775,
+      "composition_top1": 0.625,
+      "composition_top5": 0.8345
+    },
+    "unseen": {
+      "crop_top1": 0.7306629834254144,
+      "crop_top5": 0.8453038674033149,
+      "disease_top1": 0.10566298342541436,
+      "disease_top5": 0.268646408839779,
+      "composition_top1": 0.06146408839779006,
+      "composition_top5": 0.1830110497237569
+    }
+  },
+  "crop09_disease10": {
+    "group": "LOCKED_PRIMARY_REFERENCE",
+    "seen": {
+      "crop_top1": 0.893,
+      "crop_top5": 0.962,
+      "disease_top1": 0.6625,
+      "disease_top5": 0.8845,
+      "composition_top1": 0.6365,
+      "composition_top5": 0.84
+    },
+    "unseen": {
+      "crop_top1": 0.7306629834254144,
+      "crop_top5": 0.8473756906077348,
+      "disease_top1": 0.1111878453038674,
+      "disease_top5": 0.26726519337016574,
+      "composition_top1": 0.06560773480662983,
+      "composition_top5": 0.18853591160220995
+    }
+  }
+}

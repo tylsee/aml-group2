@@ -1,0 +1,4 @@
+group,n_pairs,mean_crop_cosine,mean_disease_cosine
+same crop / different disease,606,0.6443586945533752,0.35456031560897827
+different crop / same disease,572,0.14461509883403778,0.37558117508888245
+different both,18641,0.10548121482133865,0.12737888097763062

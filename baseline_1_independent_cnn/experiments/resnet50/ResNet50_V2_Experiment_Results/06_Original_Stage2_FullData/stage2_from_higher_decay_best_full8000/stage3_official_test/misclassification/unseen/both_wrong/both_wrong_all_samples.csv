@@ -1,0 +1,418 @@
+filename,crop_id,disease_id,composition_id,crop_name,disease_name,composition_name,split,pred_crop_id,pred_disease_id,pred_composition_crop_id,pred_composition_disease_id,crop_confidence,disease_confidence,crop_correct,disease_correct,composition_correct,crop_top5_correct,disease_top5_correct,composition_top5_correct,error_category,pred_crop_name,pred_disease_name
+CDDM_bell_pepper_bacterial_spot_41338.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,19,56,19,56,0.33668932,0.32873517,False,False,False,False,False,False,both_wrong,coffee,spot
+CDDM_bell_pepper_bacterial_spot_41350.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,40,165,40,165,0.89270765,0.63951385,False,False,False,True,True,False,both_wrong,potato,septoria_leaf_spot
+CDDM_bell_pepper_bacterial_spot_41352.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,13,56,13,56,0.36816433,0.37854558,False,False,False,False,True,False,both_wrong,cassava,spot
+CDDM_bell_pepper_bacterial_spot_41357.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,16,139,16,139,0.72660446,0.7587257,False,False,False,True,False,False,both_wrong,cherry,late_blight
+CDDM_bell_pepper_bacterial_spot_41358.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,82,36,82,0.6900254,0.3173286,False,False,False,True,True,False,both_wrong,peach,target_spot
+CDDM_bell_pepper_bacterial_spot_41360.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,139,18,139,0.51441604,0.52318984,False,False,False,True,True,False,both_wrong,citrus,late_blight
+CDDM_bell_pepper_bacterial_spot_41365.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,61,18,61,0.96437913,0.5388719,False,False,False,True,True,False,both_wrong,citrus,greening
+CDDM_bell_pepper_bacterial_spot_41369.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,61,18,61,0.40249598,0.5939512,False,False,False,True,True,False,both_wrong,citrus,greening
+CDDM_bell_pepper_bacterial_spot_41391.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,10,18,10,0.84665406,0.5671255,False,False,False,True,False,False,both_wrong,citrus,rust
+CDDM_bell_pepper_bacterial_spot_41395.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,61,36,61,0.5075097,0.28340957,False,False,False,True,False,False,both_wrong,peach,greening
+CDDM_bell_pepper_bacterial_spot_41398.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,56,18,56,0.8620153,0.27324665,False,False,False,True,False,False,both_wrong,citrus,spot
+CDDM_bell_pepper_bacterial_spot_41400.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,16,139,16,139,0.43086085,0.33483946,False,False,False,True,True,False,both_wrong,cherry,late_blight
+CDDM_bell_pepper_bacterial_spot_41405.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,3,18,3,0.7183252,0.930151,False,False,False,True,False,False,both_wrong,citrus,black_rot
+CDDM_bell_pepper_bacterial_spot_41410.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,139,36,139,0.7082687,0.24769396,False,False,False,True,True,False,both_wrong,peach,late_blight
+CDDM_bell_pepper_bacterial_spot_41413.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,61,18,61,0.7261787,0.4330866,False,False,False,True,False,False,both_wrong,citrus,greening
+CDDM_bell_pepper_bacterial_spot_41414.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,82,36,82,0.85381585,0.3524558,False,False,False,True,True,False,both_wrong,peach,target_spot
+CDDM_bell_pepper_bacterial_spot_41415.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,82,36,82,0.53028786,0.45384467,False,False,False,True,True,False,both_wrong,peach,target_spot
+CDDM_bell_pepper_bacterial_spot_41416.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,16,9,16,9,0.5341728,0.5337525,False,False,False,True,False,False,both_wrong,cherry,healthy
+CDDM_bell_pepper_bacterial_spot_41420.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,9,36,9,0.88729626,0.8960278,False,False,False,True,True,False,both_wrong,peach,healthy
+CDDM_bell_pepper_bacterial_spot_41423.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,3,18,3,0.4410804,0.4339518,False,False,False,True,False,False,both_wrong,citrus,black_rot
+CDDM_bell_pepper_bacterial_spot_41429.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,56,36,56,0.5944908,0.77067864,False,False,False,True,True,True,both_wrong,peach,spot
+CDDM_bell_pepper_bacterial_spot_41438.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,82,36,82,0.95646363,0.7333971,False,False,False,True,True,False,both_wrong,peach,target_spot
+CDDM_bell_pepper_bacterial_spot_41439.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,139,51,139,0.53187025,0.9179679,False,False,False,True,False,False,both_wrong,tomato,late_blight
+CDDM_bell_pepper_bacterial_spot_41440.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,61,18,61,0.55289555,0.6780058,False,False,False,True,False,False,both_wrong,citrus,greening
+CDDM_bell_pepper_bacterial_spot_41458.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,40,165,40,165,0.37148705,0.45820698,False,False,False,True,True,False,both_wrong,potato,septoria_leaf_spot
+CDDM_bell_pepper_bacterial_spot_41459.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,3,18,3,0.811438,0.63302857,False,False,False,True,True,False,both_wrong,citrus,black_rot
+CDDM_bell_pepper_bacterial_spot_41460.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,165,36,165,0.63741434,0.56482583,False,False,False,True,True,False,both_wrong,peach,septoria_leaf_spot
+CDDM_bell_pepper_bacterial_spot_41461.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,9,18,9,0.57017106,0.5771769,False,False,False,True,True,False,both_wrong,citrus,healthy
+CDDM_bell_pepper_bacterial_spot_41470.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,9,36,9,0.69072205,0.6862139,False,False,False,True,False,False,both_wrong,peach,healthy
+CDDM_bell_pepper_bacterial_spot_41474.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,74,36,74,0.89702016,0.62105644,False,False,False,False,True,False,both_wrong,peach,northern_leaf_blight
+CDDM_bell_pepper_bacterial_spot_41477.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,9,36,9,0.7107653,0.31300527,False,False,False,True,True,False,both_wrong,peach,healthy
+CDDM_bell_pepper_bacterial_spot_41481.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,61,18,61,0.9497496,0.45998988,False,False,False,True,False,False,both_wrong,citrus,greening
+CDDM_bell_pepper_bacterial_spot_41482.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,139,36,139,0.38122156,0.772011,False,False,False,True,True,False,both_wrong,peach,late_blight
+CDDM_bell_pepper_bacterial_spot_41484.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,21,165,21,165,0.3553139,0.6524972,False,False,False,True,True,False,both_wrong,corn,septoria_leaf_spot
+CDDM_bell_pepper_bacterial_spot_41485.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,139,51,139,0.7385131,0.9077044,False,False,False,True,False,False,both_wrong,tomato,late_blight
+PWV2_bell_pepper_bacterial_spot_1434.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,13,10,13,10,0.6386532,0.32304132,False,False,False,False,False,False,both_wrong,cassava,rust
+PWV2_bell_pepper_bacterial_spot_1435.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,60,18,60,0.5067198,0.7452387,False,False,False,True,False,False,both_wrong,citrus,canker
+PWV2_bell_pepper_bacterial_spot_1436.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,24,18,24,18,0.798516,0.8019337,False,False,False,False,False,False,both_wrong,eggplant,anthracnose
+PWV2_bell_pepper_bacterial_spot_1438.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,19,136,19,136,0.70562357,0.77089596,False,False,False,True,False,False,both_wrong,coffee,slug
+PWV2_bell_pepper_bacterial_spot_1441.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,4,56,4,56,0.28028277,0.42149356,False,False,False,True,False,False,both_wrong,bean,spot
+PWV2_bell_pepper_bacterial_spot_1442.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,2,18,2,18,0.5916497,0.3603706,False,False,False,False,False,False,both_wrong,banana,anthracnose
+PWV2_bell_pepper_bacterial_spot_1445.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,10,51,10,0.6739042,0.84172356,False,False,False,False,False,False,both_wrong,tomato,rust
+PWV2_bell_pepper_bacterial_spot_1448.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,30,56,30,56,0.57782227,0.7433034,False,False,False,False,False,False,both_wrong,mango,spot
+PWV2_bell_pepper_bacterial_spot_1450.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,13,51,13,51,0.32469085,0.33949015,False,False,False,True,False,False,both_wrong,cassava,mosaic
+PWV2_bell_pepper_bacterial_spot_1451.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,4,56,4,56,0.49097648,0.6519927,False,False,False,False,False,False,both_wrong,bean,spot
+PWV2_bell_pepper_bacterial_spot_1452.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,165,51,165,0.7007582,0.49567324,False,False,False,True,False,False,both_wrong,tomato,septoria_leaf_spot
+PWV2_bell_pepper_bacterial_spot_1456.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,44,165,44,165,0.22649606,0.2334861,False,False,False,False,False,False,both_wrong,soybean,septoria_leaf_spot
+PWV2_bell_pepper_bacterial_spot_1457.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,68,18,68,0.3445806,0.36636794,False,False,False,True,False,False,both_wrong,citrus,spider_mites
+PWV2_bell_pepper_bacterial_spot_1458.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,4,46,4,46,0.69094074,0.5041877,False,False,False,False,False,False,both_wrong,bean,bacterial_blight
+PWV2_bell_pepper_bacterial_spot_1459.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,24,56,24,56,0.63369846,0.3570214,False,False,False,False,False,False,both_wrong,eggplant,spot
+PWV2_bell_pepper_bacterial_spot_1460.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,4,10,4,10,0.3279249,0.54181236,False,False,False,True,False,False,both_wrong,bean,rust
+PWV2_bell_pepper_bacterial_spot_1461.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,36,56,36,56,0.63029957,0.47501034,False,False,False,False,False,False,both_wrong,peach,spot
+PWV2_bell_pepper_bacterial_spot_1462.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,165,18,165,0.6381296,0.35304928,False,False,False,True,True,False,both_wrong,citrus,septoria_leaf_spot
+PWV2_bell_pepper_bacterial_spot_1464.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,72,18,72,0.45478156,0.8421853,False,False,False,False,False,False,both_wrong,citrus,leaf_blight
+PWV2_bell_pepper_bacterial_spot_1465.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,68,18,68,0.3675441,0.600535,False,False,False,True,True,False,both_wrong,citrus,spider_mites
+PWV2_bell_pepper_bacterial_spot_1468.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,13,46,13,46,0.6647728,0.51432306,False,False,False,False,False,False,both_wrong,cassava,bacterial_blight
+PWV2_bell_pepper_bacterial_spot_1471.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,165,51,165,0.4326151,0.5887245,False,False,False,True,True,False,both_wrong,tomato,septoria_leaf_spot
+PWV2_bell_pepper_bacterial_spot_1472.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,24,68,24,68,0.34782392,0.5186083,False,False,False,True,False,False,both_wrong,eggplant,spider_mites
+PWV2_bell_pepper_bacterial_spot_1473.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,40,55,40,55,0.8244529,0.49631998,False,False,False,False,False,False,both_wrong,potato,early_blight
+PWV2_bell_pepper_bacterial_spot_1474.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,57,51,57,0.44604436,0.8531752,False,False,False,False,True,False,both_wrong,tomato,curl
+PWV2_bell_pepper_bacterial_spot_1475.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,10,51,10,0.6633052,0.6155215,False,False,False,True,False,False,both_wrong,tomato,rust
+PWV2_bell_pepper_bacterial_spot_1477.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,22,82,22,82,0.5103462,0.9659037,False,False,False,False,False,False,both_wrong,cotton,target_spot
+PWV2_bell_pepper_bacterial_spot_1478.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,165,51,165,0.83000195,0.87557083,False,False,False,True,True,False,both_wrong,tomato,septoria_leaf_spot
+PWV2_bell_pepper_bacterial_spot_1479.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,60,18,60,0.734259,0.6170569,False,False,False,False,False,False,both_wrong,citrus,canker
+PWV2_bell_pepper_bacterial_spot_1484.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,2,60,2,60,0.88522184,0.51469404,False,False,False,False,False,False,both_wrong,banana,canker
+PWV2_bell_pepper_bacterial_spot_1487.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,165,51,165,0.91278416,0.9526238,False,False,False,True,False,False,both_wrong,tomato,septoria_leaf_spot
+PWV2_bell_pepper_bacterial_spot_1488.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,163,51,163,0.4052761,0.3041686,False,False,False,True,False,False,both_wrong,tomato,leaf_mold
+PWV2_bell_pepper_bacterial_spot_1489.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,30,18,30,18,0.44672522,0.46237648,False,False,False,False,False,False,both_wrong,mango,anthracnose
+PWV2_bell_pepper_bacterial_spot_1490.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,6,10,6,10,0.6773635,0.86307126,False,False,False,True,True,False,both_wrong,blackgram,rust
+PWV2_bell_pepper_bacterial_spot_1491.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,13,48,13,48,0.4911353,0.33162466,False,False,False,False,False,False,both_wrong,cassava,brown_streak_disease
+PWV2_bell_pepper_bacterial_spot_1494.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,46,51,46,0.9228144,0.49548882,False,False,False,False,True,False,both_wrong,tomato,bacterial_blight
+PWV2_bell_pepper_bacterial_spot_1495.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,4,18,4,18,0.55907106,0.5391545,False,False,False,False,True,False,both_wrong,bean,anthracnose
+PWV2_bell_pepper_bacterial_spot_1496.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,22,82,22,82,0.7062277,0.28132856,False,False,False,False,True,False,both_wrong,cotton,target_spot
+PWV2_bell_pepper_bacterial_spot_1501.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,24,18,24,18,0.78658223,0.8874731,False,False,False,False,False,False,both_wrong,eggplant,anthracnose
+PWV2_bell_pepper_bacterial_spot_1505.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,44,11,44,11,0.47410136,0.15223074,False,False,False,True,False,False,both_wrong,soybean,marssonina_blotch
+PWV2_bell_pepper_bacterial_spot_1509.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,46,51,46,0.74421066,0.8266585,False,False,False,False,True,False,both_wrong,tomato,bacterial_blight
+PDN_cherry_aphis _spp_1500.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,57,17,57,0.4400099,0.8597629,False,False,False,False,False,False,both_wrong,chilli,curl
+PDN_cherry_aphis _spp_1501.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.26490244,0.3708917,False,False,False,True,True,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1502.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.99172336,0.9892237,False,False,False,False,True,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1503.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.7110327,0.92745554,False,False,False,False,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1504.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.87657076,0.9734262,False,False,False,True,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1505.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.7945727,0.8915957,False,False,False,False,True,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1506.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,0,16,0,16,0.5681931,0.3625116,False,False,False,False,False,False,both_wrong,apple,venturia_inaequalis
+PDN_cherry_aphis _spp_1507.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.42820105,0.67541367,False,False,False,False,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1508.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.4744663,0.59652424,False,False,False,False,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1509.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.45853767,0.92799884,False,False,False,True,True,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1510.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.8953601,0.9453515,False,False,False,False,True,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1511.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.6885119,0.9482348,False,False,False,False,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1512.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,0,135,0,135,0.5699502,0.66406256,False,False,False,False,True,False,both_wrong,apple,erwinia_amylovora
+PDN_cherry_aphis _spp_1513.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,52,135,52,135,0.46163136,0.56474894,False,False,False,False,False,False,both_wrong,walnut,erwinia_amylovora
+PDN_cherry_aphis _spp_1514.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,51,135,51,135,0.76722765,0.7818673,False,False,False,False,False,False,both_wrong,tomato,erwinia_amylovora
+PDN_cherry_aphis _spp_1515.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,51,135,51,135,0.4668318,0.38178676,False,False,False,False,False,False,both_wrong,tomato,erwinia_amylovora
+PDN_cherry_aphis _spp_1516.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,7,135,7,135,0.67733455,0.98463273,False,False,False,False,True,False,both_wrong,blueberry,erwinia_amylovora
+PDN_cherry_aphis _spp_1517.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,1,12,1,12,0.29279575,0.65508056,False,False,False,False,True,False,both_wrong,apricot,monillia_laxa
+PDN_cherry_aphis _spp_1518.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,39,135,39,135,0.66905576,0.7923896,False,False,False,False,True,False,both_wrong,plum,erwinia_amylovora
+PDN_cherry_aphis _spp_1519.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,39,135,39,135,0.6893574,0.64262533,False,False,False,False,True,False,both_wrong,plum,erwinia_amylovora
+PDN_cherry_aphis _spp_1520.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,39,135,39,135,0.70483595,0.39460427,False,False,False,False,False,False,both_wrong,plum,erwinia_amylovora
+PDN_cherry_aphis _spp_1521.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,7,135,7,135,0.5998205,0.8234406,False,False,False,False,True,False,both_wrong,blueberry,erwinia_amylovora
+PDN_cherry_aphis _spp_1522.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.949573,0.97387826,False,False,False,False,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1523.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,135,53,135,0.26168212,0.40421557,False,False,False,True,False,False,both_wrong,wheat,erwinia_amylovora
+PDN_cherry_aphis _spp_1524.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,7,135,7,135,0.8762959,0.29809237,False,False,False,False,False,False,both_wrong,blueberry,erwinia_amylovora
+PDN_cherry_aphis _spp_1525.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,7,16,7,16,0.8376439,0.2814592,False,False,False,False,True,False,both_wrong,blueberry,venturia_inaequalis
+PDN_cherry_aphis _spp_1526.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,2,12,2,12,0.567804,0.2753604,False,False,False,True,False,False,both_wrong,banana,monillia_laxa
+PDN_cherry_aphis _spp_1527.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,2,20,2,20,0.99564785,0.9299407,False,False,False,False,False,False,both_wrong,banana,bunchy_top
+PDN_cherry_aphis _spp_1528.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,57,38,57,0.62781185,0.47051945,False,False,False,True,True,False,both_wrong,pear,curl
+PDN_cherry_aphis _spp_1529.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,0,12,0,12,0.51894224,0.29551095,False,False,False,False,False,False,both_wrong,apple,monillia_laxa
+PDN_cherry_aphis _spp_1530.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,8,53,8,0.26997748,0.2507038,False,False,False,False,False,False,both_wrong,wheat,grey_spot
+PDN_cherry_aphis _spp_1531.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,12,17,12,0.49790594,0.592705,False,False,False,False,False,False,both_wrong,chilli,monillia_laxa
+PDN_cherry_aphis _spp_1532.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,9,53,9,0.42614537,0.7838082,False,False,False,False,False,False,both_wrong,wheat,healthy
+PDN_cherry_aphis _spp_1533.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,170,53,170,0.27442542,0.14167629,False,False,False,False,False,False,both_wrong,wheat,loose_smut
+PDN_cherry_aphis _spp_1534.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,51,33,51,33,0.3316827,0.25252098,False,False,False,False,False,False,both_wrong,tomato,bacterial_spot
+PDN_cherry_aphis _spp_1535.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,36,9,36,9,0.46615052,0.30456677,False,False,False,False,False,False,both_wrong,peach,healthy
+PDN_cherry_aphis _spp_1536.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,2,12,2,12,0.9060541,0.26567277,False,False,False,True,False,False,both_wrong,banana,monillia_laxa
+PDN_cherry_aphis _spp_1537.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.55064136,0.7285485,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1538.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.57427955,0.81823874,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1539.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.9452206,0.48463032,False,False,False,False,True,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1540.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.85063386,0.67917484,False,False,False,False,True,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1541.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.5114619,0.70480496,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1542.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.33956334,0.83645505,False,False,False,True,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1543.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.64995956,0.81653476,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1544.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,14,53,14,0.4680427,0.3295347,False,False,False,False,False,False,both_wrong,wheat,powdery_mildew
+PDN_cherry_aphis _spp_1545.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,135,53,135,0.7722139,0.4291145,False,False,False,False,False,False,both_wrong,wheat,erwinia_amylovora
+PDN_cherry_aphis _spp_1546.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,168,17,168,0.9751056,0.6833983,False,False,False,False,False,False,both_wrong,chilli,gnomonia_leptostyla
+PDN_cherry_aphis _spp_1547.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,168,17,168,0.89708376,0.58264697,False,False,False,False,False,False,both_wrong,chilli,gnomonia_leptostyla
+PDN_cherry_aphis _spp_1548.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.8496958,0.7820146,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1549.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,168,17,168,0.574753,0.5148784,False,False,False,False,False,False,both_wrong,chilli,gnomonia_leptostyla
+PDN_cherry_aphis _spp_1550.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,0,135,0,135,0.6508375,0.36356428,False,False,False,True,False,False,both_wrong,apple,erwinia_amylovora
+PDN_cherry_aphis _spp_1551.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,144,17,144,0.79759914,0.5014841,False,False,False,False,False,False,both_wrong,chilli,diabrotica_speciosa
+PDN_cherry_aphis _spp_1552.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,52,135,52,135,0.3871601,0.6554305,False,False,False,False,False,False,both_wrong,walnut,erwinia_amylovora
+PDN_cherry_aphis _spp_1553.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.59865266,0.80751455,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1554.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,168,53,168,0.7333687,0.40325356,False,False,False,False,False,False,both_wrong,wheat,gnomonia_leptostyla
+PDN_cherry_aphis _spp_1555.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,53,169,53,169,0.79023314,0.4124416,False,False,False,True,False,False,both_wrong,wheat,head_scab
+PDN_cherry_aphis _spp_1556.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,52,168,52,168,0.86094254,0.68852,False,False,False,True,False,False,both_wrong,walnut,gnomonia_leptostyla
+PDN_cherry_aphis _spp_1557.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,9,17,9,0.8759782,0.5916842,False,False,False,False,False,False,both_wrong,chilli,healthy
+PDN_cherry_aphis _spp_1558.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,36,9,36,9,0.63662684,0.572988,False,False,False,False,False,False,both_wrong,peach,healthy
+PDN_cherry_aphis _spp_1559.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,36,12,36,12,0.56695217,0.737963,False,False,False,False,False,False,both_wrong,peach,monillia_laxa
+PDN_cherry_aphis _spp_1560.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,36,135,36,135,0.78985894,0.7674738,False,False,False,False,False,False,both_wrong,peach,erwinia_amylovora
+PDN_cherry_aphis _spp_1561.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,0,10,0,10,0.9938,0.4870972,False,False,False,False,False,False,both_wrong,apple,rust
+PDN_cherry_aphis _spp_1562.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,9,17,9,0.82732046,0.7334167,False,False,False,False,False,False,both_wrong,chilli,healthy
+PDN_cherry_aphis _spp_1563.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,9,17,9,0.7036009,0.9355299,False,False,False,False,False,False,both_wrong,chilli,healthy
+PDN_cherry_aphis _spp_1564.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,21,74,21,74,0.5089445,0.3859003,False,False,False,False,False,False,both_wrong,corn,northern_leaf_blight
+PDN_cherry_aphis _spp_1565.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.74553,0.9768981,False,False,False,False,True,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1566.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.60604376,0.4253851,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1567.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.8575944,0.4807944,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1568.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,17,135,17,135,0.50423867,0.83236676,False,False,False,False,False,False,both_wrong,chilli,erwinia_amylovora
+PDN_cherry_aphis _spp_1569.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,36,135,36,135,0.390954,0.7854788,False,False,False,False,False,False,both_wrong,peach,erwinia_amylovora
+PDN_cherry_aphis _spp_1570.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,38,135,38,135,0.57947505,0.66820145,False,False,False,False,False,False,both_wrong,pear,erwinia_amylovora
+PDN_cherry_aphis _spp_1571.jpg,16,2,84,cherry,aphis_spp,cherry_aphis_spp,unseen,36,165,36,165,0.9430539,0.51716876,False,False,False,False,False,False,both_wrong,peach,septoria_leaf_spot
+COPD_cotton_bacterial_blight_637.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,9,51,9,0.29073685,0.41706657,False,False,False,True,True,False,both_wrong,tomato,healthy
+COPD_cotton_bacterial_blight_646.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,82,40,82,0.46303102,0.42583382,False,False,False,True,False,False,both_wrong,potato,target_spot
+COPD_cotton_bacterial_blight_647.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,9,13,9,0.54499,0.7492934,False,False,False,True,True,False,both_wrong,cassava,healthy
+COPD_cotton_bacterial_blight_655.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,2,9,2,9,0.5300356,0.92535156,False,False,False,True,True,False,both_wrong,banana,healthy
+COPD_cotton_bacterial_blight_670.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,39,82,39,82,0.3345681,0.33174196,False,False,False,True,False,False,both_wrong,plum,target_spot
+COPD_cotton_bacterial_blight_686.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,39,165,39,165,0.4031617,0.35706604,False,False,False,False,False,False,both_wrong,plum,septoria_leaf_spot
+COPD_cotton_bacterial_blight_689.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,9,40,9,0.5468921,0.30523694,False,False,False,False,False,False,both_wrong,potato,healthy
+COPD_cotton_bacterial_blight_704.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,2,9,2,9,0.5799599,0.64447886,False,False,False,True,True,False,both_wrong,banana,healthy
+COPD_cotton_bacterial_blight_709.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,170,40,170,0.6202334,0.5569595,False,False,False,False,False,False,both_wrong,potato,loose_smut
+COPD_cotton_bacterial_blight_711.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,53,9,53,9,0.65231144,0.6710826,False,False,False,True,False,False,both_wrong,wheat,healthy
+COPD_cotton_bacterial_blight_719.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,24,82,24,82,0.6216654,0.578607,False,False,False,True,False,False,both_wrong,eggplant,target_spot
+COPD_cotton_bacterial_blight_724.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,36,9,36,9,0.2703519,0.4395747,False,False,False,False,False,False,both_wrong,peach,healthy
+COPD_cotton_bacterial_blight_726.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,9,51,9,0.3522232,0.6972326,False,False,False,True,True,False,both_wrong,tomato,healthy
+COPD_cotton_bacterial_blight_728.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,44,82,44,82,0.75382787,0.28127328,False,False,False,True,True,False,both_wrong,soybean,target_spot
+COPD_cotton_bacterial_blight_731.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,18,13,18,0.5545126,0.7717434,False,False,False,True,False,False,both_wrong,cassava,anthracnose
+COPD_cotton_bacterial_blight_734.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,9,40,9,0.25791052,0.33693904,False,False,False,True,False,False,both_wrong,potato,healthy
+COPD_cotton_bacterial_blight_735.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,13,51,13,0.9609323,0.5299932,False,False,False,True,False,False,both_wrong,tomato,mosaic_virus
+COPD_cotton_bacterial_blight_736.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,24,82,24,82,0.5499869,0.5416587,False,False,False,True,False,False,both_wrong,eggplant,target_spot
+COPD_cotton_bacterial_blight_739.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,14,18,14,18,0.40841037,0.7869068,False,False,False,False,False,False,both_wrong,cauliflower,anthracnose
+COPD_cotton_bacterial_blight_743.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,15,40,15,0.5720374,0.5528385,False,False,False,True,False,False,both_wrong,potato,scab
+COPD_cotton_bacterial_blight_747.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,53,170,53,170,0.6850786,0.9161226,False,False,False,True,False,False,both_wrong,wheat,loose_smut
+COPD_cotton_bacterial_blight_751.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,36,33,36,33,0.7669842,0.18452992,False,False,False,True,False,False,both_wrong,peach,bacterial_spot
+COPD_cotton_bacterial_blight_753.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,4,165,4,165,0.9562019,0.27875194,False,False,False,True,False,False,both_wrong,bean,septoria_leaf_spot
+COPD_cotton_bacterial_blight_792.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,28,18,28,18,0.4927006,0.814719,False,False,False,False,False,False,both_wrong,guava,anthracnose
+COPD_cotton_bacterial_blight_793.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,2,9,2,9,0.4728819,0.5057118,False,False,False,False,True,False,both_wrong,banana,healthy
+COPD_cotton_bacterial_blight_799.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,50,28,50,28,0.4236407,0.44401002,False,False,False,False,False,False,both_wrong,tobacco,downy_mildew
+CUPD_cotton_bacterial_blight_27678.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,2,57,2,57,0.7471265,0.34423587,False,False,False,False,True,False,both_wrong,banana,curl
+CUPD_cotton_bacterial_blight_27679.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,38,10,38,10,0.48191893,0.3410235,False,False,False,True,True,False,both_wrong,pear,rust
+CUPD_cotton_bacterial_blight_27684.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,165,51,165,0.45968822,0.7630676,False,False,False,True,True,False,both_wrong,tomato,septoria_leaf_spot
+CUPD_cotton_bacterial_blight_27686.png,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,165,51,165,0.5128098,0.61923075,False,False,False,True,True,False,both_wrong,tomato,septoria_leaf_spot
+CUPD_cotton_bacterial_blight_27688.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,55,40,55,0.63100404,0.56867164,False,False,False,False,False,False,both_wrong,potato,early_blight
+CUPD_cotton_bacterial_blight_27690.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,14,51,14,0.8163542,0.76260364,False,False,False,True,False,False,both_wrong,tomato,powdery_mildew
+CUPD_cotton_bacterial_blight_27691.png,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,7,9,7,9,0.7657539,0.60179275,False,False,False,False,False,False,both_wrong,blueberry,healthy
+CUPD_cotton_bacterial_blight_27696.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,4,72,4,72,0.61354923,0.64374834,False,False,False,True,False,False,both_wrong,bean,leaf_blight
+CUPD_cotton_bacterial_blight_27698.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,44,10,44,10,0.48173547,0.84354156,False,False,False,True,True,False,both_wrong,soybean,rust
+CUPD_cotton_bacterial_blight_27699.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,36,33,36,33,0.72041345,0.45086902,False,False,False,True,True,False,both_wrong,peach,bacterial_spot
+CUPD_cotton_bacterial_blight_27704.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,7,33,7,33,0.4318431,0.6495263,False,False,False,False,False,False,both_wrong,blueberry,bacterial_spot
+CUPD_cotton_bacterial_blight_27706.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,51,33,51,33,0.80998516,0.90800023,False,False,False,True,False,False,both_wrong,tomato,bacterial_spot
+CUPD_cotton_bacterial_blight_27711.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,24,44,24,44,0.44836387,0.2876065,False,False,False,True,True,False,both_wrong,eggplant,cercospora_leaf_blight
+CUPD_cotton_bacterial_blight_27713.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,10,13,10,0.2700911,0.5270678,False,False,False,True,True,False,both_wrong,cassava,rust
+CUPD_cotton_bacterial_blight_27715.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,44,33,44,33,0.7825948,0.46189165,False,False,False,False,False,False,both_wrong,soybean,bacterial_spot
+CUPD_cotton_bacterial_blight_27717.png,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,44,13,44,0.5815847,0.39870238,False,False,False,True,False,False,both_wrong,cassava,cercospora_leaf_blight
+CUPD_cotton_bacterial_blight_27719.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,27,72,27,72,0.74701756,0.9923763,False,False,False,True,True,False,both_wrong,grape,leaf_blight
+CUPD_cotton_bacterial_blight_27725.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,44,7,44,7,0.49782115,0.28132114,False,False,False,True,False,False,both_wrong,soybean,frog_eye_leaf_spot
+CUPD_cotton_bacterial_blight_27726.png,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,40,72,40,72,0.5947987,0.7672153,False,False,False,True,False,False,both_wrong,potato,leaf_blight
+CUPD_cotton_bacterial_blight_27728.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,9,13,9,0.95130146,0.3462877,False,False,False,True,True,False,both_wrong,cassava,healthy
+CUPD_cotton_bacterial_blight_27729.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,57,13,57,0.6372098,0.67997843,False,False,False,False,True,False,both_wrong,cassava,curl
+CUPD_cotton_bacterial_blight_27731.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,44,13,44,0.67647594,0.7520221,False,False,False,True,True,True,both_wrong,cassava,cercospora_leaf_blight
+CUPD_cotton_bacterial_blight_27733.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,6,82,6,82,0.7925225,0.5382728,False,False,False,True,True,False,both_wrong,blackgram,target_spot
+CUPD_cotton_bacterial_blight_27736.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,13,56,13,56,0.9932218,0.41270408,False,False,False,False,True,False,both_wrong,cassava,spot
+CUPD_cotton_bacterial_blight_27739.jpg,22,46,124,cotton,bacterial_blight,cotton_bacterial_blight,unseen,0,82,0,82,0.48829818,0.36908394,False,False,False,True,False,False,both_wrong,apple,target_spot
+CDRD_cucumber_downy_mildew_451.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,51,51,51,51,0.45441884,0.52528125,False,False,False,True,False,False,both_wrong,tomato,mosaic
+CDRD_cucumber_downy_mildew_452.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,13,51,13,51,0.9616978,0.6123908,False,False,False,True,False,False,both_wrong,cassava,mosaic
+CDRD_cucumber_downy_mildew_453.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,13,126,13,126,0.9784562,0.9655646,False,False,False,False,False,False,both_wrong,cassava,tungro
+CDRD_cucumber_downy_mildew_456.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,4,13,4,13,0.5485616,0.9116357,False,False,False,True,True,False,both_wrong,bean,mosaic_virus
+CDRD_cucumber_downy_mildew_473.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,4,46,4,46,0.8944269,0.5966731,False,False,False,True,True,False,both_wrong,bean,bacterial_blight
+CDRD_cucumber_downy_mildew_477.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,10,94,10,94,0.6954323,0.50176686,False,False,False,True,True,True,both_wrong,cabbage,lethal_necrosis
+CDRD_cucumber_downy_mildew_478.jpg,23,28,133,cucumber,downy_mildew,cucumber_downy_mildew,unseen,10,94,10,94,0.8710405,0.37896743,False,False,False,True,True,False,both_wrong,cabbage,lethal_necrosis
+PWV2_cucumber_powdery_mildew_4613.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,47,4,47,4,0.42346174,0.8087404,False,False,False,True,False,False,both_wrong,sugarcane,brown_spot
+PWV2_cucumber_powdery_mildew_4614.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,0,128,0,128,0.8477982,0.57343376,False,False,False,False,False,False,both_wrong,apple,yellow_stem_borer
+PWV2_cucumber_powdery_mildew_4621.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,54,10,54,10,0.421672,0.45702913,False,False,False,True,True,False,both_wrong,zucchini,rust
+PWV2_cucumber_powdery_mildew_4622.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,50,94,50,94,0.20551002,0.7283432,False,False,False,False,True,False,both_wrong,tobacco,lethal_necrosis
+PWV2_cucumber_powdery_mildew_4624.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,54,9,54,9,0.4297221,0.89115715,False,False,False,True,True,False,both_wrong,zucchini,healthy
+PWV2_cucumber_powdery_mildew_4629.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,22,45,22,45,0.9547348,0.8112014,False,False,False,True,True,False,both_wrong,cotton,red_rust
+PWV2_cucumber_powdery_mildew_4634.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,0,9,0,9,0.38313657,0.8081671,False,False,False,True,True,False,both_wrong,apple,healthy
+PWV2_cucumber_powdery_mildew_4638.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,54,83,54,83,0.50894463,0.9921714,False,False,False,True,True,False,both_wrong,zucchini,bacterial_wilt
+PWV2_cucumber_powdery_mildew_4648.jpg,23,14,136,cucumber,powdery_mildew,cucumber_powdery_mildew,unseen,51,162,51,162,0.84689254,0.8867728,False,False,False,True,False,False,both_wrong,tomato,blight_leaf
+CDDM_grape_black_rot_51383.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,42,88,42,88,0.60764474,0.82631457,False,False,False,True,False,False,both_wrong,raspberry,esca
+PWV2_grape_black_rot_5150.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.38811207,0.5814071,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+PWV2_grape_black_rot_5151.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.89746034,0.46982023,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+PWV2_grape_black_rot_5152.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,18,39,18,0.45052937,0.37807775,False,False,False,False,False,False,both_wrong,plum,anthracnose
+PWV2_grape_black_rot_5153.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,161,7,161,0.56751865,0.7270891,False,False,False,False,False,False,both_wrong,blueberry,bacterial_leaf_spot
+PWV2_grape_black_rot_5154.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,138,7,138,0.9358698,0.4305738,False,False,False,False,False,False,both_wrong,blueberry,pox_virus
+PWV2_grape_black_rot_5155.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.6631216,0.5550646,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5156.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,18,19,18,0.69919837,0.67652106,False,False,False,False,False,False,both_wrong,coffee,anthracnose
+PWV2_grape_black_rot_5157.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,23,18,23,18,0.57016104,0.84438074,False,False,False,False,False,False,both_wrong,cucumber,anthracnose
+PWV2_grape_black_rot_5158.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.94253796,0.97576,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5159.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,76,7,76,0.8665186,0.41504306,False,False,False,False,False,False,both_wrong,blueberry,smut
+PWV2_grape_black_rot_5160.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,138,39,138,0.6887897,0.30816925,False,False,False,False,False,False,both_wrong,plum,pox_virus
+PWV2_grape_black_rot_5161.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9908161,0.8916411,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5162.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.8097828,0.71292704,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5163.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,135,7,135,0.83794904,0.5932655,False,False,False,False,False,False,both_wrong,blueberry,erwinia_amylovora
+PWV2_grape_black_rot_5164.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,2,72,2,72,0.67453617,0.40872735,False,False,False,False,False,False,both_wrong,banana,leaf_blight
+PWV2_grape_black_rot_5166.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,18,39,18,0.44864175,0.46543974,False,False,False,False,False,False,both_wrong,plum,anthracnose
+PWV2_grape_black_rot_5167.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,18,19,18,0.5940488,0.30779076,False,False,False,False,False,False,both_wrong,coffee,anthracnose
+PWV2_grape_black_rot_5168.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,38,12,38,12,0.2832263,0.2546816,False,False,False,False,False,False,both_wrong,pear,monillia_laxa
+PWV2_grape_black_rot_5169.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,63,7,63,0.5675178,0.64379835,False,False,False,True,False,False,both_wrong,blueberry,berry_blotch
+PWV2_grape_black_rot_5170.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,2,18,2,18,0.6656662,0.44819674,False,False,False,False,False,False,both_wrong,banana,anthracnose
+PWV2_grape_black_rot_5171.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.4869229,0.8347077,False,False,False,True,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5172.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,9,19,9,0.49618077,0.20473467,False,False,False,False,False,False,both_wrong,coffee,healthy
+PWV2_grape_black_rot_5173.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.9639371,0.64742726,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5175.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.460517,0.62693816,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5176.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,161,39,161,0.24911869,0.53545606,False,False,False,False,False,False,both_wrong,plum,bacterial_leaf_spot
+PWV2_grape_black_rot_5177.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,23,30,23,30,0.9042889,0.76252955,False,False,False,True,False,False,both_wrong,cucumber,angular_leaf_spot
+PWV2_grape_black_rot_5178.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9857705,0.87543505,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5179.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,63,7,63,0.35247588,0.43616477,False,False,False,False,False,False,both_wrong,blueberry,berry_blotch
+PWV2_grape_black_rot_5180.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9329028,0.78546685,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5181.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,130,19,130,0.47052193,0.6291406,False,False,False,False,False,False,both_wrong,coffee,brown_rot
+PWV2_grape_black_rot_5182.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,63,7,63,0.8952976,0.58157533,False,False,False,False,False,False,both_wrong,blueberry,berry_blotch
+PWV2_grape_black_rot_5183.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.50599974,0.3867338,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5184.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.49274,0.5439273,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5186.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.67155766,0.9997184,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5187.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.7457473,0.8828408,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5188.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.6893686,0.31209105,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+PWV2_grape_black_rot_5189.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,130,7,130,0.43123543,0.65692353,False,False,False,False,False,False,both_wrong,blueberry,brown_rot
+PWV2_grape_black_rot_5190.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.92945844,0.91923314,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5191.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,2,60,2,60,0.4283284,0.7944282,False,False,False,False,False,False,both_wrong,banana,canker
+PWV2_grape_black_rot_5192.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,9,7,9,0.89244276,0.7118626,False,False,False,False,False,False,both_wrong,blueberry,healthy
+PWV2_grape_black_rot_5193.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9699711,0.4376986,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5194.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.62309265,0.26519382,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+PWV2_grape_black_rot_5195.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.79443043,0.5789085,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5196.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,36,130,36,130,0.43800914,0.9113147,False,False,False,False,False,False,both_wrong,peach,brown_rot
+PWV2_grape_black_rot_5197.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,76,39,76,0.81716716,0.26262286,False,False,False,False,False,False,both_wrong,plum,smut
+PWV2_grape_black_rot_5198.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,76,39,76,0.6877841,0.35288712,False,False,False,False,False,False,both_wrong,plum,smut
+PWV2_grape_black_rot_5199.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,9,7,9,0.6753903,0.48712826,False,False,False,False,False,False,both_wrong,blueberry,healthy
+PWV2_grape_black_rot_5201.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.58635056,0.80436194,False,False,False,True,True,True,both_wrong,cotton,target_spot
+PWV2_grape_black_rot_5202.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,9,22,9,0.81124556,0.25757328,False,False,False,True,True,False,both_wrong,cotton,healthy
+PWV2_grape_black_rot_5204.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,130,7,130,0.7847544,0.8079301,False,False,False,False,False,False,both_wrong,blueberry,brown_rot
+PWV2_grape_black_rot_5205.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.66048276,0.88113517,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5207.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,2,18,2,18,0.64172417,0.45649436,False,False,False,False,False,False,both_wrong,banana,anthracnose
+PWV2_grape_black_rot_5208.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,28,86,28,86,0.66136676,0.61165845,False,False,False,False,False,False,both_wrong,guava,phytophthora
+PWV2_grape_black_rot_5209.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,130,7,130,0.98081774,0.4304813,False,False,False,True,False,False,both_wrong,blueberry,brown_rot
+PWV2_grape_black_rot_5210.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.93797225,0.98684114,False,False,False,False,False,False,both_wrong,cotton,target_spot
+PWV2_grape_black_rot_5211.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,42,30,42,30,0.8906946,0.38610554,False,False,False,True,False,False,both_wrong,raspberry,angular_leaf_spot
+PWV2_grape_black_rot_5212.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,36,130,36,130,0.53068423,0.22058389,False,False,False,False,False,False,both_wrong,peach,brown_rot
+PWV2_grape_black_rot_5214.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.872913,0.97585905,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5215.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.5639757,0.9337225,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5216.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.44000068,0.82204026,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5217.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.9886054,0.97146326,False,False,False,False,True,False,both_wrong,cotton,target_spot
+PWV2_grape_black_rot_5218.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,16,9,16,9,0.9711925,0.8133341,False,False,False,True,False,False,both_wrong,cherry,healthy
+PWV2_grape_black_rot_5219.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,18,63,18,63,0.28179288,0.24744596,False,False,False,False,False,False,both_wrong,citrus,berry_blotch
+PWV2_grape_black_rot_5220.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,10,39,10,0.5297066,0.57336456,False,False,False,False,False,False,both_wrong,plum,rust
+PWV2_grape_black_rot_5221.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,56,7,56,0.9633165,0.553138,False,False,False,False,False,False,both_wrong,blueberry,spot
+PWV2_grape_black_rot_5222.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,30,14,30,14,0.36550355,0.5028911,False,False,False,False,False,False,both_wrong,mango,powdery_mildew
+PWV2_grape_black_rot_5223.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9978358,0.6478,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5224.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,56,39,56,0.6205192,0.5073429,False,False,False,False,False,False,both_wrong,plum,spot
+PWV2_grape_black_rot_5225.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,27,7,27,0.98876834,0.75122124,False,False,False,False,False,False,both_wrong,blueberry,xamthomonas
+PWV2_grape_black_rot_5226.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,0,18,0,18,0.5838208,0.61571544,False,False,False,False,False,False,both_wrong,apple,anthracnose
+PWV2_grape_black_rot_5227.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,36,18,36,18,0.9399417,0.45157528,False,False,False,False,False,False,both_wrong,peach,anthracnose
+PWV2_grape_black_rot_5229.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,1,22,1,0.95026195,0.39653638,False,False,False,True,False,False,both_wrong,cotton,alternaria_leaf_spot
+PWV2_grape_black_rot_5230.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.9343097,0.9706489,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5231.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,36,130,36,130,0.5638987,0.5018612,False,False,False,False,False,False,both_wrong,peach,brown_rot
+PWV2_grape_black_rot_5232.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,14,7,14,0.9959382,0.2932633,False,False,False,False,False,False,both_wrong,blueberry,powdery_mildew
+PWV2_grape_black_rot_5233.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,1,22,1,0.9830742,0.82492334,False,False,False,True,False,False,both_wrong,cotton,alternaria_leaf_spot
+PWV2_grape_black_rot_5235.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,19,63,19,63,0.46715686,0.8555626,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_grape_black_rot_5236.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.7131616,0.8347817,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5237.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,36,18,36,18,0.3823058,0.96424,False,False,False,False,False,False,both_wrong,peach,anthracnose
+PWV2_grape_black_rot_5239.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,63,7,63,0.9760054,0.4875157,False,False,False,False,False,False,both_wrong,blueberry,berry_blotch
+PWV2_grape_black_rot_5240.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,138,7,138,0.81180316,0.18583803,False,False,False,False,False,False,both_wrong,blueberry,pox_virus
+PWV2_grape_black_rot_5241.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,51,46,51,46,0.8060112,0.84751815,False,False,False,True,False,False,both_wrong,tomato,bacterial_blight
+PWV2_grape_black_rot_5242.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,161,7,161,0.5419009,0.52013767,False,False,False,False,False,False,both_wrong,blueberry,bacterial_leaf_spot
+PWV2_grape_black_rot_5244.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,60,39,60,0.80275047,0.5352875,False,False,False,False,False,False,both_wrong,plum,canker
+PWV2_grape_black_rot_5245.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,133,7,133,0.5587051,0.43937764,False,False,False,False,False,False,both_wrong,blueberry,late_leaf_spot
+PWV2_grape_black_rot_5246.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,130,7,130,0.97030634,0.606736,False,False,False,False,False,False,both_wrong,blueberry,brown_rot
+PWV2_grape_black_rot_5247.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,28,39,28,0.80627286,0.35323852,False,False,False,False,False,False,both_wrong,plum,downy_mildew
+PWV2_grape_black_rot_5248.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.43303376,0.25381047,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+PWV2_grape_black_rot_5250.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.7754715,0.7333821,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5251.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,35,82,35,82,0.49919397,0.3595332,False,False,False,True,True,False,both_wrong,papaya,target_spot
+PWV2_grape_black_rot_5252.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.8532366,0.93136996,False,False,False,True,False,False,both_wrong,cotton,target_spot
+PWV2_grape_black_rot_5253.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,17,88,17,88,0.6513093,0.9990636,False,False,False,True,False,False,both_wrong,chilli,esca
+PWV2_grape_black_rot_5254.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,130,39,130,0.4963204,0.9607074,False,False,False,False,False,False,both_wrong,plum,brown_rot
+PWV2_grape_black_rot_5256.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,9,7,9,0.7351996,0.67754465,False,False,False,False,False,False,both_wrong,blueberry,healthy
+PWV2_grape_black_rot_5257.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9869861,0.9001182,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5258.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,135,7,135,0.3713274,0.2584091,False,False,False,True,False,False,both_wrong,blueberry,erwinia_amylovora
+PWV2_grape_black_rot_5259.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.9881757,0.95988834,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5260.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,18,7,18,0.33915257,0.48292553,False,False,False,False,False,False,both_wrong,blueberry,anthracnose
+PWV2_grape_black_rot_5261.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,130,7,130,0.88022995,0.94165283,False,False,False,False,False,False,both_wrong,blueberry,brown_rot
+PWV2_grape_black_rot_5262.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.6863168,0.5974326,False,False,False,False,False,False,both_wrong,cotton,target_spot
+PWV2_grape_black_rot_5263.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,27,7,27,0.29450113,0.3963755,False,False,False,False,False,False,both_wrong,blueberry,xamthomonas
+PWV2_grape_black_rot_5264.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.46078682,0.52231467,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+PWV2_grape_black_rot_5265.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,36,130,36,130,0.84571916,0.43803027,False,False,False,False,False,False,both_wrong,peach,brown_rot
+PWV2_grape_black_rot_5266.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,7,138,7,138,0.9868675,0.8915431,False,False,False,False,False,False,both_wrong,blueberry,pox_virus
+PWV2_grape_black_rot_5267.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.99912804,0.9892175,False,False,False,False,False,False,both_wrong,cotton,target_spot
+PWV2_grape_black_rot_5268.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,60,39,60,0.67209876,0.5870984,False,False,False,False,False,False,both_wrong,plum,canker
+PWV2_grape_black_rot_5269.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,9,39,9,0.2850289,0.33872595,False,False,False,False,False,False,both_wrong,plum,healthy
+PWV2_grape_black_rot_5271.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,39,63,39,63,0.74659985,0.6059516,False,False,False,False,False,False,both_wrong,plum,berry_blotch
+CUPD_grapevine_black_rot_28138.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,51,165,51,165,0.37287113,0.7417092,False,False,False,True,False,False,both_wrong,tomato,septoria_leaf_spot
+CUPD_grapevine_black_rot_28141.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,0,82,0,82,0.5850116,0.2513766,False,False,False,True,False,False,both_wrong,apple,target_spot
+CUPD_grapevine_black_rot_28142.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,49,155,49,155,0.7143622,0.68008417,False,False,False,False,False,False,both_wrong,tea,brown_blight
+CUPD_grapevine_black_rot_28144.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,51,10,51,10,0.9496739,0.38079673,False,False,False,True,False,False,both_wrong,tomato,rust
+CUPD_grapevine_black_rot_28145.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,13,46,13,46,0.3937738,0.9298848,False,False,False,True,False,False,both_wrong,cassava,bacterial_blight
+CUPD_grapevine_black_rot_28146.jpg,27,3,144,grape,black_rot,grape_black_rot,unseen,22,82,22,82,0.7804129,0.9346216,False,False,False,False,False,False,both_wrong,cotton,target_spot
+MLBD_mango_anthracnose_407.jpg,30,18,166,mango,anthracnose,mango_anthracnose,unseen,32,9,32,9,0.6711594,0.28393206,False,False,False,True,False,False,both_wrong,olive,healthy
+MLBD_mango_anthracnose_423.jpg,30,18,166,mango,anthracnose,mango_anthracnose,unseen,32,118,32,118,0.9954246,0.9924722,False,False,False,True,False,False,both_wrong,olive,peacock_spot
+MLBD_mango_anthracnose_468.jpg,30,18,166,mango,anthracnose,mango_anthracnose,unseen,32,4,32,4,0.47885728,0.7736299,False,False,False,True,False,False,both_wrong,olive,brown_spot
+CUPD_pepper_bell_bacterial_spot_29135.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,30,18,30,18,0.4161816,0.44816303,False,False,False,False,False,False,both_wrong,mango,anthracnose
+CUPD_pepper_bell_bacterial_spot_29136.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,24,46,24,46,0.9408835,0.8319584,False,False,False,False,False,False,both_wrong,eggplant,bacterial_blight
+CUPD_pepper_bell_bacterial_spot_29141.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,165,51,165,0.9135801,0.8506142,False,False,False,True,False,False,both_wrong,tomato,septoria_leaf_spot
+CUPD_pepper_bell_bacterial_spot_29142.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,51,57,51,57,0.9920548,0.5629132,False,False,False,False,False,False,both_wrong,tomato,curl
+CUPD_pepper_bell_bacterial_spot_29143.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,3,51,3,51,0.79435253,0.8584777,False,False,False,False,False,False,both_wrong,basil,mosaic
+CUPD_pepper_bell_bacterial_spot_29144.jpg,5,33,39,pepper_bell,bacterial_spot,pepper_bell_bacterial_spot,unseen,18,10,18,10,0.6700814,0.5913006,False,False,False,False,True,False,both_wrong,citrus,rust
+SLDD_sugarcane_rust_1922.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,149,21,149,0.9108065,0.9980778,False,False,False,True,True,False,both_wrong,corn,red_rot
+SLDD_sugarcane_rust_1936.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,53,172,53,172,0.6833064,0.37220243,False,False,False,True,True,True,both_wrong,wheat,septoria_blotch
+SLDD_sugarcane_rust_1984.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,95,21,95,0.9910498,0.9861199,False,False,False,True,True,False,both_wrong,corn,streak_virus
+SLDD_sugarcane_rust_1988.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,95,21,95,0.8363984,0.81144524,False,False,False,True,True,True,both_wrong,corn,streak_virus
+SLDD_sugarcane_rust_1989.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,26,21,26,0.6833035,0.26450813,False,False,False,True,True,False,both_wrong,corn,sigatoka
+SLDD_sugarcane_rust_1997.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,46,21,46,0.97886354,0.7202074,False,False,False,True,True,False,both_wrong,corn,bacterial_blight
+SLDD_sugarcane_rust_2001.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,4,21,4,0.81198716,0.70320237,False,False,False,True,True,True,both_wrong,corn,brown_spot
+SLDD_sugarcane_rust_2004.jpeg,47,10,276,sugarcane,rust,sugarcane_rust,unseen,21,4,21,4,0.38300738,0.431835,False,False,False,True,False,False,both_wrong,corn,brown_spot
+CDDM_tomato_early_blight_88535.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,26,87,26,87,0.9157931,0.8544745,False,False,False,True,False,False,both_wrong,ginger,sheath_blight
+CDDM_tomato_early_blight_88573.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,13,18,13,18,0.30102566,0.24297121,False,False,False,True,False,False,both_wrong,cassava,anthracnose
+CDDM_tomato_early_blight_88618.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,12,0,12,0.8895955,0.6179803,False,False,False,True,False,False,both_wrong,apple,monillia_laxa
+CDDM_tomato_early_blight_88668.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,30,23,30,0.62770575,0.6528423,False,False,False,True,False,False,both_wrong,cucumber,angular_leaf_spot
+CDDM_tomato_early_blight_88720.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,46,139,46,139,0.38674378,0.43097395,False,False,False,True,True,False,both_wrong,strawberry,late_blight
+CDDM_tomato_early_blight_88757.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,29,28,29,28,0.47271588,0.42856318,False,False,False,True,False,False,both_wrong,lettuce,downy_mildew
+CDDM_tomato_early_blight_88807.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,10,23,10,0.5430966,0.28650105,False,False,False,True,False,False,both_wrong,cucumber,rust
+CDDM_tomato_early_blight_88920.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,84,23,84,0.9573419,0.50702494,False,False,False,True,False,False,both_wrong,cucumber,gummy_stem_blight
+CDDM_tomato_early_blight_88964.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,4,139,4,139,0.64110124,0.79970735,False,False,False,True,False,False,both_wrong,bean,late_blight
+CDDM_tomato_early_blight_88992.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,30,23,30,0.5595118,0.4772386,False,False,False,True,False,False,both_wrong,cucumber,angular_leaf_spot
+CDDM_tomato_early_blight_89016.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,13,165,13,165,0.44888368,0.9587555,False,False,False,True,False,False,both_wrong,cassava,septoria_leaf_spot
+CDDM_tomato_early_blight_89073.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,40,139,40,139,0.83915216,0.29246837,False,False,False,True,True,False,both_wrong,potato,late_blight
+CDDM_tomato_early_blight_89153.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,27,68,27,68,0.60607153,0.49723247,False,False,False,False,False,False,both_wrong,grape,spider_mites
+CDDM_tomato_early_blight_89220.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,165,0,165,0.62695485,0.26579604,False,False,False,True,False,False,both_wrong,apple,septoria_leaf_spot
+CDDM_tomato_early_blight_89226.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,17,139,17,139,0.59856033,0.93783313,False,False,False,True,False,False,both_wrong,chilli,late_blight
+CDDM_tomato_early_blight_89370.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,2,0,2,0.5100006,0.41906446,False,False,False,True,False,False,both_wrong,apple,aphis_spp
+CDDM_tomato_early_blight_89433.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,22,82,22,82,0.98587704,0.9921262,False,False,False,True,False,False,both_wrong,cotton,target_spot
+CDDM_tomato_early_blight_89580.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,40,139,40,139,0.98909914,0.9989859,False,False,False,True,False,False,both_wrong,potato,late_blight
+PWV2_tomato_early_blight_8462.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,7,14,7,14,0.5709037,0.86092997,False,False,False,True,False,False,both_wrong,blueberry,powdery_mildew
+PWV2_tomato_early_blight_8463.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,36,18,36,18,0.29893777,0.38771948,False,False,False,True,False,False,both_wrong,peach,anthracnose
+PWV2_tomato_early_blight_8473.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,165,23,165,0.5603144,0.70841354,False,False,False,True,False,False,both_wrong,cucumber,septoria_leaf_spot
+PWV2_tomato_early_blight_8477.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,17,68,17,68,0.63185894,0.8526782,False,False,False,True,False,False,both_wrong,chilli,spider_mites
+PWV2_tomato_early_blight_8483.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,5,18,5,18,0.4204938,0.52907425,False,False,False,True,False,False,both_wrong,pepper_bell,anthracnose
+PWV2_tomato_early_blight_8490.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,28,23,28,0.5183587,0.42503044,False,False,False,True,False,False,both_wrong,cucumber,downy_mildew
+PWV2_tomato_early_blight_8494.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,22,82,22,82,0.6328096,0.4150214,False,False,False,True,False,False,both_wrong,cotton,target_spot
+PWV2_tomato_early_blight_8497.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,50,139,50,139,0.50443983,0.96666026,False,False,False,True,False,False,both_wrong,tobacco,late_blight
+PWV2_tomato_early_blight_8499.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,7,14,7,14,0.7814636,0.51270676,False,False,False,True,False,False,both_wrong,blueberry,powdery_mildew
+PWV2_tomato_early_blight_8504.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,5,165,5,165,0.5429012,0.681242,False,False,False,True,False,False,both_wrong,pepper_bell,septoria_leaf_spot
+PWV2_tomato_early_blight_8510.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,36,18,36,18,0.678716,0.9743805,False,False,False,False,False,False,both_wrong,peach,anthracnose
+PWV2_tomato_early_blight_8511.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,19,63,19,63,0.45981312,0.56398946,False,False,False,False,False,False,both_wrong,coffee,berry_blotch
+PWV2_tomato_early_blight_8512.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,43,28,43,28,0.78784525,0.77337277,False,False,False,True,False,False,both_wrong,rose,downy_mildew
+PWV2_tomato_early_blight_8514.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,14,0,14,0.6966526,0.8625927,False,False,False,True,False,False,both_wrong,apple,powdery_mildew
+PWV2_tomato_early_blight_8516.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,2,30,2,30,0.37711868,0.7228472,False,False,False,True,False,False,both_wrong,banana,angular_leaf_spot
+PWV2_tomato_early_blight_8522.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,22,82,22,82,0.8779679,0.5944024,False,False,False,True,False,False,both_wrong,cotton,target_spot
+PWV2_tomato_early_blight_8523.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,22,139,22,139,0.6099592,0.59195936,False,False,False,True,False,False,both_wrong,cotton,late_blight
+PWV2_tomato_early_blight_8524.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,24,18,24,18,0.46305445,0.67047423,False,False,False,True,False,False,both_wrong,eggplant,anthracnose
+PWV2_tomato_early_blight_8526.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,28,23,28,0.2775165,0.66352695,False,False,False,False,False,False,both_wrong,cucumber,downy_mildew
+PWV2_tomato_early_blight_8527.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,30,23,30,0.48565525,0.88965344,False,False,False,True,False,False,both_wrong,cucumber,angular_leaf_spot
+PWV2_tomato_early_blight_8530.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,13,33,13,33,0.31722963,0.3305553,False,False,False,True,False,False,both_wrong,cassava,bacterial_spot
+PWV2_tomato_early_blight_8532.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,9,82,9,82,0.55287087,0.6161503,False,False,False,False,False,False,both_wrong,broccoli,target_spot
+PWV2_tomato_early_blight_8534.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,13,57,13,57,0.9376866,0.72279084,False,False,False,False,False,False,both_wrong,cassava,curl
+PWV2_tomato_early_blight_8538.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,36,130,36,130,0.9904845,0.65879077,False,False,False,False,False,False,both_wrong,peach,brown_rot
+PWV2_tomato_early_blight_8552.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,10,0,10,0.8410378,0.8211961,False,False,False,True,False,False,both_wrong,apple,rust
+PWV2_tomato_early_blight_8561.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,50,28,50,28,0.31386745,0.36914816,False,False,False,True,False,False,both_wrong,tobacco,downy_mildew
+PWV2_tomato_early_blight_8566.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,36,18,36,18,0.4565181,0.9365999,False,False,False,False,False,False,both_wrong,peach,anthracnose
+PWV2_tomato_early_blight_8569.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,44,10,44,10,0.5055095,0.6436817,False,False,False,False,False,False,both_wrong,soybean,rust
+PWV2_tomato_early_blight_8571.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,1,0,1,0.51777846,0.41097212,False,False,False,False,False,False,both_wrong,apple,alternaria_leaf_spot
+PWV2_tomato_early_blight_8572.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,29,28,29,28,0.33252758,0.61262727,False,False,False,True,False,False,both_wrong,lettuce,downy_mildew
+PWV2_tomato_early_blight_8574.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,36,130,36,130,0.8881714,0.6445953,False,False,False,False,False,False,both_wrong,peach,brown_rot
+PWV2_tomato_early_blight_8577.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,44,143,44,143,0.76838076,0.61271733,False,False,False,True,False,False,both_wrong,soybean,caterpillar
+PWV2_tomato_early_blight_8578.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,5,18,5,18,0.5430078,0.74117833,False,False,False,False,False,False,both_wrong,pepper_bell,anthracnose
+PWV2_tomato_early_blight_8588.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,40,139,40,139,0.99961483,0.8718015,False,False,False,True,True,False,both_wrong,potato,late_blight
+PWV2_tomato_early_blight_8589.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,23,28,23,28,0.7656169,0.78041446,False,False,False,False,False,False,both_wrong,cucumber,downy_mildew
+PWV2_tomato_early_blight_8591.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,19,63,19,63,0.77405506,0.4596135,False,False,False,True,False,False,both_wrong,coffee,berry_blotch
+PWV2_tomato_early_blight_8593.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,9,18,9,18,0.4374648,0.70931745,False,False,False,True,False,False,both_wrong,broccoli,anthracnose
+PWV2_tomato_early_blight_8597.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,13,46,13,46,0.55948025,0.72614455,False,False,False,True,False,False,both_wrong,cassava,bacterial_blight
+PWV2_tomato_early_blight_8599.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,9,3,9,3,0.83261746,0.5852067,False,False,False,False,False,False,both_wrong,broccoli,black_rot
+PWV2_tomato_early_blight_8603.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,7,165,7,165,0.87539417,0.5960838,False,False,False,True,False,False,both_wrong,blueberry,septoria_leaf_spot
+PWV2_tomato_early_blight_8608.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,36,86,36,86,0.81384355,0.48876816,False,False,False,False,False,False,both_wrong,peach,phytophthora
+PWV2_tomato_early_blight_8611.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,2,63,2,63,0.6011526,0.44720572,False,False,False,False,False,False,both_wrong,banana,berry_blotch
+PWV2_tomato_early_blight_8613.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,0,10,0,10,0.43495488,0.69422716,False,False,False,True,False,False,both_wrong,apple,rust
+PWV2_tomato_early_blight_8617.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,28,28,28,28,0.72468925,0.80491114,False,False,False,True,False,False,both_wrong,guava,downy_mildew
+PWV2_tomato_early_blight_8618.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,54,46,54,46,0.7200988,0.9252095,False,False,False,True,False,False,both_wrong,zucchini,bacterial_blight
+PWV2_tomato_early_blight_8631.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,42,140,42,140,0.36719304,0.44001535,False,False,False,False,False,False,both_wrong,raspberry,fire_blight
+PWV2_tomato_early_blight_8635.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,27,163,27,163,0.40824074,0.36525506,False,False,False,False,False,False,both_wrong,grape,leaf_mold
+PWV2_tomato_early_blight_8637.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,19,63,19,63,0.73249966,0.7547983,False,False,False,True,False,False,both_wrong,coffee,berry_blotch
+PWV2_tomato_early_blight_8643.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,17,14,17,14,0.68946254,0.5993979,False,False,False,True,False,False,both_wrong,chilli,powdery_mildew
+PWV2_tomato_early_blight_8644.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,7,14,7,14,0.5328071,0.7165235,False,False,False,True,False,False,both_wrong,blueberry,powdery_mildew
+PWV2_tomato_early_blight_8645.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,30,9,30,9,0.35971904,0.93584645,False,False,False,False,False,False,both_wrong,mango,healthy
+PWV2_tomato_early_blight_8646.jpg,51,55,303,tomato,early_blight,tomato_early_blight,unseen,17,46,17,46,0.8567846,0.45147696,False,False,False,True,False,False,both_wrong,chilli,bacterial_blight

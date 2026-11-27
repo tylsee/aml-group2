@@ -1,0 +1,12 @@
+True \ Predicted,cassava_bacterial_blight,potato_late_blight,tomato_spider_mites,blueberry_healthy,cherry_powdery_mildew,bean_angular_leaf_spot,mango_powdery_mildew,apple_monillia_laxa,cucumber_healthy,wheat_bacterial_leaf_streak,OTHER
+cassava_bacterial_blight,0,0,0,0,0,0,0,0,0,0,117
+potato_late_blight,0,22,0,0,0,0,0,0,0,0,48
+tomato_spider_mites,0,0,0,0,0,0,0,0,0,0,70
+blueberry_healthy,0,0,0,0,0,0,0,0,0,0,46
+cherry_powdery_mildew,0,0,0,0,0,0,0,0,0,0,42
+bean_angular_leaf_spot,0,0,0,0,0,0,0,0,0,0,18
+mango_powdery_mildew,0,0,0,0,0,0,0,0,0,0,18
+apple_monillia_laxa,0,0,0,0,0,0,0,0,0,0,9
+cucumber_healthy,0,0,0,0,0,0,0,0,1,0,4
+wheat_bacterial_leaf_streak,0,0,0,0,0,0,0,0,0,0,5
+OTHER,0,0,0,0,0,0,0,0,0,0,0

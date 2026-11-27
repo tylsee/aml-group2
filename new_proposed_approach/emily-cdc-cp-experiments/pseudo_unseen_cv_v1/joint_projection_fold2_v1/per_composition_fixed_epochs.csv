@@ -1,0 +1,51 @@
+crop_name,disease_name,composition_id,images,crop_correct,disease_correct,pair_correct,crop_pct,disease_pct,pair_pct,model,adapter_epoch
+apple,brown_spot,4,75,48,0,0,64.0,0.0,0.0,Frozen GAP baseline,0
+apple,mosaic_virus,13,64,45,0,0,70.3125,0.0,0.0,Frozen GAP baseline,0
+blackgram,anthracnose,44,13,6,0,0,46.15384615384615,0.0,0.0,Frozen GAP baseline,0
+chilli,yellowing,91,5,0,0,0,0.0,0.0,0.0,Frozen GAP baseline,0
+corn,leaf_blight,112,63,58,0,0,92.06349206349206,0.0,0.0,Frozen GAP baseline,0
+corn,smut,118,6,1,0,0,16.666666666666668,0.0,0.0,Frozen GAP baseline,0
+mango,healthy,178,17,9,12,6,52.94117647058823,70.58823529411765,35.294117647058826,Frozen GAP baseline,0
+rose,healthy,254,15,7,1,0,46.666666666666664,6.666666666666667,0.0,Frozen GAP baseline,0
+tomato,bacterial_spot,300,85,81,0,0,95.29411764705883,0.0,0.0,Frozen GAP baseline,0
+tomato,curl,307,13,12,0,0,92.3076923076923,0.0,0.0,Frozen GAP baseline,0
+apple,brown_spot,4,75,50,0,0,66.66666666666667,0.0,0.0,factor,8
+apple,mosaic_virus,13,64,46,0,0,71.875,0.0,0.0,factor,8
+blackgram,anthracnose,44,13,6,0,0,46.15384615384615,0.0,0.0,factor,8
+chilli,yellowing,91,5,0,0,0,0.0,0.0,0.0,factor,8
+corn,leaf_blight,112,63,57,0,0,90.47619047619048,0.0,0.0,factor,8
+corn,smut,118,6,1,0,0,16.666666666666668,0.0,0.0,factor,8
+mango,healthy,178,17,9,15,8,52.94117647058823,88.23529411764706,47.05882352941177,factor,8
+rose,healthy,254,15,7,1,0,46.666666666666664,6.666666666666667,0.0,factor,8
+tomato,bacterial_spot,300,85,80,0,0,94.11764705882354,0.0,0.0,factor,8
+tomato,curl,307,13,12,0,0,92.3076923076923,0.0,0.0,factor,8
+apple,brown_spot,4,75,49,0,0,65.33333333333333,0.0,0.0,joint,8
+apple,mosaic_virus,13,64,45,0,0,70.3125,0.0,0.0,joint,8
+blackgram,anthracnose,44,13,6,0,0,46.15384615384615,0.0,0.0,joint,8
+chilli,yellowing,91,5,0,0,0,0.0,0.0,0.0,joint,8
+corn,leaf_blight,112,63,58,0,0,92.06349206349206,0.0,0.0,joint,8
+corn,smut,118,6,1,0,0,16.666666666666668,0.0,0.0,joint,8
+mango,healthy,178,17,9,14,6,52.94117647058823,82.3529411764706,35.294117647058826,joint,8
+rose,healthy,254,15,7,1,0,46.666666666666664,6.666666666666667,0.0,joint,8
+tomato,bacterial_spot,300,85,80,0,0,94.11764705882354,0.0,0.0,joint,8
+tomato,curl,307,13,12,0,0,92.3076923076923,0.0,0.0,joint,8
+apple,brown_spot,4,75,50,0,0,66.66666666666667,0.0,0.0,factor,12
+apple,mosaic_virus,13,64,48,0,0,75.0,0.0,0.0,factor,12
+blackgram,anthracnose,44,13,6,0,0,46.15384615384615,0.0,0.0,factor,12
+chilli,yellowing,91,5,0,0,0,0.0,0.0,0.0,factor,12
+corn,leaf_blight,112,63,57,0,0,90.47619047619048,0.0,0.0,factor,12
+corn,smut,118,6,1,0,0,16.666666666666668,0.0,0.0,factor,12
+mango,healthy,178,17,9,15,8,52.94117647058823,88.23529411764706,47.05882352941177,factor,12
+rose,healthy,254,15,7,1,0,46.666666666666664,6.666666666666667,0.0,factor,12
+tomato,bacterial_spot,300,85,81,0,0,95.29411764705883,0.0,0.0,factor,12
+tomato,curl,307,13,12,0,0,92.3076923076923,0.0,0.0,factor,12
+apple,brown_spot,4,75,49,0,0,65.33333333333333,0.0,0.0,joint,12
+apple,mosaic_virus,13,64,45,0,0,70.3125,0.0,0.0,joint,12
+blackgram,anthracnose,44,13,6,0,0,46.15384615384615,0.0,0.0,joint,12
+chilli,yellowing,91,5,0,0,0,0.0,0.0,0.0,joint,12
+corn,leaf_blight,112,63,57,0,0,90.47619047619048,0.0,0.0,joint,12
+corn,smut,118,6,1,0,0,16.666666666666668,0.0,0.0,joint,12
+mango,healthy,178,17,9,14,6,52.94117647058823,82.3529411764706,35.294117647058826,joint,12
+rose,healthy,254,15,7,1,0,46.666666666666664,6.666666666666667,0.0,joint,12
+tomato,bacterial_spot,300,85,80,0,0,94.11764705882354,0.0,0.0,joint,12
+tomato,curl,307,13,12,0,0,92.3076923076923,0.0,0.0,joint,12

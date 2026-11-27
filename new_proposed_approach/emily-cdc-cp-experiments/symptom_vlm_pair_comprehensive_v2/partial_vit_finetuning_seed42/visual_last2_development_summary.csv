@@ -1,0 +1,2 @@
+arm,seed,strategy,seen_pair_top1,unseen_pair_top1,harmonic,seen_pair_top5,unseen_pair_top5,seen_crop_top1,unseen_crop_top1,seen_disease_top1,unseen_disease_top1,unseen_diseased_only_pair_top1,unseen_diseased_only_n,unseen_macro_pair_top1,unseen_predictions_are_seen_pair_pct
+symptom_pair_supcon_visual_last2,42,low_LR_last_two_visual_blocks_plus_adapter,53.23741007194245,0.25,0.4976630014459128,75.68345323741006,14.000000000000002,88.34532374100719,63.74999999999999,50.21582733812949,15.0,0.28653295128939826,349,1.111111111111111,71.5

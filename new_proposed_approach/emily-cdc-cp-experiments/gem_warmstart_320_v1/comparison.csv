@@ -1,0 +1,5 @@
+model,epoch,seen_crop,seen_disease,unseen_crop,unseen_disease,unseen_disease_excl_healthy,seen_pair,unseen_pair,harmonic,gem_p,gem_alpha,checkpoint
+"Original Deeper P2 (224 train, 320 eval)",8,83.45323741007195,64.1726618705036,68.0,23.5,14.899713467048711,59.13669064748201,6.25,11.30518498143309,,,/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt
+Trained 320px P2 (320 eval),8,87.76978417266187,68.05755395683454,69.5,21.0,10.888252148997136,64.74820143884892,6.0,10.982306284319707,,,/content/drive/MyDrive/CDC_CP_Experiments/resolution_320_v1/p2_deeper_320_best.pt
+Warm-start control — GAP,2,87.33812949640287,69.35251798561151,66.75,19.25,8.30945558739255,66.4748201438849,2.5,4.818774445893091,,,/content/drive/MyDrive/CDC_CP_Experiments/gem_warmstart_320_v1/control/best.pt
+Warm-start — disease GeM,1,86.61870503597122,68.92086330935251,66.5,19.25,8.30945558739255,65.46762589928058,2.75,5.278283107912152,2.8373312950134277,0.22525665163993835,/content/drive/MyDrive/CDC_CP_Experiments/gem_warmstart_320_v1/gem/best.pt

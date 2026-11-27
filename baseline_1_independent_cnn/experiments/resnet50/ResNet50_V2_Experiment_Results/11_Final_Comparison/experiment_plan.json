@@ -1,0 +1,58 @@
+{
+  "experiments": {
+    "lower_lr": {
+      "label": "Lower Learning Rate",
+      "backbone_lr": 5e-06,
+      "head_lr": 0.0005,
+      "weight_decay": 0.0001,
+      "crop_dropout": 0.3,
+      "disease_dropout": 0.2
+    },
+    "higher_decay": {
+      "label": "Higher Weight Decay",
+      "backbone_lr": 1e-05,
+      "head_lr": 0.001,
+      "weight_decay": 0.001,
+      "crop_dropout": 0.3,
+      "disease_dropout": 0.2
+    },
+    "higher_dropout": {
+      "label": "Higher Dropout",
+      "backbone_lr": 1e-05,
+      "head_lr": 0.001,
+      "weight_decay": 0.0001,
+      "crop_dropout": 0.4,
+      "disease_dropout": 0.3
+    },
+    "very_low_lr": {
+      "label": "Very Low Learning Rate",
+      "backbone_lr": 1e-06,
+      "head_lr": 0.0001,
+      "weight_decay": 0.0001,
+      "crop_dropout": 0.3,
+      "disease_dropout": 0.2
+    },
+    "lower_dropout": {
+      "label": "Lower Dropout",
+      "backbone_lr": 1e-05,
+      "head_lr": 0.001,
+      "weight_decay": 0.0001,
+      "crop_dropout": 0.2,
+      "disease_dropout": 0.1
+    }
+  },
+  "primary": [
+    "lower_lr",
+    "higher_decay",
+    "higher_dropout"
+  ],
+  "optional": [
+    "very_low_lr",
+    "lower_dropout"
+  ],
+  "training_images": 6905,
+  "seen_validation_images": 695,
+  "unseen_validation_images": 400,
+  "candidate_pairs": 9625,
+  "maximum_epochs": 30
+}

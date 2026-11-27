@@ -1,0 +1,3 @@
+Task,Epochs Completed,Selected Epoch,Highest Training Accuracy (%),Training Loss at Selected Epoch,Last 3 Epochs Range (pp),Plateau Indicator (0.10 pp),Final Checkpoint
+CROP,10,8,95.487,0.1813,0.25,NOT CONFIRMED,/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/crop/best_training_accuracy.pt
+DISEASE,10,8,88.963,0.4094,0.763,NOT CONFIRMED,/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_10Epochs/disease/best_training_accuracy.pt

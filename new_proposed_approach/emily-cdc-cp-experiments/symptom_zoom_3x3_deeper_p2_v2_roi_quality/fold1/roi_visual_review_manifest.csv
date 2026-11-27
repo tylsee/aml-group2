@@ -1,0 +1,15 @@
+filename,disease_name,decision,accepted,top_candidate
+CDDM_strawberry_leaf_scorch_78730.jpg,scorch,ACCEPTED,True,auto_screened_spots
+MPC_mango_mictis_longicornis_270.jpeg,mictis_longicornis,ACCEPTED,True,auto_screened_spots
+MPC_mango_erosomyia_sp_182.jpg,erosomyia_sp,ACCEPTED,True,auto_screened_spots
+FP_corn_yellowing_3499.jpg,yellowing,ACCEPTED,True,auto_screened_spots
+CUPD_citrus_melanose_25864.jpg,melanose,ACCEPTED,True,auto_screened_spots
+PWV2_tomato_bacterial_leaf_spot_8373.jpg,bacterial_leaf_spot,ACCEPTED,True,auto_screened_spots
+PWV2_grapevine_leafroll_disease_5116.jpg,leafroll_disease,ACCEPTED,True,auto_screened_spots
+CUPD_maize_common_rust_28759.jpg,common_rust,ACCEPTED,True,auto_screened_spots
+PD_paddy_tungro_12955.jpg,tungro,REJECTED / full image fallback,False,no_confident_symptom_roi
+CDDM_rice_leaf_blight_71634.jpg,leaf_blight,REJECTED / full image fallback,False,no_confident_symptom_roi
+CDDM_apple_leaf_rust_31232.jpg,rust,REJECTED / full image fallback,False,no_confident_symptom_roi
+FP_corn_violet_decoloration_3482.jpg,violet_decoloration,REJECTED / full image fallback,False,no_confident_symptom_roi
+CDDM_apple_mosaic_virus_36941.jpg,mosaic_virus,REJECTED / full image fallback,False,no_confident_symptom_roi
+CDDM_tomato_powdery_mildew_109467.jpg,powdery_mildew,REJECTED / full image fallback,False,no_confident_symptom_roi

@@ -1,0 +1,3 @@
+Task,Source Stage 1,Status,Epochs Finished,Final Training Loss,Final Training Accuracy (%),Fixed Final Checkpoint
+CROP,C4_dropout_03_P15,COMPLETE,5,0.2124,95.28,/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_5Epochs/crop/epoch_05.pt
+DISEASE,D1_reference_P15,COMPLETE,5,0.4801,88.31,/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_5Epochs/disease/epoch_05.pt

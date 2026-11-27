@@ -1,0 +1,53 @@
+{
+  "checkpoint_epoch": 15,
+  "seen": {
+    "crop_top1": 0.8992805755395683,
+    "crop_top5": 0.9568345323741008,
+    "disease_top1": 0.7884892086330936,
+    "disease_top5": 0.9179856115107914,
+    "composition_top1": 0.758273381294964,
+    "composition_top5": 0.8762589928057554,
+    "total_loss": 1.5780983075821142,
+    "crop_loss": 0.4776677946821391,
+    "disease_loss": 1.100430508646712,
+    "n_images": 695,
+    "crop_macro_accuracy": 0.6288718187297009,
+    "disease_macro_accuracy": 0.5472194343758159,
+    "composition_macro_accuracy": 0.5428905089619377,
+    "error_breakdown": {
+      "crop_only_correct": 98,
+      "disease_only_correct": 21,
+      "both_correct": 527,
+      "neither_correct": 49
+    },
+    "fraction_predictions_in_training_compositions": 0.9323741007194245
+  },
+  "unseen": {
+    "crop_top1": 0.6975,
+    "crop_top5": 0.77,
+    "disease_top1": 0.2175,
+    "disease_top5": 0.38,
+    "composition_top1": 0.04,
+    "composition_top5": 0.1525,
+    "total_loss": 11.551405410766602,
+    "crop_loss": 2.7994378617405893,
+    "disease_loss": 8.751967554092408,
+    "n_images": 400,
+    "crop_macro_accuracy": 0.6506837606837607,
+    "disease_macro_accuracy": 0.21324741435035555,
+    "composition_macro_accuracy": 0.03666666666666667,
+    "error_breakdown": {
+      "crop_only_correct": 263,
+      "disease_only_correct": 71,
+      "both_correct": 16,
+      "neither_correct": 50
+    },
+    "fraction_predictions_in_training_compositions": 0.8475
+  },
+  "seen_composition_top1": 0.758273381294964,
+  "unseen_composition_top1": 0.04,
+  "composition_harmonic_mean": 0.07599134823359768,
+  "seen_unseen_gap": 0.718273381294964,
+  "source": "fixed development validation only",
+  "accuracy_units": "fractions in [0,1]"
+}

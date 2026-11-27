@@ -1,0 +1,9 @@
+{
+  "task": "disease",
+  "source_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/experiments/disease/D1_reference_P15/best.pt",
+  "final_epoch": 5,
+  "training_image_count": 8000,
+  "final_checkpoint": "/content/drive/MyDrive/AML_B1_Clean_Results/fine_tuning/Stage2_C4_D1_Full8000_5Epochs/disease/epoch_05.pt",
+  "selection_policy": "FIXED final epoch 5; no validation/test selection",
+  "signature": "894feadfedcb247aa8421c9e7b3790a1c169bcb62f49582942d1ebdd532240cf"
+}

@@ -1,0 +1,7 @@
+Model / Task,Metric,Official Seen (%),Official Unseen (%),Seen–Unseen Harmonic Mean (%)
+Crop,Top-1 Accuracy,84.95,65.95,74.26
+Crop,Top-5 Accuracy,93.9,80.94,86.94
+Disease,Top-1 Accuracy,61.85,6.7,12.09
+Disease,Top-5 Accuracy,85.3,26.04,39.89
+Composition,Top-1 Accuracy,57.7,2.28,4.38
+Composition,Top-5 Accuracy,78.65,13.4,22.9

@@ -1,0 +1,6 @@
+{
+  "status": "COMPLETE",
+  "epochs": 10,
+  "best_train_acc_epoch": 9,
+  "best_training_accuracy": 0.957375
+}

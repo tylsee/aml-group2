@@ -1,0 +1,31 @@
+{
+  "aux_factor_ce_weight": 0.25,
+  "batch_size": 64,
+  "class_prototype_source": "Fold1 train only; frozen 320px embedding means",
+  "epochs": 12,
+  "evaluation": "fixed_epochs, do not tune on pseudo_unseen",
+  "experiment": "joint_projection_fold1_v1",
+  "factor_residual_scale": 0.5,
+  "feature_resolution": 320,
+  "fixed_epochs": [
+    8,
+    12
+  ],
+  "fold": 1,
+  "fold_hashes": {
+    "fold_seen": "a10c7fe4a67c06c64e0655d67bfccd59a7246430d2809039392ce78f962708d4",
+    "fold_source": "c7506c6b394b824ca06c4b6078cb24c72053981fab6cd424e1f759d8f9f5f3dc",
+    "fold_train": "8066814cc75df3b7c8c2d9296e2b09fed55d2a71173155e34dac10b6c2d7f3c3",
+    "fold_unseen": "00c144f8ccb3376ed9ee96825d654272a790bb8ff96e03084ed7de31becaa8b0",
+    "map": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+    "original_split": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+    "pair": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98"
+  },
+  "joint_residual_scale": 1.5,
+  "lr": 0.0005,
+  "seed": 42,
+  "source_checkpoint_config_hash": "3f9e17e88fec5296e8d56ba69f019f7d1b27bfbb5c082abd7b9e635223e38c3c",
+  "source_checkpoint_epoch": 8,
+  "source_checkpoint_sha256": "9fe2b02f831846052b22829d6922a0458a930c517921ddc342292cba1028ab01",
+  "weight_decay": 0.001
+}

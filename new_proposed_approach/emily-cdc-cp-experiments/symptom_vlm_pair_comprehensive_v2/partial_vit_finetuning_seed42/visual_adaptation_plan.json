@@ -1,0 +1,15 @@
+{
+  "parent_checkpoint_sha256": "befc205b460c9739a0efed37a654153ee8e24c7b3f44043bff323bb6694dce9f",
+  "recipe_sha256": "7331073e51775c674d8855570bb1cc4f5304ac637b5bbe07310c961f531e6092",
+  "clip_visual_model": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "trainable_last_blocks": 2,
+  "vision_lr": 3e-06,
+  "adapter_lr": 4e-05,
+  "batch": 16,
+  "fixed_epochs": 3,
+  "train_partition": "train_fit_6905",
+  "objective": "crop_CE + weighted_disease_CE + pair_CE (no SupCon for small batches)",
+  "checkpoint_rule": "always final epoch; never development/test validation selection",
+  "official_test_used": false
+}

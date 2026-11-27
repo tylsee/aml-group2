@@ -1,0 +1,34 @@
+{
+  "epoch": 16,
+  "seen": {
+    "crop_top1": 0.8906474820143885,
+    "crop_top5": 0.9597122302158273,
+    "disease_top1": 0.7525179856115108,
+    "disease_top5": 0.9079136690647482,
+    "composition_top1": 0.7266187050359713,
+    "composition_top5": 0.8805755395683453,
+    "total_loss": 1.837120630972677,
+    "crop_loss": 0.5702926167802845,
+    "disease_loss": 1.2668280093146742,
+    "n_images": 695
+  },
+  "unseen": {
+    "crop_top1": 0.6825,
+    "crop_top5": 0.7725,
+    "disease_top1": 0.23,
+    "disease_top5": 0.3425,
+    "composition_top1": 0.0375,
+    "composition_top5": 0.1025,
+    "total_loss": 12.106611595153808,
+    "crop_loss": 3.2876582860946657,
+    "disease_loss": 8.81895330429077,
+    "n_images": 400
+  },
+  "seen_composition_top1": 0.7266187050359713,
+  "unseen_composition_top1": 0.0375,
+  "composition_harmonic_mean": 0.07131928916088032,
+  "seen_unseen_gap": 0.6891187050359713,
+  "epochs_run": 30,
+  "training_seconds": 1477.7630969999882,
+  "accuracy_units": "fractions in [0,1]"
+}

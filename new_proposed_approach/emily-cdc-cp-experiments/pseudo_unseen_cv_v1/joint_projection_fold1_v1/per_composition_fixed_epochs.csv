@@ -1,0 +1,51 @@
+crop_name,disease_name,composition_id,images,crop_correct,disease_correct,pair_correct,crop_pct,disease_pct,pair_pct,model,adapter_epoch
+bean,healthy,36,9,6,3,3,66.66666666666667,33.333333333333336,33.333333333333336,Frozen GAP baseline,0
+cauliflower,black_rot,79,6,2,0,0,33.333333333333336,0.0,0.0,Frozen GAP baseline,0
+grape,leaf_blight,148,37,20,0,0,54.054054054054056,0.0,0.0,Frozen GAP baseline,0
+papaya,bacterial_spot,211,13,13,0,0,100.0,0.0,0.0,Frozen GAP baseline,0
+peach,curl,219,11,1,0,0,9.090909090909092,0.0,0.0,Frozen GAP baseline,0
+potato,healthy,241,42,26,31,16,61.904761904761905,73.80952380952381,38.095238095238095,Frozen GAP baseline,0
+sugarcane,brown_spot,270,21,20,0,0,95.23809523809524,0.0,0.0,Frozen GAP baseline,0
+sunflower,downy_mildew,281,6,3,3,1,50.0,50.0,16.666666666666668,Frozen GAP baseline,0
+tomato,target_spot,314,63,62,0,0,98.41269841269842,0.0,0.0,Frozen GAP baseline,0
+zucchini,powdery_mildew,331,6,0,4,0,0.0,66.66666666666667,0.0,Frozen GAP baseline,0
+bean,healthy,36,9,6,4,3,66.66666666666667,44.44444444444444,33.333333333333336,factor,8
+cauliflower,black_rot,79,6,2,0,0,33.333333333333336,0.0,0.0,factor,8
+grape,leaf_blight,148,37,22,0,0,59.45945945945946,0.0,0.0,factor,8
+papaya,bacterial_spot,211,13,13,0,0,100.0,0.0,0.0,factor,8
+peach,curl,219,11,1,0,0,9.090909090909092,0.0,0.0,factor,8
+potato,healthy,241,42,26,31,16,61.904761904761905,73.80952380952381,38.095238095238095,factor,8
+sugarcane,brown_spot,270,21,20,0,0,95.23809523809524,0.0,0.0,factor,8
+sunflower,downy_mildew,281,6,3,3,1,50.0,50.0,16.666666666666668,factor,8
+tomato,target_spot,314,63,62,0,0,98.41269841269842,0.0,0.0,factor,8
+zucchini,powdery_mildew,331,6,0,4,0,0.0,66.66666666666667,0.0,factor,8
+bean,healthy,36,9,6,4,4,66.66666666666667,44.44444444444444,44.44444444444444,joint,8
+cauliflower,black_rot,79,6,2,0,0,33.333333333333336,0.0,0.0,joint,8
+grape,leaf_blight,148,37,21,0,0,56.75675675675676,0.0,0.0,joint,8
+papaya,bacterial_spot,211,13,13,0,0,100.0,0.0,0.0,joint,8
+peach,curl,219,11,1,0,0,9.090909090909092,0.0,0.0,joint,8
+potato,healthy,241,42,26,31,18,61.904761904761905,73.80952380952381,42.857142857142854,joint,8
+sugarcane,brown_spot,270,21,20,0,0,95.23809523809524,0.0,0.0,joint,8
+sunflower,downy_mildew,281,6,3,3,0,50.0,50.0,0.0,joint,8
+tomato,target_spot,314,63,62,0,0,98.41269841269842,0.0,0.0,joint,8
+zucchini,powdery_mildew,331,6,0,4,0,0.0,66.66666666666667,0.0,joint,8
+bean,healthy,36,9,6,4,3,66.66666666666667,44.44444444444444,33.333333333333336,factor,12
+cauliflower,black_rot,79,6,2,0,0,33.333333333333336,0.0,0.0,factor,12
+grape,leaf_blight,148,37,22,0,0,59.45945945945946,0.0,0.0,factor,12
+papaya,bacterial_spot,211,13,13,0,0,100.0,0.0,0.0,factor,12
+peach,curl,219,11,1,0,0,9.090909090909092,0.0,0.0,factor,12
+potato,healthy,241,42,26,31,16,61.904761904761905,73.80952380952381,38.095238095238095,factor,12
+sugarcane,brown_spot,270,21,20,0,0,95.23809523809524,0.0,0.0,factor,12
+sunflower,downy_mildew,281,6,3,3,1,50.0,50.0,16.666666666666668,factor,12
+tomato,target_spot,314,63,62,0,0,98.41269841269842,0.0,0.0,factor,12
+zucchini,powdery_mildew,331,6,0,4,0,0.0,66.66666666666667,0.0,factor,12
+bean,healthy,36,9,6,4,4,66.66666666666667,44.44444444444444,44.44444444444444,joint,12
+cauliflower,black_rot,79,6,2,0,0,33.333333333333336,0.0,0.0,joint,12
+grape,leaf_blight,148,37,21,0,0,56.75675675675676,0.0,0.0,joint,12
+papaya,bacterial_spot,211,13,13,0,0,100.0,0.0,0.0,joint,12
+peach,curl,219,11,1,0,0,9.090909090909092,0.0,0.0,joint,12
+potato,healthy,241,42,26,31,18,61.904761904761905,73.80952380952381,42.857142857142854,joint,12
+sugarcane,brown_spot,270,21,20,0,0,95.23809523809524,0.0,0.0,joint,12
+sunflower,downy_mildew,281,6,3,3,0,50.0,50.0,0.0,joint,12
+tomato,target_spot,314,63,62,0,0,98.41269841269842,0.0,0.0,joint,12
+zucchini,powdery_mildew,331,6,0,4,0,0.0,66.66666666666667,0.0,joint,12

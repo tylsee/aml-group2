@@ -1,0 +1,2 @@
+experiment_id,changed_parameter,best_epoch,seen_composition_top1,unseen_composition_top1,composition_harmonic_mean,seen_unseen_gap,source_checkpoint,source_checkpoint_sha256
+exp18_crt_seed123,"Repeat Exp17 cRT recipe, change random seed 42 -> 123 (same Exp09 seed42 frozen parent)",8,0.7107913669064748,0.055,0.10209967588895673,0.6557913669064748,c:\AML\ML_Project\Baseline2\outputs\b2_resnet50_exp09_b1matched_seed42\best_development.pt,99acc55df680cb2932030b0a391ce3becb4ccff251f96ee6d08fd09a33c2ba49

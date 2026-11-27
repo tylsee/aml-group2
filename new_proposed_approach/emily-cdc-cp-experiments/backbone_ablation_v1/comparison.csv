@@ -1,0 +1,4 @@
+strategy,best_epoch,seen_pair_pct,unseen_pair_pct,harmonic_pct,unseen_disease_pct,trainable_parameters,checkpoint
+full (Q2 reference),8,60.57553956834533,4.0,7.504456327985739,19.5,all,/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt
+frozen,10,61.43884892086331,1.75,3.4030683403068345,16.25,1669862,/content/drive/MyDrive/CDC_CP_Experiments/backbone_ablation_v1/p2_deeper_frozen_best.pt
+partial,8,60.57553956834533,1.75,3.4017256803162783,11.5,2799254,/content/drive/MyDrive/CDC_CP_Experiments/backbone_ablation_v1/p2_deeper_partial_best.pt

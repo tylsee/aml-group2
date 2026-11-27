@@ -1,0 +1,11 @@
+class_id,support,correct,accuracy,label_name
+12,9,1,0.1111111111111111,apple_monillia_laxa
+33,18,0,0.0,bean_angular_leaf_spot
+51,46,0,0.0,blueberry_healthy
+66,117,0,0.0,cassava_bacterial_blight
+87,42,0,0.0,cherry_powdery_mildew
+135,5,0,0.0,cucumber_healthy
+184,18,1,0.05555555555555555,mango_powdery_mildew
+242,70,14,0.2,potato_late_blight
+313,70,0,0.0,tomato_spider_mites
+318,5,0,0.0,wheat_bacterial_leaf_streak

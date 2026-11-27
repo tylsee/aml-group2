@@ -1,0 +1,10 @@
+Actual Class,16: cherry,23: cucumber,5: pepper_bell,22: cotton,27: grape,51: tomato,47: sugarcane,30: mango,21: corn,OTHER
+16: cherry,0,0,0,0,0,3,0,0,1,68
+23: cucumber,0,22,0,10,1,4,1,0,0,31
+5: pepper_bell,3,0,121,2,0,16,0,3,2,73
+22: cotton,0,0,0,71,1,8,0,0,0,45
+27: grape,1,2,0,10,156,3,0,1,0,98
+51: tomato,0,9,3,4,2,401,0,1,0,52
+47: sugarcane,0,0,0,0,0,0,76,0,12,1
+30: mango,0,0,0,0,0,0,0,92,0,3
+21: corn,0,0,0,0,0,0,0,0,35,0

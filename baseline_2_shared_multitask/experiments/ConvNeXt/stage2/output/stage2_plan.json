@@ -1,0 +1,72 @@
+{
+  "experiment": "B2 ConvNeXt CN01 Stage 2 full-data continuation",
+  "source_checkpoint": "C:\\AML\\ML_Project\\Baseline2\\outputs\\convnext_cn01\\best_development.pt",
+  "source_checkpoint_sha256": "08fe9e263d7c6c1e21d75a5d36d4f5b3d30e04f63d799abc666b9d8662effce5",
+  "source_stage1_epoch": 15,
+  "source_development_split_sha256": {
+    "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+    "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+    "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67",
+    "heldout_compositions.csv": "437f57924eef3e5788ed0993caddd969e08f9f86add64791d944425f4bddfe7f",
+    "split_manifest.json": "c120d065677e37db6d00880104684c0cd70ccd1c0774ec4aac2eb4b4b0889df8"
+  },
+  "config": {
+    "experiment_id": "convnext_cn01",
+    "backbone": "convnext_tiny",
+    "pretrained_weights": "IMAGENET1K_V1",
+    "crop_classes": 55,
+    "disease_classes": 175,
+    "image_size": 224,
+    "batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 16,
+    "max_epochs": 30,
+    "patience": 15,
+    "min_delta": 1e-06,
+    "backbone_lr": 1e-06,
+    "head_lr": 0.0001,
+    "crop_dropout": 0.3,
+    "disease_dropout": 0.2,
+    "weight_decay": 0.001,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "crop_loss_weight": 1.0,
+    "disease_loss_weight": 1.0,
+    "seed": 42,
+    "num_workers": 2,
+    "amp": true,
+    "crop_scale": [
+      0.85,
+      1.0
+    ],
+    "flip_probability": 0.5,
+    "vertical_flip_probability": 0.5,
+    "rotation_degrees": 10,
+    "brightness": 0.15,
+    "contrast": 0.15,
+    "interpolation": "bilinear_resize_nearest_rotation",
+    "eval_resize": 256,
+    "eval_crop": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "candidate_mode": "all_pairs",
+    "candidate_catalog": null,
+    "training_sampling": "natural_shuffle",
+    "checkpoint_selection": "fixed_final_epoch_10",
+    "stage": 2,
+    "additional_epochs": 10,
+    "validation_used": false,
+    "training_images": 8000
+  },
+  "final_selection": "fixed_last_epoch_10_before_official_test",
+  "candidate_count": 9625,
+  "official_data_used_for_training_or_selection": false
+}

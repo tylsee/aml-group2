@@ -1,0 +1,11 @@
+crop_id,disease_id,disease_name,images,disease_pct,pair_pct
+0,12,monillia_laxa,9,11.11111111111111,0.0
+4,30,angular_leaf_spot,18,0.0,0.0
+7,9,healthy,46,93.47826086956522,0.0
+13,46,bacterial_blight,117,0.0,0.0
+16,14,powdery_mildew,42,30.952380952380953,0.0
+23,9,healthy,5,20.0,0.0
+30,14,powdery_mildew,18,0.0,0.0
+40,139,late_blight,70,28.57142857142857,22.857142857142858
+51,68,spider_mites,70,0.0,0.0
+53,119,bacterial_leaf_streak,5,0.0,0.0

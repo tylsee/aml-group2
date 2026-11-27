@@ -1,0 +1,176 @@
+disease_id,disease_name,cue_group,unverified_symptom_cue,requires_expert_review
+0,alternaria_blotch,leaf_spot,visible leaf spots or irregular discolored patches,True
+1,alternaria_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+2,aphis_spp,insect,visible insect or pest-related plant damage,True
+3,black_rot,rot,decayed or discolored plant tissue,True
+4,brown_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+5,cedar_apple_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+6,eriosoma_lanigerum,unspecified,symptoms associated with this named plant condition,True
+7,frog_eye_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+8,grey_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+9,healthy,healthy,no obvious visible disease symptoms,True
+10,rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+11,marssonina_blotch,leaf_spot,visible leaf spots or irregular discolored patches,True
+12,monillia_laxa,unspecified,symptoms associated with this named plant condition,True
+13,mosaic_virus,mosaic,uneven light and dark green mottling,True
+14,powdery_mildew,powdery_mildew,white powder-like coating on leaf surfaces,True
+15,scab,scab,rough or corky spots on plant tissue,True
+16,venturia_inaequalis,unspecified,symptoms associated with this named plant condition,True
+17,coryneum_blight,blight,spreading brown or dark damaged areas on leaves,True
+18,anthracnose,unspecified,symptoms associated with this named plant condition,True
+19,black_leaf_streak,unspecified,symptoms associated with this named plant condition,True
+20,bunchy_top,unspecified,symptoms associated with this named plant condition,True
+21,cigar_end_rot,rot,decayed or discolored plant tissue,True
+22,cordana_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+23,panama_disease,unspecified,symptoms associated with this named plant condition,True
+24,pestalotiopsis,insect,visible insect or pest-related plant damage,True
+25,segatoka,unspecified,symptoms associated with this named plant condition,True
+26,sigatoka,unspecified,symptoms associated with this named plant condition,True
+27,xamthomonas,unspecified,symptoms associated with this named plant condition,True
+28,downy_mildew,downy_mildew,pale mottling and possible fuzzy growth on affected leaves,True
+29,fusarium_wilt,wilt,drooping or wilted plant tissue,True
+30,angular_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+31,bean_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+32,halo_blight,blight,spreading brown or dark damaged areas on leaves,True
+33,bacterial_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+34,blossom_end_rot,rot,decayed or discolored plant tissue,True
+35,frogeye_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+36,crinckle,curl,"curled, distorted, or rolled leaves",True
+37,yellow_mosaic,mosaic,uneven light and dark green mottling,True
+38,botrytis_blight,blight,spreading brown or dark damaged areas on leaves,True
+39,mummy_berry,rot,decayed or discolored plant tissue,True
+40,scorch,unspecified,symptoms associated with this named plant condition,True
+41,ring_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+42,alternaria_leaf_blight,blight,spreading brown or dark damaged areas on leaves,True
+43,cavity_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+44,cercospora_leaf_blight,blight,spreading brown or dark damaged areas on leaves,True
+45,red_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+46,bacterial_blight,blight,spreading brown or dark damaged areas on leaves,True
+47,brown_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+48,brown_streak_disease,unspecified,symptoms associated with this named plant condition,True
+49,green_mite,insect,visible insect or pest-related plant damage,True
+50,green_mottle,mosaic,uneven light and dark green mottling,True
+51,mosaic,mosaic,uneven light and dark green mottling,True
+52,red_mite,insect,visible insect or pest-related plant damage,True
+53,root_rot,rot,decayed or discolored plant tissue,True
+54,bacterial_soft_rot,rot,decayed or discolored plant tissue,True
+55,early_blight,blight,spreading brown or dark damaged areas on leaves,True
+56,spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+57,curl,curl,"curled, distorted, or rolled leaves",True
+58,yellowing,yellowing,yellowing or loss of green pigment in leaves,True
+59,black_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+60,canker,unspecified,symptoms associated with this named plant condition,True
+61,greening,unspecified,symptoms associated with this named plant condition,True
+62,melanose,unspecified,symptoms associated with this named plant condition,True
+63,berry_blotch,leaf_spot,visible leaf spots or irregular discolored patches,True
+64,brown_eye_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+65,cercospora,unspecified,symptoms associated with this named plant condition,True
+66,miner,insect,visible insect or pest-related plant damage,True
+67,phoma,unspecified,symptoms associated with this named plant condition,True
+68,spider_mites,insect,visible insect or pest-related plant damage,True
+69,chlorotic_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+70,gray_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+71,insects_damages,insect,visible insect or pest-related plant damage,True
+72,leaf_blight,blight,spreading brown or dark damaged areas on leaves,True
+73,mildew,mould,visible mold-like growth or discoloration,True
+74,northern_leaf_blight,blight,spreading brown or dark damaged areas on leaves,True
+75,purple_discoloration,unspecified,symptoms associated with this named plant condition,True
+76,smut,smut,dark spore-like patches on affected tissue,True
+77,streak,unspecified,symptoms associated with this named plant condition,True
+78,stripe,unspecified,symptoms associated with this named plant condition,True
+79,violet_decoloration,unspecified,symptoms associated with this named plant condition,True
+80,yellow_spots,yellowing,yellowing or loss of green pigment in leaves,True
+81,curl_virus,curl,"curled, distorted, or rolled leaves",True
+82,target_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+83,bacterial_wilt,wilt,drooping or wilted plant tissue,True
+84,gummy_stem_blight,blight,spreading brown or dark damaged areas on leaves,True
+85,phomopsis_fruit_rot,rot,decayed or discolored plant tissue,True
+86,phytophthora,unspecified,symptoms associated with this named plant condition,True
+87,sheath_blight,blight,spreading brown or dark damaged areas on leaves,True
+88,esca,unspecified,symptoms associated with this named plant condition,True
+89,leafroll_disease,curl,"curled, distorted, or rolled leaves",True
+90,dot_leaf,leaf_spot,visible leaf spots or irregular discolored patches,True
+91,mummification_leaf,rot,decayed or discolored plant tissue,True
+92,stylar_end_rot,rot,decayed or discolored plant tissue,True
+93,common_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+94,lethal_necrosis,unspecified,symptoms associated with this named plant condition,True
+95,streak_virus,unspecified,symptoms associated with this named plant condition,True
+96,apoderus_javanicus,unspecified,symptoms associated with this named plant condition,True
+97,aulacaspis_tubercularis,unspecified,symptoms associated with this named plant condition,True
+98,bacterial_canker,unspecified,symptoms associated with this named plant condition,True
+99,ceroplastes_rubens,unspecified,symptoms associated with this named plant condition,True
+100,cisaberoptus_kenyae,unspecified,symptoms associated with this named plant condition,True
+101,cutting_weevil,insect,visible insect or pest-related plant damage,True
+102,dappula_tertia,unspecified,symptoms associated with this named plant condition,True
+103,dialeuropora_decempuncta,unspecified,symptoms associated with this named plant condition,True
+104,die_back,unspecified,symptoms associated with this named plant condition,True
+105,erosomyia_sp,unspecified,symptoms associated with this named plant condition,True
+106,gall_midge,insect,visible insect or pest-related plant damage,True
+107,icerya_seychellarum,unspecified,symptoms associated with this named plant condition,True
+108,ischnaspis_longirostris,unspecified,symptoms associated with this named plant condition,True
+109,mictis_longicornis,unspecified,symptoms associated with this named plant condition,True
+110,neomelicharia_sparsa,unspecified,symptoms associated with this named plant condition,True
+111,orthaga_euadrusalis,unspecified,symptoms associated with this named plant condition,True
+112,procontarinia_matteiana,unspecified,symptoms associated with this named plant condition,True
+113,procontarinia_rubus,unspecified,symptoms associated with this named plant condition,True
+114,sooty_mould,mould,visible mold-like growth or discoloration,True
+115,valanga_nigricornis,unspecified,symptoms associated with this named plant condition,True
+116,tar_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+117,aculus_olearius,unspecified,symptoms associated with this named plant condition,True
+118,peacock_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+119,bacterial_leaf_streak,unspecified,symptoms associated with this named plant condition,True
+120,bacterial_panicle_blight,blight,spreading brown or dark damaged areas on leaves,True
+121,black_stem_borer,insect,visible insect or pest-related plant damage,True
+122,blast,blight,spreading brown or dark damaged areas on leaves,True
+123,hispa,unspecified,symptoms associated with this named plant condition,True
+124,leaf_roller,unspecified,symptoms associated with this named plant condition,True
+125,leafblast,blight,spreading brown or dark damaged areas on leaves,True
+126,tungro,unspecified,symptoms associated with this named plant condition,True
+127,white_stem_borer,insect,visible insect or pest-related plant damage,True
+128,yellow_stem_borer,yellowing,yellowing or loss of green pigment in leaves,True
+129,white_scale,insect,visible insect or pest-related plant damage,True
+130,brown_rot,rot,decayed or discolored plant tissue,True
+131,parthenolecanium_corni,unspecified,symptoms associated with this named plant condition,True
+132,early_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+133,late_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+134,nutrition_deficiency,unspecified,symptoms associated with this named plant condition,True
+135,erwinia_amylovora,unspecified,symptoms associated with this named plant condition,True
+136,slug,insect,visible insect or pest-related plant damage,True
+137,pocket_disease,unspecified,symptoms associated with this named plant condition,True
+138,pox_virus,unspecified,symptoms associated with this named plant condition,True
+139,late_blight,blight,spreading brown or dark damaged areas on leaves,True
+140,fire_blight,blight,spreading brown or dark damaged areas on leaves,True
+141,gray_mold,mould,visible mold-like growth or discoloration,True
+142,yellow_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+143,caterpillar,insect,visible insect or pest-related plant damage,True
+144,diabrotica_speciosa,unspecified,symptoms associated with this named plant condition,True
+145,banded_chlorosis,yellowing,yellowing or loss of green pigment in leaves,True
+146,brown_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+147,grassy_shoot,unspecified,symptoms associated with this named plant condition,True
+148,pokkah_boeng,unspecified,symptoms associated with this named plant condition,True
+149,red_rot,rot,decayed or discolored plant tissue,True
+150,sett_rot,rot,decayed or discolored plant tissue,True
+151,viral,unspecified,symptoms associated with this named plant condition,True
+152,leaf_scars,unspecified,symptoms associated with this named plant condition,True
+153,algal_leaf,unspecified,symptoms associated with this named plant condition,True
+154,bird_eye_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+155,brown_blight,blight,spreading brown or dark damaged areas on leaves,True
+156,gray_light,unspecified,symptoms associated with this named plant condition,True
+157,red_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+158,red_scab,scab,rough or corky spots on plant tissue,True
+159,white_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+160,blue_mold,mould,visible mold-like growth or discoloration,True
+161,bacterial_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+162,blight_leaf,blight,spreading brown or dark damaged areas on leaves,True
+163,leaf_mold,mould,visible mold-like growth or discoloration,True
+164,leaf_yellow_virus,yellowing,yellowing or loss of green pigment in leaves,True
+165,septoria_leaf_spot,leaf_spot,visible leaf spots or irregular discolored patches,True
+166,verticulium_wilt,wilt,drooping or wilted plant tissue,True
+167,yellow_leaf_curl_virus,yellowing,yellowing or loss of green pigment in leaves,True
+168,gnomonia_leptostyla,unspecified,symptoms associated with this named plant condition,True
+169,head_scab,scab,rough or corky spots on plant tissue,True
+170,loose_smut,smut,dark spore-like patches on affected tissue,True
+171,septoria,unspecified,symptoms associated with this named plant condition,True
+172,septoria_blotch,leaf_spot,visible leaf spots or irregular discolored patches,True
+173,stripe_rust,rust,"orange, yellow, or brown pustule-like leaf marks",True
+174,yellow_mosaic_virus,mosaic,uneven light and dark green mottling,True

@@ -1,0 +1,13 @@
+filename,crop_id,disease_id,composition_id,crop_name,disease_name,composition_name,Predicted Crop ID,Predicted Crop Name,Predicted Disease ID,Predicted Disease Name,Crop Correct,Disease Correct,Composition Correct,Misclassification Category,Crop Confidence (%),Disease Confidence (%),Top-5 Predicted Compositions
+CDDM_bell_pepper_healthy_42516.jpg,5,9,42,pepper_bell,healthy,pepper_bell_healthy,5,pepper_bell,9,healthy,True,True,True,both_correct,99.267265,99.97484,"[[5, 9], [44, 9], [40, 9], [4, 9], [0, 9]]"
+MTID_maize_streak_virus_13525.jpg,21,95,165,corn,streak_virus,corn_streak_virus,21,corn,95,streak_virus,True,True,True,both_correct,99.62216,99.96827,"[[21, 95], [53, 95], [6, 95], [33, 95], [21, 94]]"
+CDDM_soybean_healthy_75971.jpg,44,9,261,soybean,healthy,soybean_healthy,44,soybean,9,healthy,True,True,True,both_correct,99.938866,99.99666,"[[44, 9], [40, 9], [4, 9], [13, 9], [6, 9]]"
+CDDM_tomato_leaf_mold_102079.jpg,51,163,308,tomato,leaf_mold,tomato_leaf_mold,51,tomato,163,leaf_mold,True,True,True,both_correct,99.54114,99.88372,"[[51, 163], [13, 163], [0, 163], [36, 163], [51, 13]]"
+CDDM_tomato_target_spot_120801.jpg,51,82,314,tomato,target_spot,tomato_target_spot,51,tomato,82,target_spot,True,True,True,both_correct,99.38341,95.26037,"[[51, 82], [51, 165], [51, 9], [5, 82], [40, 82]]"
+CDDM_tomato_healthy_92231.jpg,51,9,304,tomato,healthy,tomato_healthy,51,tomato,9,healthy,True,True,True,both_correct,97.362785,68.13086,"[[51, 9], [51, 27], [51, 170], [51, 46], [51, 14]]"
+DMOS_pear_spot_2600.jpg,38,56,233,pear,spot,pear_spot,38,pear,56,spot,True,True,True,both_correct,99.127075,97.45409,"[[38, 56], [38, 9], [0, 56], [38, 136], [38, 48]]"
+DMOS_pear_slug_640.jpg,38,136,232,pear,slug,pear_slug,38,pear,136,slug,True,True,True,both_correct,99.96435,98.91073,"[[38, 136], [38, 56], [38, 132], [38, 11], [38, 72]]"
+SBL_soybean_caterpillar_1092.jpg,44,143,257,soybean,caterpillar,soybean_caterpillar,44,soybean,143,caterpillar,True,True,True,both_correct,99.48468,98.0916,"[[44, 143], [44, 144], [44, 132], [37, 143], [44, 134]]"
+FP_corn_leaf_blight_2824.jpg,21,72,112,corn,leaf_blight,corn_leaf_blight,21,corn,72,leaf_blight,True,True,True,both_correct,99.99969,91.6384,"[[21, 72], [21, 56], [21, 74], [21, 9], [21, 10]]"
+PD_paddy_blast_3274.jpg,33,122,197,paddy,blast,paddy_blast,33,paddy,122,blast,True,True,True,both_correct,98.36754,69.46353,"[[33, 122], [33, 126], [33, 4], [33, 9], [47, 122]]"
+CDC_cassava_mosaic_disease_3594.jpg,13,51,73,cassava,mosaic,cassava_mosaic,13,cassava,51,mosaic,True,True,True,both_correct,55.075966,45.178288,"[[13, 51], [44, 51], [13, 143], [13, 144], [44, 143]]"

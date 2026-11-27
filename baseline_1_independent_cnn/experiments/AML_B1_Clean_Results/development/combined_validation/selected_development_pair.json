@@ -1,0 +1,23 @@
+{
+  "crop_run": "C1_reference_P15",
+  "disease_run": "D1_reference_P15",
+  "selection_method": "highest individual crop H and disease H",
+  "candidate_pairs": 9625,
+  "seen_validation": {
+    "crop_top1": 0.8776978417266187,
+    "crop_top5": 0.9525179856115108,
+    "disease_top1": 0.7179856115107913,
+    "disease_top5": 0.8848920863309353,
+    "composition_top1": 0.679136690647482,
+    "composition_top5": 0.8446043165467626
+  },
+  "unseen_validation": {
+    "crop_top1": 0.685,
+    "crop_top5": 0.76,
+    "disease_top1": 0.195,
+    "disease_top5": 0.3275,
+    "composition_top1": 0.0475,
+    "composition_top5": 0.1175
+  },
+  "composition_harmonic_mean": 0.08878988143857826
+}

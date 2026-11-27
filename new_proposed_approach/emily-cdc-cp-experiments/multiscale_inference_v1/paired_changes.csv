@@ -1,0 +1,5 @@
+comparison,target,wrong_to_right,right_to_wrong,net_gain
+320-only vs 224-only,disease,23,7,16
+Ensemble vs 320-only,disease,2,11,-9
+320-only vs 224-only,pair,14,5,9
+Ensemble vs 320-only,pair,2,9,-7

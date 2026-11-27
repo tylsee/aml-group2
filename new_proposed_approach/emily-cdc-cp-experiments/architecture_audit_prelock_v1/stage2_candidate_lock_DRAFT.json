@@ -1,0 +1,45 @@
+{
+  "status": "DRAFT_REVIEW_REQUIRED_NOT_LOCKED",
+  "official_test_allowed": false,
+  "preferred_candidate": "EfficientNet-B0 Deeper P2 (CE + SupCon); P3 separately reported as prototype ablation",
+  "development_checkpoint": "/content/drive/MyDrive/CDC_CP_Experiments/projection_ablation_v1/p2_deeper_best.pt",
+  "development_checkpoint_sha256": "6a14af4ffc2881b9e8987c8a2e3cedeb846f3d85b648e179e9e3ba5e70bca5a3",
+  "seed": 42,
+  "stage1_source": "6,905 train-fit images, 695 seen-val, 400 pseudo-unseen (exploratory used for past checkpoint selection)",
+  "stage2_plan": {
+    "input_images": 8000,
+    "train_image_size": 224,
+    "eval_image_size_proposed": 320,
+    "eval_resize_short_side_proposed": 366,
+    "augmentation": "match original P2, two views per original",
+    "backbone_lr_proposed": 1e-06,
+    "heads_lr_proposed": 0.0001,
+    "epochs_proposed": 3,
+    "checkpoint_selection": "fixed final Stage2 epoch; NO validation HM selection after mixing validation into training",
+    "prototype_bank": "if P3 reported, rebuild from 8000 training embeddings only, using final P2 checkpoint"
+  },
+  "official_protocol": {
+    "seen_images_expected": 2000,
+    "unseen_images_expected": 1448,
+    "candidate_policy": "all 55 x 175 = 9625 pairs",
+    "metrics": [
+      "seen pair Top1",
+      "unseen pair Top1",
+      "harmonic pair Top1",
+      "Top5",
+      "crop Top1",
+      "disease Top1",
+      "unseen diseased-only",
+      "per-composition macro"
+    ],
+    "test_access": "FORBIDDEN UNTIL APPROVED FINAL LOCK"
+  },
+  "required_signoffs": [
+    "exact checkpoint identity",
+    "stage2 training schedule",
+    "evaluation transform",
+    "P3 report status",
+    "fair baseline reference",
+    "official test authorisation"
+  ]
+}

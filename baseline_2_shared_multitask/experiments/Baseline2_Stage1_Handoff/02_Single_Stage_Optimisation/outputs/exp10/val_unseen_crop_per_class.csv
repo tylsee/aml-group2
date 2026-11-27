@@ -1,0 +1,11 @@
+crop_id,n_validation,n_correct,top1_accuracy,crop_name,train_images,n_wrong,most_common_wrong_prediction,mistake_count
+7,46,0,0.0,blueberry,6,46,apple,18.0
+16,42,0,0.0,cherry,37,42,tomato,15.0
+23,5,3,0.6,cucumber,27,2,soybean,1.0
+0,9,6,0.6666666666666666,apple,924,3,plum,1.0
+4,18,14,0.7777777777777778,bean,27,4,pear,2.0
+13,117,103,0.8803418803418803,cassava,959,14,corn,5.0
+30,18,16,0.8888888888888888,mango,100,2,potato,2.0
+40,70,64,0.9142857142857143,potato,133,6,tomato,5.0
+51,70,66,0.9428571428571428,tomato,1007,4,soybean,2.0
+53,5,5,1.0,wheat,124,0,,

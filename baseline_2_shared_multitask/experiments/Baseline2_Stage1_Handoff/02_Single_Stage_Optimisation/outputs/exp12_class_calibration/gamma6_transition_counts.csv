@@ -1,0 +1,5 @@
+source,split,n,recovered,lost,correct_both,wrong_both,net_change
+exp09,val_seen,695,0,187,320,188,-187
+exp09,val_unseen,400,11,0,16,373,11
+exp10,val_seen,695,0,186,322,187,-186
+exp10,val_unseen,400,17,0,16,367,17

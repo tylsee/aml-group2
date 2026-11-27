@@ -1,0 +1,18 @@
+{
+  "task": "crop",
+  "experiment": "C4_dropout_03_P15",
+  "stage": "Stage 1 development only",
+  "config": {
+    "backbone_lr": 1e-05,
+    "head_lr": 0.001,
+    "batch_size": 32,
+    "epochs": 30,
+    "patience": 15,
+    "early_stopping": true,
+    "weight_decay": 0.0001,
+    "dropout": 0.3
+  },
+  "last_epoch": 28,
+  "best_epoch": 13,
+  "best_individual_validation_H": 0.7666905626344149
+}

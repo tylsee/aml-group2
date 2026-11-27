@@ -1,0 +1,17 @@
+arm,seed,error_type,images,pct
+label_factor,42,crop_correct_disease_wrong,278,69.5
+label_factor,42,crop_wrong_disease_correct,47,11.75
+label_factor,42,both_factor_correct,1,0.25
+label_factor,42,both_factor_wrong,74,18.5
+symptom_factor,42,crop_correct_disease_wrong,277,69.25
+symptom_factor,42,crop_wrong_disease_correct,49,12.25
+symptom_factor,42,both_factor_correct,1,0.25
+symptom_factor,42,both_factor_wrong,73,18.25
+symptom_supcon,42,crop_correct_disease_wrong,180,45.0
+symptom_supcon,42,crop_wrong_disease_correct,0,0.0
+symptom_supcon,42,both_factor_correct,0,0.0
+symptom_supcon,42,both_factor_wrong,220,55.00000000000001
+symptom_pair_supcon,42,crop_correct_disease_wrong,180,45.0
+symptom_pair_supcon,42,crop_wrong_disease_correct,0,0.0
+symptom_pair_supcon,42,both_factor_correct,0,0.0
+symptom_pair_supcon,42,both_factor_wrong,220,55.00000000000001

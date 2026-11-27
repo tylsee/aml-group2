@@ -1,0 +1,26 @@
+{
+  "backbone": "convnext_tiny",
+  "weights": "IMAGENET1K_V1",
+  "stage": 2,
+  "crop_epoch": 9,
+  "disease_epoch": 10,
+  "selection": "highest_training_accuracy",
+  "candidate_pairs": 9625,
+  "amp": true,
+  "seen": {
+    "crop_top1": 0.893,
+    "crop_top5": 0.962,
+    "disease_top1": 0.6625,
+    "disease_top5": 0.8845,
+    "composition_top1": 0.6365,
+    "composition_top5": 0.84
+  },
+  "unseen": {
+    "crop_top1": 0.7306629834254144,
+    "crop_top5": 0.8473756906077348,
+    "disease_top1": 0.1111878453038674,
+    "disease_top5": 0.26726519337016574,
+    "composition_top1": 0.06560773480662983,
+    "composition_top5": 0.18853591160220995
+  }
+}

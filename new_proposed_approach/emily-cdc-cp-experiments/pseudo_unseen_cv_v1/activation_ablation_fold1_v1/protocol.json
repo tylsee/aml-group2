@@ -1,0 +1,42 @@
+{
+  "activation_change": "projection_heads_only_backbone_unchanged",
+  "backbone_lr": 1e-05,
+  "baseline": "existing AC Fold 1 GAP P2 checkpoint epochs 8 and 12",
+  "candidate_policy": "all_pairs",
+  "checkpoint_selection": "predetermined_epochs_only",
+  "comparison": [
+    "relu_readonly_baseline",
+    "gelu_new",
+    "silu_new"
+  ],
+  "cosine_T_max": 20,
+  "crop_supcon_weight": 0.1,
+  "disease_ce_weights": "sqrt_inverse_capped_fold_train",
+  "disease_supcon_weight": 0.1,
+  "eval_resize": 366,
+  "eval_resolution": 320,
+  "fixed_epochs": [
+    8,
+    12
+  ],
+  "fold": 1,
+  "hashes": {
+    "fold_seen": "a10c7fe4a67c06c64e0655d67bfccd59a7246430d2809039392ce78f962708d4",
+    "fold_train": "8066814cc75df3b7c8c2d9296e2b09fed55d2a71173155e34dac10b6c2d7f3c3",
+    "fold_unseen": "00c144f8ccb3376ed9ee96825d654272a790bb8ff96e03084ed7de31becaa8b0",
+    "map": "6807fcceefe1a38e21e9a120fd67ebc103c4bcefe0eab852dd616d8c0af11928",
+    "original_split": "521b61c7e6ac177a6fa00d6b8289edd184e4dc7a825a9468fc16d382d84ba454",
+    "pair": "2f9c9da3ffaf1e5926fd0be598ea878eac5a326e0da1f3cac2730213246eaa98",
+    "source": "c7506c6b394b824ca06c4b6078cb24c72053981fab6cd424e1f759d8f9f5f3dc"
+  },
+  "head_lr": 0.001,
+  "max_epochs": 12,
+  "model": "EfficientNetB0_GAP_two_Deeper_P2_1280-512-256-128_projections",
+  "originals_per_batch": 16,
+  "protocol": "AH_activation_ablation_fold1_v1",
+  "seed": 42,
+  "supcon_temperature": 0.07,
+  "train_resolution": 224,
+  "two_augmented_views": true,
+  "weight_decay": 0.0001
+}

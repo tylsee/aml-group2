@@ -1,0 +1,15 @@
+{
+  "purpose": "post_hoc_stage1_diagnostic",
+  "crop_checkpoint": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/experiments/higher_decay/crop/best.pt",
+  "original_disease_checkpoint": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/experiments/higher_decay/disease/best.pt",
+  "supcon_disease_checkpoint": "/content/drive/MyDrive/AML_B1_ResNet50_V2_Full_Tuning/new_disease_experiments_5epoch/projection_supcon/epoch_15.pt",
+  "checkpoint_hashes": {
+    "crop": "1ef069eb8def8ad327fa8bbbe2d354d074011817a6d51012522fd46fa87150e1",
+    "original_disease": "d56b1b6008359d6b6b21526ea46e6c3f9dbc4e49685d3ec25892b4186220dab3",
+    "supcon_disease": "87a73021dec8b9b6d7c5d95bf7430d40a10f04921a1c34ed6d47c940ea3f06b8"
+  },
+  "amp": true,
+  "preprocessing": "Resize256_CenterCrop224_ImageNetNormalize",
+  "checkpoint_selection": "Stage1_Development_Disease_HM",
+  "official_test_used_for_selection": false
+}

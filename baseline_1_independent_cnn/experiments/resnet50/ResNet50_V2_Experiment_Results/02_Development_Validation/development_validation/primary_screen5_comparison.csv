@@ -1,0 +1,4 @@
+Experiment,ID,Seen Dev Top-1 (%),Unseen Dev Top-1 (%),Development Composition HM (%)
+Higher Dropout,higher_dropout,67.4820143884892,2.5,4.821382677974814
+Higher Weight Decay,higher_decay,68.48920863309353,2.0,3.886507450500102
+Lower Learning Rate,lower_lr,64.89208633093526,1.7500000000000002,3.4080911127304137

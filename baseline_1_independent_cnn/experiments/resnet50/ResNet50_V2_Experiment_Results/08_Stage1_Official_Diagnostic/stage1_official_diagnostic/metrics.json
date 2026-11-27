@@ -1,0 +1,38 @@
+{
+  "Original_Higher_WD": {
+    "seen": {
+      "crop_top1": 0.8745,
+      "crop_top5": 0.9495,
+      "disease_top1": 0.6305,
+      "disease_top5": 0.854,
+      "composition_top1": 0.598,
+      "composition_top5": 0.8005
+    },
+    "unseen": {
+      "crop_top1": 0.68646408839779,
+      "crop_top5": 0.8294198895027625,
+      "disease_top1": 0.08011049723756906,
+      "disease_top5": 0.26795580110497236,
+      "composition_top1": 0.03591160220994475,
+      "composition_top5": 0.1685082872928177
+    }
+  },
+  "Improved_SupCon": {
+    "seen": {
+      "crop_top1": 0.8745,
+      "crop_top5": 0.9495,
+      "disease_top1": 0.6145,
+      "disease_top5": 0.8305,
+      "composition_top1": 0.583,
+      "composition_top5": 0.77
+    },
+    "unseen": {
+      "crop_top1": 0.68646408839779,
+      "crop_top5": 0.8294198895027625,
+      "disease_top1": 0.06767955801104972,
+      "disease_top5": 0.19337016574585636,
+      "composition_top1": 0.03038674033149171,
+      "composition_top5": 0.10773480662983426
+    }
+  }
+}

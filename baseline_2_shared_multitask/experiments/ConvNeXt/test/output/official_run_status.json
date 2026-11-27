@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "final_checkpoint_sha256": "d09c20ed59cfc102b2c539c147f7f842ee4b250c9f781daab67fc322bc41afe8",
+  "official_seen": 2000,
+  "official_unseen": 1448,
+  "candidate_count": 9625,
+  "gamma": 0.0
+}

@@ -1,0 +1,7 @@
+,Correct,51: mosaic,10: rust,33: bacterial_spot,95: streak_virus,139: late_blight,Other wrong
+green_mottle (n=5),1,3,0,0,0,0,1
+spot (n=12),5,0,1,2,2,0,2
+hispa (n=6),3,0,0,0,0,0,3
+septoria_leaf_spot (n=15),8,0,0,1,0,1,5
+marssonina_blotch (n=7),4,0,2,0,0,0,1
+scab (n=7),4,0,0,0,0,1,2

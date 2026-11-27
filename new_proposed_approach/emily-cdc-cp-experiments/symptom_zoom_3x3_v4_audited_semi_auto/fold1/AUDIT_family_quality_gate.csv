@@ -1,0 +1,7 @@
+family,screened_reviewed,good,bad_or_uncertain,observed_good_fraction,pass_for_auto
+spots_rust,8,7,1,0.875,True
+mildew,7,4,3,0.5714285714285714,False
+discoloration,8,8,0,1.0,True
+deformation,6,4,2,0.6666666666666666,False
+pests,4,3,1,0.75,False
+non_foliar,8,8,0,1.0,True

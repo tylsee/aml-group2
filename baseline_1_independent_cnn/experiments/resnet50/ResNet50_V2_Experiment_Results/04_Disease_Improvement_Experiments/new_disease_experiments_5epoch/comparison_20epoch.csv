@@ -1,0 +1,3 @@
+Experiment,Best Epoch,Disease Seen (%),Disease Unseen (%),Disease HM (%),Composition Seen (%),Composition Unseen (%),Composition HM (%)
+projection_supcon,15,73.5251798561151,25.0,37.31288791529755,71.07913669064749,7.000000000000001,12.74486317147332
+projection_wider,19,72.5179856115108,23.25,35.210997802693115,69.92805755395683,5.75,10.62623285880647

@@ -1,0 +1,30 @@
+{
+  "protocol": {
+    "version": "disentanglement_host_diagnostics_v1",
+    "folds": [
+      1,
+      2,
+      3
+    ],
+    "feature_checkpoint": "each_fold_GAP_epoch08",
+    "input_resolution": 320,
+    "probe": "RidgeClassifier",
+    "ridge_alpha": 10.0,
+    "fit": "fold_train_only",
+    "no_original_unseen_or_official_tests": true
+  },
+  "folds": [
+    1,
+    2,
+    3
+  ],
+  "pseudo_unseen_images_total": 889,
+  "heldout_compositions_total": 30,
+  "heldout_diseased_compositions": 24,
+  "interpretation_limits": [
+    "Cross-head predictability is not proof of causal concept leakage; crop and disease labels are correlated.",
+    "Host coverage associations are exploratory, not causal, and repeated disease concepts across folds are dependent.",
+    "Probes trained exclusively on current-fold training data. Seen and pseudo-unseen validation used only for diagnostics.",
+    "Original 400-image unseen validation and official test datasets were not loaded for this analysis."
+  ]
+}

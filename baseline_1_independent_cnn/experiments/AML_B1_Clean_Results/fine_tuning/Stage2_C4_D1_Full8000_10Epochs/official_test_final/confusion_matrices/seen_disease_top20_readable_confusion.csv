@@ -1,0 +1,21 @@
+Actual class,9 | healthy,51 | mosaic,10 | rust,4 | brown_spot,95 | streak_virus,13 | mosaic_virus,33 | bacterial_spot,14 | powdery_mildew,139 | late_blight,167 | yellow_leaf_curl_virus,165 | septoria_leaf_spot,72 | leaf_blight,61 | greening,46 | bacterial_blight,94 | lethal_necrosis,48 | brown_streak_disease,55 | early_blight,163 | leaf_mold,7 | frog_eye_leaf_spot,143 | caterpillar,OTHER PREDICTIONS
+9 | healthy,262,8,0,11,0,0,2,2,0,0,1,0,0,1,1,6,0,0,0,10,49
+51 | mosaic,12,109,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,6
+10 | rust,5,1,57,1,0,0,0,0,1,0,1,0,0,2,0,0,0,0,0,0,16
+4 | brown_spot,3,1,2,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17
+95 | streak_virus,2,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+13 | mosaic_virus,5,1,0,0,0,39,0,1,0,0,0,0,0,1,0,0,0,0,0,0,7
+33 | bacterial_spot,1,1,1,0,0,0,25,1,3,0,11,0,1,1,0,0,0,1,0,0,6
+14 | powdery_mildew,3,0,1,0,0,1,0,38,0,0,0,1,0,0,0,0,1,0,0,1,6
+139 | late_blight,6,0,0,0,0,0,0,1,32,0,1,3,0,2,0,0,1,0,0,0,4
+167 | yellow_leaf_curl_virus,3,1,0,0,0,1,0,0,0,38,0,0,0,0,0,0,0,0,0,0,1
+165 | septoria_leaf_spot,2,0,0,0,0,0,1,0,0,0,19,7,0,1,0,0,0,0,0,0,11
+72 | leaf_blight,3,0,0,0,2,0,1,0,0,0,4,18,0,0,0,0,0,0,0,0,11
+61 | greening,1,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0
+46 | bacterial_blight,3,3,1,7,0,0,1,0,1,0,1,0,0,6,0,4,0,0,0,0,4
+94 | lethal_necrosis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0,0
+48 | brown_streak_disease,4,5,0,0,0,0,0,0,0,0,0,0,0,1,0,17,0,0,0,0,2
+55 | early_blight,2,0,0,0,0,0,0,0,3,0,1,0,0,1,0,0,16,0,0,0,2
+163 | leaf_mold,2,0,0,0,0,0,0,1,3,0,1,0,0,0,0,0,0,13,0,0,4
+7 | frog_eye_leaf_spot,1,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,20,0,0
+143 | caterpillar,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,16

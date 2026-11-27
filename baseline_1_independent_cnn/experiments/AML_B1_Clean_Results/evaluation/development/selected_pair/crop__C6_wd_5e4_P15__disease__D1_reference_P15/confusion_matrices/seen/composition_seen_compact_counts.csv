@@ -1,0 +1,22 @@
+True \ Predicted,cassava_mosaic,apple_healthy,corn_healthy,corn_streak_virus,citrus_greening,soybean_healthy,tomato_septoria_leaf_spot,tomato_yellow_leaf_curl_virus,cassava_healthy,apple_rust,corn_lethal_necrosis,tomato_healthy,cassava_brown_streak_disease,corn_northern_leaf_blight,tomato_late_blight,potato_early_blight,apple_brown_spot,apple_frog_eye_leaf_spot,apple_marssonina_blotch,paddy_blast,OTHER
+cassava_mosaic,35,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,5
+apple_healthy,0,15,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+corn_healthy,0,0,17,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+corn_streak_virus,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+citrus_greening,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+soybean_healthy,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tomato_septoria_leaf_spot,0,0,0,0,0,0,9,0,1,0,0,0,0,0,0,0,0,0,0,0,4
+tomato_yellow_leaf_curl_virus,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0
+cassava_healthy,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,2
+apple_rust,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,1
+corn_lethal_necrosis,0,0,1,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0
+tomato_healthy,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,1
+cassava_brown_streak_disease,2,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1
+corn_northern_leaf_blight,0,0,0,1,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1
+tomato_late_blight,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,0,0,0,2
+potato_early_blight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+apple_brown_spot,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,5,0,0,0,1
+apple_frog_eye_leaf_spot,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,0
+apple_marssonina_blotch,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4
+paddy_blast,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1
+OTHER,5,3,0,1,1,0,6,1,1,2,0,6,1,4,3,2,0,0,1,6,386

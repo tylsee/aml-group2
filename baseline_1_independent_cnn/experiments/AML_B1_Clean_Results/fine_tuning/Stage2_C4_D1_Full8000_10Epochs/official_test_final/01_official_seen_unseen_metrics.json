@@ -1,0 +1,20 @@
+{
+  "seen": {
+    "crop_top1": 0.8495,
+    "crop_top5": 0.939,
+    "disease_top1": 0.6185,
+    "disease_top5": 0.853,
+    "composition_top1": 0.577,
+    "composition_top5": 0.7865
+  },
+  "unseen": {
+    "crop_top1": 0.6595303867403315,
+    "crop_top5": 0.8093922651933702,
+    "disease_top1": 0.06698895027624309,
+    "disease_top5": 0.26035911602209943,
+    "composition_top1": 0.022790055248618785,
+    "composition_top5": 0.13397790055248618
+  },
+  "primary_metric": "composition_top1_seen_unseen_harmonic_mean",
+  "primary_harmonic_mean": 0.04384821576610601
+}

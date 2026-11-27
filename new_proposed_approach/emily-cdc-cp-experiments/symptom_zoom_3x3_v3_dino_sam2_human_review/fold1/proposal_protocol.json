@@ -1,0 +1,7 @@
+{
+  "SZ_hash": "54cc5f08dd66391c99ce65cb7b15c2abd2317e39e094f6f29f72812d125ff61a",
+  "fold": 1,
+  "mode": "pilot",
+  "model": "IDEA-Research/grounding-dino-tiny",
+  "sam2": "facebook/sam2.1-hiera-tiny"
+}

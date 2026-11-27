@@ -1,0 +1,10 @@
+{
+  "passed_families": [
+    "spots_rust",
+    "discoloration",
+    "non_foliar"
+  ],
+  "screening_hash": "20a5983687d8f8e48ffa6833bf586893df7b1aa7d267e91d71bfb5a77506760a",
+  "audit_sha256": "1c3697312c80d53ca110daa9e1df8fd6972bffc5d077544a666ce32d5e8d88f7",
+  "caveat": "Visual audit of a small sample; good_fraction is not a statistically precise lesion precision estimate."
+}

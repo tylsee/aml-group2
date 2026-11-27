@@ -1,0 +1,9 @@
+{
+  "source_final_sha256": "667b0b0afb0ee5e2dcf63082bbfe53333eddaadd7189ccdc3e279567c52238b7",
+  "spec_sha256": "b1fb11490fdb44b3b73d050837c2401c3cc14fc5e5deaa631301acd37ac0f7db",
+  "train_metadata_sha256": "c48b0b3a7f2ccfe13f1a0ef8d851f3f771f90f2785f9a74ab7a14bba36d2a7e3",
+  "num_images": 8000,
+  "input_size": 320,
+  "resize_short_side": 366,
+  "prototype_method": "normalised mean of concept embeddings; crop/disease separately; train only"
+}

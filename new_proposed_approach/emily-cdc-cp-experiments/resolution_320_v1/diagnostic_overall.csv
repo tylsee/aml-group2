@@ -1,0 +1,4 @@
+configuration,unseen_crop_pct,unseen_disease_pct,unseen_composition_pct,diseased_only_n,diseased_only_disease_pct,diseased_only_composition_pct
+Original 224→224,66.25,19.5,4.0,349,9.74,4.58
+New 320→320,69.5,21.0,6.0,349,10.89,6.88
+Original 224→320,68.0,23.5,6.25,349,14.9,7.16

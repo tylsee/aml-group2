@@ -1,0 +1,4 @@
+coverage_group,compositions,images,disease_macro_pct,pair_macro_pct,disease_image_weighted_pct,pair_image_weighted_pct
+1 host,1,63,0.0,0.0,0.0,0.0
+2–3 hosts,2,11,0.0,0.0,0.0,0.0
+4+ hosts,21,695,8.272005772005773,0.9126984126984128,2.014388489208633,0.28776978417266186

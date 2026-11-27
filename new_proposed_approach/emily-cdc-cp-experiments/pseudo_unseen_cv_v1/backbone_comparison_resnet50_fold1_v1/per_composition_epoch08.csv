@@ -1,0 +1,11 @@
+crop_name,disease_name,images,disease_pct_efficientnet_b0,disease_pct_resnet50,pair_pct_efficientnet_b0,pair_pct_resnet50,resnet_minus_efficientnet_pair_pp
+bean,healthy,9,33.33333333333333,33.33333333333333,33.33333333333333,0.0,-33.33333333333333
+cauliflower,black_rot,6,0.0,0.0,0.0,0.0,0.0
+grape,leaf_blight,37,0.0,0.0,0.0,0.0,0.0
+papaya,bacterial_spot,13,0.0,0.0,0.0,0.0,0.0
+peach,curl,11,0.0,0.0,0.0,0.0,0.0
+potato,healthy,42,73.80952380952381,57.14285714285714,38.095238095238095,19.047619047619047,-19.047619047619047
+sugarcane,brown_spot,21,0.0,0.0,0.0,0.0,0.0
+sunflower,downy_mildew,6,50.0,0.0,16.666666666666664,0.0,-16.666666666666664
+tomato,target_spot,63,0.0,0.0,0.0,0.0,0.0
+zucchini,powdery_mildew,6,66.66666666666666,83.33333333333334,0.0,0.0,0.0
