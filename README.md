@@ -4,6 +4,12 @@ COS30082 Applied Machine Learning — DPD-Small out-of-distribution plant diseas
 
 This repository contains experiment notebooks, results, diagnostic plots, configurations and documented evaluation artifacts for **independent CNN baselines**, **shared-backbone multi-task CNN baselines**, and **proposed methods**.
 
+## Lecturer — individual experiment evidence
+
+**[Open the experiment-by-experiment index](GOOGLE_DRIVE_ARCHIVE.md)** — notebook or run identifier, original output folder, and checkpoint link for each indexed run. Start here to inspect individual experiments, not just the final model. Where exact notebook/checkpoint correspondence has not been established, the index explicitly marks it.
+
+[Curated Google Drive evidence folder](https://drive.google.com/drive/folders/1bdAckBN8emEA3C8yBRxikyIKPDp_D8Js) contains selected lightweight result snapshots. Full experimental archives, saved model weights and live extension results are linked in the index rather than duplicated into Git history. Drive source-owner permissions and GitHub repository access must be granted to the lecturer separately.
+
 ## Repository navigation
 
 | Area | Contributor | Start here |
