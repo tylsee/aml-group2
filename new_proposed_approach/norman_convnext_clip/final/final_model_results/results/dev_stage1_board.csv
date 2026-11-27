@@ -1,0 +1,6 @@
+arm,task,aug,backbone,recipe,best_epoch,seen_acc,unseen_acc,individual_h,seen_correct,seen_n,unseen_correct,unseen_n
+disease_small_reg,disease,strong,convnext_small,reg,21,0.8086330935251799,0.2675,0.4020122674778133,562,695,107,400
+crop_b1,crop,b1,convnext_tiny,b1,10,0.902158273381295,0.7275,0.8054696553322518,627,695,291,400
+disease_b1,disease,b1,convnext_tiny,b1,5,0.7510791366906475,0.25,0.3751347466762486,522,695,100,400
+disease_clip,disease,b1,clip_vit_b16,clip,13,0.7741007194244605,0.3275,0.4602720044408888,538,695,131,400
+crop_clip,crop,b1,clip_vit_b16,clip,9,0.8992805755395683,0.7125,0.7950677899905149,625,695,285,400

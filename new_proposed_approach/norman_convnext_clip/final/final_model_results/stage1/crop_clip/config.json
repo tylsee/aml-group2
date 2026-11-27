@@ -1,0 +1,384 @@
+{
+  "arm": "crop_clip",
+  "aug": "b1",
+  "b1": {
+    "backbone_lr": 1e-05,
+    "batch_size": 16,
+    "dropout": {
+      "crop": 0.3,
+      "disease": 0.2
+    },
+    "head_lr": 0.001,
+    "max_epochs": 30,
+    "seed": 42,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_epochs": 10,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.001,
+    "weight_decay": 0.001
+  },
+  "backbone": "clip_vit_b16",
+  "device": "cuda",
+  "epochs": 25,
+  "expect_classes": [
+    55,
+    175
+  ],
+  "expect_sizes": [
+    6905,
+    695,
+    400
+  ],
+  "image_dir": "/content/data/DPD_Small_dataset",
+  "max_train_batches": null,
+  "patience": 5,
+  "pretrained": true,
+  "prompts": [
+    [
+      "a photo of a apple leaf.",
+      "a close-up photo of a apple plant leaf.",
+      "a leaf of a apple plant.",
+      "a photo of a apple plant."
+    ],
+    [
+      "a photo of a apricot leaf.",
+      "a close-up photo of a apricot plant leaf.",
+      "a leaf of a apricot plant.",
+      "a photo of a apricot plant."
+    ],
+    [
+      "a photo of a banana leaf.",
+      "a close-up photo of a banana plant leaf.",
+      "a leaf of a banana plant.",
+      "a photo of a banana plant."
+    ],
+    [
+      "a photo of a basil leaf.",
+      "a close-up photo of a basil plant leaf.",
+      "a leaf of a basil plant.",
+      "a photo of a basil plant."
+    ],
+    [
+      "a photo of a bean leaf.",
+      "a close-up photo of a bean plant leaf.",
+      "a leaf of a bean plant.",
+      "a photo of a bean plant."
+    ],
+    [
+      "a photo of a pepper bell leaf.",
+      "a close-up photo of a pepper bell plant leaf.",
+      "a leaf of a pepper bell plant.",
+      "a photo of a pepper bell plant."
+    ],
+    [
+      "a photo of a blackgram leaf.",
+      "a close-up photo of a blackgram plant leaf.",
+      "a leaf of a blackgram plant.",
+      "a photo of a blackgram plant."
+    ],
+    [
+      "a photo of a blueberry leaf.",
+      "a close-up photo of a blueberry plant leaf.",
+      "a leaf of a blueberry plant.",
+      "a photo of a blueberry plant."
+    ],
+    [
+      "a photo of a brassica leaf.",
+      "a close-up photo of a brassica plant leaf.",
+      "a leaf of a brassica plant.",
+      "a photo of a brassica plant."
+    ],
+    [
+      "a photo of a broccoli leaf.",
+      "a close-up photo of a broccoli plant leaf.",
+      "a leaf of a broccoli plant.",
+      "a photo of a broccoli plant."
+    ],
+    [
+      "a photo of a cabbage leaf.",
+      "a close-up photo of a cabbage plant leaf.",
+      "a leaf of a cabbage plant.",
+      "a photo of a cabbage plant."
+    ],
+    [
+      "a photo of a carrot leaf.",
+      "a close-up photo of a carrot plant leaf.",
+      "a leaf of a carrot plant.",
+      "a photo of a carrot plant."
+    ],
+    [
+      "a photo of a cashew leaf.",
+      "a close-up photo of a cashew plant leaf.",
+      "a leaf of a cashew plant.",
+      "a photo of a cashew plant."
+    ],
+    [
+      "a photo of a cassava leaf.",
+      "a close-up photo of a cassava plant leaf.",
+      "a leaf of a cassava plant.",
+      "a photo of a cassava plant."
+    ],
+    [
+      "a photo of a cauliflower leaf.",
+      "a close-up photo of a cauliflower plant leaf.",
+      "a leaf of a cauliflower plant.",
+      "a photo of a cauliflower plant."
+    ],
+    [
+      "a photo of a celery leaf.",
+      "a close-up photo of a celery plant leaf.",
+      "a leaf of a celery plant.",
+      "a photo of a celery plant."
+    ],
+    [
+      "a photo of a cherry leaf.",
+      "a close-up photo of a cherry plant leaf.",
+      "a leaf of a cherry plant.",
+      "a photo of a cherry plant."
+    ],
+    [
+      "a photo of a chilli leaf.",
+      "a close-up photo of a chilli plant leaf.",
+      "a leaf of a chilli plant.",
+      "a photo of a chilli plant."
+    ],
+    [
+      "a photo of a citrus leaf.",
+      "a close-up photo of a citrus plant leaf.",
+      "a leaf of a citrus plant.",
+      "a photo of a citrus plant."
+    ],
+    [
+      "a photo of a coffee leaf.",
+      "a close-up photo of a coffee plant leaf.",
+      "a leaf of a coffee plant.",
+      "a photo of a coffee plant."
+    ],
+    [
+      "a photo of a coriander leaf.",
+      "a close-up photo of a coriander plant leaf.",
+      "a leaf of a coriander plant.",
+      "a photo of a coriander plant."
+    ],
+    [
+      "a photo of a corn leaf.",
+      "a close-up photo of a corn plant leaf.",
+      "a leaf of a corn plant.",
+      "a photo of a corn plant."
+    ],
+    [
+      "a photo of a cotton leaf.",
+      "a close-up photo of a cotton plant leaf.",
+      "a leaf of a cotton plant.",
+      "a photo of a cotton plant."
+    ],
+    [
+      "a photo of a cucumber leaf.",
+      "a close-up photo of a cucumber plant leaf.",
+      "a leaf of a cucumber plant.",
+      "a photo of a cucumber plant."
+    ],
+    [
+      "a photo of a eggplant leaf.",
+      "a close-up photo of a eggplant plant leaf.",
+      "a leaf of a eggplant plant.",
+      "a photo of a eggplant plant."
+    ],
+    [
+      "a photo of a garlic leaf.",
+      "a close-up photo of a garlic plant leaf.",
+      "a leaf of a garlic plant.",
+      "a photo of a garlic plant."
+    ],
+    [
+      "a photo of a ginger leaf.",
+      "a close-up photo of a ginger plant leaf.",
+      "a leaf of a ginger plant.",
+      "a photo of a ginger plant."
+    ],
+    [
+      "a photo of a grape leaf.",
+      "a close-up photo of a grape plant leaf.",
+      "a leaf of a grape plant.",
+      "a photo of a grape plant."
+    ],
+    [
+      "a photo of a guava leaf.",
+      "a close-up photo of a guava plant leaf.",
+      "a leaf of a guava plant.",
+      "a photo of a guava plant."
+    ],
+    [
+      "a photo of a lettuce leaf.",
+      "a close-up photo of a lettuce plant leaf.",
+      "a leaf of a lettuce plant.",
+      "a photo of a lettuce plant."
+    ],
+    [
+      "a photo of a mango leaf.",
+      "a close-up photo of a mango plant leaf.",
+      "a leaf of a mango plant.",
+      "a photo of a mango plant."
+    ],
+    [
+      "a photo of a maple leaf.",
+      "a close-up photo of a maple plant leaf.",
+      "a leaf of a maple plant.",
+      "a photo of a maple plant."
+    ],
+    [
+      "a photo of a olive leaf.",
+      "a close-up photo of a olive plant leaf.",
+      "a leaf of a olive plant.",
+      "a photo of a olive plant."
+    ],
+    [
+      "a photo of a paddy leaf.",
+      "a close-up photo of a paddy plant leaf.",
+      "a leaf of a paddy plant.",
+      "a photo of a paddy plant."
+    ],
+    [
+      "a photo of a palm leaf.",
+      "a close-up photo of a palm plant leaf.",
+      "a leaf of a palm plant.",
+      "a photo of a palm plant."
+    ],
+    [
+      "a photo of a papaya leaf.",
+      "a close-up photo of a papaya plant leaf.",
+      "a leaf of a papaya plant.",
+      "a photo of a papaya plant."
+    ],
+    [
+      "a photo of a peach leaf.",
+      "a close-up photo of a peach plant leaf.",
+      "a leaf of a peach plant.",
+      "a photo of a peach plant."
+    ],
+    [
+      "a photo of a peanut leaf.",
+      "a close-up photo of a peanut plant leaf.",
+      "a leaf of a peanut plant.",
+      "a photo of a peanut plant."
+    ],
+    [
+      "a photo of a pear leaf.",
+      "a close-up photo of a pear plant leaf.",
+      "a leaf of a pear plant.",
+      "a photo of a pear plant."
+    ],
+    [
+      "a photo of a plum leaf.",
+      "a close-up photo of a plum plant leaf.",
+      "a leaf of a plum plant.",
+      "a photo of a plum plant."
+    ],
+    [
+      "a photo of a potato leaf.",
+      "a close-up photo of a potato plant leaf.",
+      "a leaf of a potato plant.",
+      "a photo of a potato plant."
+    ],
+    [
+      "a photo of a pumpkin leaf.",
+      "a close-up photo of a pumpkin plant leaf.",
+      "a leaf of a pumpkin plant.",
+      "a photo of a pumpkin plant."
+    ],
+    [
+      "a photo of a raspberry leaf.",
+      "a close-up photo of a raspberry plant leaf.",
+      "a leaf of a raspberry plant.",
+      "a photo of a raspberry plant."
+    ],
+    [
+      "a photo of a rose leaf.",
+      "a close-up photo of a rose plant leaf.",
+      "a leaf of a rose plant.",
+      "a photo of a rose plant."
+    ],
+    [
+      "a photo of a soybean leaf.",
+      "a close-up photo of a soybean plant leaf.",
+      "a leaf of a soybean plant.",
+      "a photo of a soybean plant."
+    ],
+    [
+      "a photo of a squash leaf.",
+      "a close-up photo of a squash plant leaf.",
+      "a leaf of a squash plant.",
+      "a photo of a squash plant."
+    ],
+    [
+      "a photo of a strawberry leaf.",
+      "a close-up photo of a strawberry plant leaf.",
+      "a leaf of a strawberry plant.",
+      "a photo of a strawberry plant."
+    ],
+    [
+      "a photo of a sugarcane leaf.",
+      "a close-up photo of a sugarcane plant leaf.",
+      "a leaf of a sugarcane plant.",
+      "a photo of a sugarcane plant."
+    ],
+    [
+      "a photo of a sunflower leaf.",
+      "a close-up photo of a sunflower plant leaf.",
+      "a leaf of a sunflower plant.",
+      "a photo of a sunflower plant."
+    ],
+    [
+      "a photo of a tea leaf.",
+      "a close-up photo of a tea plant leaf.",
+      "a leaf of a tea plant.",
+      "a photo of a tea plant."
+    ],
+    [
+      "a photo of a tobacco leaf.",
+      "a close-up photo of a tobacco plant leaf.",
+      "a leaf of a tobacco plant.",
+      "a photo of a tobacco plant."
+    ],
+    [
+      "a photo of a tomato leaf.",
+      "a close-up photo of a tomato plant leaf.",
+      "a leaf of a tomato plant.",
+      "a photo of a tomato plant."
+    ],
+    [
+      "a photo of a walnut leaf.",
+      "a close-up photo of a walnut plant leaf.",
+      "a leaf of a walnut plant.",
+      "a photo of a walnut plant."
+    ],
+    [
+      "a photo of a wheat leaf.",
+      "a close-up photo of a wheat plant leaf.",
+      "a leaf of a wheat plant.",
+      "a photo of a wheat plant."
+    ],
+    [
+      "a photo of a zucchini leaf.",
+      "a close-up photo of a zucchini plant leaf.",
+      "a leaf of a zucchini plant.",
+      "a photo of a zucchini plant."
+    ]
+  ],
+  "recipe": "clip",
+  "recipe_values": {
+    "backbone_lr": 1e-05,
+    "head_lr": 0.001,
+    "label_smoothing": 0.0,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.1,
+    "stochastic_depth": {
+      "clip_vit_b16": null
+    },
+    "weight_decay": 0.1
+  },
+  "splits_dir": "/tmp/cdc-cp/data/splits_v2",
+  "task": "crop",
+  "torch": "2.14.1+cu130"
+}

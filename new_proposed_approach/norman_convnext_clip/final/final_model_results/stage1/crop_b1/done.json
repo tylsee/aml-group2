@@ -1,0 +1,7 @@
+{
+  "best_epoch": 10,
+  "best_h": 0.8054696553322518,
+  "last_epoch": 15,
+  "seconds": 959.8682706356049,
+  "stopped_early": true
+}

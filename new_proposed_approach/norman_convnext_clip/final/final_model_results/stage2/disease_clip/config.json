@@ -1,0 +1,45 @@
+{
+  "arm": "disease_clip",
+  "aug": "b1",
+  "b1": {
+    "backbone_lr": 1e-05,
+    "batch_size": 16,
+    "dropout": {
+      "crop": 0.3,
+      "disease": 0.2
+    },
+    "head_lr": 0.001,
+    "max_epochs": 30,
+    "seed": 42,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_epochs": 10,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.001,
+    "weight_decay": 0.001
+  },
+  "backbone": "clip_vit_b16",
+  "device": "cuda",
+  "epochs": 10,
+  "expect_rows": 8000,
+  "image_dir": "/content/data/DPD_Small_dataset",
+  "max_train_batches": null,
+  "recipe": "clip",
+  "recipe_values": {
+    "backbone_lr": 1e-05,
+    "head_lr": 0.001,
+    "label_smoothing": 0.0,
+    "stage2_backbone_lr": 1e-06,
+    "stage2_head_lr": 0.0001,
+    "stage2_weight_decay": 0.1,
+    "stochastic_depth": {
+      "clip_vit_b16": null
+    },
+    "weight_decay": 0.1
+  },
+  "source_epoch": 13,
+  "stage": 2,
+  "stage1_dir": "/content/final_model/stage1",
+  "task": "disease",
+  "torch": "2.14.1+cu130",
+  "train_csv": "/content/data/DPD_Small_train.csv"
+}
