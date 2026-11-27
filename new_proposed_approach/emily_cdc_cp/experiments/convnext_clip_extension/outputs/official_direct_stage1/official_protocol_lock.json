@@ -1,0 +1,32 @@
+{
+  "variant": "full_online classifier ConvNeXt224/CLIP224",
+  "mode": "full_online",
+  "scoring": "classifier",
+  "resolution": 224,
+  "epoch": 3,
+  "development_top1_HM": 14.883720930232558,
+  "development_top5_HM": 25.53373795073188,
+  "training_images": 6905,
+  "candidate_pairs": 9625,
+  "gamma": 0,
+  "selection_rule": "Highest development Top-1 HM, then Top-5 HM",
+  "development_csv_sha": "8f25bb868c5aaf47ebba45148fbf3cac9386eb22ae7c94d1d3930dc4e450bb94",
+  "checkpoints": {
+    "crop_b1": {
+      "checkpoint_sha": "86eafa479b6cfff1ea7f38d5f53e2d9bbae12e5eb21d7a5fee8792c24b3bee8f",
+      "parent_sha": "64509062a54291eeee16ad89d1f0f08c5001875ae2e4bfb687df4c59d108be12"
+    },
+    "crop_clip": {
+      "checkpoint_sha": "b97cd42cf43371932f5dbb53088db13b9f5afc5ee8a7c6566926468d1e8047af",
+      "parent_sha": "8de8e25ca8bdb4d3db0257c9fe83378daf7b319eb0bed70e71dbbbbccfb177f0"
+    },
+    "disease_clip": {
+      "checkpoint_sha": "be55e3d4c51c8ce8bb3ab711c7136da791971ef1b39eb9b23fad50793b128393",
+      "parent_sha": "6159538736a770ba3fa75af47ff18d9d0e1cc7616452fc6eef446657a19b04e5"
+    },
+    "disease_small_reg": {
+      "checkpoint_sha": "b8b08dfa65ea75cd2b9a8c84a6207786144cfe38f4ccc95ab6f3472b1b8f0c28",
+      "parent_sha": "54907b10c7f3be4a5ccff9205baf0fbc959bf1ddbbf86959f824e5b64e526ce8"
+    }
+  }
+}

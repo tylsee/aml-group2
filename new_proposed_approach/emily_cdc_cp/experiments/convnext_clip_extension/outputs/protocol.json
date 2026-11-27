@@ -1,0 +1,60 @@
+{
+  "code_sha": "0777e2f70c39689ae087dcf501d8aca86cf7d1c87d6ab97483aec6a18787c864",
+  "splits": {
+    "train_fit.csv": "fe02d6099c002b10e5a428c2260d5de50f3e677d3b7454216b2a340e55c2a377",
+    "val_seen.csv": "ab8d18a13b28fd5a7b9ea531b8ffbdcf4174fd6920337ee9f1a726129390daf5",
+    "val_unseen.csv": "b9eae2a57d8331d97636f4e8a8e32bc2e81704d7180fdac22ae923273aadec67"
+  },
+  "checkpoints": {
+    "crop_b1": {
+      "sha256": "64509062a54291eeee16ad89d1f0f08c5001875ae2e4bfb687df4c59d108be12",
+      "epoch": 10,
+      "task": "crop",
+      "backbone": "convnext_tiny"
+    },
+    "crop_clip": {
+      "sha256": "8de8e25ca8bdb4d3db0257c9fe83378daf7b319eb0bed70e71dbbbbccfb177f0",
+      "epoch": 9,
+      "task": "crop",
+      "backbone": "clip_vit_b16"
+    },
+    "disease_clip": {
+      "sha256": "6159538736a770ba3fa75af47ff18d9d0e1cc7616452fc6eef446657a19b04e5",
+      "epoch": 13,
+      "task": "disease",
+      "backbone": "clip_vit_b16"
+    },
+    "disease_small_reg": {
+      "sha256": "54907b10c7f3be4a5ccff9205baf0fbc959bf1ddbbf86959f824e5b64e526ce8",
+      "epoch": 21,
+      "task": "disease",
+      "backbone": "convnext_small"
+    }
+  },
+  "seed": 42,
+  "head_epochs": 12,
+  "report_epochs": [
+    8,
+    12
+  ],
+  "head_batch": 128,
+  "head_lr": 0.001,
+  "wd": 0.0001,
+  "supcon_weight": 0.1,
+  "tau": 0.07,
+  "prototype_tau": 0.07,
+  "online_epochs": 3,
+  "online_batch": 8,
+  "backbone_lr": 1e-06,
+  "train_res": 224,
+  "conv_eval_res": [
+    224,
+    320
+  ],
+  "clip_eval_res": 224,
+  "flip": true,
+  "gamma": 0,
+  "candidates": 9625,
+  "official_test_access": false,
+  "cache_views": "2 fixed augmented views; normal+flip evaluation"
+}
