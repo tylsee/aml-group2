@@ -13,6 +13,7 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 | [Proposed CDC-CP](new_proposed_approach/emily_cdc_cp/) | Emily | [historical experiments](new_proposed_approach/emily_cdc_cp/experiments/) · [locked/evaluation records](new_proposed_approach/emily_cdc_cp/final/) |
 | [Proposed ConvNeXt/CLIP](new_proposed_approach/norman_convnext_clip/) | Norman | [source and initial notebook](new_proposed_approach/norman_convnext_clip/experiments/) · [completed notebook, results and report tables](new_proposed_approach/norman_convnext_clip/final/) |
 | [Proposed CDC-CP experiments (V12b-focused)](new_proposed_approach/tyra_cdc_cp_experiments/) | Tyra | [run/evaluation evidence](new_proposed_approach/tyra_cdc_cp_experiments/experiments/) · [Drive checkpoints](new_proposed_approach/tyra_cdc_cp_experiments/checkpoints/) |
+| [Model checkpoints](checkpoints/) | Shared | [verified GitHub Release assets and Drive weights](checkpoints/) |
 | [Data](data/) | Shared | [split manifest](data/split_manifest.json) |
 | [Comparisons](comparisons/) | Shared | Cross-approach navigation and reporting policy |
 | [Report](report/) | Shared | Submission destination (not yet populated) |
@@ -30,7 +31,7 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 - Compare **seen / pseudo-unseen development validation** separately from **official seen / unseen tests**. Do not select epochs or calibration parameters using official-test feedback.
 - Some experiment notebooks expect an original Google Drive / Colab directory structure or adjacent source files. This repository organization change **does not rewrite executable code**, so consult each experiment's run configuration before reproducing it.
 - Experiment folders may contain repeated historical files intentionally. Nothing has been deduplicated or removed.
-- Use the original checkpoint links from the experiment owners if final model weights are not hosted in GitHub.
+- See [checkpoints/](checkpoints/) for verified checkpoint locations and GitHub hosting status. Norman's five weights are on GitHub Releases; the other seven identified checkpoint candidates are linked from Google Drive.
 
 ## File preservation
 
