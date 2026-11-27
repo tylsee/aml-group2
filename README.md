@@ -44,3 +44,7 @@ This repository contains experiment notebooks, results, diagnostic plots, config
 The reorganization was built using Git tree SHA references for the pre-existing experiment directories. Every original tracked experiment file is retained without changing its contents; only directory paths, added navigation documents, and this expanded README differ.
 
 The original repository commits and the `new-approach` source branch remain accessible for provenance. Experimental artifacts were not edited during the Norman import.
+
+## LeafLens — final ensemble GUI
+
+[Open the Streamlit GUI source and exact run commands](gui/LeafLens/README.md). The demonstration uses the four final Stage-2 release checkpoints, with SHA-256 verification, AI Vision attribution, Top-3 disease scores and predicted composition status. Model binaries remain in [GitHub Releases](https://github.com/tylsee/aml-group2/releases/tag/new-approach-models). Local execution requires the four assets; a hosted app has not been deployed.

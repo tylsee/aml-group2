@@ -1,0 +1,17 @@
+:root{--bg:#f7f5ed;--deep:#0c1b15;--ink:#233729;--muted:#708071;--line:#dce1d2;--card:#fffef9;--lime:#c8f26e}
+html,body,[data-testid="stAppViewContainer"],.stApp{background:var(--bg)!important;color:var(--ink)!important}
+[data-testid="stHeader"]{background:transparent!important}
+.block-container{max-width:1440px!important;padding:1.2rem 2.4rem 2rem!important}
+.brand-bar{background:var(--deep);color:#f5f8ec;display:flex;align-items:center;justify-content:space-between;padding:14px 24px;margin-bottom:1.25rem;border-radius:12px;gap:12px}
+.brand-name{font:27px Georgia,serif;letter-spacing:-1px}.brand-subtitle{color:#9cb4a2;font:700 9px ui-monospace,monospace;letter-spacing:1.5px}
+.top-status{color:#d3ec99;font:700 10px ui-monospace,monospace}
+.stepper{display:flex;justify-content:space-around;margin:0 auto 1.5rem;max-width:720px;color:#637962;font:600 13px system-ui}
+.photo-empty,.photo-wrap{height:345px;background:#efeee5;border:1px solid #dbe0d3;border-radius:8px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.photo-empty{border-style:dashed;flex-direction:column;color:#758679;text-align:center}
+.photo-wrap img{width:100%;height:100%;object-fit:contain}.photo-chip{position:absolute;top:14px;left:14px;background:#102319;color:#f0f8df;font:700 10px monospace;padding:6px 8px;border-radius:3px}
+.result-shell{background:var(--card);border:1px solid #dbe0d2;border-radius:8px;padding:22px;min-height:380px}
+.result-eyebrow{font:700 10px monospace;letter-spacing:1.5px;color:#77897b}
+.main-prediction{font:36px Georgia,serif;color:#203c2a;margin:14px 0;overflow-wrap:anywhere}
+.prediction-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.prediction-item{background:#f4f5ec;border:1px solid #e3e8d9;padding:12px;border-radius:5px}.prediction-item span,.prediction-item small{display:block;color:#708071;font-size:12px}.prediction-item strong{font-size:17px}
+.rank-section,.composition-section{border-top:1px solid #e5e8db;margin-top:18px;padding-top:12px}.rank-section h3,.composition-section h3{font:20px Georgia,serif;margin:0 0 9px}.rank-row{display:flex;align-items:center;gap:8px;margin:9px 0}.rank-main{flex:1}.rank-track{height:6px;background:#e5e8db;border-radius:8px}.rank-fill{height:100%;background:#8daf55;border-radius:8px}.rank-score{font-size:12px}.score-note,.composition-section p,.heat-note{font-size:12px;color:#708071}.app-footer{text-align:center;font-size:11px;color:#889688}
+button[kind="primary"]{background:var(--lime)!important;color:#203820!important;border-color:#a8d24b!important}

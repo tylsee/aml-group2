@@ -1,0 +1,6 @@
+models/*.pt
+models/*.part
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
