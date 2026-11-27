@@ -1,0 +1,19 @@
+{
+  "checkpoint_path": "models/stage2_final_epoch03.pt",
+  "prototypes_path": "models/p3_fulltrain_320px_prototypes.npz",
+  "training_csv": "data/train.csv",
+  "training_image_root": "data/train_images",
+  "training_embeddings_index": "data/training_embeddings.npz",
+  "model_input_size": 320,
+  "resize_shorter_side": 366,
+  "inference_head": "P2",
+  "model_mode": "convnext_clip_ensemble",
+  "crop_checkpoint_path": "models/crop_b1_best_train_acc.pt",
+  "disease_checkpoint_path": "models/disease_clip_best_train_acc.pt",
+  "ensemble_checkpoints": {
+    "crop_b1": "models/crop_b1_best_train_acc.pt",
+    "crop_clip": "models/crop_clip_best_train_acc.pt",
+    "disease_clip": "models/disease_clip_best_train_acc.pt",
+    "disease_small_reg": "models/disease_small_reg_best_train_acc.pt"
+  }
+}

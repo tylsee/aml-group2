@@ -5,8 +5,10 @@ backgroundColor = "#f8f7f1"
 secondaryBackgroundColor = "#f0f0e7"
 textColor = "#19251f"
 font = "sans serif"
+
 [server]
 headless = true
 maxUploadSize = 16
+
 [browser]
 gatherUsageStats = false
